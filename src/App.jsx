@@ -2,18 +2,12 @@ import { useState } from 'react'
 import scheduleData from './data/schedule.json'
 import rosterData from './data/roster.json'
 import opponentsData from './data/opponents.json'
+import standingsData from './data/standings.json'
 import RecordBanner from './components/RecordBanner'
 import Schedule from './components/Schedule'
 import GameDetail from './components/GameDetail'
 import Roster from './components/Roster'
-
-function GtLogo() {
-  return (
-    <div className="flex items-center justify-center w-12 h-12 rounded-full bg-gt-gold-light text-gray-900 font-black text-xl select-none">
-      GT
-    </div>
-  )
-}
+import Standings from './components/Standings'
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('schedule')
@@ -34,7 +28,11 @@ export default function App() {
       {/* Header */}
       <header className="bg-gt-navy border-b border-gt-gold/30 sticky top-0 z-40">
         <div className="max-w-3xl mx-auto px-4 py-3 flex items-center gap-3">
-          <GtLogo />
+          <img
+            src="https://a.espncdn.com/guid/e2e3ae48-f880-5489-0628-b2286d0adca1/logos/primary_logo_on_black_color.png"
+            alt="Georgia Tech"
+            className="w-10 h-10 object-contain"
+          />
           <div>
             <h1 className="text-white font-bold text-lg leading-tight">Georgia Tech Football</h1>
             <p className="text-gt-gold text-xs font-medium tracking-wide uppercase">2026 Season</p>
@@ -58,6 +56,12 @@ export default function App() {
           >
             Roster
           </button>
+          <button
+            onClick={() => setActiveTab('standings')}
+            className={`tab-btn ${activeTab === 'standings' ? 'tab-btn-active' : 'tab-btn-inactive'}`}
+          >
+            Standings
+          </button>
         </div>
       </header>
 
@@ -75,6 +79,9 @@ export default function App() {
             positionGroups={rosterData.positionGroups}
             coaching={rosterData.coaching}
           />
+        )}
+        {activeTab === 'standings' && (
+          <Standings data={standingsData} />
         )}
       </main>
 

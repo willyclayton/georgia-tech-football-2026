@@ -251,6 +251,110 @@ async function updateOpponents(opponents, scheduleGames) {
 }
 
 // ---------------------------------------------------------------------------
+// ESPN – GT roster
+// ---------------------------------------------------------------------------
+
+async function fetchGtRoster() {
+  console.log('Fetching GT roster from ESPN...')
+  const url = `https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/${GT_ESPN_ID}/roster`
+  const data = await fetchJson(url)
+  if (!data?.athletes) return null
+
+  // Flatten all position groups
+  return data.athletes.flatMap((group) =>
+    (group.items || []).map((a) => ({
+      name: a.displayName || a.fullName,
+      number: a.jersey || '',
+      position: a.position?.abbreviation || '',
+      year: a.experience?.displayValue || '',
+    }))
+  )
+}
+
+function mergeGtRoster(existing, espnPlayers) {
+  if (!espnPlayers?.length) return existing
+
+  const updated = { ...existing, lastUpdated: new Date().toISOString() }
+
+  updated.positionGroups = existing.positionGroups.map((group) => ({
+    ...group,
+    players: group.players.map((player) => {
+      const match = espnPlayers.find(
+        (ep) => ep.name.toLowerCase() === player.name.toLowerCase()
+      )
+      if (!match) return player
+      return {
+        ...player,
+        number: match.number || player.number,
+        year: match.year || player.year,
+      }
+    }),
+  }))
+
+  return updated
+}
+
+// ---------------------------------------------------------------------------
+// ESPN – AP Poll
+// ---------------------------------------------------------------------------
+
+async function fetchApPoll() {
+  console.log('Fetching AP Poll from ESPN...')
+  const url = `https://site.api.espn.com/apis/site/v2/sports/football/college-football/rankings`
+  const data = await fetchJson(url)
+  if (!data?.rankings) return []
+
+  const apPoll = data.rankings.find(
+    (r) => r.name?.toLowerCase().includes('associated press') || r.shortName?.toLowerCase().includes('ap')
+  )
+  if (!apPoll?.ranks) return []
+
+  return apPoll.ranks.map((entry) => ({
+    rank: entry.current,
+    team: entry.team?.displayName || entry.team?.name || '',
+    espnId: entry.team?.id || '',
+    record: entry.recordSummary || '',
+    points: entry.points || null,
+  }))
+}
+
+// ---------------------------------------------------------------------------
+// ESPN – ACC Standings
+// ---------------------------------------------------------------------------
+
+async function fetchAccStandings() {
+  console.log('Fetching ACC standings from ESPN...')
+  // group=1 is ACC in ESPN's college football standings
+  const url = `https://site.api.espn.com/apis/site/v2/sports/football/college-football/standings?group=1&season=${SEASON}`
+  const data = await fetchJson(url)
+  if (!data?.children) return []
+
+  const teams = []
+  for (const division of data.children) {
+    for (const entry of division.standings?.entries || []) {
+      const confWins = parseInt(entry.stats?.find((s) => s.name === 'wins' && s.type === 'conf')?.value ?? 0, 10)
+      const confLosses = parseInt(entry.stats?.find((s) => s.name === 'losses' && s.type === 'conf')?.value ?? 0, 10)
+      const totalWins = parseInt(entry.stats?.find((s) => s.name === 'wins')?.value ?? 0, 10)
+      const totalLosses = parseInt(entry.stats?.find((s) => s.name === 'losses')?.value ?? 0, 10)
+      const pct = confWins + confLosses > 0 ? confWins / (confWins + confLosses) : 0
+
+      teams.push({
+        team: entry.team?.displayName || entry.team?.name || '',
+        espnId: entry.team?.id || '',
+        confWins,
+        confLosses,
+        totalWins,
+        totalLosses,
+        pct: Math.round(pct * 1000) / 1000,
+      })
+    }
+  }
+
+  // Sort by conf pct desc, then total wins desc
+  return teams.sort((a, b) => b.pct - a.pct || b.totalWins - a.totalWins)
+}
+
+// ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
 
@@ -260,6 +364,8 @@ async function main() {
   // Load existing data
   const existingSchedule = readJson('schedule.json')
   const existingOpponents = readJson('opponents.json')
+  const existingRoster = readJson('roster.json')
+  const existingStandings = readJson('standings.json')
 
   if (!existingSchedule || !existingOpponents) {
     console.error('Could not read existing JSON files. Aborting.')
@@ -280,10 +386,29 @@ async function main() {
   console.log('\nFetching opponent records...')
   const opponents = await updateOpponents(existingOpponents, schedule.games)
 
-  // 5. Write updated files
+  // 5. Update GT roster
+  let roster = existingRoster
+  if (existingRoster) {
+    const espnRoster = await fetchGtRoster()
+    roster = mergeGtRoster(existingRoster, espnRoster)
+  }
+
+  // 6. Fetch AP Poll + ACC standings
+  const apPoll = await fetchApPoll()
+  const accStandings = await fetchAccStandings()
+  const standings = {
+    ...(existingStandings || {}),
+    lastUpdated: new Date().toISOString(),
+    apPoll: apPoll.length > 0 ? apPoll : (existingStandings?.apPoll || []),
+    accStandings: accStandings.length > 0 ? accStandings : (existingStandings?.accStandings || []),
+  }
+
+  // 7. Write updated files
   console.log('\nWriting updated data files...')
   writeJson('schedule.json', schedule)
   writeJson('opponents.json', opponents)
+  if (roster) writeJson('roster.json', roster)
+  writeJson('standings.json', standings)
 
   console.log('\n=== Done ===\n')
 }

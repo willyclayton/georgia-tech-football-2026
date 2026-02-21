@@ -1,0 +1,23 @@
+{
+  "lastUpdated": "2026-02-21T00:00:00Z",
+  "apPoll": [],
+  "accStandings": [
+    { "team": "Boston College", "espnId": "103", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
+    { "team": "California", "espnId": "25", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
+    { "team": "Clemson", "espnId": "228", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
+    { "team": "Duke", "espnId": "150", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
+    { "team": "Florida State", "espnId": "52", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
+    { "team": "Georgia Tech", "espnId": "59", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
+    { "team": "Louisville", "espnId": "97", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
+    { "team": "Miami", "espnId": "2390", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
+    { "team": "NC State", "espnId": "152", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
+    { "team": "North Carolina", "espnId": "153", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
+    { "team": "Pittsburgh", "espnId": "221", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
+    { "team": "SMU", "espnId": "2567", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
+    { "team": "Stanford", "espnId": "24", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
+    { "team": "Syracuse", "espnId": "183", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
+    { "team": "Virginia", "espnId": "258", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
+    { "team": "Virginia Tech", "espnId": "259", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
+    { "team": "Wake Forest", "espnId": "154", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 }
+  ]
+}

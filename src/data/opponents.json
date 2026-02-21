@@ -9,11 +9,8 @@
       "record": { "wins": 0, "losses": 0 },
       "ranking": null,
       "conference": "Big 12",
-      "topPlayers": [
-        { "name": "Shedeur Sanders", "position": "QB", "note": "Deion's son, elite passer" },
-        { "name": "Travis Hunter", "position": "WR/CB", "note": "Two-way Heisman candidate" },
-        { "name": "LaJohntay Wester", "position": "WR", "note": "Dynamic slot receiver" }
-      ]
+      "note": "To be updated by CI before season",
+      "topPlayers": []
     },
     {
       "id": "tennessee",
@@ -23,11 +20,8 @@
       "record": { "wins": 0, "losses": 0 },
       "ranking": null,
       "conference": "SEC",
-      "topPlayers": [
-        { "name": "Nico Iamaleava", "position": "QB", "note": "5-star arm talent, SEC threat" },
-        { "name": "Squirrel White", "position": "WR", "note": "Shifty slot, YAC machine" },
-        { "name": "James Pearce Jr.", "position": "DE", "note": "Elite edge rusher" }
-      ]
+      "note": "To be updated by CI before season",
+      "topPlayers": []
     },
     {
       "id": "mercer",
@@ -107,10 +101,10 @@
       "record": { "wins": 0, "losses": 0 },
       "ranking": null,
       "conference": "ACC",
+      "note": "To be updated by CI before season",
       "topPlayers": [
         { "name": "Eli Holstein", "position": "QB", "note": "Transfer, big-armed pocket passer" },
-        { "name": "Desmond Reid", "position": "RB", "note": "Elusive scatback, dynamic receiver" },
-        { "name": "Calijah Kancey", "position": "DT", "note": "Interior disruptor, NFL draft prospect" }
+        { "name": "Desmond Reid", "position": "RB", "note": "Elusive scatback, dynamic receiver" }
       ]
     },
     {
@@ -121,9 +115,8 @@
       "record": { "wins": 0, "losses": 0 },
       "ranking": null,
       "conference": "ACC",
+      "note": "To be updated by CI before season",
       "topPlayers": [
-        { "name": "Jack Plummer", "position": "QB", "note": "Veteran, efficient ACC starter" },
-        { "name": "Isaac Guerendo", "position": "RB", "note": "Speed and power combo runner" },
         { "name": "Ben Perry", "position": "DE", "note": "Versatile pass rusher" }
       ]
     },
@@ -163,11 +156,8 @@
       "record": { "wins": 0, "losses": 0 },
       "ranking": null,
       "conference": "SEC",
-      "topPlayers": [
-        { "name": "Carson Beck", "position": "QB", "note": "Returning Heisman contender" },
-        { "name": "Brock Bowers", "position": "TE", "note": "Best TE in college football" },
-        { "name": "Malaki Starks", "position": "S", "note": "Elite safety, shutdown defender" }
-      ]
+      "note": "To be updated by CI before season",
+      "topPlayers": []
     }
   ]
 }

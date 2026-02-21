@@ -27,6 +27,15 @@
           "depth": 2,
           "note": "Mobile backup with big upside",
           "transfer": false
+        },
+        {
+          "name": "Ben Guthrie",
+          "number": "18",
+          "position": "QB",
+          "year": "So",
+          "depth": 3,
+          "note": "Third-string QB developing behind King",
+          "transfer": false
         }
       ]
     },
@@ -35,22 +44,21 @@
       "abbr": "RB",
       "players": [
         {
-          "name": "Justice Haynes",
-          "number": "22",
+          "name": "Jamal Haynes",
+          "number": "1",
           "position": "RB",
-          "year": "Jr",
+          "year": "Sr",
           "depth": 1,
-          "note": "Transfer from Michigan (orig. Alabama) — explosive between the tackles",
-          "transfer": true,
-          "transferFrom": "Michigan"
+          "note": "Speedy change-of-pace back, dangerous in open space",
+          "transfer": false
         },
         {
-          "name": "Jamal Haynes",
-          "number": "11",
+          "name": "Daylon Gordon",
+          "number": "21",
           "position": "RB",
-          "year": "Jr",
+          "year": "Sr",
           "depth": 2,
-          "note": "Speedy change-of-pace back, dangerous in open space",
+          "note": "Physical inside runner, depth at the position",
           "transfer": false
         }
       ]
@@ -60,21 +68,21 @@
       "abbr": "WR",
       "players": [
         {
-          "name": "Jordan Allen",
-          "number": "5",
-          "position": "WR",
-          "year": "Sr",
-          "depth": 1,
-          "note": "Explosive returning playmaker, GT's top target",
-          "transfer": false
-        },
-        {
           "name": "Eric Singleton Jr.",
           "number": "2",
           "position": "WR",
           "year": "Jr",
-          "depth": 2,
+          "depth": 1,
           "note": "Deep threat with elite route-running",
+          "transfer": false
+        },
+        {
+          "name": "Isiah Canion",
+          "number": "4",
+          "position": "WR",
+          "year": "So",
+          "depth": 2,
+          "note": "Emerging playmaker in the receiving corps",
           "transfer": false
         },
         {
@@ -82,8 +90,41 @@
           "number": "3",
           "position": "WR",
           "year": "Sr",
-          "depth": 3,
+          "depth": 2,
           "note": "Reliable slot receiver",
+          "transfer": false
+        },
+        {
+          "name": "Jordan Allen",
+          "number": "85",
+          "position": "WR",
+          "year": "Fr",
+          "depth": 3,
+          "note": "Young receiver developing in the program",
+          "transfer": false
+        }
+      ]
+    },
+    {
+      "group": "Tight End",
+      "abbr": "TE",
+      "players": [
+        {
+          "name": "Josh Beetham",
+          "number": "17",
+          "position": "TE",
+          "year": "Sr",
+          "depth": 1,
+          "note": "Veteran tight end, reliable in the passing game",
+          "transfer": false
+        },
+        {
+          "name": "J.T. Byrne",
+          "number": "88",
+          "position": "TE",
+          "year": "Sr",
+          "depth": 2,
+          "note": "Experienced blocker and receiving option",
           "transfer": false
         }
       ]
@@ -96,18 +137,18 @@
           "name": "Malachi Carney",
           "number": "72",
           "position": "OT",
-          "year": "Sr",
+          "year": "Jr",
           "depth": 1,
           "note": "Returning starter, anchors left side of the line",
           "transfer": false
         },
         {
           "name": "Ethan MacKenny",
-          "number": "75",
+          "number": "78",
           "position": "OT",
-          "year": "Sr",
+          "year": "So",
           "depth": 1,
-          "note": "Right tackle starter, veteran presence up front",
+          "note": "Right tackle, developing starter up front",
           "transfer": false
         },
         {
