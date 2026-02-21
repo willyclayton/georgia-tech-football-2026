@@ -1,4 +1,27 @@
-import { useState } from 'react'
+import { useState, Component } from 'react'
+
+class ErrorBoundary extends Component {
+  constructor(props) {
+    super(props)
+    this.state = { error: null }
+  }
+  static getDerivedStateFromError(error) {
+    return { error }
+  }
+  render() {
+    if (this.state.error) {
+      return (
+        <div className="min-h-screen bg-gray-950 flex items-center justify-center p-8">
+          <div className="bg-red-950 border border-red-800 rounded-xl p-6 max-w-lg w-full">
+            <p className="text-red-400 font-bold text-sm mb-2">App Error</p>
+            <p className="text-red-300 text-xs font-mono break-all">{this.state.error.message}</p>
+          </div>
+        </div>
+      )
+    }
+    return this.props.children
+  }
+}
 import scheduleData from './data/schedule.json'
 import rosterData from './data/roster.json'
 import opponentsData from './data/opponents.json'
@@ -24,6 +47,7 @@ export default function App() {
   const losses = completedGames.filter((g) => g.result === 'L').length
 
   return (
+    <ErrorBoundary>
     <div className="min-h-screen bg-gray-950">
       {/* Header */}
       <header className="bg-gt-navy border-b border-gt-gold/30 sticky top-0 z-40">
@@ -99,5 +123,6 @@ export default function App() {
         Data refreshes daily via GitHub Actions · Schedule and win probabilities are estimates
       </footer>
     </div>
+    </ErrorBoundary>
   )
 }
