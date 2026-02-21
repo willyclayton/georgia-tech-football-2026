@@ -1,0 +1,222 @@
+{
+  "lastUpdated": "2026-02-21T00:00:00Z",
+  "coaching": {
+    "headCoach": "Brent Key",
+    "offensiveCoordinator": "George Godsey",
+    "defensiveCoordinator": "Lou Ayeni"
+  },
+  "positionGroups": [
+    {
+      "group": "Quarterback",
+      "abbr": "QB",
+      "players": [
+        {
+          "name": "Haynes King",
+          "number": "10",
+          "position": "QB",
+          "year": "Sr",
+          "depth": 1,
+          "note": "Dual-threat starter, led GT's 2024 resurgence",
+          "transfer": false
+        },
+        {
+          "name": "Zach Pyron",
+          "number": "6",
+          "position": "QB",
+          "year": "So",
+          "depth": 2,
+          "note": "Mobile backup with big upside",
+          "transfer": false
+        }
+      ]
+    },
+    {
+      "group": "Running Back",
+      "abbr": "RB",
+      "players": [
+        {
+          "name": "Justice Haynes",
+          "number": "22",
+          "position": "RB",
+          "year": "Jr",
+          "depth": 1,
+          "note": "Transfer from Michigan (orig. Alabama) — explosive between the tackles",
+          "transfer": true,
+          "transferFrom": "Michigan"
+        },
+        {
+          "name": "Jamal Haynes",
+          "number": "11",
+          "position": "RB",
+          "year": "Jr",
+          "depth": 2,
+          "note": "Speedy change-of-pace back, dangerous in open space",
+          "transfer": false
+        }
+      ]
+    },
+    {
+      "group": "Wide Receiver",
+      "abbr": "WR",
+      "players": [
+        {
+          "name": "Jordan Allen",
+          "number": "5",
+          "position": "WR",
+          "year": "Sr",
+          "depth": 1,
+          "note": "Explosive returning playmaker, GT's top target",
+          "transfer": false
+        },
+        {
+          "name": "Eric Singleton Jr.",
+          "number": "2",
+          "position": "WR",
+          "year": "Jr",
+          "depth": 2,
+          "note": "Deep threat with elite route-running",
+          "transfer": false
+        },
+        {
+          "name": "Christian Leary",
+          "number": "3",
+          "position": "WR",
+          "year": "Sr",
+          "depth": 3,
+          "note": "Reliable slot receiver",
+          "transfer": false
+        }
+      ]
+    },
+    {
+      "group": "Offensive Line",
+      "abbr": "OL",
+      "players": [
+        {
+          "name": "Malachi Carney",
+          "number": "72",
+          "position": "OT",
+          "year": "Sr",
+          "depth": 1,
+          "note": "Returning starter, anchors left side of the line",
+          "transfer": false
+        },
+        {
+          "name": "Ethan MacKenny",
+          "number": "75",
+          "position": "OT",
+          "year": "Sr",
+          "depth": 1,
+          "note": "Right tackle starter, veteran presence up front",
+          "transfer": false
+        },
+        {
+          "name": "AntonioOtti",
+          "number": "53",
+          "position": "C",
+          "year": "Jr",
+          "depth": 1,
+          "note": "Center, controls the protection calls",
+          "transfer": false
+        }
+      ]
+    },
+    {
+      "group": "Defensive Line",
+      "abbr": "DL",
+      "players": [
+        {
+          "name": "Zeek Biggers",
+          "number": "98",
+          "position": "DT",
+          "year": "Sr",
+          "depth": 1,
+          "note": "Interior force, elite run stuffer",
+          "transfer": false
+        },
+        {
+          "name": "D'Quan Douse",
+          "number": "44",
+          "position": "DE",
+          "year": "Jr",
+          "depth": 1,
+          "note": "Pass-rush specialist off the edge",
+          "transfer": false
+        }
+      ]
+    },
+    {
+      "group": "Linebacker",
+      "abbr": "LB",
+      "players": [
+        {
+          "name": "Noah Carter",
+          "number": "35",
+          "position": "LB",
+          "year": "Jr",
+          "depth": 1,
+          "note": "Transfer from Alabama, sideline-to-sideline tackler",
+          "transfer": true,
+          "transferFrom": "Alabama"
+        },
+        {
+          "name": "Trenilyas Tatum",
+          "number": "28",
+          "position": "LB",
+          "year": "Sr",
+          "depth": 2,
+          "note": "Physical presence, strong against the run",
+          "transfer": false
+        }
+      ]
+    },
+    {
+      "group": "Defensive Back",
+      "abbr": "DB",
+      "players": [
+        {
+          "name": "Evan Haynes",
+          "number": "14",
+          "position": "CB",
+          "year": "Jr",
+          "depth": 1,
+          "note": "One of football's best CB duos, elite man coverage",
+          "transfer": false
+        },
+        {
+          "name": "Malachi Hosley",
+          "number": "1",
+          "position": "CB",
+          "year": "Jr",
+          "depth": 1,
+          "note": "Shutdown corner, lockdown assignment specialist",
+          "transfer": false
+        },
+        {
+          "name": "Ahmari Harvey",
+          "number": "27",
+          "position": "S",
+          "year": "Sr",
+          "depth": 1,
+          "note": "Free safety, quarterback of the secondary",
+          "transfer": false
+        }
+      ]
+    },
+    {
+      "group": "Special Teams",
+      "abbr": "ST",
+      "players": [
+        {
+          "name": "Aidan Birr",
+          "number": "96",
+          "position": "K",
+          "year": "Jr",
+          "depth": 1,
+          "note": "Reliable kicker, accurate from 45+ yards",
+          "transfer": false
+        }
+      ]
+    }
+  ]
+}
