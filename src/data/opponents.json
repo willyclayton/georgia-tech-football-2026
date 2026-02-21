@@ -1,18 +1,34 @@
 {
-  "lastUpdated": "2026-02-21T00:00:00Z",
+  "lastUpdated": "2026-02-21T20:15:10.336Z",
   "opponents": [
     {
       "id": "colorado",
       "name": "Colorado",
       "abbreviation": "COL",
       "espnId": "38",
-      "record": { "wins": 0, "losses": 0 },
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "ranking": null
+      },
       "ranking": null,
       "conference": "Big 12",
       "topPlayers": [
-        { "name": "Shedeur Sanders", "position": "QB", "note": "Deion's son, elite passer" },
-        { "name": "Travis Hunter", "position": "WR/CB", "note": "Two-way Heisman candidate" },
-        { "name": "LaJohntay Wester", "position": "WR", "note": "Dynamic slot receiver" }
+        {
+          "name": "Shedeur Sanders",
+          "position": "QB",
+          "note": "Deion's son, elite passer"
+        },
+        {
+          "name": "Travis Hunter",
+          "position": "WR/CB",
+          "note": "Two-way Heisman candidate"
+        },
+        {
+          "name": "LaJohntay Wester",
+          "position": "WR",
+          "note": "Dynamic slot receiver"
+        }
       ]
     },
     {
@@ -20,13 +36,29 @@
       "name": "Tennessee",
       "abbreviation": "TENN",
       "espnId": "2633",
-      "record": { "wins": 0, "losses": 0 },
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "ranking": null
+      },
       "ranking": null,
       "conference": "SEC",
       "topPlayers": [
-        { "name": "Nico Iamaleava", "position": "QB", "note": "5-star arm talent, SEC threat" },
-        { "name": "Squirrel White", "position": "WR", "note": "Shifty slot, YAC machine" },
-        { "name": "James Pearce Jr.", "position": "DE", "note": "Elite edge rusher" }
+        {
+          "name": "Nico Iamaleava",
+          "position": "QB",
+          "note": "5-star arm talent, SEC threat"
+        },
+        {
+          "name": "Squirrel White",
+          "position": "WR",
+          "note": "Shifty slot, YAC machine"
+        },
+        {
+          "name": "James Pearce Jr.",
+          "position": "DE",
+          "note": "Elite edge rusher"
+        }
       ]
     },
     {
@@ -34,13 +66,29 @@
       "name": "Mercer",
       "abbreviation": "MER",
       "espnId": "2413",
-      "record": { "wins": 0, "losses": 0 },
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "ranking": null
+      },
       "ranking": null,
       "conference": "FCS – Southern",
       "topPlayers": [
-        { "name": "Carter Peevy", "position": "QB", "note": "Mobile FCS signal caller" },
-        { "name": "Mike Greene", "position": "RB", "note": "Workhorse back for the Bears" },
-        { "name": "Darius Cheatham", "position": "LB", "note": "FCS All-Conference defender" }
+        {
+          "name": "Carter Peevy",
+          "position": "QB",
+          "note": "Mobile FCS signal caller"
+        },
+        {
+          "name": "Mike Greene",
+          "position": "RB",
+          "note": "Workhorse back for the Bears"
+        },
+        {
+          "name": "Darius Cheatham",
+          "position": "LB",
+          "note": "FCS All-Conference defender"
+        }
       ]
     },
     {
@@ -48,13 +96,29 @@
       "name": "Stanford",
       "abbreviation": "STAN",
       "espnId": "24",
-      "record": { "wins": 0, "losses": 0 },
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "ranking": null
+      },
       "ranking": null,
       "conference": "ACC",
       "topPlayers": [
-        { "name": "Ashton Daniels", "position": "QB", "note": "Transfer, experienced starter" },
-        { "name": "Elic Ayomanor", "position": "WR", "note": "Big-bodied possession receiver" },
-        { "name": "David Bailey", "position": "RB", "note": "Power back in pro-style offense" }
+        {
+          "name": "Ashton Daniels",
+          "position": "QB",
+          "note": "Transfer, experienced starter"
+        },
+        {
+          "name": "Elic Ayomanor",
+          "position": "WR",
+          "note": "Big-bodied possession receiver"
+        },
+        {
+          "name": "David Bailey",
+          "position": "RB",
+          "note": "Power back in pro-style offense"
+        }
       ]
     },
     {
@@ -62,13 +126,29 @@
       "name": "Duke",
       "abbreviation": "DUKE",
       "espnId": "150",
-      "record": { "wins": 0, "losses": 0 },
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "ranking": null
+      },
       "ranking": null,
       "conference": "ACC",
       "topPlayers": [
-        { "name": "Maalik Murphy", "position": "QB", "note": "Transfer, strong-armed passer" },
-        { "name": "Jordan Waters", "position": "RB", "note": "Versatile back and pass-catcher" },
-        { "name": "Kaden Saunders", "position": "WR", "note": "Explosive playmaker" }
+        {
+          "name": "Maalik Murphy",
+          "position": "QB",
+          "note": "Transfer, strong-armed passer"
+        },
+        {
+          "name": "Jordan Waters",
+          "position": "RB",
+          "note": "Versatile back and pass-catcher"
+        },
+        {
+          "name": "Kaden Saunders",
+          "position": "WR",
+          "note": "Explosive playmaker"
+        }
       ]
     },
     {
@@ -76,13 +156,29 @@
       "name": "Virginia Tech",
       "abbreviation": "VT",
       "espnId": "259",
-      "record": { "wins": 0, "losses": 0 },
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "ranking": null
+      },
       "ranking": null,
       "conference": "ACC",
       "topPlayers": [
-        { "name": "Kyron Drones", "position": "QB", "note": "Dual-threat, dangerous on scrambles" },
-        { "name": "Bhayshul Tuten", "position": "RB", "note": "Breakaway speed, home-run threat" },
-        { "name": "Mansoor Delane", "position": "CB", "note": "Lockdown corner prospect" }
+        {
+          "name": "Kyron Drones",
+          "position": "QB",
+          "note": "Dual-threat, dangerous on scrambles"
+        },
+        {
+          "name": "Bhayshul Tuten",
+          "position": "RB",
+          "note": "Breakaway speed, home-run threat"
+        },
+        {
+          "name": "Mansoor Delane",
+          "position": "CB",
+          "note": "Lockdown corner prospect"
+        }
       ]
     },
     {
@@ -90,13 +186,29 @@
       "name": "Boston College",
       "abbreviation": "BC",
       "espnId": "103",
-      "record": { "wins": 0, "losses": 0 },
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "ranking": null
+      },
       "ranking": null,
       "conference": "ACC",
       "topPlayers": [
-        { "name": "Thomas Castellanos", "position": "QB", "note": "Dual-threat transfer starter" },
-        { "name": "Lewis Bond", "position": "WR", "note": "Reliable veteran receiver" },
-        { "name": "Donovan Ezeiruaku", "position": "DE", "note": "ACC sack leader candidate" }
+        {
+          "name": "Thomas Castellanos",
+          "position": "QB",
+          "note": "Dual-threat transfer starter"
+        },
+        {
+          "name": "Lewis Bond",
+          "position": "WR",
+          "note": "Reliable veteran receiver"
+        },
+        {
+          "name": "Donovan Ezeiruaku",
+          "position": "DE",
+          "note": "ACC sack leader candidate"
+        }
       ]
     },
     {
@@ -104,13 +216,29 @@
       "name": "Pittsburgh",
       "abbreviation": "PITT",
       "espnId": "221",
-      "record": { "wins": 0, "losses": 0 },
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "ranking": null
+      },
       "ranking": null,
       "conference": "ACC",
       "topPlayers": [
-        { "name": "Eli Holstein", "position": "QB", "note": "Transfer, big-armed pocket passer" },
-        { "name": "Desmond Reid", "position": "RB", "note": "Elusive scatback, dynamic receiver" },
-        { "name": "Calijah Kancey", "position": "DT", "note": "Interior disruptor, NFL draft prospect" }
+        {
+          "name": "Eli Holstein",
+          "position": "QB",
+          "note": "Transfer, big-armed pocket passer"
+        },
+        {
+          "name": "Desmond Reid",
+          "position": "RB",
+          "note": "Elusive scatback, dynamic receiver"
+        },
+        {
+          "name": "Calijah Kancey",
+          "position": "DT",
+          "note": "Interior disruptor, NFL draft prospect"
+        }
       ]
     },
     {
@@ -118,13 +246,29 @@
       "name": "Louisville",
       "abbreviation": "LOU",
       "espnId": "97",
-      "record": { "wins": 0, "losses": 0 },
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "ranking": null
+      },
       "ranking": null,
       "conference": "ACC",
       "topPlayers": [
-        { "name": "Jack Plummer", "position": "QB", "note": "Veteran, efficient ACC starter" },
-        { "name": "Isaac Guerendo", "position": "RB", "note": "Speed and power combo runner" },
-        { "name": "Ben Perry", "position": "DE", "note": "Versatile pass rusher" }
+        {
+          "name": "Jack Plummer",
+          "position": "QB",
+          "note": "Veteran, efficient ACC starter"
+        },
+        {
+          "name": "Isaac Guerendo",
+          "position": "RB",
+          "note": "Speed and power combo runner"
+        },
+        {
+          "name": "Ben Perry",
+          "position": "DE",
+          "note": "Versatile pass rusher"
+        }
       ]
     },
     {
@@ -132,13 +276,29 @@
       "name": "Clemson",
       "abbreviation": "CLEM",
       "espnId": "228",
-      "record": { "wins": 0, "losses": 0 },
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "ranking": null
+      },
       "ranking": null,
       "conference": "ACC",
       "topPlayers": [
-        { "name": "Cade Klubnik", "position": "QB", "note": "ACC Player of the Year candidate" },
-        { "name": "Antonio Williams", "position": "WR", "note": "Explosive deep threat" },
-        { "name": "T.J. Parker", "position": "DE", "note": "First-round pass rush talent" }
+        {
+          "name": "Cade Klubnik",
+          "position": "QB",
+          "note": "ACC Player of the Year candidate"
+        },
+        {
+          "name": "Antonio Williams",
+          "position": "WR",
+          "note": "Explosive deep threat"
+        },
+        {
+          "name": "T.J. Parker",
+          "position": "DE",
+          "note": "First-round pass rush talent"
+        }
       ]
     },
     {
@@ -146,13 +306,29 @@
       "name": "Wake Forest",
       "abbreviation": "WAKE",
       "espnId": "154",
-      "record": { "wins": 0, "losses": 0 },
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "ranking": null
+      },
       "ranking": null,
       "conference": "ACC",
       "topPlayers": [
-        { "name": "Mitch Griffis", "position": "QB", "note": "Accurate system quarterback" },
-        { "name": "Quinton Cooley", "position": "RB", "note": "Tough inside runner" },
-        { "name": "Kobie Turner", "position": "DT", "note": "Disruptive interior lineman" }
+        {
+          "name": "Mitch Griffis",
+          "position": "QB",
+          "note": "Accurate system quarterback"
+        },
+        {
+          "name": "Quinton Cooley",
+          "position": "RB",
+          "note": "Tough inside runner"
+        },
+        {
+          "name": "Kobie Turner",
+          "position": "DT",
+          "note": "Disruptive interior lineman"
+        }
       ]
     },
     {
@@ -160,13 +336,29 @@
       "name": "Georgia",
       "abbreviation": "UGA",
       "espnId": "61",
-      "record": { "wins": 0, "losses": 0 },
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "ranking": null
+      },
       "ranking": null,
       "conference": "SEC",
       "topPlayers": [
-        { "name": "Carson Beck", "position": "QB", "note": "Returning Heisman contender" },
-        { "name": "Brock Bowers", "position": "TE", "note": "Best TE in college football" },
-        { "name": "Malaki Starks", "position": "S", "note": "Elite safety, shutdown defender" }
+        {
+          "name": "Carson Beck",
+          "position": "QB",
+          "note": "Returning Heisman contender"
+        },
+        {
+          "name": "Brock Bowers",
+          "position": "TE",
+          "note": "Best TE in college football"
+        },
+        {
+          "name": "Malaki Starks",
+          "position": "S",
+          "note": "Elite safety, shutdown defender"
+        }
       ]
     }
   ]
