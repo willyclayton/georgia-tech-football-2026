@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-21T20:15:10.336Z",
+  "lastUpdated": "2026-02-22T08:47:24.503Z",
   "opponents": [
     {
       "id": "colorado",
@@ -195,8 +195,16 @@
       "conference": "ACC",
       "note": "To be updated by CI before season",
       "topPlayers": [
-        { "name": "Eli Holstein", "position": "QB", "note": "Transfer, big-armed pocket passer" },
-        { "name": "Desmond Reid", "position": "RB", "note": "Elusive scatback, dynamic receiver" }
+        {
+          "name": "Eli Holstein",
+          "position": "QB",
+          "note": "Transfer, big-armed pocket passer"
+        },
+        {
+          "name": "Desmond Reid",
+          "position": "RB",
+          "note": "Elusive scatback, dynamic receiver"
+        }
       ]
     },
     {
@@ -213,7 +221,11 @@
       "conference": "ACC",
       "note": "To be updated by CI before season",
       "topPlayers": [
-        { "name": "Ben Perry", "position": "DE", "note": "Versatile pass rusher" }
+        {
+          "name": "Ben Perry",
+          "position": "DE",
+          "note": "Versatile pass rusher"
+        }
       ]
     },
     {

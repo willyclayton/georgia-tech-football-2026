@@ -1,23 +1,335 @@
 {
-  "lastUpdated": "2026-02-21T00:00:00Z",
-  "apPoll": [],
+  "lastUpdated": "2026-02-22T08:47:25.464Z",
+  "apPoll": [
+    {
+      "rank": 1,
+      "team": "Hoosiers",
+      "espnId": "84",
+      "record": "16-0",
+      "points": 1650
+    },
+    {
+      "rank": 2,
+      "team": "Hurricanes",
+      "espnId": "2390",
+      "record": "13-3",
+      "points": 1584
+    },
+    {
+      "rank": 3,
+      "team": "Rebels",
+      "espnId": "145",
+      "record": "13-2",
+      "points": 1492
+    },
+    {
+      "rank": 4,
+      "team": "Ducks",
+      "espnId": "2483",
+      "record": "13-2",
+      "points": 1429
+    },
+    {
+      "rank": 5,
+      "team": "Buckeyes",
+      "espnId": "194",
+      "record": "12-2",
+      "points": 1378
+    },
+    {
+      "rank": 6,
+      "team": "Bulldogs",
+      "espnId": "61",
+      "record": "12-2",
+      "points": 1364
+    },
+    {
+      "rank": 7,
+      "team": "Red Raiders",
+      "espnId": "2641",
+      "record": "12-2",
+      "points": 1232
+    },
+    {
+      "rank": 8,
+      "team": "Aggies",
+      "espnId": "245",
+      "record": "11-2",
+      "points": 1157
+    },
+    {
+      "rank": 9,
+      "team": "Crimson Tide",
+      "espnId": "333",
+      "record": "11-4",
+      "points": 1065
+    },
+    {
+      "rank": 10,
+      "team": "Fighting Irish",
+      "espnId": "87",
+      "record": "10-2",
+      "points": 1049
+    },
+    {
+      "rank": 11,
+      "team": "Cougars",
+      "espnId": "252",
+      "record": "12-2",
+      "points": 961
+    },
+    {
+      "rank": 12,
+      "team": "Longhorns",
+      "espnId": "251",
+      "record": "10-3",
+      "points": 952
+    },
+    {
+      "rank": 13,
+      "team": "Sooners",
+      "espnId": "201",
+      "record": "10-3",
+      "points": 941
+    },
+    {
+      "rank": 14,
+      "team": "Utes",
+      "espnId": "254",
+      "record": "11-2",
+      "points": 812
+    },
+    {
+      "rank": 15,
+      "team": "Commodores",
+      "espnId": "238",
+      "record": "10-3",
+      "points": 623
+    },
+    {
+      "rank": 16,
+      "team": "Cavaliers",
+      "espnId": "258",
+      "record": "11-3",
+      "points": 603
+    },
+    {
+      "rank": 17,
+      "team": "Hawkeyes",
+      "espnId": "2294",
+      "record": "9-4",
+      "points": 430
+    },
+    {
+      "rank": 18,
+      "team": "Green Wave",
+      "espnId": "2655",
+      "record": "11-3",
+      "points": 404
+    },
+    {
+      "rank": 19,
+      "team": "Dukes",
+      "espnId": "256",
+      "record": "12-2",
+      "points": 399
+    },
+    {
+      "rank": 20,
+      "team": "Trojans",
+      "espnId": "30",
+      "record": "9-4",
+      "points": 378
+    },
+    {
+      "rank": 21,
+      "team": "Wolverines",
+      "espnId": "130",
+      "record": "9-4",
+      "points": 276
+    },
+    {
+      "rank": 22,
+      "team": "Cougars",
+      "espnId": "248",
+      "record": "10-3",
+      "points": 270
+    },
+    {
+      "rank": 23,
+      "team": "Midshipmen",
+      "espnId": "2426",
+      "record": "11-2",
+      "points": 227
+    },
+    {
+      "rank": 24,
+      "team": "Mean Green",
+      "espnId": "249",
+      "record": "12-2",
+      "points": 191
+    },
+    {
+      "rank": 25,
+      "team": "Horned Frogs",
+      "espnId": "2628",
+      "record": "9-4",
+      "points": 125
+    }
+  ],
   "accStandings": [
-    { "team": "Boston College", "espnId": "103", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
-    { "team": "California", "espnId": "25", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
-    { "team": "Clemson", "espnId": "228", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
-    { "team": "Duke", "espnId": "150", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
-    { "team": "Florida State", "espnId": "52", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
-    { "team": "Georgia Tech", "espnId": "59", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
-    { "team": "Louisville", "espnId": "97", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
-    { "team": "Miami", "espnId": "2390", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
-    { "team": "NC State", "espnId": "152", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
-    { "team": "North Carolina", "espnId": "153", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
-    { "team": "Pittsburgh", "espnId": "221", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
-    { "team": "SMU", "espnId": "2567", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
-    { "team": "Stanford", "espnId": "24", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
-    { "team": "Syracuse", "espnId": "183", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
-    { "team": "Virginia", "espnId": "258", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
-    { "team": "Virginia Tech", "espnId": "259", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 },
-    { "team": "Wake Forest", "espnId": "154", "confWins": 0, "confLosses": 0, "totalWins": 0, "totalLosses": 0, "pct": 0.0 }
+    {
+      "team": "Boston College",
+      "espnId": "103",
+      "confWins": 0,
+      "confLosses": 0,
+      "totalWins": 0,
+      "totalLosses": 0,
+      "pct": 0
+    },
+    {
+      "team": "California",
+      "espnId": "25",
+      "confWins": 0,
+      "confLosses": 0,
+      "totalWins": 0,
+      "totalLosses": 0,
+      "pct": 0
+    },
+    {
+      "team": "Clemson",
+      "espnId": "228",
+      "confWins": 0,
+      "confLosses": 0,
+      "totalWins": 0,
+      "totalLosses": 0,
+      "pct": 0
+    },
+    {
+      "team": "Duke",
+      "espnId": "150",
+      "confWins": 0,
+      "confLosses": 0,
+      "totalWins": 0,
+      "totalLosses": 0,
+      "pct": 0
+    },
+    {
+      "team": "Florida State",
+      "espnId": "52",
+      "confWins": 0,
+      "confLosses": 0,
+      "totalWins": 0,
+      "totalLosses": 0,
+      "pct": 0
+    },
+    {
+      "team": "Georgia Tech",
+      "espnId": "59",
+      "confWins": 0,
+      "confLosses": 0,
+      "totalWins": 0,
+      "totalLosses": 0,
+      "pct": 0
+    },
+    {
+      "team": "Louisville",
+      "espnId": "97",
+      "confWins": 0,
+      "confLosses": 0,
+      "totalWins": 0,
+      "totalLosses": 0,
+      "pct": 0
+    },
+    {
+      "team": "Miami",
+      "espnId": "2390",
+      "confWins": 0,
+      "confLosses": 0,
+      "totalWins": 0,
+      "totalLosses": 0,
+      "pct": 0
+    },
+    {
+      "team": "NC State",
+      "espnId": "152",
+      "confWins": 0,
+      "confLosses": 0,
+      "totalWins": 0,
+      "totalLosses": 0,
+      "pct": 0
+    },
+    {
+      "team": "North Carolina",
+      "espnId": "153",
+      "confWins": 0,
+      "confLosses": 0,
+      "totalWins": 0,
+      "totalLosses": 0,
+      "pct": 0
+    },
+    {
+      "team": "Pittsburgh",
+      "espnId": "221",
+      "confWins": 0,
+      "confLosses": 0,
+      "totalWins": 0,
+      "totalLosses": 0,
+      "pct": 0
+    },
+    {
+      "team": "SMU",
+      "espnId": "2567",
+      "confWins": 0,
+      "confLosses": 0,
+      "totalWins": 0,
+      "totalLosses": 0,
+      "pct": 0
+    },
+    {
+      "team": "Stanford",
+      "espnId": "24",
+      "confWins": 0,
+      "confLosses": 0,
+      "totalWins": 0,
+      "totalLosses": 0,
+      "pct": 0
+    },
+    {
+      "team": "Syracuse",
+      "espnId": "183",
+      "confWins": 0,
+      "confLosses": 0,
+      "totalWins": 0,
+      "totalLosses": 0,
+      "pct": 0
+    },
+    {
+      "team": "Virginia",
+      "espnId": "258",
+      "confWins": 0,
+      "confLosses": 0,
+      "totalWins": 0,
+      "totalLosses": 0,
+      "pct": 0
+    },
+    {
+      "team": "Virginia Tech",
+      "espnId": "259",
+      "confWins": 0,
+      "confLosses": 0,
+      "totalWins": 0,
+      "totalLosses": 0,
+      "pct": 0
+    },
+    {
+      "team": "Wake Forest",
+      "espnId": "154",
+      "confWins": 0,
+      "confLosses": 0,
+      "totalWins": 0,
+      "totalLosses": 0,
+      "pct": 0
+    }
   ]
 }
