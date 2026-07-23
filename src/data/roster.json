@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T10:32:20.579Z",
+  "lastUpdated": "2026-07-23T10:32:35.893Z",
   "coaching": {
     "headCoach": "Brent Key",
     "offensiveCoordinator": "George Godsey",
@@ -32,7 +32,7 @@
           "name": "Ben Guthrie",
           "number": "18",
           "position": "QB",
-          "year": "Sophomore",
+          "year": "Junior",
           "depth": 3,
           "note": "Third-string QB developing behind King",
           "transfer": false
@@ -96,9 +96,9 @@
         },
         {
           "name": "Jordan Allen",
-          "number": "85",
+          "number": "4",
           "position": "WR",
-          "year": "Freshman",
+          "year": "Sophomore",
           "depth": 3,
           "note": "Young receiver developing in the program",
           "transfer": false
@@ -137,7 +137,7 @@
           "name": "Malachi Carney",
           "number": "72",
           "position": "OT",
-          "year": "Junior",
+          "year": "Senior",
           "depth": 1,
           "note": "Returning starter, anchors left side of the line",
           "transfer": false
@@ -146,7 +146,7 @@
           "name": "Ethan MacKenny",
           "number": "78",
           "position": "OT",
-          "year": "Sophomore",
+          "year": "Junior",
           "depth": 1,
           "note": "Right tackle, developing starter up front",
           "transfer": false
@@ -192,9 +192,9 @@
       "players": [
         {
           "name": "Noah Carter",
-          "number": "35",
+          "number": "24",
           "position": "LB",
-          "year": "Jr",
+          "year": "Sophomore",
           "depth": 1,
           "note": "Transfer from Alabama, sideline-to-sideline tackler",
           "transfer": true,
@@ -228,7 +228,7 @@
           "name": "Malachi Hosley",
           "number": "0",
           "position": "CB",
-          "year": "Junior",
+          "year": "Senior",
           "depth": 1,
           "note": "Shutdown corner, lockdown assignment specialist",
           "transfer": false
@@ -252,7 +252,7 @@
           "name": "Aidan Birr",
           "number": "33",
           "position": "K",
-          "year": "Junior",
+          "year": "Senior",
           "depth": 1,
           "note": "Reliable kicker, accurate from 45+ yards",
           "transfer": false
