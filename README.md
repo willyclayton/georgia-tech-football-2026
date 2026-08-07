@@ -1,23 +1,23 @@
 # Georgia Tech Football
 
-Sleek Yellow Jackets football companion — roster, player details, depth chart, and 2026 schedule.
+Sleek Yellow Jackets football companion — roster, depth/field/playbook, schedule calendar, standings, and Ask Buzz.
 
-Built as an Expo (React Native + web) iPhone-first app in the same spirit as the [Braves app](https://github.com/willyclayton/braves-app).
+Built as an Expo (React Native + web) iPhone-first app. Live: [gt-football.vercel.app](https://gt-football.vercel.app)
 
 ## Features
 
 - **Home** — next game hero, team pulse, ones to watch, schedule strip
-- **Roster** — 110-player searchable roster with unit / position filters
-- **Depth Chart** — projected offense, defense, and special teams
-- **Schedule** — full 2026 slate with home / away / ACC filters
-- **Player detail** — bio, tags, depth role, quick facts
+- **Roster** — searchable roster with unit / position filters
+- **Depth** — list, field X/O view, and offense/defense playbooks
+- **Schedule** — list + calendar with home/away pills; tap teams for results
+- **Standings** — ACC + national context
+- **Ask Buzz** — grounded answers from app data (says “dunno” instead of inventing)
 
 ## Stack
 
 - Expo SDK 57 + expo-router
 - TypeScript
-- react-native-reanimated
-- Static web export (Vercel-ready)
+- Static web export (Vercel)
 
 ## Develop
 
@@ -28,27 +28,17 @@ npm run web
 
 ## Data
 
-Roster and schedule live in `data/live.json`, typed through `data/tech.ts`. Sources: Georgia Tech Athletics official roster / ACC schedule, with fall-camp depth projections.
-npm run web
-```
-
-## Ask Buzz
-
-Player/roster questions are answered first by a **local grounded engine** (no API cost, no hallucinations on jersey/transfer facts).
-
-For open-ended questions the local engine cannot match, the app can call a free **Groq** LLM (`llama-3.1-8b-instant`) via `/api/ask`, still constrained to `data/live.json`.
-
-1. Create a free key at [console.groq.com](https://console.groq.com)
-2. Add it to Vercel:
+Roster, schedule, depth, and opponents live in `data/live.json`. Refresh from ESPN:
 
 ```bash
-npx vercel env add GROQ_API_KEY
-# Production → paste key
-npx vercel --prod
+npm run sync
 ```
 
-Without `GROQ_API_KEY`, Ask Buzz still works using the local engine only.
+Playbook copy lives in `data/playbook.ts` (scheme education tied to current depth chart starters).
 
 ## Deploy
 
 ```bash
+npx expo export -p web
+npx vercel --prod
+```
