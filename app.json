@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Georgia Tech Football",
+    "slug": "gt-football",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/gt-logo.png",
+    "scheme": "gtfootball",
+    "userInterfaceStyle": "dark",
+    "ios": { "supportsTablet": true },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#051E39",
+        "foregroundImage": "./assets/images/gt-logo.png"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/gt-logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/gt-logo.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#051E39"
+        }
+      ]
+    ],
+    "experiments": { "typedRoutes": true }
+  }
+}
