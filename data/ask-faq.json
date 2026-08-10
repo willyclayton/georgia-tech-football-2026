@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "note": "Curated Ask Buzz facts that are not derived from live.json. Keep answers grounded — no invented stats.",
+  "entries": [
+    {
+      "id": "faq-clean-old-fashioned",
+      "category": "rivalry",
+      "questions": [
+        "What is Clean, Old-Fashioned Hate?",
+        "What's the Georgia rivalry called?",
+        "Tell me about the Georgia Tech Georgia rivalry",
+        "What's Clean Old Fashioned Hate?",
+        "GT vs UGA rivalry name"
+      ],
+      "keywords": ["uga", "georgia", "rivalry", "clean old-fashioned hate", "cofh"],
+      "answer": "Clean, Old-Fashioned Hate is the Georgia Tech–Georgia rivalry — one of the oldest in college football (first meeting 1893). The winner takes the Governor's Cup. Ask about the schedule for the next meeting date when it's on this season's slate.",
+      "followUps": ["When is the next game?", "Where do we stand in the ACC?"]
+    },
+    {
+      "id": "faq-bobby-dodd",
+      "category": "stadium",
+      "questions": [
+        "Where do the Yellow Jackets play?",
+        "What stadium does Georgia Tech play in?",
+        "What's Bobby Dodd Stadium?",
+        "Where is home for GT football?",
+        "What is The Flats?"
+      ],
+      "keywords": ["bobby dodd", "stadium", "hyundai field", "the flats", "home"],
+      "answer": "Home is Bobby Dodd Stadium at Hyundai Field in Atlanta — nicknamed The Flats. It's on Georgia Tech's campus in Midtown.",
+      "followUps": ["Show the full schedule", "When is the next game?"]
+    },
+    {
+      "id": "faq-buzz-mascot",
+      "category": "brand",
+      "questions": [
+        "Who is Buzz?",
+        "What's the Georgia Tech mascot?",
+        "What are the Yellow Jackets?",
+        "Why Yellow Jackets?"
+      ],
+      "keywords": ["buzz", "mascot", "yellow jackets", "nickname"],
+      "answer": "Buzz is Georgia Tech's yellow jacket mascot. The teams are the Yellow Jackets (also Jackets). Colors are Tech Gold and Navy.",
+      "followUps": ["Who is the head coach?", "Tell me about the offense"]
+    },
+    {
+      "id": "faq-ramblin-wreck",
+      "category": "tradition",
+      "questions": [
+        "What is the Ramblin' Wreck?",
+        "What's the Ramblin Wreck?",
+        "Tell me about the Rambling Wreck"
+      ],
+      "keywords": ["ramblin wreck", "rambling wreck", "tradition", "car"],
+      "answer": "The Ramblin' Wreck is Georgia Tech's restored 1930 Ford Model A Sport Coupe — a campus tradition that leads the football team onto the field.",
+      "followUps": ["Where do the Yellow Jackets play?", "Who is Buzz?"]
+    },
+    {
+      "id": "faq-fight-song",
+      "category": "tradition",
+      "questions": [
+        "What's the Georgia Tech fight song?",
+        "What is Ramblin' Wreck from Georgia Tech?",
+        "What's the fight song?"
+      ],
+      "keywords": ["fight song", "ramblin wreck from georgia tech", "song"],
+      "answer": "The fight song is \"Ramblin' Wreck from Georgia Tech\" — one of the oldest and most recognizable fight songs in college football.",
+      "followUps": ["What is the Ramblin' Wreck?", "Who is Buzz?"]
+    },
+    {
+      "id": "faq-conference",
+      "category": "team",
+      "questions": [
+        "What conference is Georgia Tech in?",
+        "Are the Yellow Jackets in the ACC?",
+        "What league does GT play in?"
+      ],
+      "keywords": ["conference", "acc", "league"],
+      "answer": "Georgia Tech plays football in the Atlantic Coast Conference (ACC).",
+      "followUps": ["Where do we stand in the ACC?", "Show the full schedule"]
+    },
+    {
+      "id": "faq-ages",
+      "category": "limits",
+      "questions": [
+        "How old is a player?",
+        "Do you have player ages?",
+        "What's someone's birthday?",
+        "How old is the quarterback?"
+      ],
+      "keywords": ["age", "birthday", "born", "dob", "old"],
+      "answer": "I don't have player ages or birthdays in the Georgia Tech data feed — ESPN's roster doesn't publish DOB here. Ask about class, seasons played, or years of eligibility left instead.",
+      "followUps": ["How much eligibility does #15 have?", "List the transfer players"]
+    },
+    {
+      "id": "faq-predictions",
+      "category": "limits",
+      "questions": [
+        "Who will win the national championship?",
+        "Predict the score",
+        "Who wins this week?",
+        "Heisman odds",
+        "Should we bet on Tech?"
+      ],
+      "keywords": [
+        "predict",
+        "prediction",
+        "heisman",
+        "odds",
+        "bet",
+        "opinion",
+        "guess",
+        "national championship",
+        "who will win",
+        "who wins"
+      ],
+      "answer": "Dunno how to answer that — I stick to roster, schedule, depth chart, standings, and curated team facts in this app, not predictions or opinions.",
+      "followUps": ["When is the next game?", "Who is number 15?"]
+    },
+    {
+      "id": "faq-help",
+      "category": "meta",
+      "questions": [
+        "Help",
+        "What can you answer?",
+        "What do you know?",
+        "Hi",
+        "Hello",
+        "Hey Buzz"
+      ],
+      "keywords": ["help", "hello", "hi", "what can you"],
+      "answer": "I'm Buzz — a free Georgia Tech football guide. I answer from this app's curated knowledge (roster, eligibility, schedule, depth chart, standings, and team FAQ). No paid AI API.\n\nAsk things like:\n• Who is #15?\n• What school did Malachi Hosley transfer from?\n• When is the next game?\n• Where do we stand in the ACC?",
+      "followUps": [
+        "What school did Malachi Hosley transfer from?",
+        "Who is number 15?",
+        "When is the next game?"
+      ]
+    }
+  ]
+}
