@@ -6,6 +6,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { addFanDataCoverage } from './ask-fan-data-coverage.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, '..');
@@ -180,6 +181,8 @@ const POS_SLANG = {
 function main() {
   const live = readJson('data/live.json');
   const faq = readJson('data/ask-faq.json');
+  const fanQa = readJson('data/ask-fan-qa.json');
+  const staff = readJson('data/ask-staff.json');
   const aliases = readJson('data/ask-aliases.json');
   const team = live.team;
   const players = live.players || [];
@@ -189,7 +192,7 @@ function main() {
   const featured = new Set(live.featured || []);
   const entries = [];
 
-  for (const e of faq.entries || []) {
+  for (const e of [...(faq.entries || []), ...(fanQa.entries || [])]) {
     push(entries, {
       id: e.id,
       category: e.category || 'faq',
@@ -226,6 +229,7 @@ function main() {
     followUps: ['Who is the head coach?', 'Tell me about the offense'],
   });
 
+  const hc = staff.headCoach || {};
   push(entries, {
     id: 'team-coach',
     category: 'team',
@@ -237,14 +241,23 @@ function main() {
       `Who is ${team.headCoach}?`,
       'Who is Brent Key?',
       "Who's coaching GT?",
+      "Who's the head coach heading into 2026, and what's his record at Tech?",
     ],
-    keywords: ['head coach', 'coach', team.headCoach, 'brent key'],
-    answer: `${team.headCoach} is the Georgia Tech head coach. Offense (${team.offense}) is led by OC ${
-      team.offensiveCoordinator || '—'
-    } / co-OC ${team.coOffensiveCoordinator || '—'}. Defense (${team.defense}) is led by DC ${
-      team.defensiveCoordinator || '—'
-    }.`,
-    followUps: ['Who is the OC?', 'Who is the DC?'],
+    keywords: ['head coach', 'coach', team.headCoach, 'brent key', 'record at tech'],
+    answer: [
+      `${hc.name || team.headCoach} — ${hc.seasonLabel || 'head coach'}.`,
+      hc.recordAtTech ? `Record at Tech: ${hc.recordAtTech}.` : null,
+      ...(hc.yearly || []),
+      `Staff: OC ${team.offensiveCoordinator || staff.coordinators?.oc?.name || '—'} · co-OC ${
+        team.coOffensiveCoordinator || staff.coordinators?.coOc?.name || '—'
+      } · DC ${team.defensiveCoordinator || staff.coordinators?.dc?.name || '—'} · ST ${
+        staff.coordinators?.st?.name || 'Tim Salem'
+      }.`,
+      hc.contractNote || null,
+    ]
+      .filter(Boolean)
+      .join('\n'),
+    followUps: ['Any coordinator changes this offseason?', 'Who is the OC?'],
   });
 
   push(entries, {
@@ -257,11 +270,19 @@ function main() {
       'Who is the offensive coordinator?',
       `Who is ${team.offensiveCoordinator || 'George Godsey'}?`,
       'Who coaches the offense?',
+      "Who's the OC and who's actually calling plays?",
     ],
-    keywords: ['oc', 'offensive coordinator', team.offensiveCoordinator, 'godsey'],
-    answer: `OC is ${team.offensiveCoordinator || 'George Godsey'} (co-OC / QBs: ${
-      team.coOffensiveCoordinator || 'Chris Weinke'
-    }). Scheme label: ${team.offense}. Open Depth → Playbook for the for-dummies guide.`,
+    keywords: ['oc', 'offensive coordinator', team.offensiveCoordinator, 'godsey', 'play caller'],
+    answer: [
+      staff.coordinators?.oc?.note ||
+        `OC is ${team.offensiveCoordinator || 'George Godsey'} (co-OC / QBs: ${
+          team.coOffensiveCoordinator || 'Chris Weinke'
+        }).`,
+      staff.coordinators?.oc?.playCaller || null,
+      `Scheme label: ${team.offense}. Open Depth → Playbook for the for-dummies guide.`,
+    ]
+      .filter(Boolean)
+      .join('\n'),
     links: [{ label: 'Open playbook', href: '/depth' }],
     followUps: ['Explain the offense playbook', 'Who is the DC?'],
   });
@@ -276,11 +297,16 @@ function main() {
       'Who is the defensive coordinator?',
       `Who is ${team.defensiveCoordinator || 'Jason Semore'}?`,
       'Who coaches the defense?',
+      "Who's the DC and what's his scheme background?",
     ],
-    keywords: ['dc', 'defensive coordinator', team.defensiveCoordinator, 'semore'],
-    answer: `DC is ${team.defensiveCoordinator || 'Jason Semore'}. Scheme label: ${
-      team.defense
-    }. Open Depth → Playbook for the 4-2-5 for-dummies guide.`,
+    keywords: ['dc', 'defensive coordinator', team.defensiveCoordinator, 'semore', 'scheme background'],
+    answer: [
+      staff.coordinators?.dc?.note ||
+        `DC is ${team.defensiveCoordinator || 'Jason Semore'}. Scheme label: ${team.defense}.`,
+      `Scheme label in-app: ${team.defense}. Open Depth → Playbook for the 4-2-5 for-dummies guide.`,
+    ]
+      .filter(Boolean)
+      .join('\n'),
     links: [{ label: 'Open playbook', href: '/depth' }],
     followUps: ['Explain the defense playbook', 'Who is the OC?'],
   });
@@ -1085,8 +1111,21 @@ function main() {
     });
   }
 
+  // Fan FAQ coverage from live depth/schedule/roster + curated clusters
+  addFanDataCoverage((entry) => push(entries, entry), {
+    team,
+    players,
+    schedule,
+    depthChart,
+    collegeStops,
+    describePlayer,
+    describeStats,
+    playerLinks,
+    shortLastName,
+  });
+
   const out = {
-    version: 2,
+    version: 3,
     builtAt: new Date().toISOString(),
     sourceDataAsOf: live.dataAsOf || null,
     entryCount: entries.length,

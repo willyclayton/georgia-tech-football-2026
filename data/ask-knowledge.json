@@ -1,8 +1,8 @@
 {
-  "version": 2,
-  "builtAt": "2026-08-10T20:07:54.801Z",
+  "version": 3,
+  "builtAt": "2026-08-10T20:25:42.584Z",
   "sourceDataAsOf": "ESPN roster, career stats, standings & opponent schedules · synced 2026-08-05",
-  "entryCount": 612,
+  "entryCount": 721,
   "entries": [
     {
       "id": "faq-clean-old-fashioned",
@@ -468,6 +468,2659 @@
       "searchText": "help what can you answer? what do you know? hi hello hey buzz what can you do? help hello hi what can you"
     },
     {
+      "id": "fan-hc-brent-key",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "head_coach",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who is the head coach?",
+        "Who coaches Georgia Tech?",
+        "Who's the GT head coach?",
+        "Tell me about Brent Key",
+        "Is Brent Key still the coach?",
+        "How long has Brent Key been the coach?",
+        "What year is this for Brent Key?"
+      ],
+      "keywords": [
+        "brent key",
+        "head coach",
+        "hc",
+        "coach key",
+        "yellow jackets coach"
+      ],
+      "answer": "Brent Key is Georgia Tech's head coach — his 4th full season in 2026 (he was interim in 2022). Through 2025 his Tech record is 27-20 overall (20-11 ACC). Public reports say his contract was extended through 2030.",
+      "links": [],
+      "followUps": [
+        "What's Brent Key's record year by year?",
+        "Who is the offensive coordinator?"
+      ],
+      "searchText": "who is the head coach? who coaches georgia tech? who's the gt head coach? tell me about brent key is brent key still the coach? how long has brent key been the coach? what year is this for brent key? brent key head coach hc coach key yellow jackets coach"
+    },
+    {
+      "id": "fan-hc-record-yearly",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "head_coach_record",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What's Brent Key's record?",
+        "What's Brent Key's record year by year?",
+        "How has Key done each season?",
+        "What's Key's ACC record?",
+        "Brent Key win loss record",
+        "What bowls has Key coached in?"
+      ],
+      "keywords": [
+        "brent key record",
+        "win loss",
+        "yearly record",
+        "bowl",
+        "acc record"
+      ],
+      "answer": "Through 2025 Brent Key is 27-20 overall (20-11 ACC) at Georgia Tech: 2022 interim 4-4, 2023 7-6 (Gasparilla Bowl win), 2024 7-6 (Birmingham Bowl loss), 2025 9-4 (Pop-Tarts Bowl loss, final AP #24).",
+      "links": [],
+      "followUps": [
+        "How did we finish last year?",
+        "Who is the offensive coordinator?"
+      ],
+      "searchText": "what's brent key's record? what's brent key's record year by year? how has key done each season? what's key's acc record? brent key win loss record what bowls has key coached in? brent key record win loss yearly record bowl acc record"
+    },
+    {
+      "id": "fan-oc-godsey",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "offensive_coordinator",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who is the offensive coordinator?",
+        "Who is the OC?",
+        "Who calls plays on offense?",
+        "Who is the play caller?",
+        "Who's calling plays for Tech?",
+        "Is George Godsey the OC?",
+        "Who replaced Buster Faulkner?"
+      ],
+      "keywords": [
+        "oc",
+        "offensive coordinator",
+        "play caller",
+        "godsey",
+        "calls plays",
+        "faulkner"
+      ],
+      "answer": "George Godsey is Georgia Tech's offensive coordinator and primary play-caller in 2026. He's a former GT quarterback with NFL play-calling experience. Chris Weinke is assistant head coach / co-OC / quarterbacks. Buster Faulkner left for Florida before this hire.",
+      "links": [],
+      "followUps": [
+        "Who is the defensive coordinator?",
+        "What's our offensive scheme?"
+      ],
+      "searchText": "who is the offensive coordinator? who is the oc? who calls plays on offense? who is the play caller? who's calling plays for tech? is george godsey the oc? who replaced buster faulkner? oc offensive coordinator play caller godsey calls plays faulkner"
+    },
+    {
+      "id": "fan-co-oc-weinke",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "co_oc_qbs",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who coaches the quarterbacks?",
+        "Who is Chris Weinke?",
+        "Who is the co-offensive coordinator?",
+        "Is Weinke still on staff?",
+        "Who is assistant HC / co-OC?"
+      ],
+      "keywords": [
+        "weinke",
+        "co-oc",
+        "quarterbacks coach",
+        "qb coach",
+        "assistant head coach"
+      ],
+      "answer": "Chris Weinke is assistant head coach / co-offensive coordinator / quarterbacks. George Godsey is the OC and primary play-caller.",
+      "links": [],
+      "followUps": [
+        "Who calls plays on offense?",
+        "Who starts at QB?"
+      ],
+      "searchText": "who coaches the quarterbacks? who is chris weinke? who is the co-offensive coordinator? is weinke still on staff? who is assistant hc / co-oc? weinke co-oc quarterbacks coach qb coach assistant head coach"
+    },
+    {
+      "id": "fan-dc-semore",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "defensive_coordinator",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who is the defensive coordinator?",
+        "Who is the DC?",
+        "Who runs the defense?",
+        "Is Jason Semore the DC?",
+        "Did Semore come back?",
+        "Who coordinates the defense in 2026?"
+      ],
+      "keywords": [
+        "dc",
+        "defensive coordinator",
+        "semore",
+        "jason semore",
+        "defense coach"
+      ],
+      "answer": "Jason Semore is Georgia Tech's defensive coordinator for 2026 (also linebackers). He returned after a prior GT stop in 2022 and later DC jobs including Marshall and Southern Miss. The in-app scheme label is 4-2-5.",
+      "links": [],
+      "followUps": [
+        "What's our defensive scheme?",
+        "Who coaches the secondary?"
+      ],
+      "searchText": "who is the defensive coordinator? who is the dc? who runs the defense? is jason semore the dc? did semore come back? who coordinates the defense in 2026? dc defensive coordinator semore jason semore defense coach"
+    },
+    {
+      "id": "fan-scheme-offense-defense",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "scheme",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What's our offensive scheme?",
+        "What offense do we run?",
+        "What's our defensive scheme?",
+        "What defense do we run?",
+        "Is Tech still 4-2-5?",
+        "Spread Pro Style?",
+        "What formation identity does Tech have?"
+      ],
+      "keywords": [
+        "scheme",
+        "spread pro style",
+        "4-2-5",
+        "offense identity",
+        "defense identity",
+        "formation"
+      ],
+      "answer": "Offense identity in this app: Spread Pro Style. Defense: 4-2-5 under DC Jason Semore.",
+      "links": [],
+      "followUps": [
+        "Who calls plays on offense?",
+        "Who is the defensive coordinator?"
+      ],
+      "searchText": "what's our offensive scheme? what offense do we run? what's our defensive scheme? what defense do we run? is tech still 4-2-5? spread pro style? what formation identity does tech have? scheme spread pro style 4-2-5 offense identity defense identity formation"
+    },
+    {
+      "id": "fan-st-coordinator",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "special_teams_coordinator",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who is the special teams coordinator?",
+        "Who coaches special teams?",
+        "Who is Tim Salem?",
+        "Who handles kickoffs and punts coaching?",
+        "Who is Brendan Farrell?"
+      ],
+      "keywords": [
+        "special teams",
+        "tim salem",
+        "brendan farrell",
+        "st coordinator",
+        "kickoffs"
+      ],
+      "answer": "Tim Salem is special teams coordinator. Brendan Farrell is listed for special teams / game management.",
+      "links": [],
+      "followUps": [
+        "Who is the head coach?",
+        "Show the full schedule"
+      ],
+      "searchText": "who is the special teams coordinator? who coaches special teams? who is tim salem? who handles kickoffs and punts coaching? who is brendan farrell? special teams tim salem brendan farrell st coordinator kickoffs"
+    },
+    {
+      "id": "fan-strength-staff",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "strength_staff",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who is the strength coach?",
+        "Who runs strength and conditioning?",
+        "Who is A.J. Artis?",
+        "Who is Byron Jerideau?",
+        "Strength and performance staff"
+      ],
+      "keywords": [
+        "strength",
+        "conditioning",
+        "a.j. artis",
+        "artis",
+        "jerideau",
+        "s&c"
+      ],
+      "answer": "A.J. Artis is Director of Football Strength and Performance. Byron Jerideau is associate director (accountability).",
+      "links": [],
+      "followUps": [
+        "Who is the head coach?",
+        "List the position coaches"
+      ],
+      "searchText": "who is the strength coach? who runs strength and conditioning? who is a.j. artis? who is byron jerideau? strength and performance staff strength conditioning a.j. artis artis jerideau s&c"
+    },
+    {
+      "id": "fan-position-coaches",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "position_coaches",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "List the position coaches",
+        "Who are the position coaches?",
+        "Who coaches running backs?",
+        "Who coaches wide receivers?",
+        "Who coaches the offensive line?",
+        "Who coaches the D-line?",
+        "Who coaches the secondary?",
+        "Who coaches cornerbacks?",
+        "Who coaches tight ends?",
+        "Full coaching staff positions"
+      ],
+      "keywords": [
+        "position coaches",
+        "jimmy smith",
+        "jafar williams",
+        "nathan brock",
+        "allen mogridge",
+        "jess simpson",
+        "kyle pope",
+        "vinnie sunseri",
+        "kobie jones",
+        "staff list"
+      ],
+      "answer": "Position coaches include: Jimmy Smith (RB), Jafar Williams (WR), Nathan Brock (TE), Allen Mogridge (OL), Jess Simpson (DL), Kyle Pope (OLB/DE), Vinnie Sunseri (DB), Kobie Jones (CB). Coordinators: George Godsey (OC), Chris Weinke (co-OC/QBs), Jason Semore (DC/LBs), Tim Salem (ST).",
+      "links": [],
+      "followUps": [
+        "Who is the offensive coordinator?",
+        "Who is the defensive coordinator?"
+      ],
+      "searchText": "list the position coaches who are the position coaches? who coaches running backs? who coaches wide receivers? who coaches the offensive line? who coaches the d-line? who coaches the secondary? who coaches cornerbacks? who coaches tight ends? full coaching staff positions position coaches jimmy smith jafar williams nathan brock allen mogridge jess simpson kyle pope vinnie sunseri kobie jones staff list"
+    },
+    {
+      "id": "fan-staff-continuity-2026",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "coach",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Any coordinator changes this offseason?",
+        "Did the coaching staff change?",
+        "What coordinator changes happened?",
+        "Is the OC new?",
+        "Is the DC new?",
+        "Who left the staff?",
+        "Staff continuity into 2026",
+        "Any big coaching hires?",
+        "How much staff continuity do we have year over year?",
+        "How many assistants are in year one at Tech?"
+      ],
+      "keywords": [
+        "staff changes",
+        "coordinator changes",
+        "new oc",
+        "new dc",
+        "offseason staff",
+        "hire"
+      ],
+      "answer": "Yes — major coordinator turnover into 2026: OC Buster Faulkner left for Florida and George Godsey was hired as OC/play-caller. Jason Semore returned as DC. Tim Salem continues as special teams coordinator. Brent Key remains head coach.",
+      "links": [],
+      "followUps": [
+        "Who calls plays on offense?",
+        "Who is the defensive coordinator?"
+      ],
+      "searchText": "any coordinator changes this offseason? did the coaching staff change? what coordinator changes happened? is the oc new? is the dc new? who left the staff? staff continuity into 2026 any big coaching hires? how much staff continuity do we have year over year? how many assistants are in year one at tech? staff changes coordinator changes new oc new dc offseason staff hire"
+    },
+    {
+      "id": "fan-godsey-identity-note",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "oc_background",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Is Godsey a former Tech QB?",
+        "Did George Godsey play at Georgia Tech?",
+        "Godsey background?",
+        "Why did Tech hire Godsey?"
+      ],
+      "keywords": [
+        "godsey background",
+        "former qb",
+        "played at tech",
+        "hire godsey"
+      ],
+      "answer": "Yes — George Godsey is a former Georgia Tech quarterback. He returned as OC/play-caller for 2026 after NFL play-calling experience, following Buster Faulkner's move to Florida. Chris Weinke remains co-OC/QBs.",
+      "links": [],
+      "followUps": [
+        "Who calls plays on offense?",
+        "What's our offensive scheme?"
+      ],
+      "searchText": "is godsey a former tech qb? did george godsey play at georgia tech? godsey background? why did tech hire godsey? godsey background former qb played at tech hire godsey"
+    },
+    {
+      "id": "fan-semore-background",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "dc_background",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Where was Semore before returning?",
+        "Semore coaching history?",
+        "Was Semore at Marshall?",
+        "Did Semore coach Southern Miss?"
+      ],
+      "keywords": [
+        "semore history",
+        "marshall",
+        "southern miss",
+        "returned"
+      ],
+      "answer": "Jason Semore was at Georgia Tech in 2022, then had defensive coordinator stops including Marshall and Southern Miss before returning as GT DC for 2026. Scheme label: 4-2-5.",
+      "links": [],
+      "followUps": [
+        "What's our defensive scheme?",
+        "Who coaches linebackers?"
+      ],
+      "searchText": "where was semore before returning? semore coaching history? was semore at marshall? did semore coach southern miss? semore history marshall southern miss returned"
+    },
+    {
+      "id": "fan-lb-coach",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "lb_coach",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who coaches linebackers?",
+        "LB coach?",
+        "Who is the linebackers coach?"
+      ],
+      "keywords": [
+        "linebackers",
+        "lb coach",
+        "semore lb"
+      ],
+      "answer": "Defensive coordinator Jason Semore also coaches linebackers. Kyle Pope coaches outside linebackers / defensive ends.",
+      "links": [],
+      "followUps": [
+        "Who is the defensive coordinator?",
+        "Who starts at LB?"
+      ],
+      "searchText": "who coaches linebackers? lb coach? who is the linebackers coach? linebackers lb coach semore lb"
+    },
+    {
+      "id": "fan-db-cb-coaches",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "secondary_coaches",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who coaches the DBs?",
+        "Who is Vinnie Sunseri?",
+        "Who coaches corners?",
+        "Is Kobie Jones the CB coach?"
+      ],
+      "keywords": [
+        "sunseri",
+        "kobie jones",
+        "db coach",
+        "cb coach",
+        "secondary"
+      ],
+      "answer": "Vinnie Sunseri coaches defensive backs; Kobie Jones coaches cornerbacks.",
+      "links": [],
+      "followUps": [
+        "Who starts at CB?",
+        "What's our defensive scheme?"
+      ],
+      "searchText": "who coaches the dbs? who is vinnie sunseri? who coaches corners? is kobie jones the cb coach? sunseri kobie jones db coach cb coach secondary"
+    },
+    {
+      "id": "fan-ol-dl-coaches",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "line_coaches",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who coaches the O-line?",
+        "Who is Allen Mogridge?",
+        "Who coaches the defensive line?",
+        "Is Jess Simpson still on staff?"
+      ],
+      "keywords": [
+        "mogridge",
+        "jess simpson",
+        "o-line",
+        "d-line",
+        "ol coach",
+        "dl coach"
+      ],
+      "answer": "Allen Mogridge coaches the offensive line. Jess Simpson is assistant head coach / defensive line.",
+      "links": [],
+      "followUps": [
+        "List the position coaches",
+        "Who starts at OL?"
+      ],
+      "searchText": "who coaches the o-line? who is allen mogridge? who coaches the defensive line? is jess simpson still on staff? mogridge jess simpson o-line d-line ol coach dl coach"
+    },
+    {
+      "id": "fan-skill-coaches",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "skill_coaches",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who is the RB coach?",
+        "Who coaches WRs?",
+        "TE coach?",
+        "Jimmy Smith still coaching backs?",
+        "Jafar Williams receivers?",
+        "Nathan Brock tight ends?"
+      ],
+      "keywords": [
+        "jimmy smith",
+        "jafar williams",
+        "nathan brock",
+        "rb coach",
+        "wr coach",
+        "te coach"
+      ],
+      "answer": "Jimmy Smith coaches running backs, Jafar Williams wide receivers, and Nathan Brock tight ends.",
+      "links": [],
+      "followUps": [
+        "Who starts at RB?",
+        "Who starts at WR?"
+      ],
+      "searchText": "who is the rb coach? who coaches wrs? te coach? jimmy smith still coaching backs? jafar williams receivers? nathan brock tight ends? jimmy smith jafar williams nathan brock rb coach wr coach te coach"
+    },
+    {
+      "id": "fan-contract-extension-year",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "contract_extension",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Was Key's contract extended?",
+        "Through what year is Key signed?",
+        "Is Brent Key under contract through 2030?",
+        "Key extension details?"
+      ],
+      "keywords": [
+        "extension",
+        "through 2030",
+        "contract",
+        "signed through"
+      ],
+      "answer": "Public reports say Brent Key's contract was extended after 2025 through 2030. I don't quote salary or buyout dollars — ask about his record or the 2026 staff instead.",
+      "links": [],
+      "followUps": [
+        "What's Brent Key's record?",
+        "Did the coaching staff change?"
+      ],
+      "searchText": "was key's contract extended? through what year is key signed? is brent key under contract through 2030? key extension details? extension through 2030 contract signed through"
+    },
+    {
+      "id": "fan-gasparilla-birmingham",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "prior_bowls",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What bowls has Key won?",
+        "Gasparilla Bowl?",
+        "Birmingham Bowl result under Key?",
+        "Key bowl record?"
+      ],
+      "keywords": [
+        "gasparilla",
+        "birmingham bowl",
+        "bowl record",
+        "key bowls"
+      ],
+      "answer": "Under Brent Key: 2023 Gasparilla Bowl win, 2024 Birmingham Bowl loss, 2025 Pop-Tarts Bowl loss. Overall at Tech through 2025: 27-20 (20-11 ACC).",
+      "links": [],
+      "followUps": [
+        "How did we finish last year?",
+        "What's Brent Key's record year by year?"
+      ],
+      "searchText": "what bowls has key won? gasparilla bowl? birmingham bowl result under key? key bowl record? gasparilla birmingham bowl bowl record key bowls"
+    },
+    {
+      "id": "fan-dunno-buyout",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "limits_buyout",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What's Brent Key's buyout?",
+        "How much is Key's buyout?",
+        "What's the coaching buyout dollar amount?",
+        "What does Key make in salary?",
+        "Contract dollars for Brent Key"
+      ],
+      "keywords": [
+        "buyout",
+        "salary",
+        "contract dollars",
+        "compensation"
+      ],
+      "answer": "Dunno on exact buyout or salary figures — those change and aren't in this app. Public reports only note Key's contract was extended through 2030. Ask about his record, coordinators, or the depth chart instead.",
+      "links": [],
+      "followUps": [
+        "What's Brent Key's record?",
+        "Who is the offensive coordinator?"
+      ],
+      "searchText": "what's brent key's buyout? how much is key's buyout? what's the coaching buyout dollar amount? what does key make in salary? contract dollars for brent key buyout salary contract dollars compensation"
+    },
+    {
+      "id": "fan-dunno-job-rumors",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "limits_rumors",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Is Brent Key leaving?",
+        "Will Key take another job?",
+        "Who are candidates if Key leaves?",
+        "Hot seat rumors for Key?",
+        "Is Godsey a future HC candidate elsewhere?"
+      ],
+      "keywords": [
+        "hot seat",
+        "leaving",
+        "job rumors",
+        "candidates",
+        "coaching carousel"
+      ],
+      "answer": "Dunno — I don't track coaching job rumors or hot-seat chatter. I can cover Key's Tech record, the 2026 coordinators, and roster/schedule/depth questions instead.",
+      "links": [],
+      "followUps": [
+        "What's Brent Key's record year by year?",
+        "Who is the defensive coordinator?"
+      ],
+      "searchText": "is brent key leaving? will key take another job? who are candidates if key leaves? hot seat rumors for key? is godsey a future hc candidate elsewhere? hot seat leaving job rumors candidates coaching carousel"
+    },
+    {
+      "id": "fan-dunno-gm-personnel",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "limits_personnel",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who is the general manager?",
+        "Who is the personnel director?",
+        "Who runs recruiting operations?",
+        "Who is the recruiting coordinator?",
+        "What are recruiting coordinator territories?"
+      ],
+      "keywords": [
+        "general manager",
+        "personnel director",
+        "recruiting coordinator",
+        "territories",
+        "gm"
+      ],
+      "answer": "I don't track GM/personnel-director titles or recruiting-coordinator territories in this app. Ask about the on-field coaching staff, roster, or transfers already listed here.",
+      "links": [],
+      "followUps": [
+        "List the position coaches",
+        "List the transfer players"
+      ],
+      "searchText": "who is the general manager? who is the personnel director? who runs recruiting operations? who is the recruiting coordinator? what are recruiting coordinator territories? general manager personnel director recruiting coordinator territories gm"
+    },
+    {
+      "id": "fan-dunno-analytics-aggression",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "limits_analytics",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "How aggressive is Key on fourth downs?",
+        "What's Tech's fourth-down rate?",
+        "Do analytics run the program?",
+        "How much influence does the analytics staff have?",
+        "Go-for-it tendencies on 4th down"
+      ],
+      "keywords": [
+        "fourth down",
+        "analytics",
+        "aggression",
+        "go for it",
+        "tendencies"
+      ],
+      "answer": "Dunno — I don't track fourth-down aggression rates or analytics-staff influence. Stick to roster, schedule, depth chart, or the playbook scheme labels in the app.",
+      "links": [],
+      "followUps": [
+        "What's our offensive scheme?",
+        "Who starts at QB?"
+      ],
+      "searchText": "how aggressive is key on fourth downs? what's tech's fourth-down rate? do analytics run the program? how much influence does the analytics staff have? go-for-it tendencies on 4th down fourth down analytics aggression go for it tendencies"
+    },
+    {
+      "id": "fan-dunno-interim-midseason",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "limits_succession",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who takes over if Key is fired midseason?",
+        "Who would be interim coach?",
+        "Succession plan for head coach?",
+        "Who calls plays if Godsey is out?"
+      ],
+      "keywords": [
+        "interim",
+        "midseason",
+        "succession",
+        "takes over",
+        "fired"
+      ],
+      "answer": "Dunno — I don't speculate on midseason succession or interim scenarios. I can name the current HC/OC/DC and answer roster/schedule/depth questions.",
+      "links": [],
+      "followUps": [
+        "Who is the head coach?",
+        "Who calls plays on offense?"
+      ],
+      "searchText": "who takes over if key is fired midseason? who would be interim coach? succession plan for head coach? who calls plays if godsey is out? interim midseason succession takes over fired"
+    },
+    {
+      "id": "fan-dunno-nfl-experience-detail",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "limits_nfl_resume",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What NFL teams did Godsey coach for?",
+        "List Godsey's full NFL resume",
+        "What was Weinke's NFL coaching record?",
+        "How many years did Semore spend in the NFL?"
+      ],
+      "keywords": [
+        "nfl resume",
+        "nfl experience",
+        "coaching resume",
+        "godsey nfl"
+      ],
+      "answer": "Dunno beyond what's curated here: George Godsey is a former GT QB with NFL play-calling experience and is now GT's OC/play-caller. I don't keep full NFL résumé timelines. Ask about coordinators, scheme, or the roster instead.",
+      "links": [],
+      "followUps": [
+        "Who is the offensive coordinator?",
+        "What's our offensive scheme?"
+      ],
+      "searchText": "what nfl teams did godsey coach for? list godsey's full nfl resume what was weinke's nfl coaching record? how many years did semore spend in the nfl? nfl resume nfl experience coaching resume godsey nfl"
+    },
+    {
+      "id": "fan-dunno-best-recruiter",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "limits_recruiter_opinion",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who is Tech's best recruiter?",
+        "Which coach recruits the best?",
+        "Who lands the most commits?",
+        "Is Jess Simpson the best recruiter?"
+      ],
+      "keywords": [
+        "best recruiter",
+        "recruits the best",
+        "landing commits",
+        "recruiter opinion"
+      ],
+      "answer": "Dunno — recruiter rankings are opinions I don't track. I can list position coaches and answer roster/transfer questions already in the app.",
+      "links": [],
+      "followUps": [
+        "List the position coaches",
+        "List the transfer players"
+      ],
+      "searchText": "who is tech's best recruiter? which coach recruits the best? who lands the most commits? is jess simpson the best recruiter? best recruiter recruits the best landing commits recruiter opinion"
+    },
+    {
+      "id": "fan-dunno-coordinator-buyouts",
+      "category": "coaching",
+      "scope": "faq",
+      "intent": "limits_coord_money",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What did it cost to hire Godsey?",
+        "Semore contract details?",
+        "Coordinator salaries?",
+        "How much did Faulkner leave on the table?"
+      ],
+      "keywords": [
+        "coordinator salary",
+        "hire cost",
+        "contract details",
+        "faulkner money"
+      ],
+      "answer": "Dunno — coordinator salary/buyout dollars aren't in this app. I can name the OC/DC/ST coaches and their roles instead.",
+      "links": [],
+      "followUps": [
+        "Who is the offensive coordinator?",
+        "Who is the defensive coordinator?"
+      ],
+      "searchText": "what did it cost to hire godsey? semore contract details? coordinator salaries? how much did faulkner leave on the table? coordinator salary hire cost contract details faulkner money"
+    },
+    {
+      "id": "fan-dunno-heisman-odds",
+      "category": "offense",
+      "scope": "faq",
+      "intent": "limits_heisman",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Heisman odds",
+        "What are our Heisman odds?",
+        "Any Heisman watch list guys?",
+        "Who's on the Heisman watch list?",
+        "National award watch lists for Tech?"
+      ],
+      "keywords": [
+        "heisman",
+        "odds",
+        "watch list",
+        "national award",
+        "award watch"
+      ],
+      "answer": "Dunno — I don't track Heisman odds or national award watch lists. Ask who starts at QB, depth chart spots, or roster/eligibility questions instead.",
+      "links": [],
+      "followUps": [
+        "Who starts at QB?",
+        "Who is number 15?"
+      ],
+      "searchText": "heisman odds what are our heisman odds? any heisman watch list guys? who's on the heisman watch list? national award watch lists for tech? heisman odds watch list national award award watch"
+    },
+    {
+      "id": "fan-dunno-qb-advanced-metrics",
+      "category": "offense",
+      "scope": "faq",
+      "intent": "limits_qb_metrics",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What's our completion percentage under pressure?",
+        "Completion under pressure for the QB?",
+        "Yards per attempt on throws 20+ yards?",
+        "YPA 20+ air yards?",
+        "Blitz-read grades for the QB?",
+        "What's the QB's time to throw?",
+        "Average time to throw"
+      ],
+      "keywords": [
+        "under pressure",
+        "ypa",
+        "blitz read",
+        "time to throw",
+        "advanced metrics",
+        "air yards"
+      ],
+      "answer": "I don't track advanced QB metrics like completion under pressure, deep YPA, blitz-read grades, or time to throw. Ask about the depth chart, roster, or schedule instead.",
+      "links": [],
+      "followUps": [
+        "Who starts at QB?",
+        "What's our offensive scheme?"
+      ],
+      "searchText": "what's our completion percentage under pressure? completion under pressure for the qb? yards per attempt on throws 20+ yards? ypa 20+ air yards? blitz-read grades for the qb? what's the qb's time to throw? average time to throw under pressure ypa blitz read time to throw advanced metrics air yards"
+    },
+    {
+      "id": "fan-dunno-draft-buzz",
+      "category": "offense",
+      "scope": "faq",
+      "intent": "limits_draft",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Draft buzz for our QB?",
+        "Which Jacket gets drafted first?",
+        "NFL draft projection for Tech players?",
+        "Will anyone go in the first round?",
+        "Draft stock for the offensive line?"
+      ],
+      "keywords": [
+        "draft buzz",
+        "draft projection",
+        "nfl draft",
+        "first round",
+        "draft stock"
+      ],
+      "answer": "Dunno — I don't do NFL draft projections or draft-stock chatter. Stick to roster, eligibility, depth chart, and schedule questions in this app.",
+      "links": [],
+      "followUps": [
+        "List the transfer players",
+        "Who starts at QB?"
+      ],
+      "searchText": "draft buzz for our qb? which jacket gets drafted first? nfl draft projection for tech players? will anyone go in the first round? draft stock for the offensive line? draft buzz draft projection nfl draft first round draft stock"
+    },
+    {
+      "id": "fan-dunno-returning-production",
+      "category": "offense",
+      "scope": "faq",
+      "intent": "limits_production",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What's our returning production percentage?",
+        "How much offense do we return?",
+        "Points per game average last year?",
+        "Yards per game team average?",
+        "What was Tech's scoring average?",
+        "Team yards per game 2025?"
+      ],
+      "keywords": [
+        "returning production",
+        "points per game",
+        "yards per game",
+        "scoring average",
+        "team average"
+      ],
+      "answer": "I don't track returning-production percentages or team points/yards-per-game averages in this knowledge base. Ask roster, depth chart, or how we finished last year (record/bowl) instead.",
+      "links": [],
+      "followUps": [
+        "How did we finish last year?",
+        "Who starts at RB?"
+      ],
+      "searchText": "what's our returning production percentage? how much offense do we return? points per game average last year? yards per game team average? what was tech's scoring average? team yards per game 2025? returning production points per game yards per game scoring average team average"
+    },
+    {
+      "id": "fan-dunno-breakout-opinion",
+      "category": "offense",
+      "scope": "faq",
+      "intent": "limits_breakout",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who's the breakout player nobody's talking about?",
+        "Sleeper on offense?",
+        "Who will surprise this year?",
+        "Dark horse skill player?"
+      ],
+      "keywords": [
+        "breakout",
+        "sleeper",
+        "surprise",
+        "dark horse",
+        "nobody talking"
+      ],
+      "answer": "Dunno — I don't do breakout/sleeper opinions. Ask who starts at a position or browse the roster and depth chart instead.",
+      "links": [],
+      "followUps": [
+        "Who starts at WR?",
+        "List the transfer players"
+      ],
+      "searchText": "who's the breakout player nobody's talking about? sleeper on offense? who will surprise this year? dark horse skill player? breakout sleeper surprise dark horse nobody talking"
+    },
+    {
+      "id": "fan-dunno-target-share",
+      "category": "offense",
+      "scope": "faq",
+      "intent": "limits_target_share",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What's the WR target share?",
+        "Who gets the most targets?",
+        "RB reception projection?",
+        "Passing-game usage rates?"
+      ],
+      "keywords": [
+        "target share",
+        "targets",
+        "usage rates",
+        "reception projection"
+      ],
+      "answer": "I don't track target share or usage-rate projections. Ask who starts at WR/RB or check roster/career stats loaded in the app.",
+      "links": [],
+      "followUps": [
+        "Who starts at WR?",
+        "Who starts at RB?"
+      ],
+      "searchText": "what's the wr target share? who gets the most targets? rb reception projection? passing-game usage rates? target share targets usage rates reception projection"
+    },
+    {
+      "id": "fan-dunno-redzone-offense",
+      "category": "offense",
+      "scope": "faq",
+      "intent": "limits_rz_offense",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Red zone scoring percentage?",
+        "How efficient are we inside the 20?",
+        "Goal-line package tendencies?",
+        "Third-down conversion rate offense?"
+      ],
+      "keywords": [
+        "red zone offense",
+        "goal line",
+        "third down offense",
+        "conversion rate"
+      ],
+      "answer": "Dunno — team red-zone/third-down offensive rates aren't curated here. Ask scheme (Spread Pro Style), depth chart, or schedule instead.",
+      "links": [],
+      "followUps": [
+        "What's our offensive scheme?",
+        "Who starts at QB?"
+      ],
+      "searchText": "red zone scoring percentage? how efficient are we inside the 20? goal-line package tendencies? third-down conversion rate offense? red zone offense goal line third down offense conversion rate"
+    },
+    {
+      "id": "fan-dunno-man-zone",
+      "category": "defense",
+      "scope": "faq",
+      "intent": "limits_coverage",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Do we play more man or zone?",
+        "Man vs zone percentage?",
+        "Single-high safety tendencies?",
+        "How often are we in nickel?",
+        "Nickel package rate?"
+      ],
+      "keywords": [
+        "man coverage",
+        "zone",
+        "nickel",
+        "single-high",
+        "coverage percentage"
+      ],
+      "answer": "I don't track man-vs-zone percentages, nickel rates, or single-high tendencies. The scheme label here is 4-2-5 — ask about the DC, depth chart, or roster instead.",
+      "links": [],
+      "followUps": [
+        "What's our defensive scheme?",
+        "Who starts at CB?"
+      ],
+      "searchText": "do we play more man or zone? man vs zone percentage? single-high safety tendencies? how often are we in nickel? nickel package rate? man coverage zone nickel single-high coverage percentage"
+    },
+    {
+      "id": "fan-dunno-blitz-rate",
+      "category": "defense",
+      "scope": "faq",
+      "intent": "limits_blitz",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What's our blitz rate?",
+        "How often does Tech blitz?",
+        "Pressure rate on defense?",
+        "Do we blitz a lot?"
+      ],
+      "keywords": [
+        "blitz rate",
+        "blitz",
+        "pressure rate",
+        "send pressure"
+      ],
+      "answer": "Dunno — blitz rates aren't in this app. Ask about the 4-2-5 scheme, who starts on defense, or the schedule instead.",
+      "links": [],
+      "followUps": [
+        "Who is the defensive coordinator?",
+        "Who starts at LB?"
+      ],
+      "searchText": "what's our blitz rate? how often does tech blitz? pressure rate on defense? do we blitz a lot? blitz rate blitz pressure rate send pressure"
+    },
+    {
+      "id": "fan-dunno-defense-team-stats",
+      "category": "defense",
+      "scope": "faq",
+      "intent": "limits_defense_stats",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "How good are we on third down defense?",
+        "Red zone defense ranking?",
+        "Turnover margin last year?",
+        "Team defensive stats?",
+        "Points allowed per game?",
+        "Yards allowed per game?"
+      ],
+      "keywords": [
+        "third down defense",
+        "red zone",
+        "turnover margin",
+        "points allowed",
+        "yards allowed"
+      ],
+      "answer": "I don't track team defense rankings or season averages like third-down, red-zone, turnovers, or points/yards allowed in this knowledge base. Ask depth chart, roster, or last year's final record instead.",
+      "links": [],
+      "followUps": [
+        "How did we finish last year?",
+        "Who starts at safety?"
+      ],
+      "searchText": "how good are we on third down defense? red zone defense ranking? turnover margin last year? team defensive stats? points allowed per game? yards allowed per game? third down defense red zone turnover margin points allowed yards allowed"
+    },
+    {
+      "id": "fan-dunno-havoc-missed-tackles",
+      "category": "defense",
+      "scope": "faq",
+      "intent": "limits_havoc",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What's our havoc rate?",
+        "Explosive plays allowed?",
+        "Missed tackle rate?",
+        "How many explosives do we give up?",
+        "TFL and sack advanced rates?"
+      ],
+      "keywords": [
+        "havoc",
+        "explosive plays",
+        "missed tackles",
+        "tfl rate",
+        "sack rate"
+      ],
+      "answer": "Dunno — I don't track havoc, explosive-plays-allowed, or missed-tackle rates. Stick to roster, depth chart, and schedule questions.",
+      "links": [],
+      "followUps": [
+        "What's our defensive scheme?",
+        "Who starts on the defensive line?"
+      ],
+      "searchText": "what's our havoc rate? explosive plays allowed? missed tackle rate? how many explosives do we give up? tfl and sack advanced rates? havoc explosive plays missed tackles tfl rate sack rate"
+    },
+    {
+      "id": "fan-dunno-st-rankings",
+      "category": "special_teams",
+      "scope": "faq",
+      "intent": "limits_st_stats",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Special teams efficiency ranking?",
+        "What's our touchback percentage?",
+        "Net punting average?",
+        "How good is our kickoff coverage?",
+        "ST unit national ranking?"
+      ],
+      "keywords": [
+        "touchback",
+        "net punt",
+        "special teams ranking",
+        "kickoff coverage",
+        "efficiency"
+      ],
+      "answer": "I don't track special teams efficiency rankings, touchback %, or net punt averages. I can name the ST coaches or answer schedule/roster questions instead.",
+      "links": [],
+      "followUps": [
+        "Who is the special teams coordinator?",
+        "Who starts at kicker?"
+      ],
+      "searchText": "special teams efficiency ranking? what's our touchback percentage? net punting average? how good is our kickoff coverage? st unit national ranking? touchback net punt special teams ranking kickoff coverage efficiency"
+    },
+    {
+      "id": "fan-dunno-st-fakes-blocks",
+      "category": "special_teams",
+      "scope": "faq",
+      "intent": "limits_st_tricks",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Do we run a lot of fake punts?",
+        "Fake field goal tendencies?",
+        "How many kicks have we blocked?",
+        "Blocked kicks history?",
+        "Trick play rate on special teams?"
+      ],
+      "keywords": [
+        "fake punt",
+        "fake field goal",
+        "blocked kicks",
+        "trick plays",
+        "special teams fakes"
+      ],
+      "answer": "Dunno — fake tendencies and blocked-kick histories aren't in this app. Ask about the special teams staff, roster specialists, or the schedule instead.",
+      "links": [],
+      "followUps": [
+        "Who is the special teams coordinator?",
+        "Show the full schedule"
+      ],
+      "searchText": "do we run a lot of fake punts? fake field goal tendencies? how many kicks have we blocked? blocked kicks history? trick play rate on special teams? fake punt fake field goal blocked kicks trick plays special teams fakes"
+    },
+    {
+      "id": "fan-schedule-opener-2026",
+      "category": "schedule",
+      "scope": "faq",
+      "intent": "opener",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "When is the season opener?",
+        "Who do we open against?",
+        "What's the first game?",
+        "When do we play Colorado?",
+        "Is the Colorado game at home?",
+        "What channel is the opener on?",
+        "Thursday night opener?"
+      ],
+      "keywords": [
+        "opener",
+        "colorado",
+        "first game",
+        "sep 3",
+        "thursday",
+        "espn"
+      ],
+      "answer": "2026 opens Thursday, September 3 vs Colorado at home (Bobby Dodd Stadium at Hyundai Field) on ESPN.",
+      "links": [],
+      "followUps": [
+        "Show the full schedule",
+        "What are the home games?"
+      ],
+      "searchText": "when is the season opener? who do we open against? what's the first game? when do we play colorado? is the colorado game at home? what channel is the opener on? thursday night opener? opener colorado first game sep 3 thursday espn"
+    },
+    {
+      "id": "fan-schedule-uga-2026",
+      "category": "schedule",
+      "scope": "faq",
+      "intent": "uga_game",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "When is the UGA game?",
+        "When do we play Georgia?",
+        "Is the Georgia game on the road?",
+        "Clean Old-Fashioned Hate date 2026?",
+        "What day is UGA?",
+        "Nov 28 Georgia?"
+      ],
+      "keywords": [
+        "uga",
+        "georgia",
+        "rivalry game",
+        "nov 28",
+        "clean old-fashioned hate"
+      ],
+      "answer": "Georgia Tech plays at Georgia on Saturday, November 28, 2026 (Clean, Old-Fashioned Hate / Governor's Cup). Check the in-app schedule for kickoff/TV updates.",
+      "links": [],
+      "followUps": [
+        "What is Clean, Old-Fashioned Hate?",
+        "Show the full schedule"
+      ],
+      "searchText": "when is the uga game? when do we play georgia? is the georgia game on the road? clean old-fashioned hate date 2026? what day is uga? nov 28 georgia? uga georgia rivalry game nov 28 clean old-fashioned hate"
+    },
+    {
+      "id": "fan-schedule-clemson-2026",
+      "category": "schedule",
+      "scope": "faq",
+      "intent": "clemson_game",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "When do we play Clemson?",
+        "Is Clemson home or away?",
+        "Clemson date 2026?",
+        "Nov 14 Clemson?"
+      ],
+      "keywords": [
+        "clemson",
+        "nov 14",
+        "tigers"
+      ],
+      "answer": "Georgia Tech plays at Clemson on November 14, 2026. Open the schedule for time/TV details.",
+      "links": [],
+      "followUps": [
+        "What are the road games?",
+        "Show the full schedule"
+      ],
+      "searchText": "when do we play clemson? is clemson home or away? clemson date 2026? nov 14 clemson? clemson nov 14 tigers"
+    },
+    {
+      "id": "fan-schedule-no-miami-fsu",
+      "category": "schedule",
+      "scope": "faq",
+      "intent": "missing_opponents",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Do we play Miami in 2026?",
+        "Is FSU on the schedule?",
+        "When do we play Florida State?",
+        "Miami game this year?",
+        "Are the Hurricanes on the slate?"
+      ],
+      "keywords": [
+        "miami",
+        "fsu",
+        "florida state",
+        "hurricanes",
+        "seminoles"
+      ],
+      "answer": "No Miami or Florida State on Georgia Tech's 2026 slate in this app's schedule. Ask about Colorado, Tennessee, Clemson, UGA, or “show the full schedule.”",
+      "links": [],
+      "followUps": [
+        "Show the full schedule",
+        "When is the UGA game?"
+      ],
+      "searchText": "do we play miami in 2026? is fsu on the schedule? when do we play florida state? miami game this year? are the hurricanes on the slate? miami fsu florida state hurricanes seminoles"
+    },
+    {
+      "id": "fan-schedule-home-games",
+      "category": "schedule",
+      "scope": "faq",
+      "intent": "home_games",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What are the home games?",
+        "Who do we play at Bobby Dodd?",
+        "How many home games in 2026?",
+        "List home opponents",
+        "Home slate this year?"
+      ],
+      "keywords": [
+        "home games",
+        "bobby dodd",
+        "home opponents",
+        "home slate"
+      ],
+      "answer": "Seven home games in 2026: Colorado, Tennessee, Mercer, Duke, Boston College, Louisville, and Wake Forest — all at Bobby Dodd Stadium at Hyundai Field.",
+      "links": [],
+      "followUps": [
+        "What are the road games?",
+        "When is the season opener?"
+      ],
+      "searchText": "what are the home games? who do we play at bobby dodd? how many home games in 2026? list home opponents home slate this year? home games bobby dodd home opponents home slate"
+    },
+    {
+      "id": "fan-schedule-road-games",
+      "category": "schedule",
+      "scope": "faq",
+      "intent": "road_games",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What are the road games?",
+        "Who do we play on the road?",
+        "Away games 2026?",
+        "List road opponents",
+        "How many road games?"
+      ],
+      "keywords": [
+        "road games",
+        "away games",
+        "road opponents",
+        "on the road"
+      ],
+      "answer": "2026 road games: at Stanford, at Virginia Tech, at Pitt, at Clemson, and at Georgia.",
+      "links": [],
+      "followUps": [
+        "What are the home games?",
+        "When is the UGA game?"
+      ],
+      "searchText": "what are the road games? who do we play on the road? away games 2026? list road opponents how many road games? road games away games road opponents on the road"
+    },
+    {
+      "id": "fan-tennessee-home",
+      "category": "schedule",
+      "scope": "faq",
+      "intent": "tennessee",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "When do we play Tennessee?",
+        "Is Tennessee at home?",
+        "Vols game 2026?",
+        "Home game vs Tennessee?"
+      ],
+      "keywords": [
+        "tennessee",
+        "vols",
+        "volunteers"
+      ],
+      "answer": "Tennessee is on the 2026 home schedule at Bobby Dodd Stadium at Hyundai Field. Open the full schedule for the exact date, time, and TV.",
+      "links": [],
+      "followUps": [
+        "What are the home games?",
+        "Show the full schedule"
+      ],
+      "searchText": "when do we play tennessee? is tennessee at home? vols game 2026? home game vs tennessee? tennessee vols volunteers"
+    },
+    {
+      "id": "fan-mercer-duke-bc",
+      "category": "schedule",
+      "scope": "faq",
+      "intent": "home_acc_fcs",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "When is Mercer?",
+        "Do we play Duke at home?",
+        "Boston College home or away?",
+        "Is BC at Bobby Dodd?"
+      ],
+      "keywords": [
+        "mercer",
+        "duke",
+        "boston college",
+        "bc"
+      ],
+      "answer": "Mercer, Duke, and Boston College are all 2026 home games at Bobby Dodd Stadium at Hyundai Field. Check the in-app schedule for dates/times/TV.",
+      "links": [],
+      "followUps": [
+        "What are the home games?",
+        "Show the full schedule"
+      ],
+      "searchText": "when is mercer? do we play duke at home? boston college home or away? is bc at bobby dodd? mercer duke boston college bc"
+    },
+    {
+      "id": "fan-louisville-wake-home",
+      "category": "schedule",
+      "scope": "faq",
+      "intent": "louisville_wake",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "When do we play Louisville?",
+        "Is Louisville home?",
+        "Wake Forest home game?",
+        "Do we host Wake?"
+      ],
+      "keywords": [
+        "louisville",
+        "wake forest",
+        "wake"
+      ],
+      "answer": "Louisville and Wake Forest are both 2026 home games. Open the schedule for kickoff and TV details.",
+      "links": [],
+      "followUps": [
+        "What are the home games?",
+        "Show the full schedule"
+      ],
+      "searchText": "when do we play louisville? is louisville home? wake forest home game? do we host wake? louisville wake forest wake"
+    },
+    {
+      "id": "fan-stanford-vt-pitt-road",
+      "category": "schedule",
+      "scope": "faq",
+      "intent": "road_acc_misc",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "When do we play Stanford?",
+        "Is Virginia Tech home or away?",
+        "Pitt on the road?",
+        "Do we visit Pitt?",
+        "Road trip to Stanford?"
+      ],
+      "keywords": [
+        "stanford",
+        "virginia tech",
+        "vt",
+        "pitt",
+        "pittsburgh"
+      ],
+      "answer": "Stanford, Virginia Tech, and Pitt are all 2026 road games (along with Clemson and Georgia). Ask the schedule for each date/time/TV.",
+      "links": [],
+      "followUps": [
+        "What are the road games?",
+        "Show the full schedule"
+      ],
+      "searchText": "when do we play stanford? is virginia tech home or away? pitt on the road? do we visit pitt? road trip to stanford? stanford virginia tech vt pitt pittsburgh"
+    },
+    {
+      "id": "fan-stadium-flats",
+      "category": "stadium",
+      "scope": "faq",
+      "intent": "stadium",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Where do the Yellow Jackets play?",
+        "What stadium does Georgia Tech play in?",
+        "What's Bobby Dodd Stadium?",
+        "What is The Flats?",
+        "Hyundai Field",
+        "Is home still Bobby Dodd?"
+      ],
+      "keywords": [
+        "bobby dodd",
+        "hyundai field",
+        "the flats",
+        "stadium",
+        "home field"
+      ],
+      "answer": "Home is Bobby Dodd Stadium at Hyundai Field in Atlanta — nicknamed The Flats — on Georgia Tech's Midtown campus.",
+      "links": [],
+      "followUps": [
+        "What are the home games?",
+        "Show the full schedule"
+      ],
+      "searchText": "where do the yellow jackets play? what stadium does georgia tech play in? what's bobby dodd stadium? what is the flats? hyundai field is home still bobby dodd? bobby dodd hyundai field the flats stadium home field"
+    },
+    {
+      "id": "fan-rivalry-cofh",
+      "category": "rivalry",
+      "scope": "faq",
+      "intent": "rivalry",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What is Clean, Old-Fashioned Hate?",
+        "What's the Georgia rivalry called?",
+        "What is the Governor's Cup?",
+        "What's our win streak vs UGA?",
+        "Do we lead the all-time series vs Georgia?",
+        "THWG meaning?"
+      ],
+      "keywords": [
+        "clean old-fashioned hate",
+        "governor's cup",
+        "uga rivalry",
+        "thwg",
+        "win streak"
+      ],
+      "answer": "Clean, Old-Fashioned Hate is the Georgia Tech–Georgia rivalry; the winner takes the Governor's Cup. I don't invent the current win streak or all-time series lead — check recent results / Athletics for the latest. 2026 meeting: Sat Nov 28 at Georgia.",
+      "links": [],
+      "followUps": [
+        "When is the UGA game?",
+        "Where do the Yellow Jackets play?"
+      ],
+      "searchText": "what is clean, old-fashioned hate? what's the georgia rivalry called? what is the governor's cup? what's our win streak vs uga? do we lead the all-time series vs georgia? thwg meaning? clean old-fashioned hate governor's cup uga rivalry thwg win streak"
+    },
+    {
+      "id": "fan-dunno-trap-game",
+      "category": "schedule",
+      "scope": "faq",
+      "intent": "limits_trap",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What's the trap game this year?",
+        "Which game is a trap?",
+        "Who sneaks up on us?",
+        "Dangerous underdog on the slate?"
+      ],
+      "keywords": [
+        "trap game",
+        "trap",
+        "sneaks up",
+        "underdog danger"
+      ],
+      "answer": "Dunno — trap-game takes are opinions I don't make. Ask for home/road lists, the opener, or a specific opponent date instead.",
+      "links": [],
+      "followUps": [
+        "What are the home games?",
+        "When is the season opener?"
+      ],
+      "searchText": "what's the trap game this year? which game is a trap? who sneaks up on us? dangerous underdog on the slate? trap game trap sneaks up underdog danger"
+    },
+    {
+      "id": "fan-dunno-winnable-road",
+      "category": "schedule",
+      "scope": "faq",
+      "intent": "limits_winnable",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What's our most winnable road game?",
+        "Easiest road win?",
+        "Which away game should we win?",
+        "Softest road opponent?"
+      ],
+      "keywords": [
+        "most winnable",
+        "easiest road",
+        "softest",
+        "road win"
+      ],
+      "answer": "Dunno — I don't rank “most winnable” games. Road slate is Stanford, Virginia Tech, Pitt, Clemson, and Georgia — ask about a specific date instead.",
+      "links": [],
+      "followUps": [
+        "What are the road games?",
+        "Show the full schedule"
+      ],
+      "searchText": "what's our most winnable road game? easiest road win? which away game should we win? softest road opponent? most winnable easiest road softest road win"
+    },
+    {
+      "id": "fan-dunno-toughest-stretch",
+      "category": "schedule",
+      "scope": "faq",
+      "intent": "limits_stretch",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What's the toughest stretch?",
+        "Hardest part of the schedule?",
+        "Brutal November?",
+        "Which month is hardest?"
+      ],
+      "keywords": [
+        "toughest stretch",
+        "hardest schedule",
+        "brutal",
+        "gauntlet"
+      ],
+      "answer": "Dunno — I don't grade schedule difficulty stretches. I can list home/road games or specific dates like Colorado, Clemson, and UGA.",
+      "links": [],
+      "followUps": [
+        "When do we play Clemson?",
+        "When is the UGA game?"
+      ],
+      "searchText": "what's the toughest stretch? hardest part of the schedule? brutal november? which month is hardest? toughest stretch hardest schedule brutal gauntlet"
+    },
+    {
+      "id": "fan-dunno-homecoming",
+      "category": "schedule",
+      "scope": "faq",
+      "intent": "limits_homecoming",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who is the homecoming opponent?",
+        "When is homecoming?",
+        "Homecoming game 2026?",
+        "Is Mercer homecoming?"
+      ],
+      "keywords": [
+        "homecoming",
+        "homecoming opponent"
+      ],
+      "answer": "I don't track which game is officially homecoming unless it's labeled in the schedule feed. Ask “what are the home games?” or open the full schedule instead.",
+      "links": [],
+      "followUps": [
+        "What are the home games?",
+        "Show the full schedule"
+      ],
+      "searchText": "who is the homecoming opponent? when is homecoming? homecoming game 2026? is mercer homecoming? homecoming homecoming opponent"
+    },
+    {
+      "id": "fan-dunno-attendance-weather",
+      "category": "schedule",
+      "scope": "faq",
+      "intent": "limits_attendance_weather",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What's attendance outlook for Colorado?",
+        "Will Bobby Dodd sell out?",
+        "Weather risk for the opener?",
+        "Rain chance for gameday?",
+        "Crowd size prediction?"
+      ],
+      "keywords": [
+        "attendance",
+        "sell out",
+        "weather",
+        "rain",
+        "crowd"
+      ],
+      "answer": "Dunno — I don't forecast attendance or weather. Ask kickoff/TV/venue from the schedule, or roster/depth questions.",
+      "links": [],
+      "followUps": [
+        "When is the season opener?",
+        "Where do the Yellow Jackets play?"
+      ],
+      "searchText": "what's attendance outlook for colorado? will bobby dodd sell out? weather risk for the opener? rain chance for gameday? crowd size prediction? attendance sell out weather rain crowd"
+    },
+    {
+      "id": "fan-dunno-alltime-records-favored",
+      "category": "schedule",
+      "scope": "faq",
+      "intent": "limits_series_odds",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What's our all-time record vs Tennessee?",
+        "All-time vs Clemson?",
+        "Series record against Duke?",
+        "Who's favored against Louisville?",
+        "Are we favored vs Wake?",
+        "Vegas line for Colorado?"
+      ],
+      "keywords": [
+        "all-time record",
+        "series record",
+        "favored",
+        "vegas line",
+        "spread"
+      ],
+      "answer": "Dunno — I don't keep all-time series records or betting favorites/lines. Ask when we play that opponent or browse the 2026 schedule instead.",
+      "links": [],
+      "followUps": [
+        "Show the full schedule",
+        "What are the home games?"
+      ],
+      "searchText": "what's our all-time record vs tennessee? all-time vs clemson? series record against duke? who's favored against louisville? are we favored vs wake? vegas line for colorado? all-time record series record favored vegas line spread"
+    },
+    {
+      "id": "fan-2025-finish",
+      "category": "standings",
+      "scope": "faq",
+      "intent": "last_season",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "How did we finish last year?",
+        "What was last year's record?",
+        "2025 season recap",
+        "Did we make a bowl in 2025?",
+        "Were we ranked at the end of 2025?",
+        "What bowl did we play in 2025?",
+        "Pop-Tarts Bowl result?"
+      ],
+      "keywords": [
+        "2025",
+        "last year",
+        "last season",
+        "pop-tarts",
+        "final ap",
+        "bowl"
+      ],
+      "answer": "In 2025 Georgia Tech finished 9-4 (6-2 ACC), lost the Pop-Tarts Bowl, and ended ranked AP #24.",
+      "links": [],
+      "followUps": [
+        "What's Brent Key's record year by year?",
+        "Where do we stand in the ACC?"
+      ],
+      "searchText": "how did we finish last year? what was last year's record? 2025 season recap did we make a bowl in 2025? were we ranked at the end of 2025? what bowl did we play in 2025? pop-tarts bowl result? 2025 last year last season pop-tarts final ap bowl"
+    },
+    {
+      "id": "fan-pop-tarts-context",
+      "category": "standings",
+      "scope": "faq",
+      "intent": "bowl_context",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Did we win our bowl last year?",
+        "What happened in the Pop-Tarts Bowl?",
+        "Last bowl result?",
+        "End of 2025 bowl outcome?"
+      ],
+      "keywords": [
+        "pop-tarts bowl",
+        "bowl result",
+        "bowl loss"
+      ],
+      "answer": "Georgia Tech finished 2025 at 9-4 (6-2 ACC) and lost the Pop-Tarts Bowl, ending the year AP #24.",
+      "links": [],
+      "followUps": [
+        "What's Brent Key's record year by year?",
+        "How did we finish last year?"
+      ],
+      "searchText": "did we win our bowl last year? what happened in the pop-tarts bowl? last bowl result? end of 2025 bowl outcome? pop-tarts bowl bowl result bowl loss"
+    },
+    {
+      "id": "fan-dunno-preseason-polls",
+      "category": "standings",
+      "scope": "faq",
+      "intent": "limits_polls",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Where are we ranked in the preseason poll?",
+        "Preseason AP ranking?",
+        "Coaches poll projection?",
+        "Will we be ranked week 1?"
+      ],
+      "keywords": [
+        "preseason poll",
+        "ap ranking",
+        "coaches poll",
+        "ranked"
+      ],
+      "answer": "Dunno — I don't track live preseason polls here. I can tell you we finished 2025 at AP #24 (9-4) or answer roster/schedule/depth questions.",
+      "links": [],
+      "followUps": [
+        "How did we finish last year?",
+        "Show the full schedule"
+      ],
+      "searchText": "where are we ranked in the preseason poll? preseason ap ranking? coaches poll projection? will we be ranked week 1? preseason poll ap ranking coaches poll ranked"
+    },
+    {
+      "id": "fan-dunno-vegas-win-total",
+      "category": "standings",
+      "scope": "faq",
+      "intent": "limits_vegas",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What's the Vegas win total?",
+        "Over/under wins for Tech?",
+        "Season win total odds?",
+        "Should I bet the over?"
+      ],
+      "keywords": [
+        "vegas",
+        "win total",
+        "over under",
+        "betting",
+        "odds"
+      ],
+      "answer": "Dunno — I don't track Vegas win totals or betting markets. Ask about the schedule, depth chart, or last year's 9-4 finish instead.",
+      "links": [],
+      "followUps": [
+        "How did we finish last year?",
+        "What are the home games?"
+      ],
+      "searchText": "what's the vegas win total? over/under wins for tech? season win total odds? should i bet the over? vegas win total over under betting odds"
+    },
+    {
+      "id": "fan-dunno-playoff-odds",
+      "category": "standings",
+      "scope": "faq",
+      "intent": "limits_playoff",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What are our playoff odds?",
+        "Will Tech make the CFP?",
+        "College Football Playoff chances?",
+        "Can we make the playoff?"
+      ],
+      "keywords": [
+        "playoff odds",
+        "cfp",
+        "college football playoff",
+        "playoff chances"
+      ],
+      "answer": "Dunno — I don't project playoff odds. Stick to schedule, roster, depth chart, or how we finished last year.",
+      "links": [],
+      "followUps": [
+        "Show the full schedule",
+        "How did we finish last year?"
+      ],
+      "searchText": "what are our playoff odds? will tech make the cfp? college football playoff chances? can we make the playoff? playoff odds cfp college football playoff playoff chances"
+    },
+    {
+      "id": "fan-dunno-sp-fpi",
+      "category": "standings",
+      "scope": "faq",
+      "intent": "limits_advanced_ratings",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What's our SP+ ranking?",
+        "FPI projection for Tech?",
+        "SP+ and FPI numbers?",
+        "Advanced analytics ranking?",
+        "ESPN FPI win total?"
+      ],
+      "keywords": [
+        "sp+",
+        "fpi",
+        "advanced analytics ranking",
+        "efficiency ranking"
+      ],
+      "answer": "I don't track SP+/FPI or similar advanced team ratings in this app. Ask roster, schedule, depth, or last year's final record instead.",
+      "links": [],
+      "followUps": [
+        "How did we finish last year?",
+        "Who starts at QB?"
+      ],
+      "searchText": "what's our sp+ ranking? fpi projection for tech? sp+ and fpi numbers? advanced analytics ranking? espn fpi win total? sp+ fpi advanced analytics ranking efficiency ranking"
+    },
+    {
+      "id": "fan-dunno-floor-ceiling",
+      "category": "standings",
+      "scope": "faq",
+      "intent": "limits_expectations",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What's our floor this year?",
+        "What's the ceiling?",
+        "Best/worst case record?",
+        "How many wins if everything breaks right?",
+        "Realistic win range?"
+      ],
+      "keywords": [
+        "floor",
+        "ceiling",
+        "best case",
+        "worst case",
+        "win range"
+      ],
+      "answer": "Dunno — I don't set floor/ceiling win projections. Ask about the 2026 schedule, depth chart, or 2025's 9-4 finish instead.",
+      "links": [],
+      "followUps": [
+        "Show the full schedule",
+        "How did we finish last year?"
+      ],
+      "searchText": "what's our floor this year? what's the ceiling? best/worst case record? how many wins if everything breaks right? realistic win range? floor ceiling best case worst case win range"
+    },
+    {
+      "id": "fan-dunno-acc-favorite",
+      "category": "standings",
+      "scope": "faq",
+      "intent": "limits_acc_favorite",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who is the ACC favorite?",
+        "Will we win the ACC?",
+        "ACC championship odds?",
+        "Where do media pick us in the ACC?"
+      ],
+      "keywords": [
+        "acc favorite",
+        "acc championship",
+        "media pick",
+        "win the acc"
+      ],
+      "answer": "Dunno — I don't rank ACC favorites or championship odds. Open Standings for the table when available, or ask schedule/roster questions.",
+      "links": [],
+      "followUps": [
+        "Where do we stand in the ACC?",
+        "How did we finish last year?"
+      ],
+      "searchText": "who is the acc favorite? will we win the acc? acc championship odds? where do media pick us in the acc? acc favorite acc championship media pick win the acc"
+    },
+    {
+      "id": "fan-dunno-ruins-season",
+      "category": "standings",
+      "scope": "faq",
+      "intent": "limits_spoilers",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who ruins our season?",
+        "Which game ends the dream?",
+        "What loss knocks us out?",
+        "Who's the spoiler on the slate?"
+      ],
+      "keywords": [
+        "ruins season",
+        "spoiler",
+        "ends the dream",
+        "knocks us out"
+      ],
+      "answer": "Dunno — I don't do spoiler/season-ruin predictions. Ask for specific opponent dates or the home/road lists instead.",
+      "links": [],
+      "followUps": [
+        "When is the UGA game?",
+        "When do we play Clemson?"
+      ],
+      "searchText": "who ruins our season? which game ends the dream? what loss knocks us out? who's the spoiler on the slate? ruins season spoiler ends the dream knocks us out"
+    },
+    {
+      "id": "fan-portal-in-app",
+      "category": "roster",
+      "scope": "faq",
+      "intent": "transfers_in_app",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who transferred in?",
+        "List the transfer players",
+        "Portal additions on the roster?",
+        "Which guys came from the portal?",
+        "Biggest portal get?"
+      ],
+      "keywords": [
+        "transfer",
+        "portal",
+        "transferred in",
+        "portal additions"
+      ],
+      "answer": "Portal/transfer players already on the roster are listed in-app as transfers — ask “list the transfer players” or open the roster. I don't rank a “biggest” get or track rumor targets still in the portal.",
+      "links": [],
+      "followUps": [
+        "List the transfer players",
+        "Who starts at RB?"
+      ],
+      "searchText": "who transferred in? list the transfer players portal additions on the roster? which guys came from the portal? biggest portal get? transfer portal transferred in portal additions"
+    },
+    {
+      "id": "fan-dunno-nfl-draft-losses",
+      "category": "roster",
+      "scope": "faq",
+      "intent": "limits_nfl_losses",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who did we lose to the NFL draft?",
+        "Draft departures from last year?",
+        "Which starters went pro?",
+        "NFL draft losses list?"
+      ],
+      "keywords": [
+        "nfl draft losses",
+        "went pro",
+        "draft departures",
+        "left for nfl"
+      ],
+      "answer": "Dunno — I don't keep a curated NFL draft-losses list here. Ask about the current roster, eligibility, or depth chart instead.",
+      "links": [],
+      "followUps": [
+        "Who starts at QB?",
+        "List the transfer players"
+      ],
+      "searchText": "who did we lose to the nfl draft? draft departures from last year? which starters went pro? nfl draft losses list? nfl draft losses went pro draft departures left for nfl"
+    },
+    {
+      "id": "fan-dunno-recruiting-class",
+      "category": "roster",
+      "scope": "faq",
+      "intent": "limits_recruiting",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What's our recruiting class rank?",
+        "Where does the 2026 class rank?",
+        "Highest-rated signee?",
+        "Who was the top commit?",
+        "247/Rivals class ranking?"
+      ],
+      "keywords": [
+        "recruiting class",
+        "class rank",
+        "highest-rated",
+        "signee",
+        "247",
+        "rivals"
+      ],
+      "answer": "I don't track recruiting class rankings or highest-rated signees. For players already on the roster, ask jersey, position, or transfer questions in the app.",
+      "links": [],
+      "followUps": [
+        "List the transfer players",
+        "Who is number 15?"
+      ],
+      "searchText": "what's our recruiting class rank? where does the 2026 class rank? highest-rated signee? who was the top commit? 247/rivals class ranking? recruiting class class rank highest-rated signee 247 rivals"
+    },
+    {
+      "id": "fan-dunno-house-settlement",
+      "category": "roster",
+      "scope": "faq",
+      "intent": "limits_house",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "How does the House settlement change roster limits?",
+        "Roster limit under House settlement?",
+        "Scholarship count exact number?",
+        "How many scholarships do we have?",
+        "85-man roster rules now?"
+      ],
+      "keywords": [
+        "house settlement",
+        "roster limits",
+        "scholarship count",
+        "85",
+        "roster cap"
+      ],
+      "answer": "Dunno — I don't detail House-settlement roster-limit rules or exact scholarship counts. Ask about players on this app's roster, eligibility, or depth chart instead.",
+      "links": [],
+      "followUps": [
+        "List the transfer players",
+        "Who starts at QB?"
+      ],
+      "searchText": "how does the house settlement change roster limits? roster limit under house settlement? scholarship count exact number? how many scholarships do we have? 85-man roster rules now? house settlement roster limits scholarship count 85 roster cap"
+    },
+    {
+      "id": "fan-dunno-captains",
+      "category": "roster",
+      "scope": "faq",
+      "intent": "limits_captains",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who are the team captains?",
+        "Captain vote results?",
+        "Who wears the captain patch?",
+        "Game captains this week?"
+      ],
+      "keywords": [
+        "captains",
+        "captain patch",
+        "captain vote"
+      ],
+      "answer": "I don't have current team captains in this app's data. Ask roster, depth chart, or schedule questions instead.",
+      "links": [],
+      "followUps": [
+        "Who starts at QB?",
+        "Show the full schedule"
+      ],
+      "searchText": "who are the team captains? captain vote results? who wears the captain patch? game captains this week? captains captain patch captain vote"
+    },
+    {
+      "id": "fan-dunno-injury-report",
+      "category": "roster",
+      "scope": "faq",
+      "intent": "limits_injuries",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Injury report?",
+        "Who's hurt?",
+        "Any injuries this week?",
+        "Is the starting QB healthy?",
+        "Practice injury updates?"
+      ],
+      "keywords": [
+        "injury",
+        "injured",
+        "hurt",
+        "injury report",
+        "healthy"
+      ],
+      "answer": "Dunno — I don't carry a live injury report. Depth chart here isn't an injury status board. Ask who is listed at a position, or check Athletics for official updates.",
+      "links": [],
+      "followUps": [
+        "Who starts at QB?",
+        "Who is on the depth chart at RB?"
+      ],
+      "searchText": "injury report? who's hurt? any injuries this week? is the starting qb healthy? practice injury updates? injury injured hurt injury report healthy"
+    },
+    {
+      "id": "fan-dunno-nil-amounts",
+      "category": "roster",
+      "scope": "faq",
+      "intent": "limits_nil",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "NIL deal sizes?",
+        "How much NIL does our QB make?",
+        "Biggest NIL on the roster?",
+        "NIL collective payouts?",
+        "What is a player worth in NIL?"
+      ],
+      "keywords": [
+        "nil",
+        "nil deal",
+        "nil collective",
+        "payout",
+        "nil amount"
+      ],
+      "answer": "I don't track NIL dollar amounts or collective payouts. Ask roster, transfers already listed, or depth chart questions instead.",
+      "links": [],
+      "followUps": [
+        "List the transfer players",
+        "Who starts at WR?"
+      ],
+      "searchText": "nil deal sizes? how much nil does our qb make? biggest nil on the roster? nil collective payouts? what is a player worth in nil? nil nil deal nil collective payout nil amount"
+    },
+    {
+      "id": "fan-dunno-commits-poached",
+      "category": "roster",
+      "scope": "faq",
+      "intent": "limits_poaching",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Are our commits being poached?",
+        "Any decommit rumors?",
+        "Who's flipping?",
+        "Transfer portal targets we're chasing?",
+        "Recruiting rumors this week?"
+      ],
+      "keywords": [
+        "poached",
+        "decommit",
+        "flipping",
+        "portal targets",
+        "recruiting rumors"
+      ],
+      "answer": "Dunno — I don't track recruiting rumors, flips, or portal targets. Only players already on this app's roster (including listed transfers).",
+      "links": [],
+      "followUps": [
+        "List the transfer players",
+        "Who starts at QB?"
+      ],
+      "searchText": "are our commits being poached? any decommit rumors? who's flipping? transfer portal targets we're chasing? recruiting rumors this week? poached decommit flipping portal targets recruiting rumors"
+    },
+    {
+      "id": "fan-dunno-award-watch-lists-players",
+      "category": "roster",
+      "scope": "faq",
+      "intent": "limits_player_awards",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Any Outland Trophy watch list guys?",
+        "Bednarik watch list?",
+        "Butkus Award candidates?",
+        "Maxwell Award watch list?",
+        "National award candidates on the roster?"
+      ],
+      "keywords": [
+        "outland",
+        "bednarik",
+        "butkus",
+        "maxwell",
+        "award candidates"
+      ],
+      "answer": "I don't track national award watch lists. Ask about a player's roster profile, eligibility, or depth chart spot instead.",
+      "links": [],
+      "followUps": [
+        "Who starts at OL?",
+        "Who starts at LB?"
+      ],
+      "searchText": "any outland trophy watch list guys? bednarik watch list? butkus award candidates? maxwell award watch list? national award candidates on the roster? outland bednarik butkus maxwell award candidates"
+    },
+    {
+      "id": "fan-dunno-returning-starters-count",
+      "category": "roster",
+      "scope": "faq",
+      "intent": "limits_returning_starters",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "How many starters do we return?",
+        "Returning starters on offense?",
+        "How many defensive starters are back?",
+        "Experience level of the roster?"
+      ],
+      "keywords": [
+        "returning starters",
+        "starters back",
+        "experience level"
+      ],
+      "answer": "I don't compute returning-starter counts as a custom stat here. Check the depth chart and roster/eligibility in the app instead.",
+      "links": [],
+      "followUps": [
+        "Who starts at QB?",
+        "List the transfer players"
+      ],
+      "searchText": "how many starters do we return? returning starters on offense? how many defensive starters are back? experience level of the roster? returning starters starters back experience level"
+    },
+    {
+      "id": "fan-dunno-practice-reps",
+      "category": "roster",
+      "scope": "faq",
+      "intent": "limits_practice",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who's winning the QB battle in camp?",
+        "First-team reps this week?",
+        "Scout-team standouts?",
+        "Who looked good in practice?"
+      ],
+      "keywords": [
+        "qb battle",
+        "first-team reps",
+        "practice",
+        "camp battle"
+      ],
+      "answer": "Dunno — I don't have practice-rep or camp-battle reports. Use the depth chart listing in the app, not as a live injury/competition ticker.",
+      "links": [],
+      "followUps": [
+        "Who starts at QB?",
+        "Who is on the depth chart at QB?"
+      ],
+      "searchText": "who's winning the qb battle in camp? first-team reps this week? scout-team standouts? who looked good in practice? qb battle first-team reps practice camp battle"
+    },
+    {
+      "id": "fan-dunno-transfer-portal-window",
+      "category": "roster",
+      "scope": "faq",
+      "intent": "limits_portal_window",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "When does the portal open?",
+        "Portal window dates?",
+        "Can players still enter the portal?",
+        "Spring portal timing?"
+      ],
+      "keywords": [
+        "portal window",
+        "portal opens",
+        "portal dates"
+      ],
+      "answer": "I don't track NCAA portal window calendars. Players already on GT's roster show as transfers in-app — ask “list the transfer players.”",
+      "links": [],
+      "followUps": [
+        "List the transfer players",
+        "Who starts at QB?"
+      ],
+      "searchText": "when does the portal open? portal window dates? can players still enter the portal? spring portal timing? portal window portal opens portal dates"
+    },
+    {
+      "id": "fan-dunno-parking-tickets",
+      "category": "gameday",
+      "scope": "faq",
+      "intent": "limits_parking_tickets",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Where do I park for a game?",
+        "Parking for Bobby Dodd?",
+        "Ticket prices?",
+        "How do I buy tickets?",
+        "Student section seats?",
+        "Are tickets still available?"
+      ],
+      "keywords": [
+        "parking",
+        "tickets",
+        "student section",
+        "buy tickets",
+        "ticket prices"
+      ],
+      "answer": "I don't track parking maps or ticket prices. Check Georgia Tech Athletics / RamblinWreck.com for logistics. I can answer kickoff, TV, and venue from the schedule.",
+      "links": [],
+      "followUps": [
+        "When is the next game?",
+        "Show the full schedule"
+      ],
+      "searchText": "where do i park for a game? parking for bobby dodd? ticket prices? how do i buy tickets? student section seats? are tickets still available? parking tickets student section buy tickets ticket prices"
+    },
+    {
+      "id": "fan-dunno-bag-gates",
+      "category": "gameday",
+      "scope": "faq",
+      "intent": "limits_gates",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What's the bag policy at Bobby Dodd?",
+        "What time do gates open?",
+        "Clear bag rules?",
+        "Can I bring a backpack?",
+        "Stadium entry times?"
+      ],
+      "keywords": [
+        "bag policy",
+        "clear bag",
+        "gates open",
+        "entry",
+        "backpack"
+      ],
+      "answer": "I don't have live clear-bag or gate-time logistics in this app. Check Athletics / RamblinWreck.com. For kickoff/TV/venue, ask the schedule.",
+      "links": [],
+      "followUps": [
+        "When is the season opener?",
+        "Where do the Yellow Jackets play?"
+      ],
+      "searchText": "what's the bag policy at bobby dodd? what time do gates open? clear bag rules? can i bring a backpack? stadium entry times? bag policy clear bag gates open entry backpack"
+    },
+    {
+      "id": "fan-dunno-uniforms",
+      "category": "gameday",
+      "scope": "faq",
+      "intent": "limits_uniforms",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What uniforms do we wear vs Colorado?",
+        "White or gold jerseys this week?",
+        "Alternate uniform schedule?",
+        "Throwback uniforms when?"
+      ],
+      "keywords": [
+        "uniforms",
+        "jerseys",
+        "alternates",
+        "throwback",
+        "white outs"
+      ],
+      "answer": "Dunno — uniform choices aren't in this dataset. Ask schedule, roster, or depth questions instead.",
+      "links": [],
+      "followUps": [
+        "When is the season opener?",
+        "Who starts at QB?"
+      ],
+      "searchText": "what uniforms do we wear vs colorado? white or gold jerseys this week? alternate uniform schedule? throwback uniforms when? uniforms jerseys alternates throwback white outs"
+    },
+    {
+      "id": "fan-dunno-renovations",
+      "category": "gameday",
+      "scope": "faq",
+      "intent": "limits_renovations",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Stadium renovation updates?",
+        "What's new at Bobby Dodd?",
+        "Hyundai Field upgrades?",
+        "When do renovations finish?"
+      ],
+      "keywords": [
+        "renovation",
+        "upgrades",
+        "stadium construction",
+        "hyundai field upgrades"
+      ],
+      "answer": "I don't track stadium renovation timelines here. Home remains Bobby Dodd Stadium at Hyundai Field (The Flats) — ask schedule or roster questions instead.",
+      "links": [],
+      "followUps": [
+        "Where do the Yellow Jackets play?",
+        "What are the home games?"
+      ],
+      "searchText": "stadium renovation updates? what's new at bobby dodd? hyundai field upgrades? when do renovations finish? renovation upgrades stadium construction hyundai field upgrades"
+    },
+    {
+      "id": "fan-dunno-nil-collective-org",
+      "category": "gameday",
+      "scope": "faq",
+      "intent": "limits_collective",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What's the NIL collective called?",
+        "How do I donate to the collective?",
+        "Fan NIL fund details?",
+        "Collective membership tiers?"
+      ],
+      "keywords": [
+        "nil collective",
+        "donate",
+        "collective membership",
+        "fan fund"
+      ],
+      "answer": "I don't track NIL collective names, donation links, or membership tiers. Ask roster/schedule/depth questions in this app instead.",
+      "links": [],
+      "followUps": [
+        "List the transfer players",
+        "Show the full schedule"
+      ],
+      "searchText": "what's the nil collective called? how do i donate to the collective? fan nil fund details? collective membership tiers? nil collective donate collective membership fan fund"
+    },
+    {
+      "id": "fan-dunno-fall-camp",
+      "category": "gameday",
+      "scope": "faq",
+      "intent": "limits_camp",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "When does fall camp start?",
+        "Fall camp dates?",
+        "First practice when?",
+        "Are practices open to the public?"
+      ],
+      "keywords": [
+        "fall camp",
+        "practice dates",
+        "first practice",
+        "open practice"
+      ],
+      "answer": "Dunno — fall camp calendars aren't in this app. Ask about the season opener, roster, or depth chart instead.",
+      "links": [],
+      "followUps": [
+        "When is the season opener?",
+        "Who starts at QB?"
+      ],
+      "searchText": "when does fall camp start? fall camp dates? first practice when? are practices open to the public? fall camp practice dates first practice open practice"
+    },
+    {
+      "id": "fan-dunno-radio-voice",
+      "category": "gameday",
+      "scope": "faq",
+      "intent": "limits_radio",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who is the radio voice?",
+        "Play-by-play announcer?",
+        "What radio station carries Tech?",
+        "Where can I listen on radio?"
+      ],
+      "keywords": [
+        "radio",
+        "play-by-play",
+        "announcer",
+        "broadcast radio"
+      ],
+      "answer": "I don't track radio voices or station affiliates here. Schedule entries include TV network when listed — ask about a specific game.",
+      "links": [],
+      "followUps": [
+        "When is the season opener?",
+        "Show the full schedule"
+      ],
+      "searchText": "who is the radio voice? play-by-play announcer? what radio station carries tech? where can i listen on radio? radio play-by-play announcer broadcast radio"
+    },
+    {
+      "id": "fan-dunno-apr",
+      "category": "gameday",
+      "scope": "faq",
+      "intent": "limits_apr",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What's our APR score?",
+        "Academic Progress Rate for football?",
+        "APR multi-year rate?",
+        "Graduation success rate?"
+      ],
+      "keywords": [
+        "apr",
+        "academic progress rate",
+        "gsr",
+        "graduation"
+      ],
+      "answer": "I don't track APR/GSR figures in this app. Ask roster, eligibility, schedule, or depth questions instead.",
+      "links": [],
+      "followUps": [
+        "How much eligibility does #15 have?",
+        "Show the full schedule"
+      ],
+      "searchText": "what's our apr score? academic progress rate for football? apr multi-year rate? graduation success rate? apr academic progress rate gsr graduation"
+    },
+    {
+      "id": "fan-conference-acc",
+      "category": "team",
+      "scope": "faq",
+      "intent": "conference",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What conference is Georgia Tech in?",
+        "Are we still ACC?",
+        "What league do the Yellow Jackets play in?",
+        "ACC or SEC?"
+      ],
+      "keywords": [
+        "conference",
+        "acc",
+        "league",
+        "sec"
+      ],
+      "answer": "Georgia Tech plays football in the Atlantic Coast Conference (ACC).",
+      "links": [],
+      "followUps": [
+        "Where do we stand in the ACC?",
+        "How did we finish last year?"
+      ],
+      "searchText": "what conference is georgia tech in? are we still acc? what league do the yellow jackets play in? acc or sec? conference acc league sec"
+    },
+    {
+      "id": "fan-dunno-sec-rumors",
+      "category": "team",
+      "scope": "faq",
+      "intent": "limits_realignment",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Is Tech going to the SEC?",
+        "ACC realignment rumors?",
+        "Will the ACC collapse?",
+        "Conference realignment for Georgia Tech?"
+      ],
+      "keywords": [
+        "sec",
+        "realignment",
+        "acc collapse",
+        "conference change"
+      ],
+      "answer": "Dunno — I don't track realignment rumors. In this app Georgia Tech is ACC; ask schedule or standings questions instead.",
+      "links": [],
+      "followUps": [
+        "What conference is Georgia Tech in?",
+        "Show the full schedule"
+      ],
+      "searchText": "is tech going to the sec? acc realignment rumors? will the acc collapse? conference realignment for georgia tech? sec realignment acc collapse conference change"
+    },
+    {
+      "id": "fan-help-limits",
+      "category": "meta",
+      "scope": "faq",
+      "intent": "help",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What can you answer?",
+        "What do you know?",
+        "Help",
+        "What should I ask?",
+        "What can't you answer?"
+      ],
+      "keywords": [
+        "help",
+        "what can you",
+        "limits",
+        "ask buzz"
+      ],
+      "answer": "I'm Buzz — I answer from this app's roster, schedule, depth chart, standings, playbook, and curated team/coaching facts. I don't invent odds, SP+/FPI, injury reports, NIL dollars, or predictions. Try: Who is the head coach? Who calls plays? When is the UGA game? Who starts at QB?",
+      "links": [],
+      "followUps": [
+        "Who is the head coach?",
+        "When is the UGA game?",
+        "Who starts at QB?"
+      ],
+      "searchText": "what can you answer? what do you know? help what should i ask? what can't you answer? help what can you limits ask buzz"
+    },
+    {
+      "id": "fan-dunno-predict-score",
+      "category": "limits",
+      "scope": "faq",
+      "intent": "limits_predictions",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Predict the score",
+        "Who wins this week?",
+        "Will we beat Colorado?",
+        "Score prediction vs UGA?",
+        "Should we bet on Tech?"
+      ],
+      "keywords": [
+        "predict",
+        "who wins",
+        "score prediction",
+        "bet",
+        "beat"
+      ],
+      "answer": "Dunno how to answer that — I stick to roster, schedule, depth chart, standings, and curated facts, not score predictions or betting takes.",
+      "links": [],
+      "followUps": [
+        "When is the next game?",
+        "Who starts at QB?"
+      ],
+      "searchText": "predict the score who wins this week? will we beat colorado? score prediction vs uga? should we bet on tech? predict who wins score prediction bet beat"
+    },
+    {
       "id": "team-overview",
       "category": "team",
       "scope": "team",
@@ -513,21 +3166,23 @@
         "Who is the head coach?",
         "Who coaches Georgia Tech?",
         "Who is Brent Key?",
-        "Who's coaching GT?"
+        "Who's coaching GT?",
+        "Who's the head coach heading into 2026, and what's his record at Tech?"
       ],
       "keywords": [
         "head coach",
         "coach",
         "Brent Key",
-        "brent key"
+        "brent key",
+        "record at tech"
       ],
-      "answer": "Brent Key is the Georgia Tech head coach. Offense (Spread Pro Style) is led by OC George Godsey / co-OC Chris Weinke. Defense (4-2-5) is led by DC Jason Semore.",
+      "answer": "Brent Key — 4th full season in 2026 (interim in 2022).\nRecord at Tech: 27-20 overall (20-11 ACC) through 2025.\n2022 interim: 4-4 (4-3 ACC)\n2023: 7-6 (5-3 ACC), Gasparilla Bowl win\n2024: 7-6 (5-3 ACC), Birmingham Bowl loss\n2025: 9-4 (6-2 ACC), Pop-Tarts Bowl loss, final AP #24\nStaff: OC George Godsey · co-OC Chris Weinke · DC Jason Semore · ST Tim Salem.\nPublic reports: contract extended after 2025 through 2030 (salary figures change — check Athletics for the latest).",
       "links": [],
       "followUps": [
-        "Who is the OC?",
-        "Who is the DC?"
+        "Any coordinator changes this offseason?",
+        "Who is the OC?"
       ],
-      "searchText": "who is the head coach? who coaches georgia tech? who is brent key? who's coaching gt? head coach coach brent key brent key"
+      "searchText": "who is the head coach? who coaches georgia tech? who is brent key? who's coaching gt? who's the head coach heading into 2026, and what's his record at tech? head coach coach brent key brent key record at tech"
     },
     {
       "id": "team-oc",
@@ -541,15 +3196,17 @@
         "Who is the OC?",
         "Who is the offensive coordinator?",
         "Who is George Godsey?",
-        "Who coaches the offense?"
+        "Who coaches the offense?",
+        "Who's the OC and who's actually calling plays?"
       ],
       "keywords": [
         "oc",
         "offensive coordinator",
         "George Godsey",
-        "godsey"
+        "godsey",
+        "play caller"
       ],
-      "answer": "OC is George Godsey (co-OC / QBs: Chris Weinke). Scheme label: Spread Pro Style. Open Depth → Playbook for the for-dummies guide.",
+      "answer": "Former Georgia Tech QB; returned from the NFL (including primary play-calling experience). First season as GT OC in 2026 after Buster Faulkner left for Florida.\nGodsey is the offensive coordinator / primary play-caller; Chris Weinke is assistant HC / co-OC / quarterbacks.\nScheme label: Spread Pro Style. Open Depth → Playbook for the for-dummies guide.",
       "links": [
         {
           "label": "Open playbook",
@@ -560,7 +3217,7 @@
         "Explain the offense playbook",
         "Who is the DC?"
       ],
-      "searchText": "who is the oc? who is the offensive coordinator? who is george godsey? who coaches the offense? oc offensive coordinator george godsey godsey"
+      "searchText": "who is the oc? who is the offensive coordinator? who is george godsey? who coaches the offense? who's the oc and who's actually calling plays? oc offensive coordinator george godsey godsey play caller"
     },
     {
       "id": "team-dc",
@@ -574,15 +3231,17 @@
         "Who is the DC?",
         "Who is the defensive coordinator?",
         "Who is Jason Semore?",
-        "Who coaches the defense?"
+        "Who coaches the defense?",
+        "Who's the DC and what's his scheme background?"
       ],
       "keywords": [
         "dc",
         "defensive coordinator",
         "Jason Semore",
-        "semore"
+        "semore",
+        "scheme background"
       ],
-      "answer": "DC is Jason Semore. Scheme label: 4-2-5. Open Depth → Playbook for the 4-2-5 for-dummies guide.",
+      "answer": "Returned to Tech for 2026 after prior GT stint (2022) and DC jobs including Marshall and Southern Miss. Scheme label in-app: 4-2-5.\nScheme label in-app: 4-2-5. Open Depth → Playbook for the 4-2-5 for-dummies guide.",
       "links": [
         {
           "label": "Open playbook",
@@ -593,7 +3252,7 @@
         "Explain the defense playbook",
         "Who is the OC?"
       ],
-      "searchText": "who is the dc? who is the defensive coordinator? who is jason semore? who coaches the defense? dc defensive coordinator jason semore semore"
+      "searchText": "who is the dc? who is the defensive coordinator? who is jason semore? who coaches the defense? who's the dc and what's his scheme background? dc defensive coordinator jason semore semore scheme background"
     },
     {
       "id": "standings-acc",
@@ -14355,7 +17014,6 @@
       "questions": [
         "Who is Gavin Harris?",
         "Tell me about Gavin Harris",
-        "Tell me about Harris",
         "Gavin Harris",
         "Gavin Harris info",
         "Who is #8?",
@@ -14384,7 +17042,7 @@
         "Where did Harris transfer from?",
         "How much eligibility does Harris have?"
       ],
-      "searchText": "who is gavin harris? tell me about gavin harris tell me about harris gavin harris gavin harris info who is #8? who wears #8? what position does gavin harris play? what position is #8? where is gavin harris from? gavin harris hometown how tall is gavin harris? gavin harris height weight gavin harris #8 te san antonio, tx"
+      "searchText": "who is gavin harris? tell me about gavin harris gavin harris gavin harris info who is #8? who wears #8? what position does gavin harris play? what position is #8? where is gavin harris from? gavin harris hometown how tall is gavin harris? gavin harris height weight gavin harris #8 te san antonio, tx"
     },
     {
       "id": "player-5154262-transfer",
@@ -14547,7 +17205,6 @@
       "questions": [
         "Who is Evan Haynes?",
         "Tell me about Evan Haynes",
-        "Tell me about Haynes",
         "Evan Haynes",
         "Evan Haynes info",
         "Who is #84?",
@@ -14576,7 +17233,7 @@
         "When is the next game?",
         "How much eligibility does Haynes have?"
       ],
-      "searchText": "who is evan haynes? tell me about evan haynes tell me about haynes evan haynes evan haynes info who is #84? who wears #84? what position does evan haynes play? what position is #84? where is evan haynes from? evan haynes hometown how tall is evan haynes? evan haynes height weight evan haynes #84 wr milton, ga"
+      "searchText": "who is evan haynes? tell me about evan haynes evan haynes evan haynes info who is #84? who wears #84? what position does evan haynes play? what position is #84? where is evan haynes from? evan haynes hometown how tall is evan haynes? evan haynes height weight evan haynes #84 wr milton, ga"
     },
     {
       "id": "player-5223206-transfer",
@@ -14886,7 +17543,6 @@
       "questions": [
         "Who is Courtlin Heard?",
         "Tell me about Courtlin Heard",
-        "Tell me about Heard",
         "Courtlin Heard",
         "Courtlin Heard info",
         "Who is #62?",
@@ -14915,7 +17571,7 @@
         "When is the next game?",
         "How much eligibility does Heard have?"
       ],
-      "searchText": "who is courtlin heard? tell me about courtlin heard tell me about heard courtlin heard courtlin heard info who is #62? who wears #62? what position does courtlin heard play? what position is #62? where is courtlin heard from? courtlin heard hometown how tall is courtlin heard? courtlin heard height weight courtlin heard #62 ol newnan, ga"
+      "searchText": "who is courtlin heard? tell me about courtlin heard courtlin heard courtlin heard info who is #62? who wears #62? what position does courtlin heard play? what position is #62? where is courtlin heard from? courtlin heard hometown how tall is courtlin heard? courtlin heard height weight courtlin heard #62 ol newnan, ga"
     },
     {
       "id": "player-5217052-transfer",
@@ -15021,7 +17677,6 @@
       "questions": [
         "Who is Courtney Heard?",
         "Tell me about Courtney Heard",
-        "Tell me about Heard",
         "Courtney Heard",
         "Courtney Heard info",
         "Who is #65?",
@@ -15050,7 +17705,7 @@
         "When is the next game?",
         "How much eligibility does Heard have?"
       ],
-      "searchText": "who is courtney heard? tell me about courtney heard tell me about heard courtney heard courtney heard info who is #65? who wears #65? what position does courtney heard play? what position is #65? where is courtney heard from? courtney heard hometown how tall is courtney heard? courtney heard height weight courtney heard #65 ol newnan, ga"
+      "searchText": "who is courtney heard? tell me about courtney heard courtney heard courtney heard info who is #65? who wears #65? what position does courtney heard play? what position is #65? where is courtney heard from? courtney heard hometown how tall is courtney heard? courtney heard height weight courtney heard #65 ol newnan, ga"
     },
     {
       "id": "player-5217053-transfer",
@@ -16236,7 +18891,6 @@
       "questions": [
         "Who is Shane Marshall?",
         "Tell me about Shane Marshall",
-        "Tell me about Marshall",
         "Shane Marshall",
         "Shane Marshall info",
         "Who is #24?",
@@ -16265,7 +18919,7 @@
         "When is the next game?",
         "How much eligibility does Marshall have?"
       ],
-      "searchText": "who is shane marshall? tell me about shane marshall tell me about marshall shane marshall shane marshall info who is #24? who wears #24? what position does shane marshall play? what position is #24? where is shane marshall from? shane marshall hometown how tall is shane marshall? shane marshall height weight shane marshall #24 rb ocilla, ga"
+      "searchText": "who is shane marshall? tell me about shane marshall shane marshall shane marshall info who is #24? who wears #24? what position does shane marshall play? what position is #24? where is shane marshall from? shane marshall hometown how tall is shane marshall? shane marshall height weight shane marshall #24 rb ocilla, ga"
     },
     {
       "id": "player-5209762-transfer",
@@ -23106,7 +25760,6 @@
       "questions": [
         "Who is Kealan Jones?",
         "Tell me about Kealan Jones",
-        "Tell me about Jones",
         "Kealan Jones",
         "Kealan Jones info",
         "Who is #17?",
@@ -23135,7 +25788,7 @@
         "When is the next game?",
         "How much eligibility does Jones have?"
       ],
-      "searchText": "who is kealan jones? tell me about kealan jones tell me about jones kealan jones kealan jones info who is #17? who wears #17? what position does kealan jones play? what position is #17? where is kealan jones from? kealan jones hometown how tall is kealan jones? kealan jones height weight kealan jones #17 s marietta, ga"
+      "searchText": "who is kealan jones? tell me about kealan jones kealan jones kealan jones info who is #17? who wears #17? what position does kealan jones play? what position is #17? where is kealan jones from? kealan jones hometown how tall is kealan jones? kealan jones height weight kealan jones #17 s marietta, ga"
     },
     {
       "id": "player-5276991-transfer",
@@ -23241,7 +25894,6 @@
       "questions": [
         "Who is Shymeik Jones?",
         "Tell me about Shymeik Jones",
-        "Tell me about Jones",
         "Shymeik Jones",
         "Shymeik Jones info",
         "Who is #96?",
@@ -23270,7 +25922,7 @@
         "When is the next game?",
         "How much eligibility does Jones have?"
       ],
-      "searchText": "who is shymeik jones? tell me about shymeik jones tell me about jones shymeik jones shymeik jones info who is #96? who wears #96? what position does shymeik jones play? what position is #96? where is shymeik jones from? shymeik jones hometown how tall is shymeik jones? shymeik jones height weight shymeik jones #96 dt camden, sc"
+      "searchText": "who is shymeik jones? tell me about shymeik jones shymeik jones shymeik jones info who is #96? who wears #96? what position does shymeik jones play? what position is #96? where is shymeik jones from? shymeik jones hometown how tall is shymeik jones? shymeik jones height weight shymeik jones #96 dt camden, sc"
     },
     {
       "id": "player-5075806-transfer",
@@ -24210,7 +26862,6 @@
       "questions": [
         "Who is Landen Marshall?",
         "Tell me about Landen Marshall",
-        "Tell me about Marshall",
         "Landen Marshall",
         "Landen Marshall info",
         "Who is #97?",
@@ -24239,7 +26890,7 @@
         "When is the next game?",
         "How much eligibility does Marshall have?"
       ],
-      "searchText": "who is landen marshall? tell me about landen marshall tell me about marshall landen marshall landen marshall info who is #97? who wears #97? what position does landen marshall play? what position is #97? where is landen marshall from? landen marshall hometown how tall is landen marshall? landen marshall height weight landen marshall #97 dt andalusia, al"
+      "searchText": "who is landen marshall? tell me about landen marshall landen marshall landen marshall info who is #97? who wears #97? what position does landen marshall play? what position is #97? where is landen marshall from? landen marshall hometown how tall is landen marshall? landen marshall height weight landen marshall #97 dt andalusia, al"
     },
     {
       "id": "player-5146808-transfer",
@@ -28168,7 +30819,6 @@
       "questions": [
         "Who is Ronnie Thomas III?",
         "Tell me about Ronnie Thomas III",
-        "Tell me about Thomas",
         "Ronnie Thomas",
         "Ronnie Thomas III info",
         "Who is #49?",
@@ -28198,7 +30848,7 @@
         "When is the next game?",
         "How much eligibility does Thomas have?"
       ],
-      "searchText": "who is ronnie thomas iii? tell me about ronnie thomas iii tell me about thomas ronnie thomas ronnie thomas iii info who is #49? who wears #49? what position does ronnie thomas iii play? what position is #49? where is ronnie thomas iii from? ronnie thomas iii hometown how tall is ronnie thomas iii? ronnie thomas iii height weight ronnie thomas iii ronnie thomas #49 ls warner robins, ga"
+      "searchText": "who is ronnie thomas iii? tell me about ronnie thomas iii ronnie thomas ronnie thomas iii info who is #49? who wears #49? what position does ronnie thomas iii play? what position is #49? where is ronnie thomas iii from? ronnie thomas iii hometown how tall is ronnie thomas iii? ronnie thomas iii height weight ronnie thomas iii ronnie thomas #49 ls warner robins, ga"
     },
     {
       "id": "player-5083131-transfer",
@@ -28546,6 +31196,754 @@
         "Who is Ronnie Thomas III?"
       ],
       "searchText": "which thomas? thomas players there are two thomass thomas which two"
+    },
+    {
+      "id": "fan-qb1",
+      "category": "roster",
+      "scope": "player",
+      "intent": "depth",
+      "playerIds": [
+        "5191162"
+      ],
+      "jersey": 15,
+      "names": [
+        "Alberto Mendoza",
+        "Mendoza"
+      ],
+      "questions": [
+        "Who's QB1?",
+        "Who is QB1?",
+        "Who starts at quarterback?",
+        "Who is the starting quarterback?",
+        "Is the QB job settled?",
+        "Is the job settled or still open in fall camp?"
+      ],
+      "keywords": [
+        "qb1",
+        "starting quarterback",
+        "qb job",
+        "fall camp"
+      ],
+      "answer": "Camp depth chart projects QB1 as #15 Alberto Mendoza.\n#15 Alberto Mendoza career (college totals in app): CMP 19 · ATT 25 · CMP% 76.0 · YDS 292.\nBackups on the loaded roster: #9 Grady Adamson, #14 Graham Knowles, #18 Ben Guthrie.\nDepth charts are camp projections — not a proclamation that the job is closed.",
+      "links": [
+        {
+          "label": "#15 Alberto Mendoza",
+          "href": "/player/5191162"
+        },
+        {
+          "label": "Open depth chart",
+          "href": "/depth"
+        }
+      ],
+      "followUps": [
+        "Who is the backup QB?",
+        "Did we add a QB from the portal?"
+      ],
+      "searchText": "who's qb1? who is qb1? who starts at quarterback? who is the starting quarterback? is the qb job settled? is the job settled or still open in fall camp? qb1 starting quarterback qb job fall camp"
+    },
+    {
+      "id": "fan-qb-backup",
+      "category": "roster",
+      "scope": "group",
+      "intent": "depth",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who's the backup if QB1 goes down?",
+        "Who is the backup QB?",
+        "QB2",
+        "Who backs up the quarterback?"
+      ],
+      "keywords": [
+        "backup qb",
+        "qb2",
+        "if qb1 goes down"
+      ],
+      "answer": "Behind #15 Alberto Mendoza on the camp depth chart: #15 Alberto Mendoza → #14 Graham Knowles → #9 Grady Adamson.",
+      "links": [
+        {
+          "label": "Open depth chart",
+          "href": "/depth"
+        }
+      ],
+      "followUps": [
+        "Who's QB1?",
+        "List the QBs"
+      ],
+      "searchText": "who's the backup if qb1 goes down? who is the backup qb? qb2 who backs up the quarterback? backup qb qb2 if qb1 goes down"
+    },
+    {
+      "id": "fan-qb-numbers",
+      "category": "player",
+      "scope": "player",
+      "intent": "stats",
+      "playerIds": [
+        "5191162"
+      ],
+      "jersey": 15,
+      "names": [
+        "Alberto Mendoza",
+        "Mendoza"
+      ],
+      "questions": [
+        "What were his numbers last season?",
+        "What were Alberto Mendoza numbers last season?",
+        "QB stats last year",
+        "Starting QB career numbers"
+      ],
+      "keywords": [
+        "qb stats",
+        "numbers last season",
+        "last year"
+      ],
+      "answer": "#15 Alberto Mendoza career (college totals in app): CMP 19 · ATT 25 · CMP% 76.0 · YDS 292.",
+      "links": [
+        {
+          "label": "#15 Alberto Mendoza",
+          "href": "/player/5191162"
+        }
+      ],
+      "followUps": [
+        "Who's QB1?",
+        "Runner or pocket passer?"
+      ],
+      "searchText": "what were his numbers last season? what were alberto mendoza numbers last season? qb stats last year starting qb career numbers qb stats numbers last season last year"
+    },
+    {
+      "id": "fan-qb-portal",
+      "category": "roster",
+      "scope": "group",
+      "intent": "transfer",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Did we add a QB from the portal?",
+        "Any portal quarterbacks?",
+        "QB transfer portal additions"
+      ],
+      "keywords": [
+        "qb portal",
+        "portal quarterback",
+        "qb transfer"
+      ],
+      "answer": "QBs on the roster with prior college stops:\n• #15 Alberto Mendoza — IU → GT",
+      "links": [
+        {
+          "label": "#15 Alberto Mendoza",
+          "href": "/player/5191162"
+        }
+      ],
+      "followUps": [
+        "Who's QB1?",
+        "List the transfer players"
+      ],
+      "searchText": "did we add a qb from the portal? any portal quarterbacks? qb transfer portal additions qb portal portal quarterback qb transfer"
+    },
+    {
+      "id": "fan-qb-style",
+      "category": "playbook",
+      "scope": "team",
+      "intent": "playbook",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Runner or pocket passer?",
+        "Is the QB a runner?",
+        "Dual-threat QB?",
+        "Are we an RPO-heavy offense?",
+        "What's our play-action rate?",
+        "Shotgun vs under center?"
+      ],
+      "keywords": [
+        "runner",
+        "pocket passer",
+        "dual threat",
+        "rpo",
+        "play-action",
+        "shotgun"
+      ],
+      "answer": "Scheme label: Spread Pro Style.\nIn-app playbook: Tech wants room to run and easy throws — zone/gap run game, RPOs/packaged plays, and play-action shots. That is complementary football, not a pure air-raid or pure option identity.\nI do not track advanced rates (play-action %, time-to-throw, pressure completion). Open Depth → Playbook for the for-dummies guide.",
+      "links": [
+        {
+          "label": "Open playbook",
+          "href": "/depth"
+        }
+      ],
+      "followUps": [
+        "Explain the offense playbook",
+        "Who's QB1?"
+      ],
+      "searchText": "runner or pocket passer? is the qb a runner? dual-threat qb? are we an rpo-heavy offense? what's our play-action rate? shotgun vs under center? runner pocket passer dual threat rpo play-action shotgun"
+    },
+    {
+      "id": "fan-rb1",
+      "category": "roster",
+      "scope": "player",
+      "intent": "depth",
+      "playerIds": [
+        "4870760"
+      ],
+      "jersey": 22,
+      "names": [
+        "Justice Haynes",
+        "Haynes"
+      ],
+      "questions": [
+        "Who's RB1 and is there a committee?",
+        "Who's RB1?",
+        "Who is the starting running back?",
+        "Is there a running back committee?"
+      ],
+      "keywords": [
+        "rb1",
+        "running back committee",
+        "starting rb"
+      ],
+      "answer": "Camp depth chart RB1: #22 Justice Haynes.\nRB room on the roster (7): #27 Alexander, #32 Barr, #22 Haynes, #0 Hosley, #2 Maddox, #24 Marshall, #20 Powell.\nPlayers with 1,000+ career rush yards in-app: #22 Justice Haynes (1,473 YDS); #0 Malachi Hosley (2,612 YDS).\nLooks like a featured back with committee depth — not a pure committee of equals on the depth chart.",
+      "links": [
+        {
+          "label": "#22 Justice Haynes",
+          "href": "/player/4870760"
+        },
+        {
+          "label": "Open depth chart",
+          "href": "/depth"
+        }
+      ],
+      "followUps": [
+        "Do we return a 1,000-yard rusher?",
+        "List the RBs"
+      ],
+      "searchText": "who's rb1 and is there a committee? who's rb1? who is the starting running back? is there a running back committee? rb1 running back committee starting rb"
+    },
+    {
+      "id": "fan-1000-rusher",
+      "category": "roster",
+      "scope": "group",
+      "intent": "stats",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Do we return a 1,000-yard rusher?",
+        "Any 1000 yard rushers?",
+        "Who rushed for 1000 yards?"
+      ],
+      "keywords": [
+        "1000-yard",
+        "1,000-yard",
+        "thousand yard rusher"
+      ],
+      "answer": "Yes — in career totals loaded in the app:\n• #22 Justice Haynes: CAR 225 · YDS 1,473 · AVG 6.5 · TD 19\n• #0 Malachi Hosley: CAR 410 · YDS 2,612 · AVG 6.4 · TD 23\n(Those are career college totals in the feed, not necessarily a single GT season.)",
+      "links": [
+        {
+          "label": "#22 Justice Haynes",
+          "href": "/player/4870760"
+        },
+        {
+          "label": "#0 Malachi Hosley",
+          "href": "/player/5155366"
+        }
+      ],
+      "followUps": [
+        "Who's RB1?",
+        "Justice Haynes stats"
+      ],
+      "searchText": "do we return a 1,000-yard rusher? any 1000 yard rushers? who rushed for 1000 yards? 1000-yard 1,000-yard thousand yard rusher"
+    },
+    {
+      "id": "fan-top-receivers",
+      "category": "roster",
+      "scope": "group",
+      "intent": "roster",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who are the top three receivers?",
+        "Top receivers",
+        "Who are our best WRs?",
+        "Do we have a true No. 1 outside receiver?",
+        "Who's the slot guy?",
+        "Who's the vertical threat?"
+      ],
+      "keywords": [
+        "top receivers",
+        "top three receivers",
+        "no. 1 receiver",
+        "slot",
+        "vertical threat"
+      ],
+      "answer": "Camp depth chart WRs: X #13 Isaiah Fuhrmann · Z #4 Jordan Allen · Slot #7 Rahkeem Smith.\nHighest career receiving yards in-app among WRs:\n1. #13 Isaiah Fuhrmann — REC 49 · YDS 935 · AVG 19.1 · TD 10\n2. #7 Rahkeem Smith — REC 59 · YDS 909 · AVG 15.4 · TD 9\n3. #4 Jordan Allen — REC 22 · YDS 304 · AVG 13.8 · TD 0\nI do not grade “true WR1” or contested-catch rankings beyond depth + career lines.",
+      "links": [
+        {
+          "label": "#13 Isaiah Fuhrmann",
+          "href": "/player/5224790"
+        },
+        {
+          "label": "#4 Jordan Allen",
+          "href": "/player/5141362"
+        },
+        {
+          "label": "#7 Rahkeem Smith",
+          "href": "/player/5085830"
+        }
+      ],
+      "followUps": [
+        "Who is the starting tight end?",
+        "List the WRs"
+      ],
+      "searchText": "who are the top three receivers? top receivers who are our best wrs? do we have a true no. 1 outside receiver? who's the slot guy? who's the vertical threat? top receivers top three receivers no. 1 receiver slot vertical threat"
+    },
+    {
+      "id": "fan-starting-te",
+      "category": "roster",
+      "scope": "player",
+      "intent": "depth",
+      "playerIds": [
+        "5085509"
+      ],
+      "jersey": 17,
+      "names": [
+        "Chris Corbo",
+        "Corbo"
+      ],
+      "questions": [
+        "Who's the starting tight end?",
+        "Who starts at TE?",
+        "Starting TE",
+        "Do tight ends get targeted or mostly block?"
+      ],
+      "keywords": [
+        "starting tight end",
+        "starting te",
+        "tight end"
+      ],
+      "answer": "Camp depth chart TE: #17 Chris Corbo (#17 Chris Corbo → #8 Gavin Harris → #44 Spencer Mermans).\nPlaybook note: the TE is a chess piece — can inline block like an extra tackle or detach as a receiver. I do not have target-share splits.",
+      "links": [
+        {
+          "label": "#17 Chris Corbo",
+          "href": "/player/5085509"
+        }
+      ],
+      "followUps": [
+        "List the TEs",
+        "Tell me about the offense"
+      ],
+      "searchText": "who's the starting tight end? who starts at te? starting te do tight ends get targeted or mostly block? starting tight end starting te tight end"
+    },
+    {
+      "id": "fan-ol-starters",
+      "category": "roster",
+      "scope": "group",
+      "intent": "depth",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "How many O-line starters return?",
+        "Who's at left tackle?",
+        "Who starts at left tackle?",
+        "Offensive line starters",
+        "Who's the sixth man on the O-line?",
+        "Zone or gap scheme up front?",
+        "Do we pull guards much?",
+        "Do we use a fullback or H-back?"
+      ],
+      "keywords": [
+        "o-line",
+        "offensive line",
+        "left tackle",
+        "zone",
+        "gap",
+        "fullback",
+        "sixth man"
+      ],
+      "answer": "Camp OL starters: LT #78 Mackenny · LG #77 Petty · C #69 Ionata · RG #70 Riggs · RT #72 Carney.\nLeft tackle: #78 Ethan Mackenny.\nScheme identity: Spread Pro Style — playbook emphasizes outside/inside zone with gap/power flavors and RPO packaging. I do not have “how many OL starters return from last year” as a computed field, or pull-rate / sixth-man labels beyond the depth chart.\nOpen Depth for the full OL chain.",
+      "links": [
+        {
+          "label": "Open depth chart",
+          "href": "/depth"
+        }
+      ],
+      "followUps": [
+        "Tell me about the offense",
+        "Explain the offense playbook"
+      ],
+      "searchText": "how many o-line starters return? who's at left tackle? who starts at left tackle? offensive line starters who's the sixth man on the o-line? zone or gap scheme up front? do we pull guards much? do we use a fullback or h-back? o-line offensive line left tackle zone gap fullback sixth man"
+    },
+    {
+      "id": "fan-offensive-identity",
+      "category": "playbook",
+      "scope": "team",
+      "intent": "playbook",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What's the offensive identity — tempo, spread, run-heavy?",
+        "What is the offensive identity?",
+        "Tempo or grind?",
+        "Run-heavy offense?",
+        "What's the biggest question mark on offense?",
+        "Who's the breakout candidate nobody's talking about?",
+        "What's our returning production percentage on offense?",
+        "What did we average in points and yards per game last year?",
+        "Any true freshmen expected to contribute?",
+        "Any injuries carrying over from spring?"
+      ],
+      "keywords": [
+        "offensive identity",
+        "tempo",
+        "run-heavy",
+        "question mark",
+        "breakout",
+        "returning production",
+        "points per game",
+        "freshmen contribute",
+        "spring injuries"
+      ],
+      "answer": "Identity in-app: Spread Pro Style — space the field, run with purpose, throw on schedule (not pure tempo air raid).\nI do not invent returning-production %, PPG/YPG team averages, spring injury carryovers, or “breakout nobody’s talking about” opinions.\nFreshmen on the loaded roster: 37. Ask about a name or “list the freshmen.”\nOpen Depth → Playbook for scheme basics.",
+      "links": [
+        {
+          "label": "Open playbook",
+          "href": "/depth"
+        }
+      ],
+      "followUps": [
+        "Explain the offense playbook",
+        "Who's QB1?"
+      ],
+      "searchText": "what's the offensive identity — tempo, spread, run-heavy? what is the offensive identity? tempo or grind? run-heavy offense? what's the biggest question mark on offense? who's the breakout candidate nobody's talking about? what's our returning production percentage on offense? what did we average in points and yards per game last year? any true freshmen expected to contribute? any injuries carrying over from spring? offensive identity tempo run-heavy question mark breakout returning production points per game freshmen contribute spring injuries"
+    },
+    {
+      "id": "fan-base-defense",
+      "category": "playbook",
+      "scope": "team",
+      "intent": "playbook",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What's our base defense — 3-4, 4-2-5, 4-3?",
+        "What is our base defense?",
+        "Did the scheme change with the current staff?",
+        "Do we live in nickel or is that a change-up?",
+        "Single-high or two-high safety look?",
+        "How much man vs zone do we play?",
+        "What's our blitz rate?"
+      ],
+      "keywords": [
+        "base defense",
+        "3-4",
+        "4-3",
+        "4-2-5",
+        "nickel",
+        "blitz rate",
+        "man vs zone",
+        "two-high"
+      ],
+      "answer": "Base defense label in-app: 4-2-5 (four down linemen, two linebackers, five DBs).\nDC Jason Semore is in year one of this DC stint (returned for 2026).\nI do not track man/zone %, blitz rate, or single-high vs two-high tendencies snap-by-snap. Open Depth → Playbook for the 4-2-5 for-dummies guide.",
+      "links": [
+        {
+          "label": "Open playbook",
+          "href": "/depth"
+        }
+      ],
+      "followUps": [
+        "Explain the defense playbook",
+        "Who are the starting linebackers?"
+      ],
+      "searchText": "what's our base defense — 3-4, 4-2-5, 4-3? what is our base defense? did the scheme change with the current staff? do we live in nickel or is that a change-up? single-high or two-high safety look? how much man vs zone do we play? what's our blitz rate? base defense 3-4 4-3 4-2-5 nickel blitz rate man vs zone two-high"
+    },
+    {
+      "id": "fan-def-starters",
+      "category": "depth",
+      "scope": "group",
+      "intent": "depth",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who's the primary pass rusher?",
+        "Who anchors the interior D-line?",
+        "Who are the starting linebackers?",
+        "Who's the top corner and does he travel?",
+        "Who's the nickel?",
+        "Who wears the green dot?",
+        "Do we rotate the D-line heavily or ride starters?",
+        "Which portal additions on defense matter most?",
+        "What's the biggest hole on that side of the ball?"
+      ],
+      "keywords": [
+        "pass rusher",
+        "interior d-line",
+        "starting linebackers",
+        "top corner",
+        "nickel",
+        "green dot",
+        "d-line rotation",
+        "portal defense",
+        "biggest hole"
+      ],
+      "answer": "Camp defense projection:\n· Edge/RUSH: #24 Noah Carter → #9 Amontrae Bradford\n· Interior: NT #95 Tawfiq Thomas → #99 Vincent Carroll-Jackson · DT #55 Christian Garrett → #56 Tim Griffin\n· Linebackers: MLB #44 Kyle Efford → #45 Melvin Jordan IV · WLB #2 E.J. Lightsey → #1 Cayman Spaulding\n· Corners: LCB #12 Jon Mitchell → #28 Elgin Sessions · RCB #29 Jonas Duclona → #3 Jaylen Mbakwe · Nickel #16 Kelvin Hill → #39 Will Kiker\nDefense portal/transfers on roster: 15 (ask “list the transfer players” or a name).\nI do not invent green-dot assignments, travel-corner labels, rotation philosophy, or “biggest hole” opinions.",
+      "links": [
+        {
+          "label": "Open depth chart",
+          "href": "/depth"
+        }
+      ],
+      "followUps": [
+        "Tell me about the defense",
+        "List the transfer players"
+      ],
+      "searchText": "who's the primary pass rusher? who anchors the interior d-line? who are the starting linebackers? who's the top corner and does he travel? who's the nickel? who wears the green dot? do we rotate the d-line heavily or ride starters? which portal additions on defense matter most? what's the biggest hole on that side of the ball? pass rusher interior d-line starting linebackers top corner nickel green dot d-line rotation portal defense biggest hole"
+    },
+    {
+      "id": "fan-special-teams",
+      "category": "depth",
+      "scope": "group",
+      "intent": "depth",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "Who's kicking field goals?",
+        "Who's punting?",
+        "Who's returning kicks and punts?",
+        "Any long snapper concerns?",
+        "Were there kicking issues last season?",
+        "Where did we rank in special teams efficiency?",
+        "What's the kicker's realistic range?",
+        "Touchback percentage on kickoffs?",
+        "Net punting average?",
+        "Do we fake punts or field goals?"
+      ],
+      "keywords": [
+        "field goals",
+        "kicking",
+        "punting",
+        "punt return",
+        "kick return",
+        "long snapper",
+        "special teams efficiency",
+        "touchback",
+        "net punting",
+        "fake punt"
+      ],
+      "answer": "PK (camp): #33 Aidan Birr → #41 Landon Shaffer\nP (camp): #47 Alex Bacchetta → #40 Joshua Taylor\nLS (camp): #48 Cal Keeler → #49 Ronnie Thomas III\nReturners are not always broken out as depth rows in this feed — check Roster tags/notes or Athletics depth charts for KR/PR.\nI do not track ST efficiency rankings, touchback %, net punt, fake tendencies, or “kicking issues” narratives.",
+      "links": [
+        {
+          "label": "Open depth chart",
+          "href": "/depth"
+        }
+      ],
+      "followUps": [
+        "Who is Aidan Birr?",
+        "When is the next game?"
+      ],
+      "searchText": "who's kicking field goals? who's punting? who's returning kicks and punts? any long snapper concerns? were there kicking issues last season? where did we rank in special teams efficiency? what's the kicker's realistic range? touchback percentage on kickoffs? net punting average? do we fake punts or field goals? field goals kicking punting punt return kick return long snapper special teams efficiency touchback net punting fake punt"
+    },
+    {
+      "id": "fan-schedule-open",
+      "category": "schedule",
+      "scope": "team",
+      "intent": "schedule",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "When and against whom do we open?",
+        "Home or away for game one?",
+        "What's the full non-conference slate?",
+        "Any Power Four non-con opponents?",
+        "How many home games do we have?",
+        "Any Thursday or Friday night games?",
+        "Have kickoff times and TV windows been announced?",
+        "Any neutral-site games?",
+        "When are the bye weeks?",
+        "When do we get Clemson, Miami, and FSU?",
+        "Which ACC opponents did we draw this year?"
+      ],
+      "keywords": [
+        "open",
+        "game one",
+        "non-conference",
+        "power four",
+        "home games",
+        "thursday",
+        "friday",
+        "tv windows",
+        "bye weeks",
+        "miami",
+        "fsu",
+        "neutral-site"
+      ],
+      "answer": "Opener: vs Colorado on Thu, Sep 3 at 8:00 PM (ESPN) — home at Bobby Dodd Stadium.\nNon-conference (4): vs Colorado (Thu, Sep 3); vs Tennessee (Sat, Sep 12); vs Mercer (Sat, Sep 19); @ Georgia (Sat, Nov 28).\nPower-four flavored non-con on this slate: Colorado, Tennessee, Georgia.\nHome games: 7. Road games: 5.\nACC opponents (8): Stanford, Duke, Virginia Tech, Boston College, Pittsburgh, Louisville, Clemson, Wake Forest.\nClemson: @ Clemson on Sat, Nov 14.\nMiami: not on the loaded 2026 slate.\nFSU: not on the loaded 2026 slate.\nThu/Fri games: Thu, Sep 3 vs Colorado.\nLikely bye/open weeks: Open week between Stanford (Sat, Sep 26) and Duke (Sat, Oct 10).\nNeutral-site: none flagged in this schedule feed (UGA is listed as a road game in Athens).\nSome ACC windows still show TBA for time/TV — ask a specific opponent for the latest row.",
+      "links": [
+        {
+          "label": "Full schedule",
+          "href": "/schedule"
+        }
+      ],
+      "followUps": [
+        "When is the UGA game?",
+        "When is the next game?"
+      ],
+      "searchText": "when and against whom do we open? home or away for game one? what's the full non-conference slate? any power four non-con opponents? how many home games do we have? any thursday or friday night games? have kickoff times and tv windows been announced? any neutral-site games? when are the bye weeks? when do we get clemson, miami, and fsu? which acc opponents did we draw this year? open game one non-conference power four home games thursday friday tv windows bye weeks miami fsu neutral-site"
+    },
+    {
+      "id": "fan-uga-site",
+      "category": "schedule",
+      "scope": "team",
+      "intent": "schedule",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "When do we play Georgia, and is it in Athens or Atlanta?",
+        "Is the Georgia game in Athens or Atlanta?",
+        "UGA home or away?",
+        "Sanford Stadium?"
+      ],
+      "keywords": [
+        "athens",
+        "atlanta",
+        "sanford",
+        "uga site",
+        "georgia site"
+      ],
+      "answer": "@ Georgia on Sat, Nov 28 at TBA (TBA).\nVenue: Sanford Stadium, Athens, GA — road / Athens side of the rivalry this year on our slate.",
+      "links": [
+        {
+          "label": "Georgia results",
+          "href": "/opponent/61"
+        }
+      ],
+      "followUps": [
+        "What is Clean, Old-Fashioned Hate?",
+        "Show the full schedule"
+      ],
+      "searchText": "when do we play georgia, and is it in athens or atlanta? is the georgia game in athens or atlanta? uga home or away? sanford stadium? athens atlanta sanford uga site georgia site"
+    },
+    {
+      "id": "fan-schedule-opinions",
+      "category": "schedule",
+      "scope": "faq",
+      "intent": "limits",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "What's the toughest three-week stretch?",
+        "Which road games are most winnable?",
+        "Which game is the trap game?",
+        "Who's the homecoming opponent?",
+        "Which game most likely decides the season?",
+        "Where's the most likely upset loss?",
+        "Are we favored in every game we should be?",
+        "Which opposing QB should scare us most?"
+      ],
+      "keywords": [
+        "toughest stretch",
+        "most winnable",
+        "trap game",
+        "homecoming",
+        "decides the season",
+        "upset loss",
+        "favored",
+        "scare us"
+      ],
+      "answer": "Dunno — I don't rank trap games, homecoming designations, betting favorites, or 'scariest QB' opinions. I can pull dates, venues, and TV from the schedule — try “When is the UGA game?” or “Show the full schedule.”",
+      "links": [],
+      "followUps": [
+        "Show the full schedule",
+        "When is the next game?"
+      ],
+      "searchText": "what's the toughest three-week stretch? which road games are most winnable? which game is the trap game? who's the homecoming opponent? which game most likely decides the season? where's the most likely upset loss? are we favored in every game we should be? which opposing qb should scare us most? toughest stretch most winnable trap game homecoming decides the season upset loss favored scare us"
+    },
+    {
+      "id": "fan-portal-roster",
+      "category": "roster",
+      "scope": "group",
+      "intent": "transfer",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "How many players in and out of the portal?",
+        "Who's the biggest portal addition?",
+        "How many total starters return?",
+        "Who did we lose to the NFL draft?",
+        "Any freshmen projected to start?",
+        "What are the key fall camp position battles?",
+        "Who are the team captains?",
+        "What's the current injury report?",
+        "How many total players on the roster?"
+      ],
+      "keywords": [
+        "portal",
+        "biggest portal",
+        "starters return",
+        "nfl draft",
+        "freshmen start",
+        "position battles",
+        "captains",
+        "injury report"
+      ],
+      "answer": "Loaded roster: 100 players · 26 with prior college stops (portal/transfers in-app) · 37 freshmen.\nI can list transfers and camp depth starters, but I do not track portal outs, NFL draft losses, official captains, live injury reports, or who “will” win camp battles.\nTry: “List the transfer players”, “Who starts at QB?”, or a player name.",
+      "links": [
+        {
+          "label": "Open roster",
+          "href": "/roster"
+        },
+        {
+          "label": "Open depth chart",
+          "href": "/depth"
+        }
+      ],
+      "followUps": [
+        "List the transfer players",
+        "Who's QB1?"
+      ],
+      "searchText": "how many players in and out of the portal? who's the biggest portal addition? how many total starters return? who did we lose to the nfl draft? any freshmen projected to start? what are the key fall camp position battles? who are the team captains? what's the current injury report? how many total players on the roster? portal biggest portal starters return nfl draft freshmen start position battles captains injury report"
+    },
+    {
+      "id": "fan-last-year-finish",
+      "category": "standings",
+      "scope": "team",
+      "intent": "standings",
+      "playerIds": [],
+      "jersey": null,
+      "names": [],
+      "questions": [
+        "How did we finish last year — record and bowl result?",
+        "How did we finish last year?",
+        "What was the bowl result?",
+        "Pop-Tarts Bowl?",
+        "Did we make a bowl last year?"
+      ],
+      "keywords": [
+        "bowl result",
+        "pop-tarts",
+        "finish last year",
+        "2025 finish"
+      ],
+      "answer": "2025: 9-4 (6-2 ACC), final AP #24. Ranked as high as No. 7 in 2025\nBowl: Pop-Tarts Bowl loss (reported vs BYU). Open Standings for ACC/Top 25 context.",
+      "links": [
+        {
+          "label": "Open standings",
+          "href": "/standings"
+        }
+      ],
+      "followUps": [
+        "Where do we stand in the ACC?",
+        "When is the next game?"
+      ],
+      "searchText": "how did we finish last year — record and bowl result? how did we finish last year? what was the bowl result? pop-tarts bowl? did we make a bowl last year? bowl result pop-tarts finish last year 2025 finish"
     }
   ]
 }
