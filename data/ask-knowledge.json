@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "builtAt": "2026-08-10T20:25:27.108Z",
+  "builtAt": "2026-08-10T20:25:42.584Z",
   "sourceDataAsOf": "ESPN roster, career stats, standings & opponent schedules · synced 2026-08-05",
   "entryCount": 721,
   "entries": [
@@ -762,18 +762,21 @@
       "id": "fan-staff-continuity-2026",
       "category": "coaching",
       "scope": "faq",
-      "intent": "staff_changes",
+      "intent": "coach",
       "playerIds": [],
       "jersey": null,
       "names": [],
       "questions": [
+        "Any coordinator changes this offseason?",
         "Did the coaching staff change?",
         "What coordinator changes happened?",
         "Is the OC new?",
         "Is the DC new?",
         "Who left the staff?",
         "Staff continuity into 2026",
-        "Any big coaching hires?"
+        "Any big coaching hires?",
+        "How much staff continuity do we have year over year?",
+        "How many assistants are in year one at Tech?"
       ],
       "keywords": [
         "staff changes",
@@ -789,7 +792,7 @@
         "Who calls plays on offense?",
         "Who is the defensive coordinator?"
       ],
-      "searchText": "did the coaching staff change? what coordinator changes happened? is the oc new? is the dc new? who left the staff? staff continuity into 2026 any big coaching hires? staff changes coordinator changes new oc new dc offseason staff hire"
+      "searchText": "any coordinator changes this offseason? did the coaching staff change? what coordinator changes happened? is the oc new? is the dc new? who left the staff? staff continuity into 2026 any big coaching hires? how much staff continuity do we have year over year? how many assistants are in year one at tech? staff changes coordinator changes new oc new dc offseason staff hire"
     },
     {
       "id": "fan-godsey-identity-note",
