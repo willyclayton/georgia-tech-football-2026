@@ -14,6 +14,7 @@
     "expo-router": "~57.0.10",
     "expo-splash-screen": "~57.0.5",
     "expo-status-bar": "~57.0.1",
+    "fuse.js": "^7.5.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "react-native": "0.86.2",
@@ -34,8 +35,10 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "sync": "node scripts/sync-espn.mjs",
-    "build:web": "expo export -p web",
+    "sync": "node scripts/sync-espn.mjs && npm run build:ask",
+    "build:ask": "node scripts/build-ask-knowledge.mjs",
+    "test:ask": "npm run build:ask && node scripts/smoke-ask.mjs",
+    "build:web": "npm run build:ask && expo export -p web",
     "deploy": "vercel --prod"
   },
   "private": true
