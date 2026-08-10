@@ -140,7 +140,11 @@ function detectIntent(q: string): Intent {
   }
   if (/\bstandings?\b|\brecord\b|\bacc rank\b|\bhow are we doing\b/.test(q)) return 'standings';
   if (/\bplaybook\b|\bscheme\b|\bfor dummies\b|\b4\s*[- ]?\s*2\s*[- ]?\s*5\b/.test(q)) return 'playbook';
-  if (/\bcoach\b|\bcoordinator\b|\boc\b|\bdc\b|\bgodsey\b|\bsemore\b|\bweinke\b|\bbrent key\b/.test(q)) {
+  if (
+    /\bcoach\b|\bcoordinator\b|\boc\b|\bdc\b|\bgodsey\b|\bsemore\b|\bweinke\b|\bbrent key\b|\bplay caller\b|\bcalling plays\b|\bspecial teams coordinator\b|\bstrength (coach|staff)\b|\bbuyout\b/.test(
+      q
+    )
+  ) {
     return 'coach';
   }
   if (/\brivalry\b|\bcofh\b|\bclean old|\bgovernor'?s cup\b|\bthwg\b/.test(q)) return 'rivalry';
@@ -247,9 +251,35 @@ function resolvePlayers(q: string): PlayerRef[] {
     'played',
     'stats',
     'career',
+    'head',
+    'coach',
+    'coaches',
+    'heading',
+    'into',
+    'record',
+    'tech',
+    'his',
+    'her',
+    'and',
+    'are',
+    'was',
+    'were',
+    'how',
+    'many',
+    'much',
+    'any',
+    'open',
+    'game',
+    'games',
+    'season',
+    'offense',
+    'defense',
+    'special',
+    'coordinator',
+    'staff',
   ]);
 
-  const nameTokens = tokens.filter((t) => !stop.has(t) && !t.startsWith('#'));
+  const nameTokens = tokens.filter((t) => !stop.has(t) && !t.startsWith('#') && !/^\d+$/.test(t));
   if (!nameTokens.length) return [];
 
   const hits: { ref: PlayerRef; score: number }[] = [];
@@ -266,13 +296,17 @@ function resolvePlayers(q: string): PlayerRef[] {
       }
       for (const t of nameTokens) {
         if (t === name || t === last) best = Math.min(best, t === name ? 0 : 1);
-        else if (last.length >= 5 && editDistance(t, last) <= 1) best = Math.min(best, 2);
-        else if (first.length >= 4 && t === first) best = Math.min(best, 3);
+        // Fuzzy last names only when token is long enough — avoids head→Heard.
+        else if (t.length >= 5 && last.length >= 5 && editDistance(t, last) <= 1) {
+          best = Math.min(best, 2);
+        } else if (first.length >= 4 && t === first) best = Math.min(best, 3);
       }
       // first + last both present
       if (
-        nameTokens.some((t) => t === first || editDistance(t, first) <= 1) &&
-        nameTokens.some((t) => t === last || (last.length >= 5 && editDistance(t, last) <= 1))
+        nameTokens.some((t) => t === first || (first.length >= 5 && editDistance(t, first) <= 1)) &&
+        nameTokens.some(
+          (t) => t === last || (t.length >= 5 && last.length >= 5 && editDistance(t, last) <= 1)
+        )
       ) {
         best = Math.min(best, 0);
       }
@@ -335,7 +369,7 @@ export function retrieveAskKnowledge(question: string, limit = 5): RetrievedHit[
   const playerIds = new Set(players.map((p) => p.id));
   const listIntent = isListIntent(q);
 
-  // Exact question match (after normalize)
+  // Exact question match (after normalize) — return immediately.
   const exact = corpus.entries.filter((e) => e.questions.some((qq) => normalize(qq) === q));
   if (exact.length) {
     const ranked = exact
@@ -344,9 +378,9 @@ export function retrieveAskKnowledge(question: string, limit = 5): RetrievedHit[
         score:
           0 +
           intentBonus(entry, intent) +
-          scopePenalty(entry, playerIds.size > 0, listIntent) +
           (jersey != null && entry.jersey === jersey ? -0.05 : 0) +
-          (entry.playerIds?.some((id) => playerIds.has(id)) ? -0.1 : 0),
+          (entry.playerIds?.some((id) => playerIds.has(id)) ? -0.1 : 0) +
+          (entry.intent === intent ? -0.05 : 0),
       }))
       .sort((a, b) => a.score - b.score);
     return ranked.slice(0, limit);

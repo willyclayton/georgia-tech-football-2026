@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "note": "Curated coaching/staff facts for Ask Buzz. Keep grounded to athletics/AP/Wikipedia-style public reports — no rumors.",
+  "headCoach": {
+    "name": "Brent Key",
+    "seasonLabel": "4th full season in 2026 (interim in 2022)",
+    "recordAtTech": "27-20 overall (20-11 ACC) through 2025",
+    "yearly": [
+      "2022 interim: 4-4 (4-3 ACC)",
+      "2023: 7-6 (5-3 ACC), Gasparilla Bowl win",
+      "2024: 7-6 (5-3 ACC), Birmingham Bowl loss",
+      "2025: 9-4 (6-2 ACC), Pop-Tarts Bowl loss, final AP #24"
+    ],
+    "contractNote": "Public reports: contract extended after 2025 through 2030 (salary figures change — check Athletics for the latest)."
+  },
+  "coordinators": {
+    "oc": {
+      "name": "George Godsey",
+      "title": "Offensive coordinator",
+      "note": "Former Georgia Tech QB; returned from the NFL (including primary play-calling experience). First season as GT OC in 2026 after Buster Faulkner left for Florida.",
+      "playCaller": "Godsey is the offensive coordinator / primary play-caller; Chris Weinke is assistant HC / co-OC / quarterbacks."
+    },
+    "coOc": {
+      "name": "Chris Weinke",
+      "title": "Assistant head coach / co-offensive coordinator / quarterbacks"
+    },
+    "dc": {
+      "name": "Jason Semore",
+      "title": "Defensive coordinator / linebackers",
+      "note": "Returned to Tech for 2026 after prior GT stint (2022) and DC jobs including Marshall and Southern Miss. Scheme label in-app: 4-2-5.",
+      "scheme": "4-2-5"
+    },
+    "st": {
+      "name": "Tim Salem",
+      "title": "Special teams coordinator"
+    }
+  },
+  "offseasonChanges": "Yes — major coordinator turnover into 2026: OC Buster Faulkner left for Florida; George Godsey hired as OC. Jason Semore hired/returned as DC. Tim Salem continues as special teams coordinator. Full position-coach list is on the athletics site / Wikipedia 2026 staff page.",
+  "positionCoaches": [
+    { "name": "Chris Weinke", "role": "Assistant HC / co-OC / quarterbacks" },
+    { "name": "Jimmy Smith", "role": "Running backs" },
+    { "name": "Jafar Williams", "role": "Wide receivers" },
+    { "name": "Nathan Brock", "role": "Tight ends" },
+    { "name": "Allen Mogridge", "role": "Offensive line" },
+    { "name": "Jess Simpson", "role": "Assistant HC / defensive line" },
+    { "name": "Kyle Pope", "role": "Outside linebackers / defensive ends" },
+    { "name": "Vinnie Sunseri", "role": "Defensive backs" },
+    { "name": "Kobie Jones", "role": "Cornerbacks" },
+    { "name": "Jason Semore", "role": "DC / linebackers" },
+    { "name": "Tim Salem", "role": "Special teams coordinator" },
+    { "name": "Brendan Farrell", "role": "Special teams / game management strategist" }
+  ],
+  "strength": {
+    "director": "A.J. Artis (Director of Football Strength and Performance)",
+    "associate": "Byron Jerideau (Associate Director / Accountability)"
+  }
+}
