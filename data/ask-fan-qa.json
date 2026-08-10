@@ -252,15 +252,18 @@
       "id": "fan-staff-continuity-2026",
       "category": "coaching",
       "scope": "faq",
-      "intent": "staff_changes",
+      "intent": "coach",
       "questions": [
+        "Any coordinator changes this offseason?",
         "Did the coaching staff change?",
         "What coordinator changes happened?",
         "Is the OC new?",
         "Is the DC new?",
         "Who left the staff?",
         "Staff continuity into 2026",
-        "Any big coaching hires?"
+        "Any big coaching hires?",
+        "How much staff continuity do we have year over year?",
+        "How many assistants are in year one at Tech?"
       ],
       "keywords": [
         "staff changes",
