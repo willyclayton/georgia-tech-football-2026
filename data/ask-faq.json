@@ -1,63 +1,140 @@
 {
-  "version": 1,
-  "note": "Curated Ask Buzz facts that are not derived from live.json. Keep answers grounded — no invented stats.",
+  "version": 2,
+  "note": "Curated Ask Buzz facts not derived from live.json. Grounded only — no invented stats, predictions, or rumors.",
   "entries": [
     {
       "id": "faq-clean-old-fashioned",
       "category": "rivalry",
+      "scope": "faq",
+      "intent": "rivalry",
       "questions": [
         "What is Clean, Old-Fashioned Hate?",
         "What's the Georgia rivalry called?",
         "Tell me about the Georgia Tech Georgia rivalry",
         "What's Clean Old Fashioned Hate?",
-        "GT vs UGA rivalry name"
+        "GT vs UGA rivalry name",
+        "cofh",
+        "What does COFH mean?",
+        "What's the UGA rivalry?"
       ],
-      "keywords": ["uga", "georgia", "rivalry", "clean old-fashioned hate", "cofh"],
-      "answer": "Clean, Old-Fashioned Hate is the Georgia Tech–Georgia rivalry — one of the oldest in college football (first meeting 1893). The winner takes the Governor's Cup. Ask about the schedule for the next meeting date when it's on this season's slate.",
-      "followUps": ["When is the next game?", "Where do we stand in the ACC?"]
+      "keywords": ["uga", "georgia", "rivalry", "clean old-fashioned hate", "cofh", "governor's cup"],
+      "answer": "Clean, Old-Fashioned Hate is the Georgia Tech–Georgia rivalry — first played in 1893. The winner takes the Governor's Cup. For this season's meeting date, ask “When is the UGA game?”",
+      "followUps": ["When is the UGA game?", "Where do the Yellow Jackets play?"]
+    },
+    {
+      "id": "faq-governors-cup",
+      "category": "rivalry",
+      "scope": "faq",
+      "intent": "rivalry",
+      "questions": [
+        "What is the Governor's Cup?",
+        "Governor's Cup trophy",
+        "What does the winner of the Georgia game get?"
+      ],
+      "keywords": ["governor's cup", "trophy", "uga", "rivalry"],
+      "answer": "The Governor's Cup is the trophy awarded to the winner of the Georgia Tech–Georgia football rivalry (Clean, Old-Fashioned Hate).",
+      "followUps": ["What is Clean, Old-Fashioned Hate?", "When is the UGA game?"]
+    },
+    {
+      "id": "faq-thwg",
+      "category": "rivalry",
+      "scope": "faq",
+      "intent": "rivalry",
+      "questions": [
+        "What does To Hell With Georgia mean?",
+        "THWG",
+        "What is THWG?"
+      ],
+      "keywords": ["thwg", "to hell with georgia", "uga"],
+      "answer": "“To Hell With Georgia” (THWG) is a long-running Georgia Tech rally cry aimed at the rivalry with UGA — part of Clean, Old-Fashioned Hate culture on The Flats.",
+      "followUps": ["What is Clean, Old-Fashioned Hate?", "When is the UGA game?"]
     },
     {
       "id": "faq-bobby-dodd",
       "category": "stadium",
+      "scope": "faq",
+      "intent": "stadium",
       "questions": [
         "Where do the Yellow Jackets play?",
         "What stadium does Georgia Tech play in?",
         "What's Bobby Dodd Stadium?",
         "Where is home for GT football?",
-        "What is The Flats?"
+        "What is The Flats?",
+        "Hyundai Field",
+        "Is Bobby Dodd on campus?",
+        "Midtown Atlanta stadium"
       ],
-      "keywords": ["bobby dodd", "stadium", "hyundai field", "the flats", "home"],
+      "keywords": ["bobby dodd", "stadium", "hyundai field", "the flats", "home", "campus", "midtown"],
       "answer": "Home is Bobby Dodd Stadium at Hyundai Field in Atlanta — nicknamed The Flats. It's on Georgia Tech's campus in Midtown.",
       "followUps": ["Show the full schedule", "When is the next game?"]
     },
     {
+      "id": "faq-gameday-limits",
+      "category": "stadium",
+      "scope": "faq",
+      "intent": "limits",
+      "questions": [
+        "What's the bag policy at Bobby Dodd?",
+        "Where do I park for a game?",
+        "What time do gates open?",
+        "Student section seats",
+        "Ticket prices"
+      ],
+      "keywords": ["parking", "bag policy", "gates", "tickets", "student section"],
+      "answer": "I don't have live gameday logistics (parking lots, clear-bag rules, gate times, or ticket prices) in this app's data. For those, check Georgia Tech Athletics / RamblinWreck.com. I can cover kickoff time, TV, and venue from the schedule.",
+      "followUps": ["When is the next game?", "Show the full schedule"]
+    },
+    {
       "id": "faq-buzz-mascot",
       "category": "brand",
+      "scope": "faq",
+      "intent": "brand",
       "questions": [
         "Who is Buzz?",
         "What's the Georgia Tech mascot?",
         "What are the Yellow Jackets?",
-        "Why Yellow Jackets?"
+        "Why Yellow Jackets?",
+        "Team nickname"
       ],
-      "keywords": ["buzz", "mascot", "yellow jackets", "nickname"],
-      "answer": "Buzz is Georgia Tech's yellow jacket mascot. The teams are the Yellow Jackets (also Jackets). Colors are Tech Gold and Navy.",
-      "followUps": ["Who is the head coach?", "Tell me about the offense"]
+      "keywords": ["buzz", "mascot", "yellow jackets", "nickname", "jackets"],
+      "answer": "Buzz is Georgia Tech's yellow jacket mascot. The teams are the Yellow Jackets (also Jackets / Tech). Colors are Tech Gold and Navy.",
+      "followUps": ["Who is the head coach?", "What is the Ramblin' Wreck?"]
+    },
+    {
+      "id": "faq-colors",
+      "category": "brand",
+      "scope": "faq",
+      "intent": "brand",
+      "questions": [
+        "What are Georgia Tech's colors?",
+        "Tech Gold",
+        "What color is Tech Gold?",
+        "Navy and gold"
+      ],
+      "keywords": ["tech gold", "navy", "colors", "brand"],
+      "answer": "Official athletics colors are Tech Gold (#B39051) and Navy (#051E39), per the Georgia Tech brand guide.",
+      "followUps": ["Who is Buzz?", "Where do the Yellow Jackets play?"]
     },
     {
       "id": "faq-ramblin-wreck",
       "category": "tradition",
+      "scope": "faq",
+      "intent": "tradition",
       "questions": [
         "What is the Ramblin' Wreck?",
         "What's the Ramblin Wreck?",
-        "Tell me about the Rambling Wreck"
+        "Tell me about the Rambling Wreck",
+        "What car leads the team onto the field?"
       ],
-      "keywords": ["ramblin wreck", "rambling wreck", "tradition", "car"],
+      "keywords": ["ramblin wreck", "rambling wreck", "tradition", "car", "model a"],
       "answer": "The Ramblin' Wreck is Georgia Tech's restored 1930 Ford Model A Sport Coupe — a campus tradition that leads the football team onto the field.",
-      "followUps": ["Where do the Yellow Jackets play?", "Who is Buzz?"]
+      "followUps": ["What's the fight song?", "Who is Buzz?"]
     },
     {
       "id": "faq-fight-song",
       "category": "tradition",
+      "scope": "faq",
+      "intent": "tradition",
       "questions": [
         "What's the Georgia Tech fight song?",
         "What is Ramblin' Wreck from Georgia Tech?",
@@ -70,23 +147,47 @@
     {
       "id": "faq-conference",
       "category": "team",
+      "scope": "faq",
+      "intent": "team",
       "questions": [
         "What conference is Georgia Tech in?",
         "Are the Yellow Jackets in the ACC?",
-        "What league does GT play in?"
+        "What league does GT play in?",
+        "Is Tech still ACC?"
       ],
       "keywords": ["conference", "acc", "league"],
       "answer": "Georgia Tech plays football in the Atlantic Coast Conference (ACC).",
       "followUps": ["Where do we stand in the ACC?", "Show the full schedule"]
     },
     {
+      "id": "faq-2025-recap",
+      "category": "standings",
+      "scope": "faq",
+      "intent": "standings",
+      "questions": [
+        "How did we do in 2025?",
+        "What was last year's record?",
+        "2025 season recap",
+        "Did we make a bowl in 2025?",
+        "Were we ranked last year?",
+        "Highest rank 2025"
+      ],
+      "keywords": ["2025", "last year", "last season", "bowl", "ranked", "recap"],
+      "answer": "In 2025 Georgia Tech finished 9-4 (6-2 ACC), tied near the top of the league, and ranked as high as No. 7 during the year (final AP #24). Open Standings for the ACC table and Top 25 context. For game-by-game 2025 scores beyond what's in this app, check Athletics / ESPN.",
+      "followUps": ["Where do we stand in the ACC?", "When is the next game?"],
+      "links": [{ "label": "Open standings", "href": "/standings" }]
+    },
+    {
       "id": "faq-ages",
       "category": "limits",
+      "scope": "faq",
+      "intent": "limits",
       "questions": [
         "How old is a player?",
         "Do you have player ages?",
         "What's someone's birthday?",
-        "How old is the quarterback?"
+        "How old is the quarterback?",
+        "How old is Justice Haynes?"
       ],
       "keywords": ["age", "birthday", "born", "dob", "old"],
       "answer": "I don't have player ages or birthdays in the Georgia Tech data feed — ESPN's roster doesn't publish DOB here. Ask about class, seasons played, or years of eligibility left instead.",
@@ -95,12 +196,18 @@
     {
       "id": "faq-predictions",
       "category": "limits",
+      "scope": "faq",
+      "intent": "limits",
       "questions": [
         "Who will win the national championship?",
         "Predict the score",
         "Who wins this week?",
         "Heisman odds",
-        "Should we bet on Tech?"
+        "Should we bet on Tech?",
+        "What's the spread vs UGA?",
+        "Will we make the playoff?",
+        "Draft projection for #22",
+        "Will Haynes break 1000 yards?"
       ],
       "keywords": [
         "predict",
@@ -112,26 +219,48 @@
         "guess",
         "national championship",
         "who will win",
-        "who wins"
+        "who wins",
+        "spread",
+        "playoff",
+        "draft"
       ],
-      "answer": "Dunno how to answer that — I stick to roster, schedule, depth chart, standings, and curated team facts in this app, not predictions or opinions.",
+      "answer": "Dunno how to answer that — I stick to roster, schedule, depth chart, standings, and curated team facts in this app, not predictions, betting lines, or draft projections.",
       "followUps": ["When is the next game?", "Who is number 15?"]
+    },
+    {
+      "id": "faq-recruiting-nil",
+      "category": "limits",
+      "scope": "faq",
+      "intent": "limits",
+      "questions": [
+        "Who are we getting in the portal?",
+        "Recruiting rumors",
+        "NIL deal for Haynes",
+        "Any commits?",
+        "Transfer portal targets"
+      ],
+      "keywords": ["recruiting", "portal targets", "nil", "commits", "rumors"],
+      "answer": "I don't track recruiting rumors, portal targets, or NIL deals — only players already on this app's roster (with prior schools when listed).",
+      "followUps": ["List the transfer players", "Who starts at RB?"]
     },
     {
       "id": "faq-help",
       "category": "meta",
+      "scope": "faq",
+      "intent": "help",
       "questions": [
         "Help",
         "What can you answer?",
         "What do you know?",
         "Hi",
         "Hello",
-        "Hey Buzz"
+        "Hey Buzz",
+        "What can you do?"
       ],
       "keywords": ["help", "hello", "hi", "what can you"],
-      "answer": "I'm Buzz — a free Georgia Tech football guide. I answer from this app's curated knowledge (roster, eligibility, schedule, depth chart, standings, and team FAQ). No paid AI API.\n\nAsk things like:\n• Who is #15?\n• What school did Malachi Hosley transfer from?\n• When is the next game?\n• Where do we stand in the ACC?",
+      "answer": "I'm Buzz — a free Georgia Tech football guide. I answer from curated knowledge built from this app's roster, eligibility, transfers, schedule, depth chart, standings, playbook, and team FAQ. No paid AI API.\n\nTry:\n• What school did Justice Haynes come from?\n• Who is #15?\n• When is the UGA game?\n• Who starts at QB?\n• Where do we stand in the ACC?",
       "followUps": [
-        "What school did Malachi Hosley transfer from?",
+        "What school did Justice Haynes come from?",
         "Who is number 15?",
         "When is the next game?"
       ]
