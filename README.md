@@ -41,10 +41,11 @@ Playbook copy lives in `data/playbook.ts` (scheme education tied to current dept
 Grounded answers come from a committed knowledge corpus — no fine-tuning, no API key, no per-query cost:
 
 1. Curated FAQ: `data/ask-faq.json` (rivalry, stadium, traditions, limits)
-2. Generated facts: `npm run build:ask` expands `live.json` + FAQ into `data/ask-knowledge.json`
-3. At query time: Fuse.js fuzzy-matches the question in the client and returns the best canned answer
+2. Alias / paraphrase banks: `data/ask-aliases.json` (UGA/VT slang, transfer/bio/elig phrasings)
+3. Generated facts: `npm run build:ask` expands `live.json` + FAQ into `data/ask-knowledge.json` (player bio/transfer/elig/stats, schedule aliases, depth starters, class rollups, prior-school indexes)
+4. At query time: Fuse.js + entity/intent ranking (player-specific beats group lists; shared last names prefer starters)
 
-`npm run sync` and `npm run build:web` both rebuild the knowledge file.
+`npm run sync` and `npm run build:web` both rebuild the knowledge file. Smoke: `npm run test:ask`.
 
 ## Deploy
 

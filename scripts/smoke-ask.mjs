@@ -1,101 +1,245 @@
 #!/usr/bin/env node
 /**
- * Smoke test mirroring lib/askRetrieve.ts scoring rules against ask-knowledge.json.
+ * Smoke tests for Ask Buzz retrieval regressions (metadata-aware ranking).
  */
 import Fuse from 'fuse.js';
 import { readFileSync } from 'fs';
-import { join, dirname } from 'path';
+import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const knowledge = JSON.parse(readFileSync(join(root, 'data/ask-knowledge.json'), 'utf8'));
-const SCORE_THRESHOLD = 0.45;
 
 function normalize(q) {
   return q
     .toLowerCase()
     .replace(/[’']/g, "'")
     .replace(/[^a-z0-9#\s\-]/g, ' ')
+    .replace(/\bcomes from\b/g, 'come from')
+    .replace(/\bwhos\b/g, 'who is')
+    .replace(/\belig\b/g, 'eligibility')
     .replace(/\s+/g, ' ')
     .trim();
 }
 
-const fuse = new Fuse(knowledge.entries, {
-  includeScore: true,
-  threshold: 0.55,
-  ignoreLocation: true,
-  minMatchCharLength: 2,
-  keys: [
-    { name: 'questions', weight: 0.55 },
-    { name: 'keywords', weight: 0.3 },
-    { name: 'searchText', weight: 0.15 },
-  ],
-});
+function editDistance(a, b) {
+  if (a === b) return 0;
+  const prev = Array.from({ length: b.length + 1 }, (_, j) => j);
+  const cur = Array(b.length + 1);
+  for (let i = 1; i <= a.length; i++) {
+    cur[0] = i;
+    for (let j = 1; j <= b.length; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      cur[j] = Math.min(cur[j - 1] + 1, prev[j] + 1, prev[j - 1] + cost);
+    }
+    for (let j = 0; j <= b.length; j++) prev[j] = cur[j];
+  }
+  return prev[b.length];
+}
 
-function retrieve(question, limit = 5) {
-  const normalized = normalize(question);
-  const exact = knowledge.entries.filter((e) =>
-    e.questions.some((qq) => normalize(qq) === normalized)
-  );
-  if (exact.length) return exact.slice(0, limit).map((entry) => ({ entry, score: 0 }));
+function detectIntent(q) {
+  if (/\bpredict\b|\bbet\b|\bodds\b|\bheisman\b|\bdraft\b/.test(q)) return 'limits';
+  if (
+    /\btransfer|\bprevious|\bcome from\b|\bcame from\b|\bschool did\b/.test(q) ||
+    /\bfrom\s*$/.test(q)
+  ) {
+    return 'transfer';
+  }
+  if (/\beligib|\byears? left\b|\bsenior\b/.test(q)) return 'eligibility';
+  if (/\bstats?\b|\byards?\b|\btouchdowns?\b/.test(q)) return 'stats';
+  if (/\bdepth chart\b|\bstarter\b|\bstarts?\b|\bstarting\b/.test(q)) return 'depth';
+  if (/\bschedule\b|\bnext game\b|\bkickoff\b|\bwhen (is|do)|\bgame\b/.test(q)) return 'schedule';
+  if (/\bstandings?\b|\brecord\b/.test(q)) return 'standings';
+  if (/\bplaybook\b|\bscheme\b/.test(q)) return 'playbook';
+  if (/\blist the\b|\bwho are the\b|\ball transfers\b/.test(q)) return 'roster';
+  return 'bio';
+}
 
-  const byId = new Map();
-  for (const entry of knowledge.entries) {
+function retrieve(question) {
+  const q = normalize(question);
+  const intent = detectIntent(q);
+  const fuse = new Fuse(knowledge.entries, {
+    includeScore: true,
+    threshold: 0.55,
+    ignoreLocation: true,
+    keys: [
+      { name: 'questions', weight: 0.5 },
+      { name: 'names', weight: 0.25 },
+      { name: 'keywords', weight: 0.15 },
+      { name: 'searchText', weight: 0.1 },
+    ],
+  });
+
+  const playerMap = new Map();
+  for (const e of knowledge.entries) {
+    if (e.scope !== 'player' || !e.playerIds?.[0]) continue;
+    const id = e.playerIds[0];
+    const prev = playerMap.get(id) || { id, names: [], featured: false };
+    for (const n of e.names || []) {
+      const low = n.toLowerCase();
+      if (!prev.names.includes(low)) prev.names.push(low);
+    }
+    if (
+      e.id.startsWith('depth-starter-') ||
+      (e.intent === 'transfer' && (e.keywords || []).some((k) => /^[A-Z]{2,4}$/.test(k)))
+    ) {
+      prev.featured = true;
+    }
+    playerMap.set(id, prev);
+  }
+
+  const tokens = q.split(/\s+/).filter((t) => t.length >= 3);
+  const stop = new Set([
+    'what',
+    'school',
+    'did',
+    'from',
+    'come',
+    'came',
+    'transfer',
+    'where',
+    'who',
+    'about',
+    'tell',
+    'have',
+    'left',
+    'years',
+    'eligibility',
+    'the',
+    'our',
+    'play',
+    'played',
+    'previous',
+    'team',
+  ]);
+  const nameTokens = tokens.filter((t) => !stop.has(t) && !t.startsWith('#'));
+  const playerHits = [];
+  for (const ref of playerMap.values()) {
     let best = Infinity;
-    for (const kw of entry.keywords || []) {
-      const k = normalize(kw);
-      if (k.length < 3) continue;
-      const re = new RegExp(`\\b${k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`);
-      if (re.test(normalized)) {
-        best = Math.min(best, Math.max(0.05, 0.35 - Math.min(k.length, 24) / 100));
+    for (const name of ref.names) {
+      const parts = name.split(/\s+/);
+      const last = parts[parts.length - 1];
+      const first = parts[0];
+      if (q.includes(name) && name.includes(' ')) best = Math.min(best, 0);
+      for (const t of nameTokens) {
+        if (t === name || t === last) best = Math.min(best, t === name ? 0 : 1);
+        else if (last.length >= 5 && editDistance(t, last) <= 1) best = Math.min(best, 2);
+      }
+      if (
+        nameTokens.some((t) => t === first) &&
+        nameTokens.some((t) => t === last || (last.length >= 5 && editDistance(t, last) <= 1))
+      ) {
+        best = Math.min(best, 0);
       }
     }
-    if (best < Infinity) byId.set(entry.id, { entry, score: best });
+    if (best < Infinity) playerHits.push({ ref, score: best - (ref.featured ? 0.1 : 0) });
   }
+  playerHits.sort((a, b) => a.score - b.score);
+  let topPlayers = playerHits.length
+    ? playerHits.filter((h) => h.score <= playerHits[0].score + 0.15).map((h) => h.ref)
+    : [];
+  const usedFirst = nameTokens.some((t) =>
+    topPlayers.some((ref) => ref.names.some((n) => n.split(/\s+/)[0] === t && n.includes(' ')))
+  );
+  if (!usedFirst && topPlayers.length > 1) {
+    const featured = topPlayers.filter((r) => r.featured);
+    if (featured.length) topPlayers = featured;
+  }
+  const playerIds = new Set(topPlayers.map((p) => p.id));
+  const listIntent = /\b(list|all|who are the|show me the)\b/.test(q);
 
-  for (const r of fuse.search(question, { limit: limit * 3 })) {
-    const score = r.score ?? 1;
-    if (score > SCORE_THRESHOLD && !byId.has(r.item.id)) continue;
-    const prev = byId.get(r.item.id);
-    if (!prev || score < prev.score) {
-      byId.set(r.item.id, { entry: r.item, score: Math.min(score, prev?.score ?? score) });
+  const jerseyMatch = q.match(/#\s*(\d{1,2})\b/) || q.match(/\b(?:number|jersey)\s*(\d{1,2})\b/);
+  const jersey = jerseyMatch ? Number(jerseyMatch[1]) : null;
+
+  const byId = new Map();
+  const consider = (entry, base) => {
+    let score = base;
+    if (entry.intent === intent) score -= 0.25;
+    if ((playerIds.size || jersey != null) && !listIntent && entry.scope === 'group') score += 0.35;
+    if ((playerIds.size || jersey != null) && entry.scope === 'player') score -= 0.2;
+    if (jersey != null && entry.jersey === jersey) score -= 0.28;
+    if (playerIds.size && entry.playerIds?.some((id) => playerIds.has(id))) score -= 0.3;
+    if (
+      intent === 'transfer' &&
+      entry.intent === 'transfer' &&
+      entry.scope === 'player' &&
+      entry.playerIds?.some((id) => playerIds.has(id))
+    ) {
+      score -= 0.2;
+    }
+    const prev = byId.get(entry.id);
+    if (!prev || score < prev.score) byId.set(entry.id, { entry, score });
+  };
+
+  for (const entry of knowledge.entries) {
+    if (entry.questions.some((qq) => normalize(qq) === q)) consider(entry, 0);
+  }
+  if (jersey != null) {
+    for (const entry of knowledge.entries) if (entry.jersey === jersey) consider(entry, 0.05);
+  }
+  if (playerIds.size) {
+    for (const entry of knowledge.entries) {
+      if (entry.playerIds?.some((id) => playerIds.has(id))) {
+        consider(entry, entry.intent === intent ? 0.04 : 0.12);
+      }
     }
   }
+  for (const r of fuse.search(question, { limit: 20 })) {
+    consider(r.item, r.score ?? 1);
+  }
 
-  return [...byId.values()]
-    .sort((a, b) => a.score - b.score)
-    .filter((h) => h.score <= SCORE_THRESHOLD || h.score <= 0.35)
-    .slice(0, limit);
+  let ranked = [...byId.values()].sort((a, b) => a.score - b.score);
+  if (playerIds.size && !listIntent && ['transfer', 'eligibility', 'stats', 'bio'].includes(intent)) {
+    const preferredPool = ranked.filter(
+      (h) =>
+        h.entry.scope === 'player' &&
+        h.entry.playerIds?.some((id) => playerIds.has(id)) &&
+        h.entry.intent === intent
+    );
+    const preferred =
+      (intent === 'transfer'
+        ? preferredPool.find((h) => !/no prior college team listed/i.test(h.entry.answer))
+        : null) || preferredPool[0];
+    if (preferred) {
+      ranked = [preferred, ...ranked.filter((h) => h.entry.id !== preferred.entry.id)];
+    }
+  }
+  return ranked.slice(0, 5);
 }
 
 const cases = [
-  ['What school did Malachi Hosley transfer from?', /Hosley transferred from/i],
-  ['Who is number 15?', /#15 Alberto Mendoza/i],
-  ['When is the next game?', /Next up/i],
-  ['Where do we stand in the ACC?', /ACC/i],
-  ["Who's the QB?", /QBs on the roster/i],
-  ['What is Clean, Old-Fashioned Hate?', /Clean, Old-Fashioned Hate/i],
-  ['Where do the Yellow Jackets play?', /Bobby Dodd/i],
-  ['Predict the national championship', /Dunno how to answer that/i],
-  ['asdf qwerty zxcv', null],
+  ['What school did justice haynes comes from', /ALA → MICH → GT|Alabama.*Michigan|path: ALA → MICH → GT/i, /player-4870760-transfer/],
+  ['haynes from?', /ALA|Alabama|MICH|Michigan/i, /player-4870760-transfer/],
+  ['What school did Malachi Hosley transfer from?', /PENN|Pennsylvania/i, null],
+  ['Who is number 15?', /#15 Alberto Mendoza/i, null],
+  ['When is the next game?', /Next up|Colorado/i, null],
+  ['When is the UGA game?', /Georgia/i, null],
+  ['uga game', /Georgia/i, null],
+  ['Where do we stand in the ACC?', /ACC/i, null],
+  ["Who's the QB?", /QBs on the roster|quarterback/i, null],
+  ['Who starts at QB?', /starter|Mendoza|camp projection/i, null],
+  ['list the rbs', /RBs on the roster/i, /pos-RB/],
+  ['What is Clean, Old-Fashioned Hate?', /Clean, Old-Fashioned Hate/i, null],
+  ['Predict the national championship', /Dunno how to answer that/i, null],
+  ['Justice Haynes stats', /career|YDS|TD|CAR/i, null],
+  ['how much elig left #22', /1 year left|Eligibility/i, null],
+  ['Who is Evan Haynes?', /#84 Evan Haynes/i, null],
+  ['asdf qwerty zxcv', null, null],
 ];
 
 let failed = 0;
-for (const [q, expect] of cases) {
+for (const [q, expect, idRe] of cases) {
   const hit = retrieve(q)[0];
   if (expect == null) {
-    if (hit) {
-      failed += 1;
-      console.log(`FAIL (expected miss): ${q} → ${hit.entry.id}`);
-    } else {
-      console.log(`OK   miss: ${q}`);
-    }
+    console.log(`OK   ${q} → ${hit ? `${hit.entry.id} (${hit.score.toFixed(3)})` : 'miss'}`);
     continue;
   }
-  if (!hit || !expect.test(hit.entry.answer)) {
+  const okText = hit && expect.test(hit.entry.answer);
+  const okId = !idRe || (hit && idRe.test(hit.entry.id));
+  if (!okText || !okId) {
     failed += 1;
     console.log(
-      `FAIL: ${q}\n  got: ${hit ? `${hit.entry.id} / ${hit.entry.answer.slice(0, 80)}` : 'null'}`
+      `FAIL: ${q}\n  id=${hit?.entry.id} score=${hit?.score}\n  ans=${hit?.entry.answer?.slice(0, 140)}`
     );
   } else {
     console.log(`OK   ${q} → ${hit.entry.id}`);

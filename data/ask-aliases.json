@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "note": "Slang / nickname normalization and paraphrase banks for Ask Buzz knowledge build + retrieval.",
+  "normalizePhrases": [
+    { "from": "\\bwhos\\b", "to": "who is" },
+    { "from": "\\bwut\\b", "to": "what" },
+    { "from": "\\bwat\\b", "to": "what" },
+    { "from": "\\bcomes from\\b", "to": "come from" },
+    { "from": "\\bcame form\\b", "to": "came from" },
+    { "from": "\\btrasnfer\\b", "to": "transfer" },
+    { "from": "\\belig\\b", "to": "eligibility" },
+    { "from": "\\byrs? left\\b", "to": "years left" },
+    { "from": "\\bqb\\b", "to": "quarterback" },
+    { "from": "\\brbs?\\b", "to": "running back" },
+    { "from": "\\bwrs?\\b", "to": "wide receiver" }
+  ],
+  "opponentAliases": {
+    "UGA": ["uga", "georgia", "dawgs", "bulldogs", "go dawgs"],
+    "CLEM": ["clemson", "clem", "tigers"],
+    "VT": ["virginia tech", "vt", "hokies"],
+    "TENN": ["tennessee", "vols", "volunteers"],
+    "COLO": ["colorado", "buffs", "buffaloes"],
+    "STAN": ["stanford", "cardinal"],
+    "DUKE": ["duke", "blue devils"],
+    "BC": ["boston college", "bc", "eagles"],
+    "PITT": ["pittsburgh", "pitt", "panthers"],
+    "LOU": ["louisville", "lou", "cards", "cardinals"],
+    "WAKE": ["wake forest", "wake", "demon deacons"],
+    "MER": ["mercer", "bears"]
+  },
+  "transferUtterances": [
+    "What school did {name} transfer from?",
+    "What school did {name} come from?",
+    "What school did {name} comes from?",
+    "Where did {name} transfer from?",
+    "Where did {name} come from?",
+    "Where did {last} transfer from?",
+    "Where did {last} come from?",
+    "{name} previous team",
+    "{name} previous school",
+    "{last} previous school",
+    "{last} from?",
+    "{last} transfer",
+    "Did {last} transfer?",
+    "Was {last} a transfer?",
+    "{name} transfer path",
+    "Where did #{number} transfer from?",
+    "What school did #{number} come from?"
+  ],
+  "bioUtterances": [
+    "Who is {name}?",
+    "Tell me about {name}",
+    "Tell me about {last}",
+    "{first} {last}",
+    "{name} info",
+    "Who is #{number}?",
+    "Who wears #{number}?",
+    "What position does {name} play?",
+    "What position is #{number}?",
+    "Where is {name} from?",
+    "{name} hometown",
+    "How tall is {name}?",
+    "{name} height weight"
+  ],
+  "eligUtterances": [
+    "How much eligibility does {name} have?",
+    "How much eligibility does {last} have?",
+    "How much elig left #{number}",
+    "How many years does #{number} have left?",
+    "{last} eligibility",
+    "{last} years left",
+    "Is {last} a senior?",
+    "What class is {name}?",
+    "Years left for {name}"
+  ],
+  "statsUtterances": [
+    "What are {name} career stats?",
+    "{name} stats",
+    "{last} career numbers",
+    "How many yards does {last} have?",
+    "{name} touchdowns"
+  ]
+}
