@@ -75,7 +75,7 @@ export function AskBuzz() {
               <Image source={require('@/assets/images/gt-logo.png')} style={styles.headLogo} />
               <View style={styles.headMeta}>
                 <Text style={styles.headTitle}>Ask Buzz</Text>
-                <Text style={styles.headSub}>Free team guide · curated knowledge · no API</Text>
+                <Text style={styles.headSub}>Browse topics · tap a question · no API</Text>
               </View>
               <Pressable onPress={() => setOpen(false)} hitSlop={12} style={styles.closeBtn}>
                 <Text style={styles.closeText}>✕</Text>

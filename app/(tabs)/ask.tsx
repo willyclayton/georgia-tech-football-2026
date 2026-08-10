@@ -17,7 +17,7 @@ export default function AskScreen() {
           <View style={styles.headMeta}>
             <Text style={styles.kicker}>FREE · ON-DEVICE</Text>
             <Text style={styles.title}>Ask Buzz</Text>
-            <Text style={styles.sub}>Curated team knowledge · on-device search · no API fees.</Text>
+            <Text style={styles.sub}>Browse a topic, tap a question — or type your own.</Text>
           </View>
         </FadeIn>
 

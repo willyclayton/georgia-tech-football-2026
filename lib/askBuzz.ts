@@ -12,9 +12,9 @@ export type AskMessage = {
   source?: 'local' | 'llm';
 };
 
-/** Shown once at the start of a chat — keep to three. */
+/** Compact follow-ups after a reply — keep to three. */
 export const SAMPLE_QUESTIONS = [
-  'What school did Malachi Hosley transfer from?',
+  'What school did Justice Haynes come from?',
   'Who is number 15?',
   'When is the next game?',
 ];
@@ -49,7 +49,7 @@ export function welcomeMessage(): AskMessage {
   return {
     id: uid(),
     role: 'buzz',
-    text: "Hey — Buzz here. Ask about players, eligibility, the schedule, or standings. Tap a suggestion or type your own.",
+    text: 'Hey — Buzz here. Pick a topic below, tap a ready-made question, or type your own.',
   };
 }
 
