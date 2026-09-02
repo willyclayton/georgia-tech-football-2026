@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import {
+  Linking,
   Pressable,
   ScrollView,
   StyleSheet,
@@ -62,6 +63,15 @@ export function AskChatPanel({ contentBottom = 8, onNavigate }: Props) {
     setMessages((prev) => [...prev, reply]);
   }
 
+  function openAskLink(href: string) {
+    if (/^https?:\/\//i.test(href)) {
+      void Linking.openURL(href);
+      return;
+    }
+    onNavigate?.();
+    router.push(href as never);
+  }
+
   function pickTopic(id: AskTopicId) {
     setTopicId((prev) => (prev === id ? null : id));
     setBrowseOpen(true);
@@ -83,17 +93,21 @@ export function AskChatPanel({ contentBottom = 8, onNavigate }: Props) {
             style={[styles.bubble, m.role === 'user' ? styles.userBubble : styles.buzzBubble]}
           >
             {m.role === 'buzz' ? <Text style={styles.buzzLabel}>BUZZ</Text> : null}
-            <Text style={[styles.bubbleText, m.role === 'user' && styles.userText]}>{m.text}</Text>
+            <Text
+              selectable
+              style={[styles.bubbleText, m.role === 'user' && styles.userText]}
+            >
+              {m.text}
+            </Text>
             {m.links?.length ? (
               <View style={styles.links}>
                 {m.links.map((l) => (
                   <Pressable
                     key={l.href + l.label}
-                    onPress={() => {
-                      onNavigate?.();
-                      router.push(l.href as never);
-                    }}
+                    onPress={() => openAskLink(l.href)}
                     style={styles.linkChip}
+                    accessibilityRole="link"
+                    accessibilityLabel={l.label}
                   >
                     <Text style={styles.linkText}>{l.label}</Text>
                   </Pressable>

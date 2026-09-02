@@ -299,8 +299,71 @@ for (const [q, expect, idRe] of cases) {
   }
 }
 
+// Mirrors lib/askEasterEggs.ts so `npm run test:ask` covers the hidden video triggers.
+function normalizeEggQuery(q) {
+  return q
+    .toLowerCase()
+    .replace(/[’']/g, '')
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function needleRe(needle) {
+  const body = needle
+    .trim()
+    .replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+    .replace(/ /g, '\\s+');
+  return new RegExp(`\\b${body}s?\\b`);
+}
+
+function matchAskEasterEgg(question, egg) {
+  const q = normalizeEggQuery(question);
+  if (!q) return false;
+  if ((egg.phraseTriggers || []).some((p) => q.includes(normalizeEggQuery(p)))) return true;
+  const hasMedia = (egg.mediaNeedles || []).some((n) => needleRe(n).test(q));
+  const hasTopic = (egg.topicNeedles || []).some((n) => needleRe(n).test(q));
+  return hasMedia && hasTopic;
+}
+
+const egg = JSON.parse(readFileSync(join(root, 'data/ask-easter-eggs.json'), 'utf8'));
+// Keep in sync with lib/askEasterEggs.ts
+const eggCases = [
+  ["Dragon's Teeth", true],
+  ['dragons teeth', true],
+  ['Tell me about whiskey buckets', true],
+  ['whisky bucket', true],
+  ['What are chicken nuggets?', true],
+  ['chicken nugget', true],
+  ['Game Day music video', true],
+  ['gameday video', true],
+  ['beta music video', true],
+  ['play the beta song', true],
+  ['When is the next game?', false],
+  ["What's the bag policy at Bobby Dodd?", false],
+  ["What's the fight song?", false],
+  ['game day', false],
+  ['beta', false],
+  ['Who is Buzz?', false],
+];
+
+for (const [q, expect] of eggCases) {
+  const hit = matchAskEasterEgg(q, egg);
+  if (hit !== expect) {
+    failed += 1;
+    console.log(`FAIL: easter egg "${q}" → ${hit} (expected ${expect})`);
+  } else {
+    console.log(`OK   easter egg "${q}" → ${hit ? 'hit' : 'skip'}`);
+  }
+}
+
+if (!egg.videoUrl || !/youtu\.be\/aVzriQlVySU/.test(egg.videoUrl)) {
+  failed += 1;
+  console.log(`FAIL: easter egg videoUrl missing or unexpected: ${egg.videoUrl}`);
+}
+
 if (failed) {
   console.error(`\n${failed} case(s) failed`);
   process.exit(1);
 }
-console.log(`\nAll ${cases.length} smoke cases passed (${knowledge.entryCount} knowledge entries)`);
+console.log(`\nAll ${cases.length} smoke cases + ${eggCases.length} easter-egg cases passed (${knowledge.entryCount} knowledge entries)`);
