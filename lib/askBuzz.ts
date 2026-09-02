@@ -1,3 +1,4 @@
+import { matchAskEasterEgg } from '@/lib/askEasterEggs';
 import { bestAskAnswer } from '@/lib/askRetrieve';
 
 export type AskMessage = {
@@ -69,6 +70,17 @@ export function askBuzz(question: string): AskMessage {
       id: uid(),
       role: 'buzz',
       text: 'Ask me a question about Georgia Tech football.',
+    });
+  }
+
+  const egg = matchAskEasterEgg(raw);
+  if (egg) {
+    return withFollowUps({
+      id: uid(),
+      role: 'buzz',
+      text: egg.answer,
+      links: egg.links,
+      source: 'local',
     });
   }
 

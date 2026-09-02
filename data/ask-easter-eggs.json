@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "note": "Hidden Ask Buzz Easter egg. Not listed in topic browse — only fires when a fan types a trigger.",
+  "videoUrl": "https://youtu.be/aVzriQlVySU?si=DmrXt9t4zFkFnC7K",
+  "linkLabel": "Watch on YouTube",
+  "answer": "You found one. Here's the unlisted Game Day video — whiskey buckets, chicken nuggets, and the rest.",
+  "phraseTriggers": [
+    "dragons teeth",
+    "dragon teeth",
+    "whiskey bucket",
+    "whisky bucket",
+    "chicken nugget"
+  ],
+  "mediaNeedles": [
+    "music video",
+    "music vid",
+    "youtube",
+    "video",
+    "song",
+    "music",
+    "track",
+    "mv"
+  ],
+  "topicNeedles": ["game day", "gameday", "beta"]
+}
