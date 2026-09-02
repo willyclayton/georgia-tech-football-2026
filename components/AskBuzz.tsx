@@ -14,6 +14,7 @@ import {
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { AskChatPanel } from '@/components/AskChatPanel';
 import { colors, spacing } from '@/constants/theme';
+import { chromeAwareBottomPad } from '@/lib/webChrome';
 
 export function AskBuzz() {
   const pathname = usePathname();
@@ -34,7 +35,7 @@ export function AskBuzz() {
   }, [pulse]);
 
   // Sit just above the in-flow custom tab bar (icon + label + bottom pad)
-  const fabBottom = (Platform.OS === 'web' ? Math.max(insets.bottom, 28) : Math.max(insets.bottom, 10)) + 78;
+  const fabBottom = chromeAwareBottomPad(insets.bottom) + 78;
 
   return (
     <>

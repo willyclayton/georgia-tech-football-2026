@@ -13,9 +13,25 @@ const initial: ViewportSize = {
   ready: false,
 };
 
+/** Visible viewport height. Never min() with innerHeight — that undershoots on iOS. */
+export function measureVisualViewport(): { height: number; top: number } {
+  if (typeof window === 'undefined') return { height: 0, top: 0 };
+  const vv = window.visualViewport;
+  const height = Math.round(vv?.height || window.innerHeight || 0);
+  const top = Math.round(vv?.offsetTop ?? 0);
+  return { height, top };
+}
+
+export function applyVisualViewportCss(height: number, top: number) {
+  if (typeof document === 'undefined' || !height) return;
+  const root = document.documentElement;
+  root.style.setProperty('--app-height', `${height}px`);
+  root.style.setProperty('--app-top', `${top}px`);
+}
+
 /**
  * Track the *visible* viewport on mobile Safari (toolbar expands/collapses).
- * Also mirrors values onto CSS vars for the html/#root shell.
+ * Mirrors values onto CSS vars for the html/#root shell.
  */
 export function useVisualViewportHeight(): ViewportSize {
   const [size, setSize] = useState<ViewportSize>(initial);
@@ -23,27 +39,41 @@ export function useVisualViewportHeight(): ViewportSize {
   useEffect(() => {
     if (Platform.OS !== 'web' || typeof window === 'undefined') return;
 
-    const root = document.documentElement;
-    const vv = window.visualViewport;
-
     const apply = () => {
-      const height = Math.round(vv?.height ?? window.innerHeight);
-      const top = Math.round(vv?.offsetTop ?? 0);
-      root.style.setProperty('--app-height', `${height}px`);
-      root.style.setProperty('--app-top', `${top}px`);
-      // Prefer the smaller of visualViewport vs innerHeight — never taller than visible.
-      const safeHeight = Math.min(height, Math.round(window.innerHeight));
-      setSize({ height: safeHeight, top, ready: true });
+      const next = measureVisualViewport();
+      applyVisualViewportCss(next.height, next.top);
+      if (next.height) setSize({ ...next, ready: true });
     };
 
     apply();
+    const vv = window.visualViewport;
     vv?.addEventListener('resize', apply);
     vv?.addEventListener('scroll', apply);
     window.addEventListener('resize', apply);
+    window.addEventListener('orientationchange', apply);
+    window.addEventListener('pageshow', apply);
+    const onVis = () => {
+      if (document.visibilityState === 'visible') apply();
+    };
+    document.addEventListener('visibilitychange', onVis);
+
+    const raf1 = requestAnimationFrame(() => {
+      apply();
+      requestAnimationFrame(apply);
+    });
+    const t1 = window.setTimeout(apply, 100);
+    const t2 = window.setTimeout(apply, 400);
+
     return () => {
       vv?.removeEventListener('resize', apply);
       vv?.removeEventListener('scroll', apply);
       window.removeEventListener('resize', apply);
+      window.removeEventListener('orientationchange', apply);
+      window.removeEventListener('pageshow', apply);
+      document.removeEventListener('visibilitychange', onVis);
+      cancelAnimationFrame(raf1);
+      window.clearTimeout(t1);
+      window.clearTimeout(t2);
     };
   }, []);
 

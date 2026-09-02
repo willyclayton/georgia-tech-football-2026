@@ -21,12 +21,14 @@ export default function Root({ children }: PropsWithChildren) {
           dangerouslySetInnerHTML={{
             __html: `
               :root {
-                --app-height: 100svh;
+                --app-height: 100dvh;
                 --app-top: 0px;
               }
               html, body, #root {
-                height: var(--app-height, 100svh);
-                max-height: var(--app-height, 100svh);
+                height: var(--app-height, 100dvh);
+                /* Floor so a stale/small JS pixel value cannot leave a navy gap */
+                min-height: 100svh;
+                min-height: 100dvh;
                 width: 100%;
                 margin: 0;
                 padding: 0;
@@ -52,17 +54,24 @@ export default function Root({ children }: PropsWithChildren) {
             `,
           }}
         />
-        {/* Run before paint so the shell never starts taller than the visible Safari viewport */}
+        {/* Pin --app-height to the visible viewport. Do not min() with innerHeight —
+            on iOS that value is often the *small* layout viewport and undershoots. */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
               (function () {
+                var root = document.documentElement;
                 function apply() {
                   var vv = window.visualViewport;
-                  var h = Math.round(Math.min(vv ? vv.height : window.innerHeight, window.innerHeight));
+                  var h = Math.round((vv && vv.height) || window.innerHeight || 0);
+                  if (!h) return;
                   var t = Math.round(vv ? vv.offsetTop : 0);
-                  document.documentElement.style.setProperty('--app-height', h + 'px');
-                  document.documentElement.style.setProperty('--app-top', t + 'px');
+                  root.style.setProperty('--app-height', h + 'px');
+                  root.style.setProperty('--app-top', t + 'px');
+                }
+                function applySoon() {
+                  apply();
+                  requestAnimationFrame(apply);
                 }
                 apply();
                 if (window.visualViewport) {
@@ -70,6 +79,15 @@ export default function Root({ children }: PropsWithChildren) {
                   window.visualViewport.addEventListener('scroll', apply);
                 }
                 window.addEventListener('resize', apply);
+                window.addEventListener('orientationchange', applySoon);
+                window.addEventListener('pageshow', applySoon);
+                document.addEventListener('visibilitychange', function () {
+                  if (document.visibilityState === 'visible') applySoon();
+                });
+                requestAnimationFrame(function () {
+                  apply();
+                  requestAnimationFrame(apply);
+                });
               })();
             `,
           }}

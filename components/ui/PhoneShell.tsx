@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
     position: 'relative',
     minHeight: 0,
     ...Platform.select({
-      web: { height: '100%' as unknown as number, maxHeight: '100%' as unknown as number },
+      web: { height: '100%' as unknown as number },
       default: {},
     }),
   },

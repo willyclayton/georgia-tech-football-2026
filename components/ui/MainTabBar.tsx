@@ -1,11 +1,12 @@
 import { Ionicons } from '@expo/vector-icons';
 import { usePathname, useRouter } from 'expo-router';
-import { ComponentProps, useEffect, useState } from 'react';
-import { Platform, Pressable, StyleSheet, Text, View } from 'react-native';
+import { ComponentProps, useEffect } from 'react';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { colors } from '@/constants/theme';
 import { getLastTab, setLastTab } from '@/lib/lastTab';
 import { requestTabScrollToTop } from '@/lib/tabScroll';
+import { chromeAwareBottomPad } from '@/lib/webChrome';
 
 type IconName = ComponentProps<typeof Ionicons>['name'];
 
@@ -72,8 +73,7 @@ export function MainTabBar() {
   const pathname = usePathname() || '/';
   const router = useRouter();
   const insets = useSafeAreaInsets();
-  const [barHeight, setBarHeight] = useState(Platform.OS === 'web' ? 88 : 64);
-  const bottomPad = Math.max(insets.bottom, Platform.OS === 'web' ? 34 : 12);
+  const bottomPad = chromeAwareBottomPad(insets.bottom);
   const onDetail = pathname.startsWith('/player') || pathname.startsWith('/opponent');
   const current = resolveActiveTab(pathname);
 
@@ -105,11 +105,10 @@ export function MainTabBar() {
     requestAnimationFrame(() => requestTabScrollToTop());
   };
 
-  const bar = (
+  return (
     <View
       style={[styles.bar, { paddingBottom: bottomPad }]}
       accessibilityRole="tablist"
-      onLayout={(e) => setBarHeight(e.nativeEvent.layout.height)}
     >
       {TABS.map((tab) => {
         const focused = current === tab.name;
@@ -132,31 +131,9 @@ export function MainTabBar() {
       })}
     </View>
   );
-
-  if (Platform.OS === 'web') {
-    return (
-      <>
-        <View style={{ height: barHeight }} pointerEvents="none" />
-        <View style={styles.fixedWrap}>{bar}</View>
-      </>
-    );
-  }
-
-  return bar;
 }
 
 const styles = StyleSheet.create({
-  fixedWrap: {
-    position: 'fixed' as unknown as 'absolute',
-    left: 0,
-    right: 0,
-    bottom: 0,
-    zIndex: 1000,
-    width: '100%',
-    maxWidth: 430,
-    alignSelf: 'center',
-    marginHorizontal: 'auto' as unknown as number,
-  },
   bar: {
     flexDirection: 'row',
     alignItems: 'center',
