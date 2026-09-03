@@ -6,11 +6,11 @@ Built as an Expo (React Native + web) iPhone-first app. Live: [gt-football.verce
 
 ## Features
 
-- **Home** — next game hero, team pulse, ones to watch, schedule strip
+- **Home** — next game hero, 2026 pulse, season news, polls, ones to watch
 - **Roster** — searchable roster with unit / position filters
 - **Depth** — list, field X/O view, and offense/defense playbooks
-- **Schedule** — list + calendar with home/away pills; tap teams for results
-- **Standings** — ACC + national context
+- **Schedule** — list + calendar; tap teams for their 2026 slate (2025 opponent results wiped)
+- **Standings** — 2026 ACC + AP/Coaches, with a 2025 toggle
 - **Ask Buzz** — free local Q&A over a curated knowledge file (Fuse.js retrieval; says “dunno” instead of inventing)
 
 ## Stack
@@ -28,11 +28,14 @@ npm run web
 
 ## Data
 
-Roster, schedule, depth, and opponents live in `data/live.json`. Refresh from ESPN:
+Roster, 2026 slate, depth, polls, and news live in `data/live.json`. Opponent pages show the current season only (blank until they play). Refresh from ESPN:
 
 ```bash
-npm run sync
+npm run sync        # roster + 2026 slate; reuse career stats
+npm run sync:full   # also refetch every career line
 ```
+
+Saturday (and Sunday morning) GitHub Actions run `npm run sync` and commit if the slate moved. Vercel also hits `/api/pulse` on that cadence so Home / Standings / opponent pages can overlay live scores without waiting on a rebuild.
 
 Playbook copy lives in `data/playbook.ts` (scheme education tied to current depth chart starters).
 

@@ -36,6 +36,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "sync": "node scripts/sync-espn.mjs && npm run build:ask",
+    "sync:full": "FULL_SYNC=1 node scripts/sync-espn.mjs && npm run build:ask",
     "build:ask": "node scripts/build-ask-knowledge.mjs",
     "test:ask": "npm run build:ask && node scripts/smoke-ask.mjs",
     "build:web": "npm run build:ask && expo export -p web",

@@ -1,26 +1,32 @@
 #!/usr/bin/env node
 /**
- * Sync Georgia Tech football data from ESPN (roster, career stats, logos)
- * and the verified 2026 ACC/GT schedule into data/live.json.
+ * Sync Georgia Tech football data into data/live.json.
+ *
+ * Default: refresh 2026 slate (schedule, standings, polls, opponents, news,
+ * roster, depth remap). Reuses career stats already on file unless FULL_SYNC=1.
  */
 import { writeFileSync, readFileSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import {
+  CURRENT_SEASON,
+  PRIOR_SEASON,
+  TEAM_ID,
+  attachPolls,
+  buildPulse,
+  espnGet,
+  fetchGtSchedule,
+  fetchNews,
+  fetchOpponents,
+  fetchRankingsPolls,
+  fetchStandings,
+  fetchTeamRecord,
+  accIdSet,
+} from './espn-live.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
-const TEAM_ID = '59';
-
-async function get(url) {
-  const res = await fetch(url, {
-    headers: {
-      'User-Agent': 'Mozilla/5.0 (compatible; GTFootballApp/1.0)',
-      Accept: 'application/json',
-    },
-  });
-  if (!res.ok) throw new Error(`${res.status} ${url}`);
-  return res.json();
-}
+const FULL_SYNC = process.env.FULL_SYNC === '1' || process.argv.includes('--full');
 
 const PRIMARY_BY_POS = {
   QB: 'passing',
@@ -54,17 +60,11 @@ function pickPrimaryCategory(categories, position) {
 
 const CLASS_ABBR = { Freshman: 'FR', Sophomore: 'SO', Junior: 'JR', Senior: 'SR' };
 
-/**
- * Estimate remaining eligibility.
- * Prefer seasons-with-stats when present; otherwise use ESPN class year
- * (OL/LS often have Senior class with no counting-stat seasons).
- */
 function buildEligibility(player, experience) {
   const className = experience?.displayValue || player.year || '—';
   const abbr = experience?.abbreviation || CLASS_ABBR[className] || '—';
   const expYears =
-    Number(experience?.years) ||
-    ({ FR: 1, SO: 2, JR: 3, SR: 4 }[abbr] ?? null);
+    Number(experience?.years) || ({ FR: 1, SO: 2, JR: 3, SR: 4 }[abbr] ?? null);
   const seasons = new Set();
   for (const cat of player.career?.categories || []) {
     for (const row of cat.rows || []) {
@@ -76,7 +76,6 @@ function buildEligibility(player, experience) {
   }
   const seasonsPlayed = [...seasons].sort((a, b) => a - b);
   const n = seasonsPlayed.length;
-  // Class standing: FR=1 → 4 left, SO=2 → 3, JR=3 → 2, SR=4 → 1 (including this season)
   const fromClass = expYears ? Math.max(0, 5 - expYears) : null;
   const fromSeasons = Math.max(0, 4 - n);
   let yearsLeft;
@@ -140,31 +139,174 @@ const OFFENSE = new Set(['QB', 'RB', 'FB', 'WR', 'TE', 'OL', 'OT', 'OG', 'C', 'A
 const DEFENSE = new Set(['DE', 'DT', 'DL', 'LB', 'CB', 'S', 'DB', 'NB']);
 const unitFor = (abbr) => (OFFENSE.has(abbr) ? 'offense' : DEFENSE.has(abbr) ? 'defense' : 'special');
 
-const schedule = [
-  { id: '2026-colorado', week: 1, date: '2026-09-03', dateLabel: 'Thu, Sep 3', time: '8:00 PM', tv: 'ESPN', opponent: 'Colorado', opponentAbbr: 'COLO', opponentId: '38', opponentLogo: 'https://a.espncdn.com/i/teamlogos/ncaa/500/38.png', home: true, conference: false, venue: 'Bobby Dodd Stadium', city: 'Atlanta, GA', status: 'upcoming', note: 'Buffaloes first visit to The Flats', source: 'Georgia Tech Athletics / ACC' },
-  { id: '2026-tennessee', week: 2, date: '2026-09-12', dateLabel: 'Sat, Sep 12', time: '7:00 PM', tv: 'ESPN', opponent: 'Tennessee', opponentAbbr: 'TENN', opponentId: '2633', opponentLogo: 'https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png', home: true, conference: false, venue: 'Bobby Dodd Stadium', city: 'Atlanta, GA', status: 'upcoming', note: 'First home meeting since 1986', source: 'Georgia Tech Athletics' },
-  { id: '2026-mercer', week: 3, date: '2026-09-19', dateLabel: 'Sat, Sep 19', time: '12:00 PM', tv: 'ACCN', opponent: 'Mercer', opponentAbbr: 'MER', opponentId: '2382', opponentLogo: 'https://a.espncdn.com/i/teamlogos/ncaa/500/2382.png', home: true, conference: false, venue: 'Bobby Dodd Stadium', city: 'Atlanta, GA', status: 'upcoming', note: 'In-state non-conference', source: 'Georgia Tech Athletics' },
-  { id: '2026-stanford', week: 4, date: '2026-09-26', dateLabel: 'Sat, Sep 26', time: '10:30 PM', tv: 'ESPN', opponent: 'Stanford', opponentAbbr: 'STAN', opponentId: '24', opponentLogo: 'https://a.espncdn.com/i/teamlogos/ncaa/500/24.png', home: false, conference: true, venue: 'Stanford Stadium', city: 'Stanford, CA', status: 'upcoming', note: 'First-ever trip to Stanford', source: 'ACC' },
-  { id: '2026-duke', week: 6, date: '2026-10-10', dateLabel: 'Sat, Oct 10', time: 'TBA', tv: 'TBA', opponent: 'Duke', opponentAbbr: 'DUKE', opponentId: '150', opponentLogo: 'https://a.espncdn.com/i/teamlogos/ncaa/500/150.png', home: true, conference: true, venue: 'Bobby Dodd Stadium', city: 'Atlanta, GA', status: 'upcoming', note: 'Defending ACC champions', source: 'ACC' },
-  { id: '2026-vt', week: 7, date: '2026-10-17', dateLabel: 'Sat, Oct 17', time: 'TBA', tv: 'TBA', opponent: 'Virginia Tech', opponentAbbr: 'VT', opponentId: '259', opponentLogo: 'https://a.espncdn.com/i/teamlogos/ncaa/500/259.png', home: false, conference: true, venue: 'Lane Stadium', city: 'Blacksburg, VA', status: 'upcoming', note: 'ACC rivalry road trip', source: 'ACC' },
-  { id: '2026-bc', week: 8, date: '2026-10-24', dateLabel: 'Sat, Oct 24', time: 'TBA', tv: 'TBA', opponent: 'Boston College', opponentAbbr: 'BC', opponentId: '103', opponentLogo: 'https://a.espncdn.com/i/teamlogos/ncaa/500/103.png', home: true, conference: true, venue: 'Bobby Dodd Stadium', city: 'Atlanta, GA', status: 'upcoming', note: 'Homecoming', source: 'ACC' },
-  { id: '2026-pitt', week: 9, date: '2026-10-31', dateLabel: 'Sat, Oct 31', time: 'TBA', tv: 'TBA', opponent: 'Pittsburgh', opponentAbbr: 'PITT', opponentId: '221', opponentLogo: 'https://a.espncdn.com/i/teamlogos/ncaa/500/221.png', home: false, conference: true, venue: 'Acrisure Stadium', city: 'Pittsburgh, PA', status: 'upcoming', note: 'Halloween in Pittsburgh', source: 'ACC' },
-  { id: '2026-louisville', week: 10, date: '2026-11-07', dateLabel: 'Sat, Nov 7', time: 'TBA', tv: 'TBA', opponent: 'Louisville', opponentAbbr: 'LOU', opponentId: '97', opponentLogo: 'https://a.espncdn.com/i/teamlogos/ncaa/500/97.png', home: true, conference: true, venue: 'Bobby Dodd Stadium', city: 'Atlanta, GA', status: 'upcoming', note: '2025 bowl winner', source: 'ACC' },
-  { id: '2026-clemson', week: 11, date: '2026-11-14', dateLabel: 'Sat, Nov 14', time: 'TBA', tv: 'TBA', opponent: 'Clemson', opponentAbbr: 'CLEM', opponentId: '228', opponentLogo: 'https://a.espncdn.com/i/teamlogos/ncaa/500/228.png', home: false, conference: true, venue: 'Memorial Stadium', city: 'Clemson, SC', status: 'upcoming', note: 'Death Valley', source: 'ACC' },
-  { id: '2026-wake', week: 12, date: '2026-11-21', dateLabel: 'Sat, Nov 21', time: 'TBA', tv: 'TBA', opponent: 'Wake Forest', opponentAbbr: 'WAKE', opponentId: '154', opponentLogo: 'https://a.espncdn.com/i/teamlogos/ncaa/500/154.png', home: true, conference: true, venue: 'Bobby Dodd Stadium', city: 'Atlanta, GA', status: 'upcoming', note: 'Senior Day stretch', source: 'ACC' },
-  { id: '2026-uga', week: 13, date: '2026-11-28', dateLabel: 'Sat, Nov 28', time: 'TBA', tv: 'TBA', opponent: 'Georgia', opponentAbbr: 'UGA', opponentId: '61', opponentLogo: 'https://a.espncdn.com/i/teamlogos/ncaa/500/61.png', home: false, conference: false, venue: 'Sanford Stadium', city: 'Athens, GA', status: 'upcoming', note: 'Clean, Old-Fashioned Hate', source: 'Georgia Tech Athletics' },
-];
+function loadExisting() {
+  const existingPath = join(root, 'data/live.json');
+  if (!existsSync(existingPath)) return null;
+  try {
+    return JSON.parse(readFileSync(existingPath, 'utf8'));
+  } catch {
+    return null;
+  }
+}
 
-console.log('Syncing ESPN roster…');
-const roster = await get(`https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/${TEAM_ID}/roster`);
-const teamJson = await get(`https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/${TEAM_ID}`);
+async function hydrateCareer(player) {
+  const data = await espnGet(
+    `https://site.web.api.espn.com/apis/common/v3/sports/football/college-football/athletes/${player.id}/stats`
+  );
+  const teams = Object.entries(data.teams || {}).map(([slug, t]) => ({
+    id: t.id,
+    slug,
+    name: t.displayName || t.name,
+    abbr: t.abbreviation,
+    logo: t.logos?.[0]?.href || `https://a.espncdn.com/i/teamlogos/ncaa/500/${t.id}.png`,
+  }));
+  const seasonsMap = {};
+  const categories = (data.categories || []).map((cat) => {
+    const labels = cat.labels || [];
+    const names = cat.names || [];
+    const rows = (cat.statistics || []).map((row) => {
+      const season = row.season || {};
+      const year = season.year || season.displayName;
+      const team = teams.find((t) => t.slug === row.teamSlug);
+      const display = {};
+      labels.forEach((lab, idx) => {
+        if (row.stats?.[idx] != null) display[lab] = row.stats[idx];
+      });
+      const stats = {};
+      names.forEach((n, idx) => {
+        if (row.stats?.[idx] != null) stats[n] = row.stats[idx];
+      });
+      if (cat.name !== 'scoring') {
+        const slot = seasonsMap[String(year)] || {
+          year,
+          teamAbbr: team?.abbr,
+          teamName: team?.name,
+          teamLogo: team?.logo,
+          categories: {},
+        };
+        slot.teamAbbr = team?.abbr ?? slot.teamAbbr;
+        slot.teamName = team?.name ?? slot.teamName;
+        slot.teamLogo = team?.logo ?? slot.teamLogo;
+        slot.categories[cat.name] = {
+          displayName: cat.displayName || cat.name,
+          stats: display,
+        };
+        seasonsMap[String(year)] = slot;
+      }
+      return {
+        year,
+        teamId: row.teamId,
+        teamSlug: row.teamSlug,
+        teamAbbr: team?.abbr,
+        teamName: team?.name,
+        teamLogo: team?.logo,
+        stats,
+        display,
+      };
+    });
+    let totals = null;
+    if (Array.isArray(cat.totals)) {
+      totals = {};
+      labels.forEach((lab, idx) => {
+        if (cat.totals[idx] != null) totals[lab] = cat.totals[idx];
+      });
+    }
+    return { name: cat.name, displayName: cat.displayName, labels, rows, totals };
+  });
+  const primary = pickPrimaryCategory(categories, player.position);
+  const headlines = [];
+  if (primary) {
+    const source = primary.totals || primary.rows.at(-1)?.display || {};
+    for (const lab of primary.labels || []) {
+      if (source[lab] != null) headlines.push({ label: lab, value: source[lab] });
+      if (headlines.length >= 4) break;
+    }
+  }
+  const firstYearBySlug = {};
+  for (const cat of categories) {
+    for (const row of cat.rows || []) {
+      const y = Number(row.year);
+      if (!row.teamSlug || !Number.isFinite(y)) continue;
+      if (firstYearBySlug[row.teamSlug] == null || y < firstYearBySlug[row.teamSlug]) {
+        firstYearBySlug[row.teamSlug] = y;
+      }
+    }
+  }
+  const prev = teams
+    .filter((t) => t.abbr !== 'GT' && String(t.id) !== TEAM_ID)
+    .sort((a, b) => {
+      const ay = firstYearBySlug[a.slug] ?? 9999;
+      const by = firstYearBySlug[b.slug] ?? 9999;
+      if (ay !== by) return ay - by;
+      return String(a.abbr || '').localeCompare(String(b.abbr || ''));
+    });
+  player.previousTeams = prev;
+  if (prev.length) {
+    player.tags = ['Transfer'];
+    player.previous = prev.map((t) => t.abbr).join(', ');
+  }
+  player.career = {
+    categories,
+    seasons: Object.values(seasonsMap).sort((a, b) => Number(b.year) - Number(a.year)),
+    headlines,
+    primaryCategory: primary?.name || null,
+  };
+}
+
+function refreshDepthChart(existing, players) {
+  const byId = new Map(players.map((p) => [String(p.id), p]));
+  const byName = new Map(players.map((p) => [p.name.toLowerCase(), p]));
+  const out = { offense: [], defense: [], special: [] };
+  for (const unit of ['offense', 'defense', 'special']) {
+    out[unit] = (existing?.[unit] || [])
+      .map((row) => ({
+        label: row.label,
+        slots: (row.slots || [])
+          .map((slot) => {
+            const hit =
+              (slot.id && byId.get(String(slot.id))) || byName.get(String(slot.name || '').toLowerCase());
+            if (!hit) return null;
+            return {
+              id: hit.id,
+              number: hit.number,
+              name: hit.name,
+              position: hit.position,
+            };
+          })
+          .filter(Boolean),
+      }))
+      .filter((row) => row.slots.length);
+  }
+  const kept = Object.values(out).reduce((n, rows) => n + rows.reduce((m, r) => m + r.slots.length, 0), 0);
+  const prior = Object.values(existing || {}).reduce(
+    (n, rows) => n + (rows || []).reduce((m, r) => m + (r.slots?.length || 0), 0),
+    0
+  );
+  if (prior && kept < prior * 0.5) {
+    console.warn(`Depth remap kept ${kept}/${prior} slots — leaving previous chart in place`);
+    return existing;
+  }
+  return out;
+}
+
+const existing = loadExisting();
+
+console.log(`Syncing ESPN roster (${CURRENT_SEASON} slate${FULL_SYNC ? ', full career' : ', reuse career'})…`);
+const roster = await espnGet(
+  `https://site.web.api.espn.com/apis/site/v2/sports/football/college-football/teams/${TEAM_ID}/roster`
+);
+const teamJson = await espnGet(
+  `https://site.web.api.espn.com/apis/site/v2/sports/football/college-football/teams/${TEAM_ID}`
+);
 const teamMeta = teamJson.team;
+const priorById = new Map((existing?.players || []).map((p) => [String(p.id), p]));
 
 const players = [];
 for (const g of roster.athletes || []) {
   for (const a of g.items || []) {
     const pos = a.position || {};
     const abbr = pos.abbreviation || '?';
+    const prev = priorById.get(String(a.id));
     players.push({
       id: String(a.id),
       espnId: String(a.id),
@@ -180,130 +322,33 @@ for (const g of roster.athletes || []) {
       hometown: a.birthPlace?.displayText || '',
       unit: unitFor(abbr),
       headshot: a.headshot?.href || null,
-      previous: null,
-      previousTeams: [],
-      career: null,
+      previous: prev?.previous ?? null,
+      previousTeams: prev?.previousTeams || [],
+      career: !FULL_SYNC && prev?.career ? prev.career : null,
       eligibility: null,
       _experience: a.experience || null,
-      note: null,
-      tags: [],
+      note: prev?.note ?? null,
+      tags: prev?.tags || [],
     });
   }
 }
 
-console.log(`Roster: ${players.length}. Fetching career stats…`);
+console.log(`Roster: ${players.length}. ${FULL_SYNC ? 'Refreshing' : 'Filling missing'} career stats…`);
 let withStats = 0;
+let fetched = 0;
 for (const [i, p] of players.entries()) {
-  try {
-    const data = await get(
-      `https://site.web.api.espn.com/apis/common/v3/sports/football/college-football/athletes/${p.id}/stats`
-    );
-    const teams = Object.entries(data.teams || {}).map(([slug, t]) => ({
-      id: t.id,
-      slug,
-      name: t.displayName || t.name,
-      abbr: t.abbreviation,
-      logo: t.logos?.[0]?.href || `https://a.espncdn.com/i/teamlogos/ncaa/500/${t.id}.png`,
-    }));
-    const seasonsMap = {};
-    const categories = (data.categories || []).map((cat) => {
-      const labels = cat.labels || [];
-      const names = cat.names || [];
-      const rows = (cat.statistics || []).map((row) => {
-        const season = row.season || {};
-        const year = season.year || season.displayName;
-        const team = teams.find((t) => t.slug === row.teamSlug);
-        const display = {};
-        labels.forEach((lab, idx) => {
-          if (row.stats?.[idx] != null) display[lab] = row.stats[idx];
-        });
-        const stats = {};
-        names.forEach((n, idx) => {
-          if (row.stats?.[idx] != null) stats[n] = row.stats[idx];
-        });
-        // Keep rush / recv / pass separate — never flatten conflicting labels like YDS.
-        if (cat.name !== 'scoring') {
-          const slot = seasonsMap[String(year)] || {
-            year,
-            teamAbbr: team?.abbr,
-            teamName: team?.name,
-            teamLogo: team?.logo,
-            categories: {},
-          };
-          slot.teamAbbr = team?.abbr ?? slot.teamAbbr;
-          slot.teamName = team?.name ?? slot.teamName;
-          slot.teamLogo = team?.logo ?? slot.teamLogo;
-          slot.categories[cat.name] = {
-            displayName: cat.displayName || cat.name,
-            stats: display,
-          };
-          seasonsMap[String(year)] = slot;
-        }
-        return {
-          year,
-          teamId: row.teamId,
-          teamSlug: row.teamSlug,
-          teamAbbr: team?.abbr,
-          teamName: team?.name,
-          teamLogo: team?.logo,
-          stats,
-          display,
-        };
-      });
-      let totals = null;
-      if (Array.isArray(cat.totals)) {
-        totals = {};
-        labels.forEach((lab, idx) => {
-          if (cat.totals[idx] != null) totals[lab] = cat.totals[idx];
-        });
-      }
-      return { name: cat.name, displayName: cat.displayName, labels, rows, totals };
-    });
-    const primary = pickPrimaryCategory(categories, p.position);
-    const headlines = [];
-    if (primary) {
-      const source = primary.totals || primary.rows.at(-1)?.display || {};
-      for (const lab of primary.labels || []) {
-        if (source[lab] != null) headlines.push({ label: lab, value: source[lab] });
-        if (headlines.length >= 4) break;
-      }
+  const needs = FULL_SYNC || !p.career;
+  if (needs) {
+    try {
+      await hydrateCareer(p);
+      fetched += 1;
+    } catch {
+      // no college stats yet
     }
-    // Order prior schools by first season year — ESPN's teams map is not chronological.
-    const firstYearBySlug = {};
-    for (const cat of categories) {
-      for (const row of cat.rows || []) {
-        const y = Number(row.year);
-        if (!row.teamSlug || !Number.isFinite(y)) continue;
-        if (firstYearBySlug[row.teamSlug] == null || y < firstYearBySlug[row.teamSlug]) {
-          firstYearBySlug[row.teamSlug] = y;
-        }
-      }
-    }
-    const prev = teams
-      .filter((t) => t.abbr !== 'GT' && String(t.id) !== TEAM_ID)
-      .sort((a, b) => {
-        const ay = firstYearBySlug[a.slug] ?? 9999;
-        const by = firstYearBySlug[b.slug] ?? 9999;
-        if (ay !== by) return ay - by;
-        return String(a.abbr || '').localeCompare(String(b.abbr || ''));
-      });
-    p.previousTeams = prev;
-    if (prev.length) {
-      p.tags = ['Transfer'];
-      p.previous = prev.map((t) => t.abbr).join(', ');
-    }
-    p.career = {
-      categories,
-      seasons: Object.values(seasonsMap).sort((a, b) => Number(b.year) - Number(a.year)),
-      headlines,
-      primaryCategory: primary?.name || null,
-    };
-    withStats += 1;
-  } catch {
-    // no college stats yet
+    await new Promise((r) => setTimeout(r, 40));
   }
+  if (p.career) withStats += 1;
   if ((i + 1) % 20 === 0) console.log(`  ${i + 1}/${players.length}`);
-  await new Promise((r) => setTimeout(r, 40));
 }
 
 for (const p of players) {
@@ -311,15 +356,7 @@ for (const p of players) {
   delete p._experience;
 }
 
-// Keep existing depth chart if present
-let depthChart = { offense: [], defense: [], special: [] };
-const existingPath = join(root, 'data/live.json');
-if (existsSync(existingPath)) {
-  try {
-    const existing = JSON.parse(readFileSync(existingPath, 'utf8'));
-    if (existing.depthChart) depthChart = existing.depthChart;
-  } catch {}
-}
+const depthChart = refreshDepthChart(existing?.depthChart || { offense: [], defense: [], special: [] }, players);
 
 const featuredNames = [
   'Alberto Mendoza',
@@ -329,9 +366,7 @@ const featuredNames = [
   'Kyle Efford',
   'Aidan Birr',
 ];
-const featured = featuredNames
-  .map((n) => players.find((p) => p.name === n)?.id)
-  .filter(Boolean);
+const featured = featuredNames.map((n) => players.find((p) => p.name === n)?.id).filter(Boolean);
 
 const notes = {
   'Alberto Mendoza': 'Projected QB1. Indiana transfer after Haynes King.',
@@ -353,140 +388,36 @@ for (const unit of Object.values(depthChart)) {
   }
 }
 
-console.log('Fetching ACC standings + Top 25…');
-let standings = null;
-const opponents = {};
-try {
-  const acc = await get(
-    'https://site.web.api.espn.com/apis/v2/sports/football/college-football/standings?group=1&season=2025'
-  );
-  const entries = (acc.standings?.entries || []).map((e) => {
-    const t = e.team || {};
-    const stats = Object.fromEntries(
-      (e.stats || []).map((s) => [s.name || s.abbreviation, s.displayValue ?? s.value])
-    );
-    return {
-      id: String(t.id),
-      name: t.displayName || t.name,
-      shortName: t.shortDisplayName || t.name,
-      abbr: t.abbreviation,
-      logo: `https://a.espncdn.com/i/teamlogos/ncaa/500/${t.id}.png`,
-      overall: String(stats.overall || '—'),
-      conference: String(stats['vs. Conf.'] || '—'),
-    };
-  });
+console.log(`Fetching ${CURRENT_SEASON} standings, polls, schedule, news…`);
+const [standings2026, standings2025, polls, record, news] = await Promise.all([
+  fetchStandings(CURRENT_SEASON, String(CURRENT_SEASON)),
+  fetchStandings(PRIOR_SEASON, `${PRIOR_SEASON} Final`),
+  fetchRankingsPolls(),
+  fetchTeamRecord(),
+  fetchNews(),
+]);
 
-  const rankJson = await get(
-    'https://site.web.api.espn.com/apis/site/v2/sports/football/college-football/rankings'
-  );
-  const poll = (rankJson.rankings || [])[0];
-  const national = [];
-  for (const x of poll?.ranks || []) {
-    const t = x.team || {};
-    const oid = String(t.id);
-    let record = x.recordSummary || '';
-    if (!record || record === '0-0') {
-      try {
-        const sched = await get(
-          `https://site.web.api.espn.com/apis/site/v2/sports/football/college-football/teams/${oid}/schedule?season=2025&seasontype=2`
-        );
-        let w = 0;
-        let l = 0;
-        for (const ev of sched.events || []) {
-          const comp = (ev.competitions || [])[0] || {};
-          if (!comp.status?.type?.completed) continue;
-          const us = (comp.competitors || []).find((c) => String(c.team?.id) === oid);
-          if (!us) continue;
-          if (us.winner === true) w += 1;
-          else if (us.winner === false) l += 1;
-        }
-        record = `${w}-${l}`;
-        await new Promise((r) => setTimeout(r, 30));
-      } catch {
-        record = record || '—';
-      }
-    }
-    national.push({
-      rank: x.current,
-      previous: x.previous,
-      id: oid,
-      name: t.displayName || t.name,
-      abbr: t.abbreviation,
-      logo: `https://a.espncdn.com/i/teamlogos/ncaa/500/${t.id}.png`,
-      record,
-      points: x.points,
-    });
-  }
+const accIds = accIdSet(standings2026);
+const schedule = await fetchGtSchedule(accIds);
+console.log(`Wiping opponent slates to ${CURRENT_SEASON} (${schedule.length} GT games)…`);
+const opponents = await fetchOpponents(schedule, standings2026, CURRENT_SEASON);
 
-  standings = {
-    season: 2025,
-    label: '2025 Final',
-    conference: { name: 'ACC', label: '2025 Final ACC Standings', entries },
-    national: {
-      poll: poll?.name || 'Top 25',
-      label: '2026 Preseason Coaches Poll',
-      note: 'Records shown from 2025 season',
-      entries: national,
-    },
-  };
-} catch (err) {
-  console.warn('Standings fetch failed:', err.message);
-}
+const standings = attachPolls(standings2026, polls, {
+  note: '2026 polls · records reset with the new season',
+});
+const standingsPrior = {
+  ...standings2025,
+  national: {
+    id: 'ap-final',
+    poll: 'AP Top 25',
+    label: `${PRIOR_SEASON} Final AP`,
+    note: 'Georgia Tech finished 9-4 (6-2 ACC) and ranked No. 24 in the final 2025 AP poll. Full national table is not archived in-app — ACC finish is below.',
+    entries: [],
+  },
+  polls: [],
+};
 
-console.log('Fetching opponent 2025 schedules…');
-for (const g of schedule) {
-  const oid = g.opponentId;
-  if (!oid || opponents[oid]) continue;
-  try {
-    const d = await get(
-      `https://site.web.api.espn.com/apis/site/v2/sports/football/college-football/teams/${oid}/schedule?season=2025&seasontype=2`
-    );
-    const games = [];
-    for (const e of d.events || []) {
-      const comp = (e.competitions || [])[0] || {};
-      const comps = comp.competitors || [];
-      const us = comps.find((c) => String(c.team?.id) === String(oid));
-      const them = comps.find((c) => String(c.team?.id) !== String(oid));
-      if (!us || !them) continue;
-      const usScore = us.score?.displayValue ?? us.score;
-      const themScore = them.score?.displayValue ?? them.score;
-      let result = null;
-      if (us.winner === true) result = 'W';
-      else if (them.winner === true) result = 'L';
-      if (usScore === '0' && themScore === '0' && !result) continue;
-      games.push({
-        id: String(e.id),
-        date: String(e.date || '').slice(0, 10),
-        name: e.name,
-        home: us.homeAway === 'home',
-        opponent: them.team?.displayName || them.team?.nickname,
-        opponentAbbr: them.team?.abbreviation,
-        opponentId: String(them.team?.id),
-        opponentLogo: `https://a.espncdn.com/i/teamlogos/ncaa/500/${them.team?.id}.png`,
-        score: usScore != null && themScore != null ? `${usScore}-${themScore}` : null,
-        result,
-        venue: comp.venue?.fullName || null,
-      });
-    }
-    const wins = games.filter((x) => x.result === 'W').length;
-    const losses = games.filter((x) => x.result === 'L').length;
-    const accRow = standings?.conference.entries.find((x) => x.id === String(oid));
-    opponents[oid] = {
-      id: String(oid),
-      name: g.opponent,
-      abbr: g.opponentAbbr,
-      logo: g.opponentLogo,
-      record: accRow?.overall || `${wins}-${losses}`,
-      conference: accRow ? 'ACC' : null,
-      season: 2025,
-      games,
-    };
-    await new Promise((r) => setTimeout(r, 40));
-  } catch (err) {
-    console.warn(`Opponent ${oid} failed:`, err.message);
-  }
-}
-
+const pulse = buildPulse({ record, standings, schedule, polls });
 const coachList = Array.isArray(roster.coach) ? roster.coach : [];
 const head = coachList.find((c) => String(c.position || '').includes('Head')) || coachList[0] || {};
 
@@ -504,19 +435,20 @@ const payload = {
     defensiveCoordinator: 'Jason Semore',
     offense: 'Spread Pro Style',
     defense: '4-2-5',
-    season: 2026,
-    record: '0-0',
+    season: CURRENT_SEASON,
+    record,
     color: '#B39051',
     navy: '#051E39',
+    espnColor: teamMeta?.color ? `#${teamMeta.color}` : '#b3a369',
     logo: 'https://a.espncdn.com/i/teamlogos/ncaa/500/59.png',
     logoDark: 'https://a.espncdn.com/i/teamlogos/ncaa/500-dark/59.png',
-    lastSeason: { record: '9-4', conference: '6-2', rank: 24, note: 'Ranked as high as No. 7 in 2025' },
-    pulse: [
-      { label: '2025', value: '9-4', detail: 'Final record' },
-      { label: 'ACC', value: '6-2', detail: 'Tied 2nd' },
-      { label: 'Home', value: '7', detail: 'Games at The Flats' },
-      { label: 'Rank', value: '#24', detail: 'Final AP 2025' },
-    ],
+    lastSeason: {
+      record: '9-4',
+      conference: '6-2',
+      rank: 24,
+      note: 'Ranked as high as No. 7 in 2025',
+    },
+    pulse,
   },
   players,
   depthChart,
@@ -525,13 +457,32 @@ const payload = {
   featuredMore: featuredMore.slice(0, 18),
   opponents,
   standings,
-  dataAsOf: `ESPN roster, career stats, standings & opponent schedules · synced ${new Date().toISOString().slice(0, 10)}`,
+  standingsPrior,
+  polls: standings.polls || polls,
+  news,
+  dataAsOf: `ESPN ${CURRENT_SEASON} roster, slate, polls & news · synced ${new Date()
+    .toISOString()
+    .slice(0, 10)}`,
   sources: [
-    { name: 'ESPN College Football API', url: 'https://site.web.api.espn.com', usedFor: 'Roster, headshots, career stats, previous teams, logos, standings, opponent schedules' },
-    { name: 'Georgia Tech Athletics / ACC', url: 'https://ramblinwreck.com', usedFor: '2026 regular-season schedule' },
-    { name: 'Georgia Tech Brand Guide', url: 'https://brand.gatech.edu', usedFor: 'Tech Gold #B39051 · Navy #051E39' },
+    {
+      name: 'ESPN College Football API',
+      url: 'https://site.web.api.espn.com',
+      usedFor: 'Roster, headshots, career stats, 2026 slate, polls, standings',
+    },
+    {
+      name: 'Georgia Tech Athletics / ACC',
+      url: 'https://ramblinwreck.com',
+      usedFor: 'Official news, opener notes, 2026 regular-season slate',
+    },
+    {
+      name: 'Georgia Tech Brand Guide',
+      url: 'https://brand.gatech.edu',
+      usedFor: 'Tech Gold #B39051 · Navy #051E39',
+    },
   ],
 };
 
 writeFileSync(join(root, 'data/live.json'), JSON.stringify(payload, null, 2));
-console.log(`Wrote data/live.json · ${players.length} players · ${withStats} with career stats · ${Object.keys(opponents).length} opponents · ESPN color was #${teamMeta.color}`);
+console.log(
+  `Wrote data/live.json · ${players.length} players · ${withStats} with career · ${fetched} career fetches · ${schedule.length} games · ${Object.keys(opponents).length} opponents · ${news.length} news · ESPN color was #${teamMeta?.color}`
+);

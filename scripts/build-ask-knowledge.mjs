@@ -338,11 +338,37 @@ function main() {
           } overall (${gtStanding.conference} conference)${rank ? ` — #${rank} in the table` : ''}.`
         : `Recent context: ${team.lastSeason.record} (${team.lastSeason.conference} ACC) in ${team.season - 1}.`,
       `Last season final AP: #${team.lastSeason.rank}. ${team.lastSeason.note}`,
-      'Open the Standings tab for the full ACC table and Top 25.',
+      `Open Standings and flip ${team.season - 1} if you want last year's ACC finish.`,
+      'Open the Standings tab for the ACC table and AP / Coaches polls.',
     ].join('\n'),
     links: [{ label: 'Open standings', href: '/standings' }],
     followUps: ['When is the next game?', 'How did we do in 2025?'],
   });
+
+  const news = live.news || [];
+  if (news.length) {
+    push(entries, {
+      id: 'news-mood',
+      category: 'news',
+      scope: 'team',
+      intent: 'team',
+      questions: [
+        'What is the mood around the team?',
+        'Any news about the season?',
+        'How are people feeling about Georgia Tech?',
+        'Season preview',
+        'What are people saying?',
+      ],
+      keywords: ['news', 'mood', 'preview', 'opener', 'feeling', 'hype'],
+      answer: [
+        `Latest ${team.season} notes (Athletics / ESPN):`,
+        ...news.slice(0, 5).map((n) => `• ${n.headline}${n.description ? ` — ${n.description}` : ''}`),
+        'Open Home for the full news list.',
+      ].join('\n'),
+      links: news.slice(0, 3).map((n) => ({ label: n.headline, href: n.url })),
+      followUps: ['When is the next game?', 'Where do we stand in the ACC?'],
+    });
+  }
 
   // Schedule
   const upcoming = schedule.find((g) => g.status !== 'final') || schedule[0];
@@ -373,7 +399,7 @@ function main() {
       ],
       answer: gameLine(upcoming, 'Next up'),
       links: upcoming.opponentId
-        ? [{ label: `${upcoming.opponent} schedule`, href: `/opponent/${upcoming.opponentId}` }]
+        ? [{ label: `${upcoming.opponent} slate`, href: `/opponent/${upcoming.opponentId}` }]
         : [{ label: 'Open schedule', href: '/schedule' }],
       followUps: ['Show the full schedule', 'Where do we stand in the ACC?'],
     });
@@ -426,7 +452,7 @@ function main() {
       answer: gameLine(g, `${g.opponent} (${label})`),
       links: g.opponentId
         ? [
-            { label: `${g.opponent} results`, href: `/opponent/${g.opponentId}` },
+            { label: `${g.opponent} slate`, href: `/opponent/${g.opponentId}` },
             { label: 'Open schedule', href: '/schedule' },
           ]
         : [{ label: 'Open schedule', href: '/schedule' }],

@@ -3,13 +3,15 @@ import { Image, Pressable, StyleSheet, Text, View } from 'react-native';
 import { FadeIn } from '@/components/ui/FadeIn';
 import { Screen } from '@/components/ui/Screen';
 import { colors, spacing } from '@/constants/theme';
-import { formatGameDate, getOpponent, schedule } from '@/data/tech';
+import { CURRENT_SEASON, formatGameDate } from '@/data/tech';
+import { useSeasonPulse } from '@/hooks/useSeasonPulse';
 
 export default function OpponentDetailScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const router = useRouter();
-  const opponent = getOpponent(String(id));
-  const upcoming = schedule.filter((g) => g.opponentId === String(id));
+  const live = useSeasonPulse();
+  const opponent = live.opponents[String(id)];
+  const upcoming = live.schedule.filter((g) => g.opponentId === String(id));
 
   if (!opponent) {
     return (
@@ -21,6 +23,9 @@ export default function OpponentDetailScreen() {
       </Screen>
     );
   }
+
+  const played = opponent.games.filter((g) => g.result);
+  const slate = opponent.games;
 
   return (
     <Screen>
@@ -43,7 +48,7 @@ export default function OpponentDetailScreen() {
             <Text style={styles.abbr}>{opponent.abbr}</Text>
             <Text style={styles.name}>{opponent.name}</Text>
             <Text style={styles.record}>
-              {opponent.season} · {opponent.record}
+              {CURRENT_SEASON} · {opponent.record}
               {opponent.conference ? ` · ${opponent.conference}` : ''}
             </Text>
           </View>
@@ -58,9 +63,7 @@ export default function OpponentDetailScreen() {
               <Text style={styles.gtWhen}>
                 {g.dateLabel} · {g.time}
               </Text>
-              <Text style={styles.gtMatch}>
-                {g.home ? 'at Bobby Dodd' : `@ ${g.venue}`}
-              </Text>
+              <Text style={styles.gtMatch}>{g.home ? 'at Bobby Dodd' : `@ ${g.venue}`}</Text>
               <Text style={styles.gtNote}>{g.note || g.tv}</Text>
             </View>
           ))}
@@ -68,36 +71,44 @@ export default function OpponentDetailScreen() {
       ) : null}
 
       <FadeIn delay={120}>
-        <Text style={styles.section}>{opponent.season} Schedule</Text>
-        <Text style={styles.sub}>Past games and results</Text>
-        {opponent.games.map((g) => (
-          <View key={g.id} style={styles.game}>
-            <View style={styles.gameLeft}>
-              <Text
-                style={[
-                  styles.result,
-                  g.result === 'W' && styles.win,
-                  g.result === 'L' && styles.loss,
-                ]}
-              >
-                {g.result || '—'}
-              </Text>
-              <Text style={styles.date}>{formatGameDate(g.date)}</Text>
+        <Text style={styles.section}>{CURRENT_SEASON} Slate</Text>
+        <Text style={styles.sub}>
+          {played.length
+            ? `${played.length} result${played.length === 1 ? '' : 's'} in · rest still blank`
+            : 'Clean slate — results fill in after kickoff'}
+        </Text>
+        {slate.length ? (
+          slate.map((g) => (
+            <View key={g.id} style={styles.game}>
+              <View style={styles.gameLeft}>
+                <Text
+                  style={[
+                    styles.result,
+                    g.result === 'W' && styles.win,
+                    g.result === 'L' && styles.loss,
+                  ]}
+                >
+                  {g.result || '—'}
+                </Text>
+                <Text style={styles.date}>{formatGameDate(g.date)}</Text>
+              </View>
+              {g.opponentLogo ? (
+                <Image source={{ uri: g.opponentLogo }} style={styles.oppLogo} />
+              ) : null}
+              <View style={styles.gameMeta}>
+                <Text style={styles.oppName} numberOfLines={1}>
+                  {g.home ? 'vs' : '@'} {g.opponentAbbr || g.opponent}
+                </Text>
+                <Text style={styles.venue} numberOfLines={1}>
+                  {g.venue || '—'}
+                </Text>
+              </View>
+              <Text style={styles.score}>{g.score || '—'}</Text>
             </View>
-            {g.opponentLogo ? (
-              <Image source={{ uri: g.opponentLogo }} style={styles.oppLogo} />
-            ) : null}
-            <View style={styles.gameMeta}>
-              <Text style={styles.oppName} numberOfLines={1}>
-                {g.home ? 'vs' : '@'} {g.opponentAbbr || g.opponent}
-              </Text>
-              <Text style={styles.venue} numberOfLines={1}>
-                {g.venue || '—'}
-              </Text>
-            </View>
-            <Text style={styles.score}>{g.score || '—'}</Text>
-          </View>
-        ))}
+          ))
+        ) : (
+          <Text style={styles.empty}>No {CURRENT_SEASON} games listed yet.</Text>
+        )}
       </FadeIn>
     </Screen>
   );
@@ -194,6 +205,12 @@ const styles = StyleSheet.create({
     fontSize: 15,
     minWidth: 48,
     textAlign: 'right',
+  },
+  empty: {
+    fontFamily: 'DMSans_400Regular',
+    color: colors.mistDim,
+    fontSize: 14,
+    marginTop: 8,
   },
   missing: {
     fontFamily: 'DMSans_500Medium',

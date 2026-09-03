@@ -7,12 +7,15 @@ import { Segmented } from '@/components/Segmented';
 import { FadeIn } from '@/components/ui/FadeIn';
 import { Screen } from '@/components/ui/Screen';
 import { colors, spacing } from '@/constants/theme';
-import { getOpponent, schedule, team } from '@/data/tech';
+import { CURRENT_SEASON, team } from '@/data/tech';
+import { useSeasonPulse } from '@/hooks/useSeasonPulse';
 
 type Filter = 'all' | 'home' | 'away' | 'acc';
 type ViewMode = 'list' | 'calendar';
 
 export default function ScheduleScreen() {
+  const live = useSeasonPulse();
+  const schedule = live.schedule;
   const [filter, setFilter] = useState<Filter>('all');
   const [view, setView] = useState<ViewMode>('list');
   const games = useMemo(() => {
@@ -22,7 +25,7 @@ export default function ScheduleScreen() {
       if (filter === 'acc') return g.conference;
       return true;
     });
-  }, [filter]);
+  }, [filter, schedule]);
 
   return (
     <Screen>
@@ -30,7 +33,7 @@ export default function ScheduleScreen() {
         <Text style={styles.kicker}>{team.season} · GT / ACC</Text>
         <Text style={styles.title}>Schedule</Text>
         <Text style={styles.sub}>
-          {schedule.length} games · tap a team for their {Number(team.season) - 1} results
+          {schedule.length} games · tap a team for their {CURRENT_SEASON} slate
         </Text>
       </FadeIn>
 
@@ -66,13 +69,17 @@ export default function ScheduleScreen() {
         <FadeIn delay={120}>
           <SectionHeader title="Regular Season" right={`${games.length}`} />
           {games.map((game) => {
-            const opp = game.opponentId ? getOpponent(game.opponentId) : undefined;
+            const opp = game.opponentId ? live.opponents[game.opponentId] : undefined;
+            const scoreLine =
+              game.status === 'final' && game.result
+                ? `${game.result} ${game.gtScore ?? ''}-${game.oppScore ?? ''}`
+                : null;
             const body = (
               <Pressable style={styles.game}>
                 <View style={styles.gameTop}>
                   <Text style={styles.week}>WK {game.week}</Text>
                   <Text style={styles.when}>
-                    {game.dateLabel} · {game.time}
+                    {game.dateLabel} · {scoreLine || game.time}
                   </Text>
                 </View>
                 <View style={styles.matchRow}>
@@ -87,7 +94,7 @@ export default function ScheduleScreen() {
                 </View>
                 <Text style={styles.meta}>
                   {game.venue} · {game.city}
-                  {opp ? ` · ${opp.season} ${opp.record}` : ''}
+                  {opp ? ` · ${opp.record}` : ''}
                 </Text>
                 <View style={styles.badgeRow}>
                   <Text style={game.conference ? styles.badge : styles.badgeMuted}>

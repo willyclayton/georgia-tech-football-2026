@@ -3,8 +3,10 @@ import type {
   DepthRow,
   Game,
   LivePayload,
+  NewsItem,
   Opponent,
   Player,
+  PollPayload,
   PreviousTeam,
   StandingsPayload,
   Unit,
@@ -19,9 +21,14 @@ export const depthChart = data.depthChart;
 export const featuredIds = data.featured;
 export const featuredMoreIds = data.featuredMore ?? data.featured;
 export const standings: StandingsPayload | undefined = data.standings;
+export const standingsPrior: StandingsPayload | undefined = data.standingsPrior;
+export const polls: PollPayload[] = data.polls ?? data.standings?.polls ?? [];
+export const news: NewsItem[] = data.news ?? [];
 export const opponents: Record<string, Opponent> = data.opponents ?? {};
 export const dataAsOf = data.dataAsOf;
 export const sources = data.sources;
+export const CURRENT_SEASON = Number(data.team?.season || 2026);
+export const PRIOR_SEASON = CURRENT_SEASON - 1;
 
 const byId = new Map(players.map((p) => [p.id, p]));
 
@@ -112,19 +119,27 @@ export function depthRoleFor(playerId: string): string | null {
   return null;
 }
 
-export function nextGame(now = new Date()): Game | undefined {
-  return schedule.find((g) => {
+export function nextFromSchedule(games: Game[], now = new Date()): Game | undefined {
+  return games.find((g) => {
     if (g.status === 'final') return false;
     const day = new Date(`${g.date}T23:59:59`);
     return day.getTime() >= now.getTime() - 12 * 60 * 60 * 1000;
   });
 }
 
-export function upcomingGames(limit = 4, now = new Date()): Game[] {
-  const next = nextGame(now);
+export function upcomingFromSchedule(games: Game[], limit = 4, now = new Date()): Game[] {
+  const next = nextFromSchedule(games, now);
   if (!next) return [];
-  const idx = schedule.findIndex((g) => g.id === next.id);
-  return schedule.slice(idx, idx + limit);
+  const idx = games.findIndex((g) => g.id === next.id);
+  return games.slice(idx, idx + limit);
+}
+
+export function nextGame(now = new Date()): Game | undefined {
+  return nextFromSchedule(schedule, now);
+}
+
+export function upcomingGames(limit = 4, now = new Date()): Game[] {
+  return upcomingFromSchedule(schedule, limit, now);
 }
 
 /** Categories to show in player stats UI, in a sensible order. */
@@ -215,4 +230,35 @@ export function formatGameDate(iso: string) {
   const d = new Date(`${iso}T12:00:00`);
   if (Number.isNaN(d.getTime())) return iso;
   return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
+
+export function formatNewsDate(iso: string) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return iso;
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
+
+export function standingsForYear(
+  year: number,
+  current = standings,
+  prior = standingsPrior
+): StandingsPayload | undefined {
+  if (year === PRIOR_SEASON) return prior;
+  return current;
+}
+
+export function careerYearOptions(player: Player, currentSeason = CURRENT_SEASON) {
+  const years = new Set<number>();
+  for (const cat of player.career?.categories || []) {
+    for (const row of cat.rows || []) {
+      const y = Number(row.year);
+      if (Number.isFinite(y)) years.add(y);
+    }
+  }
+  return {
+    hasCurrent: [...years].includes(currentSeason),
+    hasPrior: [...years].includes(currentSeason - 1),
+    years: [...years].sort((a, b) => b - a),
+  };
 }

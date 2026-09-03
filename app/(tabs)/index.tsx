@@ -1,6 +1,6 @@
 import { Link } from 'expo-router';
 import { useEffect, useMemo, useState } from 'react';
-import { Image, Pressable, StyleSheet, Text, View } from 'react-native';
+import { Image, Linking, Pressable, StyleSheet, Text, View } from 'react-native';
 import Animated, {
   Easing,
   useAnimatedStyle,
@@ -14,52 +14,61 @@ import { FadeIn } from '@/components/ui/FadeIn';
 import { Screen } from '@/components/ui/Screen';
 import { colors, spacing } from '@/constants/theme';
 import {
+  CURRENT_SEASON,
+  PRIOR_SEASON,
   countdownLabel,
-  dataAsOf,
   featuredMoreIds,
   featuredPlayers,
-  nextGame,
+  formatNewsDate,
+  nextFromSchedule,
   shortLastName,
   sources,
-  standings,
   team,
-  upcomingGames,
+  upcomingFromSchedule,
 } from '@/data/tech';
 import { usePhoneLayout } from '@/hooks/usePhoneLayout';
+import { useSeasonPulse } from '@/hooks/useSeasonPulse';
 
 export default function HomeScreen() {
   const { pagePad } = usePhoneLayout();
   const [now, setNow] = useState(() => new Date());
   const [watchExpanded, setWatchExpanded] = useState(false);
-  const pulse = useSharedValue(0.5);
+  const pulseAnim = useSharedValue(0.5);
+  const live = useSeasonPulse();
 
   useEffect(() => {
-    pulse.value = withRepeat(
+    pulseAnim.value = withRepeat(
       withTiming(1, { duration: 1200, easing: Easing.inOut(Easing.ease) }),
       -1,
       true
     );
     const id = setInterval(() => setNow(new Date()), 30_000);
     return () => clearInterval(id);
-  }, [pulse]);
+  }, [pulseAnim]);
 
   const pulseStyle = useAnimatedStyle(() => ({
-    opacity: 0.4 + pulse.value * 0.6,
-    transform: [{ scale: 0.85 + pulse.value * 0.2 }],
+    opacity: 0.4 + pulseAnim.value * 0.6,
+    transform: [{ scale: 0.85 + pulseAnim.value * 0.2 }],
   }));
 
-  const hero = useMemo(() => nextGame(now), [now]);
-  const upcoming = useMemo(() => upcomingGames(4, now), [now]);
+  const hero = useMemo(() => nextFromSchedule(live.schedule, now), [live.schedule, now]);
+  const upcoming = useMemo(
+    () => upcomingFromSchedule(live.schedule, 4, now),
+    [live.schedule, now]
+  );
   const featured = useMemo(() => featuredPlayers(watchExpanded), [watchExpanded]);
   const canExpandWatch = featuredMoreIds.length > featuredPlayers(false).length;
-  const gtStanding = standings?.conference.entries.find((e) => e.abbr === team.abbr);
+  const gtStanding = live.standings?.conference.entries.find((e) => e.abbr === team.abbr);
   const gtAccRank =
-    (standings?.conference.entries.findIndex((e) => e.abbr === team.abbr) ?? -1) + 1;
+    (live.standings?.conference.entries.findIndex((e) => e.abbr === team.abbr) ?? -1) + 1;
+  const ap = live.polls.find((p) => /AP/i.test(p.poll)) || live.standings?.national;
+  const apGt = ap?.entries.find((e) => e.abbr === team.abbr);
+  const news = live.news.slice(0, 6);
 
   return (
     <Screen padded={false}>
       <FadeIn style={{ paddingHorizontal: pagePad, paddingTop: spacing.xs }}>
-        <BrandMark size="lg" record={`${team.season} · ${team.record}`} />
+        <BrandMark size="lg" record={`${CURRENT_SEASON} · ${live.record}`} />
       </FadeIn>
 
       <FadeIn delay={70} style={styles.heroBleed}>
@@ -67,7 +76,9 @@ export default function HomeScreen() {
           <View style={styles.heroTop}>
             <View style={styles.statusRow}>
               <Animated.View style={[styles.liveDot, pulseStyle]} />
-              <Text style={styles.statusLabel}>NEXT UP</Text>
+              <Text style={styles.statusLabel}>
+                {hero?.status === 'live' ? 'LIVE' : 'NEXT UP'}
+              </Text>
             </View>
             <Text style={styles.heroWhen}>
               {hero ? `${hero.dateLabel} · ${hero.time}` : 'TBD'}
@@ -100,9 +111,9 @@ export default function HomeScreen() {
 
       <View style={{ paddingHorizontal: pagePad }}>
         <FadeIn delay={140}>
-          <SectionHeader title="Team Pulse" subtitle="Carryover from 2025" />
+          <SectionHeader title="Team Pulse" subtitle={`${CURRENT_SEASON} slate · 0–0 until kickoff`} />
           <View style={styles.pulseRow}>
-            {team.pulse.map((item) => (
+            {live.pulse.map((item) => (
               <View key={item.label} style={styles.pulseItem}>
                 <Text style={styles.pulseLabel}>{item.label}</Text>
                 <Text style={styles.pulseValue}>{item.value}</Text>
@@ -112,8 +123,43 @@ export default function HomeScreen() {
           </View>
         </FadeIn>
 
+        <FadeIn delay={180}>
+          <SectionHeader
+            title="The Mood"
+            subtitle="How the opener and the year are landing"
+            right="NEWS"
+          />
+          {news.length ? (
+            news.map((item) => (
+              <Pressable
+                key={item.id}
+                style={styles.newsRow}
+                onPress={() => Linking.openURL(item.url)}
+                accessibilityRole="link"
+              >
+                <View style={styles.newsMeta}>
+                  <Text style={styles.newsKicker}>
+                    {(item.tag || item.source).toUpperCase()} · {formatNewsDate(item.published)}
+                  </Text>
+                  <Text style={styles.newsHead} numberOfLines={2}>
+                    {item.headline}
+                  </Text>
+                  {item.description ? (
+                    <Text style={styles.newsDek} numberOfLines={2}>
+                      {item.description}
+                    </Text>
+                  ) : null}
+                </View>
+                <Text style={styles.chev}>›</Text>
+              </Pressable>
+            ))
+          ) : (
+            <Text style={styles.emptyNews}>Season news lands here after the next sync.</Text>
+          )}
+        </FadeIn>
+
         <FadeIn delay={210}>
-          <SectionHeader title="Ones to Watch" subtitle="Projected impact" right="ROSTER" />
+          <SectionHeader title="Ones to Watch" subtitle="Week 1 projection" right="ROSTER" />
           {featured.map((p) => (
             <Link key={p.id} href={`/player/${p.id}`} asChild>
               <Pressable style={styles.watchRow}>
@@ -144,30 +190,49 @@ export default function HomeScreen() {
           ) : null}
         </FadeIn>
 
+        <FadeIn delay={240}>
+          <SectionHeader title="Polls" subtitle="Preseason Top 25 is fine — GT is unranked" />
+          <Link href="/standings" asChild>
+            <Pressable style={styles.pollBlock}>
+              {(ap?.entries || []).slice(0, 5).map((row) => (
+                <View key={row.id} style={styles.pollRow}>
+                  <Text style={styles.pollRank}>{row.rank}</Text>
+                  {row.logo ? <Image source={{ uri: row.logo }} style={styles.pollLogo} /> : null}
+                  <Text style={styles.pollName} numberOfLines={1}>
+                    {row.abbr}
+                  </Text>
+                  <Text style={styles.pollRec}>{row.record}</Text>
+                </View>
+              ))}
+              <Text style={styles.pollNote}>
+                {apGt
+                  ? `Georgia Tech · #${apGt.rank}`
+                  : `Georgia Tech · NR · finished #${team.lastSeason.rank} AP in ${PRIOR_SEASON}`}
+              </Text>
+            </Pressable>
+          </Link>
+        </FadeIn>
+
         <FadeIn delay={250}>
-          <SectionHeader title="Standings Pulse" subtitle="2025 finish" right="FULL" />
+          <SectionHeader title="Standings Pulse" subtitle={`${CURRENT_SEASON} · toggle ${PRIOR_SEASON} on Standings`} right="FULL" />
           <Link href="/standings" asChild>
             <Pressable style={styles.standRow}>
               <View style={styles.standItem}>
                 <Text style={styles.standLabel}>ACC</Text>
-                <Text style={styles.standValue}>
-                  {gtStanding?.conference ?? team.lastSeason.conference}
-                </Text>
+                <Text style={styles.standValue}>{gtStanding?.conference ?? '0-0'}</Text>
                 <Text style={styles.standDetail}>
                   {gtAccRank > 0 ? `#${gtAccRank} in ACC` : 'Conference'}
                 </Text>
               </View>
               <View style={styles.standItem}>
                 <Text style={styles.standLabel}>OVERALL</Text>
-                <Text style={styles.standValue}>
-                  {gtStanding?.overall ?? team.lastSeason.record}
-                </Text>
-                <Text style={styles.standDetail}>Final 2025</Text>
+                <Text style={styles.standValue}>{gtStanding?.overall ?? live.record}</Text>
+                <Text style={styles.standDetail}>{CURRENT_SEASON} slate</Text>
               </View>
               <View style={styles.standItem}>
                 <Text style={styles.standLabel}>AP</Text>
-                <Text style={styles.standValue}>#{team.lastSeason.rank}</Text>
-                <Text style={styles.standDetail}>Final poll</Text>
+                <Text style={styles.standValue}>{apGt ? `#${apGt.rank}` : 'NR'}</Text>
+                <Text style={styles.standDetail}>Preseason</Text>
               </View>
               <Text style={styles.chev}>›</Text>
             </Pressable>
@@ -175,7 +240,7 @@ export default function HomeScreen() {
         </FadeIn>
 
         <FadeIn delay={280}>
-          <SectionHeader title="Schedule" subtitle="Tap a team for their past games" />
+          <SectionHeader title="Schedule" subtitle={`Tap a team for their ${CURRENT_SEASON} slate`} />
           {upcoming.map((game) => {
             const row = (
               <Pressable style={styles.gameRow}>
@@ -186,7 +251,11 @@ export default function HomeScreen() {
                 <Text style={styles.gameMatch}>
                   {game.home ? 'vs' : '@'} {game.opponentAbbr}
                 </Text>
-                <Text style={styles.gameTime}>{game.time}</Text>
+                <Text style={styles.gameTime}>
+                  {game.status === 'final' && game.result
+                    ? `${game.result} ${game.gtScore}-${game.oppScore}`
+                    : game.time}
+                </Text>
                 <Text style={styles.chev}>›</Text>
               </Pressable>
             );
@@ -200,7 +269,7 @@ export default function HomeScreen() {
         </FadeIn>
 
         <FadeIn delay={340}>
-          <Text style={styles.asOf}>{dataAsOf}</Text>
+          <Text style={styles.asOf}>{live.dataAsOf}</Text>
           <Text style={styles.sourceLine}>
             Data: {sources.map((s) => s.name).join(' · ')}
           </Text>
@@ -300,6 +369,40 @@ const styles = StyleSheet.create({
     marginTop: 2,
   },
   pulseDetail: { fontFamily: 'DMSans_400Regular', color: colors.mistDim, fontSize: 12 },
+  newsRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+    paddingVertical: 12,
+    borderBottomWidth: StyleSheet.hairlineWidth,
+    borderBottomColor: colors.line,
+  },
+  newsMeta: { flex: 1 },
+  newsKicker: {
+    fontFamily: 'DMSans_700Bold',
+    color: colors.gold,
+    fontSize: 10,
+    letterSpacing: 1.1,
+  },
+  newsHead: {
+    fontFamily: 'DMSans_700Bold',
+    color: colors.white,
+    fontSize: 15,
+    marginTop: 3,
+  },
+  newsDek: {
+    fontFamily: 'DMSans_400Regular',
+    color: colors.mistDim,
+    fontSize: 12,
+    marginTop: 3,
+    lineHeight: 16,
+  },
+  emptyNews: {
+    fontFamily: 'DMSans_400Regular',
+    color: colors.mistDim,
+    fontSize: 13,
+    paddingVertical: 12,
+  },
   watchRow: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -331,6 +434,37 @@ const styles = StyleSheet.create({
     color: colors.gold,
     fontSize: 14,
     letterSpacing: 0.4,
+  },
+  pollBlock: {
+    paddingBottom: 8,
+    borderBottomWidth: StyleSheet.hairlineWidth,
+    borderBottomColor: colors.line,
+  },
+  pollRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    paddingVertical: 7,
+  },
+  pollRank: {
+    width: 20,
+    fontFamily: 'SpaceGrotesk_700Bold',
+    color: colors.gold,
+    fontSize: 14,
+  },
+  pollLogo: { width: 18, height: 18 },
+  pollName: {
+    flex: 1,
+    fontFamily: 'DMSans_700Bold',
+    color: colors.white,
+    fontSize: 13,
+  },
+  pollRec: { fontFamily: 'DMSans_500Medium', color: colors.mistDim, fontSize: 12 },
+  pollNote: {
+    marginTop: 8,
+    fontFamily: 'DMSans_400Regular',
+    color: colors.mistDim,
+    fontSize: 12,
   },
   standRow: {
     flexDirection: 'row',
