@@ -4,7 +4,15 @@ import { Image, Pressable, StyleSheet, Text, View } from 'react-native';
 import { FadeIn } from '@/components/ui/FadeIn';
 import { Screen } from '@/components/ui/Screen';
 import { colors, spacing } from '@/constants/theme';
-import { collegeStops, depthRoleFor, getPlayer, orderedCareerCategories } from '@/data/tech';
+import { Segmented } from '@/components/Segmented';
+import {
+  CURRENT_SEASON,
+  PRIOR_SEASON,
+  collegeStops,
+  depthRoleFor,
+  getPlayer,
+  orderedCareerCategories,
+} from '@/data/tech';
 
 export default function PlayerDetailScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
@@ -16,14 +24,28 @@ export default function PlayerDetailScreen() {
     [player]
   );
   const [activeCat, setActiveCat] = useState<string | null>(null);
+  const [yearView, setYearView] = useState<'current' | 'prior' | 'career'>('current');
   const selectedName = activeCat ?? categories[0]?.name ?? null;
   const selected = categories.find((c) => c.name === selectedName) ?? categories[0];
-  const headlines = selected?.totals
-    ? (selected.labels || []).slice(0, 4).map((lab) => ({
-        label: lab,
-        value: selected.totals?.[lab] ?? '—',
-      }))
-    : player?.career?.headlines || [];
+  const yearFilter = yearView === 'current' ? CURRENT_SEASON : yearView === 'prior' ? PRIOR_SEASON : null;
+  const yearRows = selected
+    ? yearFilter == null
+      ? selected.rows
+      : selected.rows.filter((row) => Number(row.year) === yearFilter)
+    : [];
+  const yearLine = yearRows[0]?.display;
+  const headlines =
+    yearView === 'career' && selected?.totals
+      ? (selected.labels || []).slice(0, 4).map((lab) => ({
+          label: lab,
+          value: selected.totals?.[lab] ?? '—',
+        }))
+      : yearLine
+        ? (selected?.labels || []).slice(0, 4).map((lab) => ({
+            label: lab,
+            value: yearLine[lab] ?? '—',
+          }))
+        : [];
 
   if (!player) {
     return (
@@ -114,7 +136,18 @@ export default function PlayerDetailScreen() {
       </FadeIn>
 
       <FadeIn delay={80}>
-        <Text style={styles.section}>Career Stats</Text>
+        <Text style={styles.section}>Stats</Text>
+        <View style={{ marginBottom: 12 }}>
+          <Segmented
+            options={[
+              { key: 'current', label: String(CURRENT_SEASON) },
+              { key: 'prior', label: String(PRIOR_SEASON) },
+              { key: 'career', label: 'Career' },
+            ]}
+            value={yearView}
+            onChange={setYearView}
+          />
+        </View>
         {categories.length ? (
           <>
             <View style={styles.catTabs}>
@@ -147,38 +180,51 @@ export default function PlayerDetailScreen() {
 
             {selected ? (
               <>
-                <Text style={styles.subSection}>{selected.displayName} by Season</Text>
-                <View style={styles.tableHead}>
-                  <Text style={[styles.th, styles.colYear]}>YR</Text>
-                  <Text style={[styles.th, styles.colTeam]}>TM</Text>
-                  {(selected.labels || []).slice(0, 5).map((lab) => (
-                    <Text key={lab} style={[styles.th, styles.colStat]}>
-                      {lab}
-                    </Text>
-                  ))}
-                </View>
-                {[...selected.rows].reverse().map((row) => (
-                  <View key={`${row.year}-${row.teamAbbr}`} style={styles.tableRow}>
-                    <Text style={[styles.td, styles.colYear]}>{row.year}</Text>
-                    <Text style={[styles.td, styles.colTeam]}>{row.teamAbbr || '—'}</Text>
-                    {(selected.labels || []).slice(0, 5).map((lab) => (
-                      <Text key={lab} style={[styles.td, styles.colStat]}>
-                        {row.display[lab] ?? '—'}
-                      </Text>
+                <Text style={styles.subSection}>
+                  {selected.displayName}{' '}
+                  {yearView === 'career' ? 'by Season' : `· ${yearFilter}`}
+                </Text>
+                {yearRows.length ? (
+                  <>
+                    <View style={styles.tableHead}>
+                      <Text style={[styles.th, styles.colYear]}>YR</Text>
+                      <Text style={[styles.th, styles.colTeam]}>TM</Text>
+                      {(selected.labels || []).slice(0, 5).map((lab) => (
+                        <Text key={lab} style={[styles.th, styles.colStat]}>
+                          {lab}
+                        </Text>
+                      ))}
+                    </View>
+                    {[...yearRows].reverse().map((row) => (
+                      <View key={`${row.year}-${row.teamAbbr}`} style={styles.tableRow}>
+                        <Text style={[styles.td, styles.colYear]}>{row.year}</Text>
+                        <Text style={[styles.td, styles.colTeam]}>{row.teamAbbr || '—'}</Text>
+                        {(selected.labels || []).slice(0, 5).map((lab) => (
+                          <Text key={lab} style={[styles.td, styles.colStat]}>
+                            {row.display[lab] ?? '—'}
+                          </Text>
+                        ))}
+                      </View>
                     ))}
-                  </View>
-                ))}
-                {selected.totals ? (
-                  <View style={[styles.tableRow, styles.totalsRow]}>
-                    <Text style={[styles.td, styles.colYear, styles.bold]}>TOT</Text>
-                    <Text style={[styles.td, styles.colTeam]} />
-                    {(selected.labels || []).slice(0, 5).map((lab) => (
-                      <Text key={lab} style={[styles.td, styles.colStat, styles.bold]}>
-                        {selected.totals?.[lab] ?? '—'}
-                      </Text>
-                    ))}
-                  </View>
-                ) : null}
+                    {yearView === 'career' && selected.totals ? (
+                      <View style={[styles.tableRow, styles.totalsRow]}>
+                        <Text style={[styles.td, styles.colYear, styles.bold]}>TOT</Text>
+                        <Text style={[styles.td, styles.colTeam]} />
+                        {(selected.labels || []).slice(0, 5).map((lab) => (
+                          <Text key={lab} style={[styles.td, styles.colStat, styles.bold]}>
+                            {selected.totals?.[lab] ?? '—'}
+                          </Text>
+                        ))}
+                      </View>
+                    ) : null}
+                  </>
+                ) : (
+                  <Text style={styles.empty}>
+                    {yearView === 'current'
+                      ? `No ${CURRENT_SEASON} line yet — first snap still ahead.`
+                      : `No ${PRIOR_SEASON} ${selected.displayName.toLowerCase()} on file. Flip to Career.`}
+                  </Text>
+                )}
               </>
             ) : null}
           </>

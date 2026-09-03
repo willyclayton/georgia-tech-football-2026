@@ -110,6 +110,9 @@ export type Game = {
   venue: string;
   city: string;
   status: 'upcoming' | 'final' | 'live';
+  gtScore?: string | null;
+  oppScore?: string | null;
+  result?: 'W' | 'L' | null;
   note?: string;
   source?: string;
 };
@@ -126,6 +129,7 @@ export type OpponentGame = {
   score?: string | null;
   result?: string | null;
   venue?: string | null;
+  status?: 'upcoming' | 'final' | 'live';
 };
 
 export type Opponent = {
@@ -160,6 +164,15 @@ export type RankEntry = {
   points?: number;
 };
 
+export type PollPayload = {
+  id?: string;
+  poll: string;
+  shortName?: string;
+  label?: string;
+  note?: string;
+  entries: RankEntry[];
+};
+
 export type StandingsPayload = {
   season: number;
   label?: string;
@@ -168,12 +181,19 @@ export type StandingsPayload = {
     label?: string;
     entries: StandingEntry[];
   };
-  national: {
-    poll: string;
-    label?: string;
-    note?: string;
-    entries: RankEntry[];
-  };
+  national: PollPayload;
+  polls?: PollPayload[];
+};
+
+export type NewsItem = {
+  id: string;
+  headline: string;
+  description: string;
+  url: string;
+  source: string;
+  published: string;
+  image?: string | null;
+  tag?: string | null;
 };
 
 export type LivePayload = {
@@ -206,6 +226,9 @@ export type LivePayload = {
   featuredMore?: string[];
   opponents?: Record<string, Opponent>;
   standings?: StandingsPayload;
+  standingsPrior?: StandingsPayload;
+  polls?: PollPayload[];
+  news?: NewsItem[];
   dataAsOf: string;
   sources: { name: string; url: string; usedFor: string }[];
 };

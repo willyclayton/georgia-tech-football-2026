@@ -31,12 +31,12 @@ export default function DepthScreen() {
         ? 'O = offense · X = defense · tap a spot for depth'
         : `${
             unit === 'offense' ? team.offense : unit === 'defense' ? team.defense : 'Special teams'
-          } · Fall camp projection`;
+          } · Week 1 projection`;
 
   return (
     <Screen>
       <FadeIn>
-        <Text style={styles.kicker}>PROJECTED</Text>
+        <Text style={styles.kicker}>WEEK 1</Text>
         <Text style={styles.title}>Depth Chart</Text>
         <Text style={styles.sub}>{sub}</Text>
       </FadeIn>

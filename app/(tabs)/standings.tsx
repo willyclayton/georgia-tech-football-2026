@@ -4,47 +4,78 @@ import { Segmented } from '@/components/Segmented';
 import { FadeIn } from '@/components/ui/FadeIn';
 import { Screen } from '@/components/ui/Screen';
 import { colors, spacing } from '@/constants/theme';
-import { standings, team } from '@/data/tech';
+import { CURRENT_SEASON, PRIOR_SEASON, standingsForYear, team } from '@/data/tech';
+import { useSeasonPulse } from '@/hooks/useSeasonPulse';
 
-type Tab = 'acc' | 'national';
+type YearTab = 'current' | 'prior';
+type Board = 'acc' | 'ap' | 'coaches';
 
 export default function StandingsScreen() {
-  const [tab, setTab] = useState<Tab>('acc');
-  const data = standings;
+  const live = useSeasonPulse();
+  const [year, setYear] = useState<YearTab>('current');
+  const [tab, setTab] = useState<Board>('acc');
+  const season = year === 'prior' ? PRIOR_SEASON : CURRENT_SEASON;
+  const data = standingsForYear(season, live.standings, live.standingsPrior);
+  const polls = year === 'prior' ? data?.polls || [] : live.polls.length ? live.polls : data?.polls || [];
+  const ap = polls.find((p) => /AP/i.test(p.poll)) || data?.national;
+  const coaches = polls.find((p) => /coach/i.test(p.poll));
 
   const acc = useMemo(() => data?.conference.entries ?? [], [data]);
-  const national = useMemo(() => data?.national.entries ?? [], [data]);
+  const pollEntries = tab === 'coaches' ? coaches?.entries ?? [] : ap?.entries ?? [];
   const gtAccRank = acc.findIndex((e) => e.abbr === team.abbr) + 1;
+
+  const yearOptions = [
+    { key: 'current' as const, label: String(CURRENT_SEASON) },
+    { key: 'prior' as const, label: String(PRIOR_SEASON) },
+  ];
+  const boardOptions = [
+    { key: 'acc' as const, label: 'ACC' },
+    { key: 'ap' as const, label: 'AP' },
+    ...(year === 'current' && coaches ? [{ key: 'coaches' as const, label: 'Coaches' }] : []),
+  ];
+
+  const sub =
+    tab === 'acc'
+      ? data?.conference.label || 'ACC conference race'
+      : tab === 'coaches'
+        ? coaches?.label || 'AFCA Coaches Poll'
+        : ap?.label || ap?.poll || 'National poll';
 
   return (
     <Screen>
       <FadeIn>
-        <Text style={styles.kicker}>{data?.season ?? team.season} · STANDINGS</Text>
+        <Text style={styles.kicker}>{season} · STANDINGS</Text>
         <Text style={styles.title}>Standings</Text>
-        <Text style={styles.sub}>
-          {tab === 'acc'
-            ? data?.conference.label || 'ACC conference race'
-            : data?.national.label || data?.national.poll || 'National poll'}
-        </Text>
+        <Text style={styles.sub}>{sub}</Text>
+      </FadeIn>
+
+      <FadeIn delay={50} style={{ marginTop: spacing.sm }}>
+        <Segmented
+          options={yearOptions}
+          value={year}
+          onChange={(next) => {
+            setYear(next);
+            if (next === 'prior' && tab === 'coaches') setTab('ap');
+          }}
+        />
       </FadeIn>
 
       <FadeIn delay={70} style={{ marginTop: spacing.sm }}>
-        <Segmented
-          options={[
-            { key: 'acc', label: 'ACC' },
-            { key: 'national', label: 'Top 25' },
-          ]}
-          value={tab}
-          onChange={setTab}
-        />
+        <Segmented options={boardOptions} value={tab} onChange={setTab} />
       </FadeIn>
 
       {tab === 'acc' ? (
         <FadeIn delay={120}>
-          {gtAccRank > 0 ? (
+          {year === 'current' && gtAccRank > 0 ? (
             <Text style={styles.highlight}>
               Georgia Tech · {acc[gtAccRank - 1]?.overall} overall · {acc[gtAccRank - 1]?.conference}{' '}
-              ACC · #{gtAccRank} in conference
+              ACC · #{gtAccRank} in conference · {CURRENT_SEASON} slate
+            </Text>
+          ) : null}
+          {year === 'prior' ? (
+            <Text style={styles.highlight}>
+              {PRIOR_SEASON} final: Georgia Tech {team.lastSeason.record} ({team.lastSeason.conference}{' '}
+              ACC), AP #{team.lastSeason.rank}. {team.lastSeason.note}.
             </Text>
           ) : null}
           <View style={styles.head}>
@@ -72,31 +103,44 @@ export default function StandingsScreen() {
         </FadeIn>
       ) : (
         <FadeIn delay={120}>
-          {data?.national.note ? <Text style={styles.highlight}>{data.national.note}</Text> : null}
-          <View style={styles.head}>
-            <Text style={[styles.th, styles.colRank]}>#</Text>
-            <Text style={[styles.th, styles.colTeam]}>TEAM</Text>
-            <Text style={[styles.th, styles.colRec]}>REC</Text>
-          </View>
-          {national.map((row) => {
-            const isGt = row.abbr === team.abbr;
-            return (
-              <View key={row.id} style={[styles.row, isGt && styles.rowGt]}>
-                <Text style={[styles.td, styles.colRank, isGt && styles.gtText]}>{row.rank}</Text>
-                <View style={[styles.colTeam, styles.teamCell]}>
-                  <Image source={{ uri: row.logo }} style={styles.logo} />
-                  <Text style={[styles.teamName, isGt && styles.gtText]} numberOfLines={1}>
-                    {row.name}
-                  </Text>
-                </View>
-                <Text style={[styles.td, styles.colRec, isGt && styles.gtText]}>{row.record}</Text>
+          {tab === 'ap' && ap?.note ? <Text style={styles.highlight}>{ap.note}</Text> : null}
+          {tab === 'coaches' && coaches?.note ? (
+            <Text style={styles.highlight}>{coaches.note}</Text>
+          ) : null}
+          {pollEntries.length ? (
+            <>
+              <View style={styles.head}>
+                <Text style={[styles.th, styles.colRank]}>#</Text>
+                <Text style={[styles.th, styles.colTeam]}>TEAM</Text>
+                <Text style={[styles.th, styles.colRec]}>REC</Text>
               </View>
-            );
-          })}
-          {!national.some((r) => r.abbr === team.abbr) ? (
+              {pollEntries.map((row) => {
+                const isGt = row.abbr === team.abbr;
+                return (
+                  <View key={row.id} style={[styles.row, isGt && styles.rowGt]}>
+                    <Text style={[styles.td, styles.colRank, isGt && styles.gtText]}>{row.rank}</Text>
+                    <View style={[styles.colTeam, styles.teamCell]}>
+                      <Image source={{ uri: row.logo }} style={styles.logo} />
+                      <Text style={[styles.teamName, isGt && styles.gtText]} numberOfLines={1}>
+                        {row.name}
+                      </Text>
+                    </View>
+                    <Text style={[styles.td, styles.colRec, isGt && styles.gtText]}>{row.record}</Text>
+                  </View>
+                );
+              })}
+            </>
+          ) : (
             <Text style={styles.footnote}>
-              Georgia Tech finished {team.lastSeason.record} ({team.lastSeason.conference} ACC) and
-              ranked #{team.lastSeason.rank} in the final 2025 AP poll.
+              {year === 'prior'
+                ? `No archived ${PRIOR_SEASON} national table in-app. Georgia Tech finished ${team.lastSeason.record} (${team.lastSeason.conference} ACC) and ranked #${team.lastSeason.rank} in the final AP poll.`
+                : 'Poll not available yet.'}
+            </Text>
+          )}
+          {year === 'current' && !pollEntries.some((r) => r.abbr === team.abbr) ? (
+            <Text style={styles.footnote}>
+              Georgia Tech is unranked to open {CURRENT_SEASON}. Last season: {team.lastSeason.record},
+              final AP #{team.lastSeason.rank}. Flip to {PRIOR_SEASON} for the ACC finish.
             </Text>
           ) : null}
         </FadeIn>
