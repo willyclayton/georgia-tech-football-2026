@@ -7,10 +7,12 @@ export default function Root({ children }: PropsWithChildren) {
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        {/* viewport-fit=cover enables safe-area insets; max-scale stops iOS focus-zoom fighting the layout */}
+        {/* viewport-fit=cover enables safe-area insets; max-scale stops iOS focus-zoom.
+            interactive-widget=resizes-content lets the keyboard shrink the layout so
+            inset:0 on #root tracks it without a JS pixel lock. */}
         <meta
           name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, shrink-to-fit=no"
+          content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, shrink-to-fit=no, interactive-widget=resizes-content"
         />
         <meta name="theme-color" content="#051E39" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -20,14 +22,9 @@ export default function Root({ children }: PropsWithChildren) {
         <style
           dangerouslySetInnerHTML={{
             __html: `
-              :root {
-                --app-height: 100svh;
-                --app-top: 0px;
-              }
-              html, body, #root {
-                height: var(--app-height, 100svh);
-                max-height: var(--app-height, 100svh);
+              html, body {
                 width: 100%;
+                height: 100%;
                 margin: 0;
                 padding: 0;
                 overflow: hidden;
@@ -36,41 +33,30 @@ export default function Root({ children }: PropsWithChildren) {
                 -webkit-text-size-adjust: 100%;
                 touch-action: pan-y;
               }
-              #root {
+              /*
+                Pin #root to all four edges of the canvas. Do not lock height to a
+                pixel value from visualViewport / innerHeight.
+
+                iOS Chrome's first read of those APIs (script in <head>, before
+                layout) is often too small. Resize never fires, so the tab bar
+                sits mid-screen with a navy gap until the user refreshes — by
+                then the viewport has settled and the next measurement is right.
+              */
+              html body #root {
+                position: fixed;
+                inset: 0;
+                height: auto;
+                max-height: none;
+                min-height: 0;
+                width: auto;
                 display: flex;
                 flex-direction: column;
-                position: fixed;
-                top: var(--app-top, 0px);
-                left: 0;
-                right: 0;
-                bottom: auto;
+                overflow: hidden;
+                background-color: #051E39;
               }
-              /* Keep RN web inputs from triggering Safari auto-zoom */
               input, textarea, select {
                 font-size: 16px !important;
               }
-            `,
-          }}
-        />
-        {/* Run before paint so the shell never starts taller than the visible Safari viewport */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function () {
-                function apply() {
-                  var vv = window.visualViewport;
-                  var h = Math.round(Math.min(vv ? vv.height : window.innerHeight, window.innerHeight));
-                  var t = Math.round(vv ? vv.offsetTop : 0);
-                  document.documentElement.style.setProperty('--app-height', h + 'px');
-                  document.documentElement.style.setProperty('--app-top', t + 'px');
-                }
-                apply();
-                if (window.visualViewport) {
-                  window.visualViewport.addEventListener('resize', apply);
-                  window.visualViewport.addEventListener('scroll', apply);
-                }
-                window.addEventListener('resize', apply);
-              })();
             `,
           }}
         />

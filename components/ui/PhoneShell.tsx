@@ -1,13 +1,9 @@
 import { PropsWithChildren } from 'react';
 import { Platform, StyleSheet, View, useWindowDimensions } from 'react-native';
 import { colors } from '@/constants/theme';
-import { useVisualViewportHeight } from '@/hooks/useVisualViewport';
 
 export function PhoneShell({ children }: PropsWithChildren) {
   const { width } = useWindowDimensions();
-  // Keep CSS vars in sync; prefer flex fill inside the fixed #root rather than
-  // a second explicit pixel height (which was clipping the tab bar).
-  useVisualViewportHeight();
   const constrain = Platform.OS === 'web' && width > 480;
 
   if (!constrain) {
@@ -26,8 +22,13 @@ const styles = StyleSheet.create({
     flex: 1,
     position: 'relative',
     minHeight: 0,
+    width: '100%',
     ...Platform.select({
-      web: { height: '100%' as unknown as number, maxHeight: '100%' as unknown as number },
+      web: {
+        height: '100%' as unknown as number,
+        flexGrow: 1,
+        flexShrink: 1,
+      },
       default: {},
     }),
   },
