@@ -13,7 +13,7 @@
     "offense": "Spread Pro Style",
     "defense": "4-2-5",
     "season": 2026,
-    "record": "0-0",
+    "record": "0-1",
     "color": "#B39051",
     "navy": "#051E39",
     "espnColor": "#b3a369",
@@ -28,18 +28,18 @@
     "pulse": [
       {
         "label": "2026",
-        "value": "0-0",
-        "detail": "Clean slate"
+        "value": "0-1",
+        "detail": "This season"
       },
       {
         "label": "ACC",
         "value": "0-0",
-        "detail": "#6 in table"
+        "detail": "#16 in table"
       },
       {
         "label": "NEXT",
-        "value": "COLO",
-        "detail": "Thu, Sep 3 · ESPN"
+        "value": "TENN",
+        "detail": "Sat, Sep 12 · ESPN"
       },
       {
         "label": "AP",
@@ -60,7 +60,7 @@
       "positionName": "Quarterback",
       "height": "6' 2\"",
       "weight": 230,
-      "year": "Freshman",
+      "year": "Sophomore",
       "hometown": "Edmond, OK",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5207610.png",
@@ -68,14 +68,14 @@
       "previousTeams": [],
       "career": null,
       "eligibility": {
-        "class": "Freshman",
-        "classAbbr": "FR",
-        "experienceYears": 1,
+        "class": "Sophomore",
+        "classAbbr": "SO",
+        "experienceYears": 2,
         "seasonsPlayed": 0,
         "seasons": [],
         "seasonsLabel": null,
-        "yearsLeft": 4,
-        "yearsLeftLabel": "4 years left",
+        "yearsLeft": 3,
+        "yearsLeftLabel": "3 years left",
         "extraYearLikely": false,
         "basis": "class",
         "note": "No college seasons with ESPN stats on record. Years left estimated from listed class."
@@ -120,7 +120,7 @@
     {
       "id": "5125580",
       "espnId": "5125580",
-      "number": 27,
+      "number": 11,
       "name": "Chad Alexander",
       "firstName": "Chad",
       "lastName": "Alexander",
@@ -128,7 +128,7 @@
       "positionName": "Running Back",
       "height": "5' 9\"",
       "weight": 190,
-      "year": "Junior",
+      "year": "Senior",
       "hometown": "Lawrenceville, GA",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5125580.png",
@@ -558,9 +558,9 @@
         "primaryCategory": "rushing"
       },
       "eligibility": {
-        "class": "Junior",
-        "classAbbr": "JR",
-        "experienceYears": 3,
+        "class": "Senior",
+        "classAbbr": "SR",
+        "experienceYears": 4,
         "seasonsPlayed": 3,
         "seasons": [
           2023,
@@ -820,7 +820,7 @@
       "positionName": "Running Back",
       "height": "5' 11\"",
       "weight": 200,
-      "year": "Freshman",
+      "year": "Sophomore",
       "hometown": "Covington, GA",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5215624.png",
@@ -828,14 +828,14 @@
       "previousTeams": [],
       "career": null,
       "eligibility": {
-        "class": "Freshman",
-        "classAbbr": "FR",
-        "experienceYears": 1,
+        "class": "Sophomore",
+        "classAbbr": "SO",
+        "experienceYears": 2,
         "seasonsPlayed": 0,
         "seasons": [],
         "seasonsLabel": null,
-        "yearsLeft": 4,
-        "yearsLeftLabel": "4 years left",
+        "yearsLeft": 3,
+        "yearsLeftLabel": "3 years left",
         "extraYearLikely": false,
         "basis": "class",
         "note": "No college seasons with ESPN stats on record. Years left estimated from listed class."
@@ -846,7 +846,7 @@
     {
       "id": "5211899",
       "espnId": "5211899",
-      "number": 90,
+      "number": 60,
       "name": "Blake Belin",
       "firstName": "Blake",
       "lastName": "Belin",
@@ -854,7 +854,7 @@
       "positionName": "Offensive Lineman",
       "height": "6' 3\"",
       "weight": 300,
-      "year": "Freshman",
+      "year": "Sophomore",
       "hometown": "Harlem, NY",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5211899.png",
@@ -966,9 +966,9 @@
         "primaryCategory": "defensive"
       },
       "eligibility": {
-        "class": "Freshman",
-        "classAbbr": "FR",
-        "experienceYears": 1,
+        "class": "Sophomore",
+        "classAbbr": "SO",
+        "experienceYears": 2,
         "seasonsPlayed": 1,
         "seasons": [
           2025
@@ -994,7 +994,7 @@
       "positionName": "Offensive Lineman",
       "height": "6' 4\"",
       "weight": 300,
-      "year": "Junior",
+      "year": "Senior",
       "hometown": "Flowery Branch, GA",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5218902.png",
@@ -1002,14 +1002,14 @@
       "previousTeams": [],
       "career": null,
       "eligibility": {
-        "class": "Junior",
-        "classAbbr": "JR",
-        "experienceYears": 3,
+        "class": "Senior",
+        "classAbbr": "SR",
+        "experienceYears": 4,
         "seasonsPlayed": 0,
         "seasons": [],
         "seasonsLabel": null,
-        "yearsLeft": 2,
-        "yearsLeftLabel": "2 years left",
+        "yearsLeft": 1,
+        "yearsLeftLabel": "1 year left",
         "extraYearLikely": false,
         "basis": "class",
         "note": "ESPN has no counting-stat seasons for this player (common for OL/LS). Years left estimated from listed class."
@@ -1028,7 +1028,7 @@
       "positionName": "Quarterback",
       "height": "6' 5\"",
       "weight": 225,
-      "year": "",
+      "year": "Freshman",
       "hometown": "Lafayette, LA",
       "unit": "offense",
       "headshot": null,
@@ -1036,16 +1036,16 @@
       "previousTeams": [],
       "career": null,
       "eligibility": {
-        "class": "—",
-        "classAbbr": "—",
-        "experienceYears": null,
+        "class": "Freshman",
+        "classAbbr": "FR",
+        "experienceYears": 1,
         "seasonsPlayed": 0,
         "seasons": [],
         "seasonsLabel": null,
         "yearsLeft": 4,
         "yearsLeftLabel": "4 years left",
         "extraYearLikely": false,
-        "basis": "seasons",
+        "basis": "class",
         "note": "No college seasons with ESPN stats on record. Years left estimated from listed class."
       },
       "note": null,
@@ -1062,7 +1062,7 @@
       "positionName": "Offensive Lineman",
       "height": "6' 4\"",
       "weight": 295,
-      "year": "Freshman",
+      "year": "Sophomore",
       "hometown": "Crossville, TN",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5209929.png",
@@ -1070,14 +1070,14 @@
       "previousTeams": [],
       "career": null,
       "eligibility": {
-        "class": "Freshman",
-        "classAbbr": "FR",
-        "experienceYears": 1,
+        "class": "Sophomore",
+        "classAbbr": "SO",
+        "experienceYears": 2,
         "seasonsPlayed": 0,
         "seasons": [],
         "seasonsLabel": null,
-        "yearsLeft": 4,
-        "yearsLeftLabel": "4 years left",
+        "yearsLeft": 3,
+        "yearsLeftLabel": "3 years left",
         "extraYearLikely": false,
         "basis": "class",
         "note": "ESPN has no counting-stat seasons for this player (common for OL/LS). Years left estimated from listed class."
@@ -1130,7 +1130,7 @@
       "positionName": "Offensive Lineman",
       "height": "6' 4\"",
       "weight": 305,
-      "year": "Freshman",
+      "year": "Sophomore",
       "hometown": "Marietta, GA",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5215701.png",
@@ -1138,14 +1138,14 @@
       "previousTeams": [],
       "career": null,
       "eligibility": {
-        "class": "Freshman",
-        "classAbbr": "FR",
-        "experienceYears": 1,
+        "class": "Sophomore",
+        "classAbbr": "SO",
+        "experienceYears": 2,
         "seasonsPlayed": 0,
         "seasons": [],
         "seasonsLabel": null,
-        "yearsLeft": 4,
-        "yearsLeftLabel": "4 years left",
+        "yearsLeft": 3,
+        "yearsLeftLabel": "3 years left",
         "extraYearLikely": false,
         "basis": "class",
         "note": "ESPN has no counting-stat seasons for this player (common for OL/LS). Years left estimated from listed class."
@@ -1163,7 +1163,7 @@
       "position": "OL",
       "positionName": "Offensive Lineman",
       "height": "6' 4\"",
-      "weight": 330,
+      "weight": 350,
       "year": "Senior",
       "hometown": "Pleasant Grove, AL",
       "unit": "offense",
@@ -1192,7 +1192,7 @@
     {
       "id": "5289797",
       "espnId": "5289797",
-      "number": 11,
+      "number": 21,
       "name": "Darnell Collins",
       "firstName": "Darnell",
       "lastName": "Collins",
@@ -1711,7 +1711,7 @@
       "positionName": "Offensive Lineman",
       "height": "6' 7\"",
       "weight": 310,
-      "year": "Sophomore",
+      "year": "Junior",
       "hometown": "Mcdonough, GA",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5146793.png",
@@ -1719,14 +1719,14 @@
       "previousTeams": [],
       "career": null,
       "eligibility": {
-        "class": "Sophomore",
-        "classAbbr": "SO",
-        "experienceYears": 2,
+        "class": "Junior",
+        "classAbbr": "JR",
+        "experienceYears": 3,
         "seasonsPlayed": 0,
         "seasons": [],
         "seasonsLabel": null,
-        "yearsLeft": 3,
-        "yearsLeftLabel": "3 years left",
+        "yearsLeft": 2,
+        "yearsLeftLabel": "2 years left",
         "extraYearLikely": false,
         "basis": "class",
         "note": "ESPN has no counting-stat seasons for this player (common for OL/LS). Years left estimated from listed class."
@@ -1745,7 +1745,7 @@
       "positionName": "Wide Receiver",
       "height": "6' 1\"",
       "weight": 200,
-      "year": "Junior",
+      "year": "Senior",
       "hometown": "Roswell, GA",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5159888.png",
@@ -1961,9 +1961,9 @@
         "primaryCategory": "receiving"
       },
       "eligibility": {
-        "class": "Junior",
-        "classAbbr": "JR",
-        "experienceYears": 3,
+        "class": "Senior",
+        "classAbbr": "SR",
+        "experienceYears": 4,
         "seasonsPlayed": 2,
         "seasons": [
           2024,
@@ -1990,7 +1990,7 @@
       "positionName": "Wide Receiver",
       "height": "6' 2\"",
       "weight": 200,
-      "year": "Freshman",
+      "year": "Sophomore",
       "hometown": "Dahlonega, GA",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5216549.png",
@@ -1998,14 +1998,14 @@
       "previousTeams": [],
       "career": null,
       "eligibility": {
-        "class": "Freshman",
-        "classAbbr": "FR",
-        "experienceYears": 1,
+        "class": "Sophomore",
+        "classAbbr": "SO",
+        "experienceYears": 2,
         "seasonsPlayed": 0,
         "seasons": [],
         "seasonsLabel": null,
-        "yearsLeft": 4,
-        "yearsLeftLabel": "4 years left",
+        "yearsLeft": 3,
+        "yearsLeftLabel": "3 years left",
         "extraYearLikely": false,
         "basis": "class",
         "note": "No college seasons with ESPN stats on record. Years left estimated from listed class."
@@ -2024,7 +2024,7 @@
       "positionName": "Offensive Lineman",
       "height": "6' 6\"",
       "weight": 340,
-      "year": "Sophomore",
+      "year": "Junior",
       "hometown": "Lilburn, GA",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5146767.png",
@@ -2032,14 +2032,14 @@
       "previousTeams": [],
       "career": null,
       "eligibility": {
-        "class": "Sophomore",
-        "classAbbr": "SO",
-        "experienceYears": 2,
+        "class": "Junior",
+        "classAbbr": "JR",
+        "experienceYears": 3,
         "seasonsPlayed": 0,
         "seasons": [],
         "seasonsLabel": null,
-        "yearsLeft": 3,
-        "yearsLeftLabel": "3 years left",
+        "yearsLeft": 2,
+        "yearsLeftLabel": "2 years left",
         "extraYearLikely": false,
         "basis": "class",
         "note": "ESPN has no counting-stat seasons for this player (common for OL/LS). Years left estimated from listed class."
@@ -2370,7 +2370,7 @@
       "positionName": "Wide Receiver",
       "height": "5' 11\"",
       "weight": 195,
-      "year": "Sophomore",
+      "year": "Junior",
       "hometown": "Alpharetta, GA",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5079441.png",
@@ -2378,14 +2378,14 @@
       "previousTeams": [],
       "career": null,
       "eligibility": {
-        "class": "Sophomore",
-        "classAbbr": "SO",
-        "experienceYears": 2,
+        "class": "Junior",
+        "classAbbr": "JR",
+        "experienceYears": 3,
         "seasonsPlayed": 0,
         "seasons": [],
         "seasonsLabel": null,
-        "yearsLeft": 3,
-        "yearsLeftLabel": "3 years left",
+        "yearsLeft": 2,
+        "yearsLeftLabel": "2 years left",
         "extraYearLikely": false,
         "basis": "class",
         "note": "No college seasons with ESPN stats on record. Years left estimated from listed class."
@@ -2404,7 +2404,7 @@
       "positionName": "Quarterback",
       "height": "5' 10\"",
       "weight": 180,
-      "year": "Junior",
+      "year": "Senior",
       "hometown": "Alpharetta, GA",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5159873.png",
@@ -2412,14 +2412,14 @@
       "previousTeams": [],
       "career": null,
       "eligibility": {
-        "class": "Junior",
-        "classAbbr": "JR",
-        "experienceYears": 3,
+        "class": "Senior",
+        "classAbbr": "SR",
+        "experienceYears": 4,
         "seasonsPlayed": 0,
         "seasons": [],
         "seasonsLabel": null,
-        "yearsLeft": 2,
-        "yearsLeftLabel": "2 years left",
+        "yearsLeft": 1,
+        "yearsLeftLabel": "1 year left",
         "extraYearLikely": false,
         "basis": "class",
         "note": "No college seasons with ESPN stats on record. Years left estimated from listed class."
@@ -3010,7 +3010,7 @@
       "positionName": "Wide Receiver",
       "height": "6' 3\"",
       "weight": 210,
-      "year": "Freshman",
+      "year": "Sophomore",
       "hometown": "Milton, GA",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5223206.png",
@@ -3018,14 +3018,14 @@
       "previousTeams": [],
       "career": null,
       "eligibility": {
-        "class": "Freshman",
-        "classAbbr": "FR",
-        "experienceYears": 1,
+        "class": "Sophomore",
+        "classAbbr": "SO",
+        "experienceYears": 2,
         "seasonsPlayed": 0,
         "seasons": [],
         "seasonsLabel": null,
-        "yearsLeft": 4,
-        "yearsLeftLabel": "4 years left",
+        "yearsLeft": 3,
+        "yearsLeftLabel": "3 years left",
         "extraYearLikely": false,
         "basis": "class",
         "note": "No college seasons with ESPN stats on record. Years left estimated from listed class."
@@ -3537,7 +3537,7 @@
       "position": "OL",
       "positionName": "Offensive Lineman",
       "height": "6' 6\"",
-      "weight": 345,
+      "weight": 360,
       "year": "Freshman",
       "hometown": "Newnan, GA",
       "unit": "offense",
@@ -3571,7 +3571,7 @@
       "position": "OL",
       "positionName": "Offensive Lineman",
       "height": "6' 5\"",
-      "weight": 325,
+      "weight": 320,
       "year": "Freshman",
       "hometown": "Newnan, GA",
       "unit": "offense",
@@ -4052,7 +4052,7 @@
       "positionName": "Offensive Lineman",
       "height": "6' 5\"",
       "weight": 305,
-      "year": "Sophomore",
+      "year": "Junior",
       "hometown": "Clearwater, FL",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5126569.png",
@@ -4060,14 +4060,14 @@
       "previousTeams": [],
       "career": null,
       "eligibility": {
-        "class": "Sophomore",
-        "classAbbr": "SO",
-        "experienceYears": 2,
+        "class": "Junior",
+        "classAbbr": "JR",
+        "experienceYears": 3,
         "seasonsPlayed": 0,
         "seasons": [],
         "seasonsLabel": null,
-        "yearsLeft": 3,
-        "yearsLeftLabel": "3 years left",
+        "yearsLeft": 2,
+        "yearsLeftLabel": "2 years left",
         "extraYearLikely": false,
         "basis": "class",
         "note": "ESPN has no counting-stat seasons for this player (common for OL/LS). Years left estimated from listed class."
@@ -4087,7 +4087,7 @@
       "position": "WR",
       "positionName": "Wide Receiver",
       "height": "5' 11\"",
-      "weight": 190,
+      "weight": 180,
       "year": "Freshman",
       "hometown": "North Miami, FL",
       "unit": "offense",
@@ -4122,7 +4122,7 @@
       "positionName": "Quarterback",
       "height": "6' 7\"",
       "weight": 230,
-      "year": "Sophomore",
+      "year": "Junior",
       "hometown": "Southlake, TX",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5146575.png",
@@ -4297,9 +4297,9 @@
         "primaryCategory": "passing"
       },
       "eligibility": {
-        "class": "Sophomore",
-        "classAbbr": "SO",
-        "experienceYears": 2,
+        "class": "Junior",
+        "classAbbr": "JR",
+        "experienceYears": 3,
         "seasonsPlayed": 1,
         "seasons": [
           2025
@@ -4324,8 +4324,8 @@
       "position": "OL",
       "positionName": "Offensive Lineman",
       "height": "6' 5\"",
-      "weight": 310,
-      "year": "Junior",
+      "weight": 325,
+      "year": "Senior",
       "hometown": "Marietta, GA",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4921259.png",
@@ -4417,9 +4417,9 @@
         "primaryCategory": "rushing"
       },
       "eligibility": {
-        "class": "Junior",
-        "classAbbr": "JR",
-        "experienceYears": 3,
+        "class": "Senior",
+        "classAbbr": "SR",
+        "experienceYears": 4,
         "seasonsPlayed": 1,
         "seasons": [
           2024
@@ -4439,7 +4439,7 @@
     {
       "id": "5103639",
       "espnId": "5103639",
-      "number": 2,
+      "number": 1,
       "name": "Trelain Maddox",
       "firstName": "Trelain",
       "lastName": "Maddox",
@@ -4447,7 +4447,7 @@
       "positionName": "Running Back",
       "height": "6' 2\"",
       "weight": 225,
-      "year": "Sophomore",
+      "year": "Junior",
       "hometown": "Stone Mountain, GA",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5103639.png",
@@ -4883,9 +4883,9 @@
         "primaryCategory": "rushing"
       },
       "eligibility": {
-        "class": "Sophomore",
-        "classAbbr": "SO",
-        "experienceYears": 2,
+        "class": "Junior",
+        "classAbbr": "JR",
+        "experienceYears": 3,
         "seasonsPlayed": 2,
         "seasons": [
           2024,
@@ -5092,7 +5092,7 @@
       "positionName": "Quarterback",
       "height": "6' 2\"",
       "weight": 215,
-      "year": "Sophomore",
+      "year": "Junior",
       "hometown": "Miami, FL",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5191162.png",
@@ -5414,9 +5414,9 @@
         "primaryCategory": "passing"
       },
       "eligibility": {
-        "class": "Sophomore",
-        "classAbbr": "SO",
-        "experienceYears": 2,
+        "class": "Junior",
+        "classAbbr": "JR",
+        "experienceYears": 3,
         "seasonsPlayed": 2,
         "seasons": [
           2024,
@@ -5438,15 +5438,15 @@
     {
       "id": "5155033",
       "espnId": "5155033",
-      "number": 44,
+      "number": 42,
       "name": "Spencer Mermans",
       "firstName": "Spencer",
       "lastName": "Mermans",
       "position": "TE",
       "positionName": "Tight End",
       "height": "6' 6\"",
-      "weight": 260,
-      "year": "Junior",
+      "weight": 265,
+      "year": "Senior",
       "hometown": "Charlotte, NC",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5155033.png",
@@ -5674,9 +5674,9 @@
         "primaryCategory": "receiving"
       },
       "eligibility": {
-        "class": "Junior",
-        "classAbbr": "JR",
-        "experienceYears": 3,
+        "class": "Senior",
+        "classAbbr": "SR",
+        "experienceYears": 4,
         "seasonsPlayed": 2,
         "seasons": [
           2023,
@@ -5739,7 +5739,7 @@
       "positionName": "Wide Receiver",
       "height": "6' 0\"",
       "weight": 195,
-      "year": "Sophomore",
+      "year": "Junior",
       "hometown": "Marietta, GA",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5218909.png",
@@ -5851,9 +5851,9 @@
         "primaryCategory": "defensive"
       },
       "eligibility": {
-        "class": "Sophomore",
-        "classAbbr": "SO",
-        "experienceYears": 2,
+        "class": "Junior",
+        "classAbbr": "JR",
+        "experienceYears": 3,
         "seasonsPlayed": 1,
         "seasons": [
           2024
@@ -5879,7 +5879,7 @@
       "positionName": "Offensive Lineman",
       "height": "6' 4\"",
       "weight": 315,
-      "year": "Freshman",
+      "year": "Sophomore",
       "hometown": "Lancaster, SC",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5212663.png",
@@ -5887,14 +5887,14 @@
       "previousTeams": [],
       "career": null,
       "eligibility": {
-        "class": "Freshman",
-        "classAbbr": "FR",
-        "experienceYears": 1,
+        "class": "Sophomore",
+        "classAbbr": "SO",
+        "experienceYears": 2,
         "seasonsPlayed": 0,
         "seasons": [],
         "seasonsLabel": null,
-        "yearsLeft": 4,
-        "yearsLeftLabel": "4 years left",
+        "yearsLeft": 3,
+        "yearsLeftLabel": "3 years left",
         "extraYearLikely": false,
         "basis": "class",
         "note": "ESPN has no counting-stat seasons for this player (common for OL/LS). Years left estimated from listed class."
@@ -5905,14 +5905,14 @@
     {
       "id": "5199859",
       "espnId": "5199859",
-      "number": 14,
+      "number": 7,
       "name": "Dalen Penson",
       "firstName": "Dalen",
       "lastName": "Penson",
       "position": "WR",
       "positionName": "Wide Receiver",
       "height": "5' 11\"",
-      "weight": 190,
+      "weight": 182,
       "year": "Sophomore",
       "hometown": "Peachtree City, GA",
       "unit": "offense",
@@ -6652,7 +6652,7 @@
       "positionName": "Tight End",
       "height": "6' 4\"",
       "weight": 240,
-      "year": "Sophomore",
+      "year": "Junior",
       "hometown": "Nashville, TN",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5218912.png",
@@ -6660,14 +6660,14 @@
       "previousTeams": [],
       "career": null,
       "eligibility": {
-        "class": "Sophomore",
-        "classAbbr": "SO",
-        "experienceYears": 2,
+        "class": "Junior",
+        "classAbbr": "JR",
+        "experienceYears": 3,
         "seasonsPlayed": 0,
         "seasons": [],
         "seasonsLabel": null,
-        "yearsLeft": 3,
-        "yearsLeftLabel": "3 years left",
+        "yearsLeft": 2,
+        "yearsLeftLabel": "2 years left",
         "extraYearLikely": false,
         "basis": "class",
         "note": "No college seasons with ESPN stats on record. Years left estimated from listed class."
@@ -6787,8 +6787,8 @@
       "position": "OL",
       "positionName": "Offensive Lineman",
       "height": "6' 5\"",
-      "weight": 310,
-      "year": "Sophomore",
+      "weight": 315,
+      "year": "Junior",
       "hometown": "Douglasville, GA",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5079581.png",
@@ -6796,14 +6796,14 @@
       "previousTeams": [],
       "career": null,
       "eligibility": {
-        "class": "Sophomore",
-        "classAbbr": "SO",
-        "experienceYears": 2,
+        "class": "Junior",
+        "classAbbr": "JR",
+        "experienceYears": 3,
         "seasonsPlayed": 0,
         "seasons": [],
         "seasonsLabel": null,
-        "yearsLeft": 3,
-        "yearsLeftLabel": "3 years left",
+        "yearsLeft": 2,
+        "yearsLeftLabel": "2 years left",
         "extraYearLikely": false,
         "basis": "class",
         "note": "ESPN has no counting-stat seasons for this player (common for OL/LS). Years left estimated from listed class."
@@ -6823,26 +6823,112 @@
       "position": "TE",
       "positionName": "Tight End",
       "height": "6' 9\"",
-      "weight": 265,
-      "year": "Freshman",
+      "weight": 270,
+      "year": "Sophomore",
       "hometown": "Darien, CT",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5215629.png",
       "previous": null,
       "previousTeams": [],
-      "career": null,
+      "career": {
+        "categories": [
+          {
+            "name": "receiving",
+            "displayName": "Receiving",
+            "labels": [
+              "REC",
+              "YDS",
+              "AVG",
+              "TD",
+              "LNG"
+            ],
+            "rows": [
+              {
+                "year": 2026,
+                "teamId": "59",
+                "teamSlug": "georgia-tech-yellow-jackets",
+                "teamAbbr": "GT",
+                "teamName": "Georgia Tech Yellow Jackets",
+                "teamLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+                "stats": {
+                  "receptions": "4",
+                  "receivingYards": "37",
+                  "yardsPerReception": "9.3",
+                  "receivingTouchdowns": "0",
+                  "longReception": "16"
+                },
+                "display": {
+                  "REC": "4",
+                  "YDS": "37",
+                  "AVG": "9.3",
+                  "TD": "0",
+                  "LNG": "16"
+                }
+              }
+            ],
+            "totals": {
+              "REC": "4",
+              "YDS": "37",
+              "AVG": "9.3",
+              "TD": "0",
+              "LNG": "16"
+            }
+          }
+        ],
+        "seasons": [
+          {
+            "year": 2026,
+            "teamAbbr": "GT",
+            "teamName": "Georgia Tech Yellow Jackets",
+            "teamLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+            "categories": {
+              "receiving": {
+                "displayName": "Receiving",
+                "stats": {
+                  "REC": "4",
+                  "YDS": "37",
+                  "AVG": "9.3",
+                  "TD": "0",
+                  "LNG": "16"
+                }
+              }
+            }
+          }
+        ],
+        "headlines": [
+          {
+            "label": "REC",
+            "value": "4"
+          },
+          {
+            "label": "YDS",
+            "value": "37"
+          },
+          {
+            "label": "AVG",
+            "value": "9.3"
+          },
+          {
+            "label": "TD",
+            "value": "0"
+          }
+        ],
+        "primaryCategory": "receiving"
+      },
       "eligibility": {
-        "class": "Freshman",
-        "classAbbr": "FR",
-        "experienceYears": 1,
-        "seasonsPlayed": 0,
-        "seasons": [],
-        "seasonsLabel": null,
-        "yearsLeft": 4,
-        "yearsLeftLabel": "4 years left",
+        "class": "Sophomore",
+        "classAbbr": "SO",
+        "experienceYears": 2,
+        "seasonsPlayed": 1,
+        "seasons": [
+          2026
+        ],
+        "seasonsLabel": "2026",
+        "yearsLeft": 3,
+        "yearsLeftLabel": "3 years left",
         "extraYearLikely": false,
-        "basis": "class",
-        "note": "No college seasons with ESPN stats on record. Years left estimated from listed class."
+        "basis": "seasons",
+        "note": "Years left estimated from seasons with college stats under the standard 4-season rule. Redshirts and COVID years can add eligibility."
       },
       "note": null,
       "tags": []
@@ -6858,7 +6944,7 @@
       "positionName": "Offensive Lineman",
       "height": "6' 5\"",
       "weight": 300,
-      "year": "Sophomore",
+      "year": "Junior",
       "hometown": "Ball Ground, GA",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5125596.png",
@@ -6866,14 +6952,14 @@
       "previousTeams": [],
       "career": null,
       "eligibility": {
-        "class": "Sophomore",
-        "classAbbr": "SO",
-        "experienceYears": 2,
+        "class": "Junior",
+        "classAbbr": "JR",
+        "experienceYears": 3,
         "seasonsPlayed": 0,
         "seasons": [],
         "seasonsLabel": null,
-        "yearsLeft": 3,
-        "yearsLeftLabel": "3 years left",
+        "yearsLeft": 2,
+        "yearsLeftLabel": "2 years left",
         "extraYearLikely": false,
         "basis": "class",
         "note": "ESPN has no counting-stat seasons for this player (common for OL/LS). Years left estimated from listed class."
@@ -6892,7 +6978,7 @@
       "positionName": "Tight End",
       "height": "6' 4\"",
       "weight": 255,
-      "year": "Freshman",
+      "year": "Sophomore",
       "hometown": "Atlanta, GA",
       "unit": "offense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5215221.png",
@@ -6900,14 +6986,14 @@
       "previousTeams": [],
       "career": null,
       "eligibility": {
-        "class": "Freshman",
-        "classAbbr": "FR",
-        "experienceYears": 1,
+        "class": "Sophomore",
+        "classAbbr": "SO",
+        "experienceYears": 2,
         "seasonsPlayed": 0,
         "seasons": [],
         "seasonsLabel": null,
-        "yearsLeft": 4,
-        "yearsLeftLabel": "4 years left",
+        "yearsLeft": 3,
+        "yearsLeftLabel": "3 years left",
         "extraYearLikely": false,
         "basis": "class",
         "note": "No college seasons with ESPN stats on record. Years left estimated from listed class."
@@ -6925,7 +7011,7 @@
       "position": "OL",
       "positionName": "Offensive Lineman",
       "height": "6' 4\"",
-      "weight": 305,
+      "weight": 315,
       "year": "Senior",
       "hometown": "Fayetteville, NC",
       "unit": "offense",
@@ -6952,7 +7038,7 @@
     {
       "id": "5085830",
       "espnId": "5085830",
-      "number": 7,
+      "number": 3,
       "name": "Rahkeem Smith",
       "firstName": "Rahkeem",
       "lastName": "Smith",
@@ -7694,7 +7780,7 @@
       "position": "DE",
       "positionName": "Defensive End",
       "height": "6' 3\"",
-      "weight": 255,
+      "weight": 262,
       "year": "Junior",
       "hometown": "Beech Island, SC",
       "unit": "defense",
@@ -7887,7 +7973,7 @@
       "position": "DE",
       "positionName": "Defensive End",
       "height": "6' 5\"",
-      "weight": 260,
+      "weight": 265,
       "year": "Junior",
       "hometown": "Statesboro, GA",
       "unit": "defense",
@@ -8081,7 +8167,7 @@
       "positionName": "Defensive Tackle",
       "height": "6' 5\"",
       "weight": 315,
-      "year": "Junior",
+      "year": "Senior",
       "hometown": "Harrisburg, PA",
       "unit": "defense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5120453.png",
@@ -8260,9 +8346,9 @@
         "primaryCategory": "defensive"
       },
       "eligibility": {
-        "class": "Junior",
-        "classAbbr": "JR",
-        "experienceYears": 3,
+        "class": "Senior",
+        "classAbbr": "SR",
+        "experienceYears": 4,
         "seasonsPlayed": 2,
         "seasons": [
           2024,
@@ -8291,7 +8377,7 @@
       "positionName": "Defensive End",
       "height": "6' 5\"",
       "weight": 250,
-      "year": "Sophomore",
+      "year": "Junior",
       "hometown": "Peoria, AZ",
       "unit": "defense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5139096.png",
@@ -8463,9 +8549,9 @@
         "primaryCategory": "defensive"
       },
       "eligibility": {
-        "class": "Sophomore",
-        "classAbbr": "SO",
-        "experienceYears": 2,
+        "class": "Junior",
+        "classAbbr": "JR",
+        "experienceYears": 3,
         "seasonsPlayed": 2,
         "seasons": [
           2024,
@@ -8494,8 +8580,8 @@
       "position": "DT",
       "positionName": "Defensive Tackle",
       "height": "6' 2\"",
-      "weight": 315,
-      "year": "",
+      "weight": 325,
+      "year": "Freshman",
       "hometown": "Kissimmee, FL",
       "unit": "defense",
       "headshot": null,
@@ -8503,16 +8589,16 @@
       "previousTeams": [],
       "career": null,
       "eligibility": {
-        "class": "—",
-        "classAbbr": "—",
-        "experienceYears": null,
+        "class": "Freshman",
+        "classAbbr": "FR",
+        "experienceYears": 1,
         "seasonsPlayed": 0,
         "seasons": [],
         "seasonsLabel": null,
         "yearsLeft": 4,
         "yearsLeftLabel": "4 years left",
         "extraYearLikely": false,
-        "basis": "seasons",
+        "basis": "class",
         "note": "No college seasons with ESPN stats on record. Years left estimated from listed class."
       },
       "note": null,
@@ -8529,7 +8615,7 @@
       "positionName": "Defensive End",
       "height": "6' 3\"",
       "weight": 245,
-      "year": "Sophomore",
+      "year": "Junior",
       "hometown": "Milton, GA",
       "unit": "defense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5218905.png",
@@ -8537,14 +8623,14 @@
       "previousTeams": [],
       "career": null,
       "eligibility": {
-        "class": "Sophomore",
-        "classAbbr": "SO",
-        "experienceYears": 2,
+        "class": "Junior",
+        "classAbbr": "JR",
+        "experienceYears": 3,
         "seasonsPlayed": 0,
         "seasons": [],
         "seasonsLabel": null,
-        "yearsLeft": 3,
-        "yearsLeftLabel": "3 years left",
+        "yearsLeft": 2,
+        "yearsLeftLabel": "2 years left",
         "extraYearLikely": false,
         "basis": "class",
         "note": "No college seasons with ESPN stats on record. Years left estimated from listed class."
@@ -8589,7 +8675,7 @@
     {
       "id": "4923251",
       "espnId": "4923251",
-      "number": 29,
+      "number": 14,
       "name": "Jonas Duclona",
       "firstName": "Jonas",
       "lastName": "Duclona",
@@ -8597,7 +8683,7 @@
       "positionName": "Cornerback",
       "height": "5' 11\"",
       "weight": 190,
-      "year": "Junior",
+      "year": "Senior",
       "hometown": "Naples, FL",
       "unit": "defense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4923251.png",
@@ -8828,9 +8914,9 @@
         "primaryCategory": "defensive"
       },
       "eligibility": {
-        "class": "Junior",
-        "classAbbr": "JR",
-        "experienceYears": 3,
+        "class": "Senior",
+        "classAbbr": "SR",
+        "experienceYears": 4,
         "seasonsPlayed": 3,
         "seasons": [
           2023,
@@ -9162,7 +9248,7 @@
       "positionName": "Safety",
       "height": "6' 1\"",
       "weight": 205,
-      "year": "Freshman",
+      "year": "Sophomore",
       "hometown": "Mcdonough, GA",
       "unit": "defense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5215212.png",
@@ -9274,9 +9360,9 @@
         "primaryCategory": "defensive"
       },
       "eligibility": {
-        "class": "Freshman",
-        "classAbbr": "FR",
-        "experienceYears": 1,
+        "class": "Sophomore",
+        "classAbbr": "SO",
+        "experienceYears": 2,
         "seasonsPlayed": 1,
         "seasons": [
           2025
@@ -9292,146 +9378,6 @@
       "tags": [
         "Starter"
       ]
-    },
-    {
-      "id": "5159876",
-      "espnId": "5159876",
-      "number": 34,
-      "name": "Myles Forristall",
-      "firstName": "Myles",
-      "lastName": "Forristall",
-      "position": "LB",
-      "positionName": "Linebacker",
-      "height": "6' 0\"",
-      "weight": 230,
-      "year": "Junior",
-      "hometown": "Cartersville, GA",
-      "unit": "defense",
-      "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5159876.png",
-      "previous": null,
-      "previousTeams": [],
-      "career": {
-        "categories": [
-          {
-            "name": "defensive",
-            "displayName": "Defense",
-            "labels": [
-              "TOT",
-              "SOLO",
-              "AST",
-              "PD",
-              "SACK",
-              "FF",
-              "INT",
-              "YDS",
-              "TD"
-            ],
-            "rows": [
-              {
-                "year": 2025,
-                "teamId": "59",
-                "teamSlug": "georgia-tech-yellow-jackets",
-                "teamAbbr": "GT",
-                "teamName": "Georgia Tech Yellow Jackets",
-                "teamLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
-                "stats": {
-                  "totalTackles": "1",
-                  "soloTackles": "1",
-                  "assistTackles": "0",
-                  "passesDefended": "0",
-                  "sacks": "0",
-                  "fumblesForced": "0",
-                  "interceptions": "0",
-                  "interceptionYards": "0",
-                  "interceptionTouchdowns": "0"
-                },
-                "display": {
-                  "TOT": "1",
-                  "SOLO": "1",
-                  "AST": "0",
-                  "PD": "0",
-                  "SACK": "0",
-                  "FF": "0",
-                  "INT": "0",
-                  "YDS": "0",
-                  "TD": "0"
-                }
-              }
-            ],
-            "totals": {
-              "TOT": "1",
-              "SOLO": "1",
-              "AST": "0",
-              "PD": "0",
-              "SACK": "0",
-              "FF": "0",
-              "INT": "0",
-              "YDS": "0",
-              "TD": "0"
-            }
-          }
-        ],
-        "seasons": [
-          {
-            "year": 2025,
-            "teamAbbr": "GT",
-            "teamName": "Georgia Tech Yellow Jackets",
-            "teamLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
-            "categories": {
-              "defensive": {
-                "displayName": "Defense",
-                "stats": {
-                  "TOT": "1",
-                  "SOLO": "1",
-                  "AST": "0",
-                  "PD": "0",
-                  "SACK": "0",
-                  "FF": "0",
-                  "INT": "0",
-                  "YDS": "0",
-                  "TD": "0"
-                }
-              }
-            }
-          }
-        ],
-        "headlines": [
-          {
-            "label": "TOT",
-            "value": "1"
-          },
-          {
-            "label": "SOLO",
-            "value": "1"
-          },
-          {
-            "label": "AST",
-            "value": "0"
-          },
-          {
-            "label": "PD",
-            "value": "0"
-          }
-        ],
-        "primaryCategory": "defensive"
-      },
-      "eligibility": {
-        "class": "Junior",
-        "classAbbr": "JR",
-        "experienceYears": 3,
-        "seasonsPlayed": 1,
-        "seasons": [
-          2025
-        ],
-        "seasonsLabel": "2025",
-        "yearsLeft": 3,
-        "yearsLeftLabel": "3 years left",
-        "extraYearLikely": false,
-        "basis": "seasons",
-        "note": "Years left estimated from seasons with college stats under the standard 4-season rule. Redshirts and COVID years can add eligibility."
-      },
-      "note": null,
-      "tags": []
     },
     {
       "id": "5199947",
@@ -9576,14 +9522,14 @@
     {
       "id": "5222695",
       "espnId": "5222695",
-      "number": 33,
+      "number": 34,
       "name": "C.J. Gamble",
       "firstName": "C.J.",
       "lastName": "Gamble",
       "position": "LB",
       "positionName": "Linebacker",
       "height": "6' 1\"",
-      "weight": 220,
+      "weight": 230,
       "year": "Freshman",
       "hometown": "Carrollton, GA",
       "unit": "defense",
@@ -9617,8 +9563,8 @@
       "position": "DT",
       "positionName": "Defensive Tackle",
       "height": "6' 4\"",
-      "weight": 300,
-      "year": "Freshman",
+      "weight": 305,
+      "year": "Sophomore",
       "hometown": "Monroe, GA",
       "unit": "defense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5147846.png",
@@ -9730,9 +9676,9 @@
         "primaryCategory": "defensive"
       },
       "eligibility": {
-        "class": "Freshman",
-        "classAbbr": "FR",
-        "experienceYears": 1,
+        "class": "Sophomore",
+        "classAbbr": "SO",
+        "experienceYears": 2,
         "seasonsPlayed": 1,
         "seasons": [
           2025
@@ -9759,8 +9705,8 @@
       "position": "DT",
       "positionName": "Defensive Tackle",
       "height": "6' 5\"",
-      "weight": 290,
-      "year": "Freshman",
+      "weight": 300,
+      "year": "Sophomore",
       "hometown": "Covington, GA",
       "unit": "defense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5236218.png",
@@ -9880,9 +9826,9 @@
         "primaryCategory": "defensive"
       },
       "eligibility": {
-        "class": "Freshman",
-        "classAbbr": "FR",
-        "experienceYears": 1,
+        "class": "Sophomore",
+        "classAbbr": "SO",
+        "experienceYears": 2,
         "seasonsPlayed": 1,
         "seasons": [
           2025
@@ -10058,19 +10004,125 @@
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5159174.png",
       "previous": null,
       "previousTeams": [],
-      "career": null,
+      "career": {
+        "categories": [
+          {
+            "name": "defensive",
+            "displayName": "Defense",
+            "labels": [
+              "TOT",
+              "SOLO",
+              "AST",
+              "PD",
+              "SACK",
+              "FF",
+              "INT",
+              "YDS",
+              "TD"
+            ],
+            "rows": [
+              {
+                "year": 2026,
+                "teamId": "59",
+                "teamSlug": "georgia-tech-yellow-jackets",
+                "teamAbbr": "GT",
+                "teamName": "Georgia Tech Yellow Jackets",
+                "teamLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+                "stats": {
+                  "totalTackles": "1",
+                  "soloTackles": "1",
+                  "assistTackles": "0",
+                  "passesDefended": "0",
+                  "sacks": "0",
+                  "fumblesForced": "0",
+                  "interceptions": "0",
+                  "interceptionYards": "0",
+                  "interceptionTouchdowns": "0"
+                },
+                "display": {
+                  "TOT": "1",
+                  "SOLO": "1",
+                  "AST": "0",
+                  "PD": "0",
+                  "SACK": "0",
+                  "FF": "0",
+                  "INT": "0",
+                  "YDS": "0",
+                  "TD": "0"
+                }
+              }
+            ],
+            "totals": {
+              "TOT": "1",
+              "SOLO": "1",
+              "AST": "0",
+              "PD": "0",
+              "SACK": "0",
+              "FF": "0",
+              "INT": "0",
+              "YDS": "0",
+              "TD": "0"
+            }
+          }
+        ],
+        "seasons": [
+          {
+            "year": 2026,
+            "teamAbbr": "GT",
+            "teamName": "Georgia Tech Yellow Jackets",
+            "teamLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+            "categories": {
+              "defensive": {
+                "displayName": "Defense",
+                "stats": {
+                  "TOT": "1",
+                  "SOLO": "1",
+                  "AST": "0",
+                  "PD": "0",
+                  "SACK": "0",
+                  "FF": "0",
+                  "INT": "0",
+                  "YDS": "0",
+                  "TD": "0"
+                }
+              }
+            }
+          }
+        ],
+        "headlines": [
+          {
+            "label": "TOT",
+            "value": "1"
+          },
+          {
+            "label": "SOLO",
+            "value": "1"
+          },
+          {
+            "label": "AST",
+            "value": "0"
+          },
+          {
+            "label": "PD",
+            "value": "0"
+          }
+        ],
+        "primaryCategory": "defensive"
+      },
       "eligibility": {
         "class": "Freshman",
         "classAbbr": "FR",
         "experienceYears": 1,
-        "seasonsPlayed": 0,
-        "seasons": [],
-        "seasonsLabel": null,
-        "yearsLeft": 4,
-        "yearsLeftLabel": "4 years left",
+        "seasonsPlayed": 1,
+        "seasons": [
+          2026
+        ],
+        "seasonsLabel": "2026",
+        "yearsLeft": 3,
+        "yearsLeftLabel": "3 years left",
         "extraYearLikely": false,
-        "basis": "class",
-        "note": "No college seasons with ESPN stats on record. Years left estimated from listed class."
+        "basis": "seasons",
+        "note": "Years left estimated from seasons with college stats under the standard 4-season rule. Redshirts and COVID years can add eligibility."
       },
       "note": null,
       "tags": []
@@ -10078,14 +10130,14 @@
     {
       "id": "5155744",
       "espnId": "5155744",
-      "number": 16,
+      "number": 6,
       "name": "Kelvin Hill",
       "firstName": "Kelvin",
       "lastName": "Hill",
       "position": "CB",
       "positionName": "Cornerback",
       "height": "5' 10\"",
-      "weight": 195,
+      "weight": 200,
       "year": "Junior",
       "hometown": "Carrollton, GA",
       "unit": "defense",
@@ -10539,7 +10591,7 @@
     {
       "id": "5374980",
       "espnId": "5374980",
-      "number": 26,
+      "number": 37,
       "name": "Alex Hunt",
       "firstName": "Alex",
       "lastName": "Hunt",
@@ -10573,14 +10625,14 @@
     {
       "id": "5276991",
       "espnId": "5276991",
-      "number": 17,
+      "number": 18,
       "name": "Kealan Jones",
       "firstName": "Kealan",
       "lastName": "Jones",
       "position": "S",
       "positionName": "Safety",
       "height": "6' 0\"",
-      "weight": 190,
+      "weight": 195,
       "year": "Freshman",
       "hometown": "Marietta, GA",
       "unit": "defense",
@@ -10615,7 +10667,7 @@
       "positionName": "Defensive Tackle",
       "height": "6' 5\"",
       "weight": 310,
-      "year": "Sophomore",
+      "year": "Senior",
       "hometown": "Camden, SC",
       "unit": "defense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5075806.png",
@@ -10727,9 +10779,9 @@
         "primaryCategory": "defensive"
       },
       "eligibility": {
-        "class": "Sophomore",
-        "classAbbr": "SO",
-        "experienceYears": 2,
+        "class": "Senior",
+        "classAbbr": "SR",
+        "experienceYears": 4,
         "seasonsPlayed": 1,
         "seasons": [
           2025
@@ -10747,14 +10799,14 @@
     {
       "id": "4685429",
       "espnId": "4685429",
-      "number": 45,
+      "number": 0,
       "name": "Melvin Jordan IV",
       "firstName": "Melvin",
       "lastName": "Jordan IV",
       "position": "LB",
       "positionName": "Linebacker",
       "height": "5' 11\"",
-      "weight": 225,
+      "weight": 220,
       "year": "Senior",
       "hometown": "St. Petersburg, FL",
       "unit": "defense",
@@ -11011,7 +11063,7 @@
       "positionName": "Safety",
       "height": "6' 1\"",
       "weight": 200,
-      "year": "Junior",
+      "year": "Senior",
       "hometown": "Ellijay, GA",
       "unit": "defense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5159878.png",
@@ -11227,9 +11279,9 @@
         "primaryCategory": "defensive"
       },
       "eligibility": {
-        "class": "Junior",
-        "classAbbr": "JR",
-        "experienceYears": 3,
+        "class": "Senior",
+        "classAbbr": "SR",
+        "experienceYears": 4,
         "seasonsPlayed": 2,
         "seasons": [
           2024,
@@ -11512,7 +11564,7 @@
       "position": "DE",
       "positionName": "Defensive End",
       "height": "6' 2\"",
-      "weight": 250,
+      "weight": 255,
       "year": "Senior",
       "hometown": "Vanceboro, NC",
       "unit": "defense",
@@ -11721,8 +11773,8 @@
       "position": "DT",
       "positionName": "Defensive Tackle",
       "height": "6' 2\"",
-      "weight": 300,
-      "year": "Freshman",
+      "weight": 305,
+      "year": "Junior",
       "hometown": "Andalusia, AL",
       "unit": "defense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5146808.png",
@@ -11834,9 +11886,9 @@
         "primaryCategory": "defensive"
       },
       "eligibility": {
-        "class": "Freshman",
-        "classAbbr": "FR",
-        "experienceYears": 1,
+        "class": "Junior",
+        "classAbbr": "JR",
+        "experienceYears": 3,
         "seasonsPlayed": 1,
         "seasons": [
           2025
@@ -12263,9 +12315,9 @@
       "lastName": "McCoy",
       "position": "DE",
       "positionName": "Defensive End",
-      "height": "6' 3\"",
+      "height": "6' 1\"",
       "weight": 250,
-      "year": "Junior",
+      "year": "Senior",
       "hometown": "Wichita, KS",
       "unit": "defense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5105677.png",
@@ -12496,9 +12548,9 @@
         "primaryCategory": "defensive"
       },
       "eligibility": {
-        "class": "Junior",
-        "classAbbr": "JR",
-        "experienceYears": 3,
+        "class": "Senior",
+        "classAbbr": "SR",
+        "experienceYears": 4,
         "seasonsPlayed": 3,
         "seasons": [
           2023,
@@ -12528,7 +12580,7 @@
       "positionName": "Cornerback",
       "height": "5' 11\"",
       "weight": 190,
-      "year": "Sophomore",
+      "year": "Junior",
       "hometown": "Jacksonville, FL",
       "unit": "defense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5079598.png",
@@ -12700,9 +12752,9 @@
         "primaryCategory": "defensive"
       },
       "eligibility": {
-        "class": "Sophomore",
-        "classAbbr": "SO",
-        "experienceYears": 2,
+        "class": "Junior",
+        "classAbbr": "JR",
+        "experienceYears": 3,
         "seasonsPlayed": 2,
         "seasons": [
           2024,
@@ -12766,7 +12818,7 @@
       "positionName": "Defensive Tackle",
       "height": "6' 4\"",
       "weight": 300,
-      "year": "Freshman",
+      "year": "Sophomore",
       "hometown": "Daytona Beach, FL",
       "unit": "defense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5167754.png",
@@ -12878,9 +12930,9 @@
         "primaryCategory": "defensive"
       },
       "eligibility": {
-        "class": "Freshman",
-        "classAbbr": "FR",
-        "experienceYears": 1,
+        "class": "Sophomore",
+        "classAbbr": "SO",
+        "experienceYears": 2,
         "seasonsPlayed": 1,
         "seasons": [
           2025
@@ -12898,7 +12950,7 @@
     {
       "id": "5271230",
       "espnId": "5271230",
-      "number": 87,
+      "number": 38,
       "name": "Isaac Obrokta",
       "firstName": "Isaac",
       "lastName": "Obrokta",
@@ -12930,20 +12982,20 @@
       "tags": []
     },
     {
-      "id": "5159884",
-      "espnId": "5159884",
-      "number": 49,
-      "name": "Chuma Okoye",
-      "firstName": "Chuma",
-      "lastName": "Okoye",
-      "position": "DE",
-      "positionName": "Defensive End",
-      "height": "6' 0\"",
-      "weight": 245,
-      "year": "Junior",
-      "hometown": "Dacula, GA",
+      "id": "5217189",
+      "espnId": "5217189",
+      "number": 35,
+      "name": "Braylon Outlaw",
+      "firstName": "Braylon",
+      "lastName": "Outlaw",
+      "position": "LB",
+      "positionName": "Linebacker",
+      "height": "6' 1\"",
+      "weight": 225,
+      "year": "Freshman",
+      "hometown": "Montgomery, AL",
       "unit": "defense",
-      "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5159884.png",
+      "headshot": null,
       "previous": null,
       "previousTeams": [],
       "career": {
@@ -12964,7 +13016,7 @@
             ],
             "rows": [
               {
-                "year": 2025,
+                "year": 2026,
                 "teamId": "59",
                 "teamSlug": "georgia-tech-yellow-jackets",
                 "teamAbbr": "GT",
@@ -12972,8 +13024,8 @@
                 "teamLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
                 "stats": {
                   "totalTackles": "1",
-                  "soloTackles": "0",
-                  "assistTackles": "1",
+                  "soloTackles": "1",
+                  "assistTackles": "0",
                   "passesDefended": "0",
                   "sacks": "0",
                   "fumblesForced": "0",
@@ -12983,8 +13035,8 @@
                 },
                 "display": {
                   "TOT": "1",
-                  "SOLO": "0",
-                  "AST": "1",
+                  "SOLO": "1",
+                  "AST": "0",
                   "PD": "0",
                   "SACK": "0",
                   "FF": "0",
@@ -12996,8 +13048,8 @@
             ],
             "totals": {
               "TOT": "1",
-              "SOLO": "0",
-              "AST": "1",
+              "SOLO": "1",
+              "AST": "0",
               "PD": "0",
               "SACK": "0",
               "FF": "0",
@@ -13009,7 +13061,7 @@
         ],
         "seasons": [
           {
-            "year": 2025,
+            "year": 2026,
             "teamAbbr": "GT",
             "teamName": "Georgia Tech Yellow Jackets",
             "teamLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
@@ -13018,8 +13070,8 @@
                 "displayName": "Defense",
                 "stats": {
                   "TOT": "1",
-                  "SOLO": "0",
-                  "AST": "1",
+                  "SOLO": "1",
+                  "AST": "0",
                   "PD": "0",
                   "SACK": "0",
                   "FF": "0",
@@ -13038,11 +13090,11 @@
           },
           {
             "label": "SOLO",
-            "value": "0"
+            "value": "1"
           },
           {
             "label": "AST",
-            "value": "1"
+            "value": "0"
           },
           {
             "label": "PD",
@@ -13052,53 +13104,19 @@
         "primaryCategory": "defensive"
       },
       "eligibility": {
-        "class": "Junior",
-        "classAbbr": "JR",
-        "experienceYears": 3,
+        "class": "Freshman",
+        "classAbbr": "FR",
+        "experienceYears": 1,
         "seasonsPlayed": 1,
         "seasons": [
-          2025
+          2026
         ],
-        "seasonsLabel": "2025",
+        "seasonsLabel": "2026",
         "yearsLeft": 3,
         "yearsLeftLabel": "3 years left",
         "extraYearLikely": false,
         "basis": "seasons",
         "note": "Years left estimated from seasons with college stats under the standard 4-season rule. Redshirts and COVID years can add eligibility."
-      },
-      "note": null,
-      "tags": []
-    },
-    {
-      "id": "5217189",
-      "espnId": "5217189",
-      "number": 35,
-      "name": "Braylon Outlaw",
-      "firstName": "Braylon",
-      "lastName": "Outlaw",
-      "position": "LB",
-      "positionName": "Linebacker",
-      "height": "6' 1\"",
-      "weight": 220,
-      "year": "",
-      "hometown": "Montgomery, AL",
-      "unit": "defense",
-      "headshot": null,
-      "previous": null,
-      "previousTeams": [],
-      "career": null,
-      "eligibility": {
-        "class": "—",
-        "classAbbr": "—",
-        "experienceYears": null,
-        "seasonsPlayed": 0,
-        "seasons": [],
-        "seasonsLabel": null,
-        "yearsLeft": 4,
-        "yearsLeftLabel": "4 years left",
-        "extraYearLikely": false,
-        "basis": "seasons",
-        "note": "No college seasons with ESPN stats on record. Years left estimated from listed class."
       },
       "note": null,
       "tags": []
@@ -13114,7 +13132,7 @@
       "positionName": "Linebacker",
       "height": "6' 3\"",
       "weight": 215,
-      "year": "Sophomore",
+      "year": "Junior",
       "hometown": "Mount Pleasant, SC",
       "unit": "defense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5218899.png",
@@ -13122,14 +13140,14 @@
       "previousTeams": [],
       "career": null,
       "eligibility": {
-        "class": "Sophomore",
-        "classAbbr": "SO",
-        "experienceYears": 2,
+        "class": "Junior",
+        "classAbbr": "JR",
+        "experienceYears": 3,
         "seasonsPlayed": 0,
         "seasons": [],
         "seasonsLabel": null,
-        "yearsLeft": 3,
-        "yearsLeftLabel": "3 years left",
+        "yearsLeft": 2,
+        "yearsLeftLabel": "2 years left",
         "extraYearLikely": false,
         "basis": "class",
         "note": "No college seasons with ESPN stats on record. Years left estimated from listed class."
@@ -13759,26 +13777,132 @@
       "position": "DT",
       "positionName": "Defensive Tackle",
       "height": "6' 4\"",
-      "weight": 315,
+      "weight": 325,
       "year": "Freshman",
       "hometown": "Ellenwood, GA",
       "unit": "defense",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5292052.png",
       "previous": null,
       "previousTeams": [],
-      "career": null,
+      "career": {
+        "categories": [
+          {
+            "name": "defensive",
+            "displayName": "Defense",
+            "labels": [
+              "TOT",
+              "SOLO",
+              "AST",
+              "PD",
+              "SACK",
+              "FF",
+              "INT",
+              "YDS",
+              "TD"
+            ],
+            "rows": [
+              {
+                "year": 2026,
+                "teamId": "59",
+                "teamSlug": "georgia-tech-yellow-jackets",
+                "teamAbbr": "GT",
+                "teamName": "Georgia Tech Yellow Jackets",
+                "teamLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+                "stats": {
+                  "totalTackles": "1",
+                  "soloTackles": "1",
+                  "assistTackles": "0",
+                  "passesDefended": "0",
+                  "sacks": "0",
+                  "fumblesForced": "0",
+                  "interceptions": "0",
+                  "interceptionYards": "0",
+                  "interceptionTouchdowns": "0"
+                },
+                "display": {
+                  "TOT": "1",
+                  "SOLO": "1",
+                  "AST": "0",
+                  "PD": "0",
+                  "SACK": "0",
+                  "FF": "0",
+                  "INT": "0",
+                  "YDS": "0",
+                  "TD": "0"
+                }
+              }
+            ],
+            "totals": {
+              "TOT": "1",
+              "SOLO": "1",
+              "AST": "0",
+              "PD": "0",
+              "SACK": "0",
+              "FF": "0",
+              "INT": "0",
+              "YDS": "0",
+              "TD": "0"
+            }
+          }
+        ],
+        "seasons": [
+          {
+            "year": 2026,
+            "teamAbbr": "GT",
+            "teamName": "Georgia Tech Yellow Jackets",
+            "teamLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+            "categories": {
+              "defensive": {
+                "displayName": "Defense",
+                "stats": {
+                  "TOT": "1",
+                  "SOLO": "1",
+                  "AST": "0",
+                  "PD": "0",
+                  "SACK": "0",
+                  "FF": "0",
+                  "INT": "0",
+                  "YDS": "0",
+                  "TD": "0"
+                }
+              }
+            }
+          }
+        ],
+        "headlines": [
+          {
+            "label": "TOT",
+            "value": "1"
+          },
+          {
+            "label": "SOLO",
+            "value": "1"
+          },
+          {
+            "label": "AST",
+            "value": "0"
+          },
+          {
+            "label": "PD",
+            "value": "0"
+          }
+        ],
+        "primaryCategory": "defensive"
+      },
       "eligibility": {
         "class": "Freshman",
         "classAbbr": "FR",
         "experienceYears": 1,
-        "seasonsPlayed": 0,
-        "seasons": [],
-        "seasonsLabel": null,
-        "yearsLeft": 4,
-        "yearsLeftLabel": "4 years left",
+        "seasonsPlayed": 1,
+        "seasons": [
+          2026
+        ],
+        "seasonsLabel": "2026",
+        "yearsLeft": 3,
+        "yearsLeftLabel": "3 years left",
         "extraYearLikely": false,
-        "basis": "class",
-        "note": "No college seasons with ESPN stats on record. Years left estimated from listed class."
+        "basis": "seasons",
+        "note": "Years left estimated from seasons with college stats under the standard 4-season rule. Redshirts and COVID years can add eligibility."
       },
       "note": null,
       "tags": []
@@ -13816,6 +13940,409 @@
       },
       "note": null,
       "tags": []
+    },
+    {
+      "id": "5266701",
+      "espnId": "5266701",
+      "number": 21,
+      "name": "Jaedyn Terry",
+      "firstName": "Jaedyn",
+      "lastName": "Terry",
+      "position": "CB",
+      "positionName": "Cornerback",
+      "height": "6' 2\"",
+      "weight": 180,
+      "year": "Freshman",
+      "hometown": "Warm Springs, GA",
+      "unit": "defense",
+      "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5266701.png",
+      "previous": null,
+      "previousTeams": [],
+      "career": null,
+      "eligibility": {
+        "class": "Freshman",
+        "classAbbr": "FR",
+        "experienceYears": 1,
+        "seasonsPlayed": 0,
+        "seasons": [],
+        "seasonsLabel": null,
+        "yearsLeft": 4,
+        "yearsLeftLabel": "4 years left",
+        "extraYearLikely": false,
+        "basis": "class",
+        "note": "No college seasons with ESPN stats on record. Years left estimated from listed class."
+      },
+      "note": null,
+      "tags": []
+    },
+    {
+      "id": "4812383",
+      "espnId": "4812383",
+      "number": 95,
+      "name": "Tawfiq Thomas",
+      "firstName": "Tawfiq",
+      "lastName": "Thomas",
+      "position": "DT",
+      "positionName": "Defensive Tackle",
+      "height": "6' 4\"",
+      "weight": 315,
+      "year": "Senior",
+      "hometown": "Tampa, FL",
+      "unit": "defense",
+      "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4812383.png",
+      "previous": "LOU, COLO",
+      "previousTeams": [
+        {
+          "id": "97",
+          "slug": "louisville-cardinals",
+          "name": "Louisville Cardinals",
+          "abbr": "LOU",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png"
+        },
+        {
+          "id": "38",
+          "slug": "colorado-buffaloes",
+          "name": "Colorado Buffaloes",
+          "abbr": "COLO",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png"
+        }
+      ],
+      "career": {
+        "categories": [
+          {
+            "name": "defensive",
+            "displayName": "Defense",
+            "labels": [
+              "TOT",
+              "SOLO",
+              "AST",
+              "PD",
+              "SACK",
+              "FF",
+              "INT",
+              "YDS",
+              "TD"
+            ],
+            "rows": [
+              {
+                "year": 2022,
+                "teamId": "97",
+                "teamSlug": "louisville-cardinals",
+                "teamAbbr": "LOU",
+                "teamName": "Louisville Cardinals",
+                "teamLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+                "stats": {
+                  "totalTackles": "8",
+                  "soloTackles": "2",
+                  "assistTackles": "6",
+                  "passesDefended": "0",
+                  "sacks": "0",
+                  "fumblesForced": "0",
+                  "interceptions": "0",
+                  "interceptionYards": "0",
+                  "interceptionTouchdowns": "0"
+                },
+                "display": {
+                  "TOT": "8",
+                  "SOLO": "2",
+                  "AST": "6",
+                  "PD": "0",
+                  "SACK": "0",
+                  "FF": "0",
+                  "INT": "0",
+                  "YDS": "0",
+                  "TD": "0"
+                }
+              },
+              {
+                "year": 2023,
+                "teamId": "97",
+                "teamSlug": "louisville-cardinals",
+                "teamAbbr": "LOU",
+                "teamName": "Louisville Cardinals",
+                "teamLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+                "stats": {
+                  "totalTackles": "4",
+                  "soloTackles": "3",
+                  "assistTackles": "1",
+                  "passesDefended": "0",
+                  "sacks": "0",
+                  "fumblesForced": "0",
+                  "interceptions": "0",
+                  "interceptionYards": "0",
+                  "interceptionTouchdowns": "0"
+                },
+                "display": {
+                  "TOT": "4",
+                  "SOLO": "3",
+                  "AST": "1",
+                  "PD": "0",
+                  "SACK": "0",
+                  "FF": "0",
+                  "INT": "0",
+                  "YDS": "0",
+                  "TD": "0"
+                }
+              },
+              {
+                "year": 2024,
+                "teamId": "38",
+                "teamSlug": "colorado-buffaloes",
+                "teamAbbr": "COLO",
+                "teamName": "Colorado Buffaloes",
+                "teamLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png",
+                "stats": {
+                  "totalTackles": "18",
+                  "soloTackles": "13",
+                  "assistTackles": "5",
+                  "passesDefended": "1",
+                  "sacks": "1",
+                  "fumblesForced": "0",
+                  "interceptions": "0",
+                  "interceptionYards": "0",
+                  "interceptionTouchdowns": "0"
+                },
+                "display": {
+                  "TOT": "18",
+                  "SOLO": "13",
+                  "AST": "5",
+                  "PD": "1",
+                  "SACK": "1",
+                  "FF": "0",
+                  "INT": "0",
+                  "YDS": "0",
+                  "TD": "0"
+                }
+              },
+              {
+                "year": 2025,
+                "teamId": "38",
+                "teamSlug": "colorado-buffaloes",
+                "teamAbbr": "COLO",
+                "teamName": "Colorado Buffaloes",
+                "teamLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png",
+                "stats": {
+                  "totalTackles": "12",
+                  "soloTackles": "4",
+                  "assistTackles": "8",
+                  "passesDefended": "0",
+                  "sacks": "0",
+                  "fumblesForced": "0",
+                  "interceptions": "0",
+                  "interceptionYards": "0",
+                  "interceptionTouchdowns": "0"
+                },
+                "display": {
+                  "TOT": "12",
+                  "SOLO": "4",
+                  "AST": "8",
+                  "PD": "0",
+                  "SACK": "0",
+                  "FF": "0",
+                  "INT": "0",
+                  "YDS": "0",
+                  "TD": "0"
+                }
+              },
+              {
+                "year": 2026,
+                "teamId": "59",
+                "teamSlug": "georgia-tech-yellow-jackets",
+                "teamAbbr": "GT",
+                "teamName": "Georgia Tech Yellow Jackets",
+                "teamLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+                "stats": {
+                  "totalTackles": "7",
+                  "soloTackles": "3",
+                  "assistTackles": "4",
+                  "passesDefended": "0",
+                  "sacks": "1",
+                  "fumblesForced": "0",
+                  "interceptions": "0",
+                  "interceptionYards": "0",
+                  "interceptionTouchdowns": "0"
+                },
+                "display": {
+                  "TOT": "7",
+                  "SOLO": "3",
+                  "AST": "4",
+                  "PD": "0",
+                  "SACK": "1",
+                  "FF": "0",
+                  "INT": "0",
+                  "YDS": "0",
+                  "TD": "0"
+                }
+              }
+            ],
+            "totals": {
+              "TOT": "49",
+              "SOLO": "25",
+              "AST": "24",
+              "PD": "1",
+              "SACK": "2",
+              "FF": "0",
+              "INT": "0",
+              "YDS": "0",
+              "TD": "0"
+            }
+          }
+        ],
+        "seasons": [
+          {
+            "year": 2026,
+            "teamAbbr": "GT",
+            "teamName": "Georgia Tech Yellow Jackets",
+            "teamLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+            "categories": {
+              "defensive": {
+                "displayName": "Defense",
+                "stats": {
+                  "TOT": "7",
+                  "SOLO": "3",
+                  "AST": "4",
+                  "PD": "0",
+                  "SACK": "1",
+                  "FF": "0",
+                  "INT": "0",
+                  "YDS": "0",
+                  "TD": "0"
+                }
+              }
+            }
+          },
+          {
+            "year": 2025,
+            "teamAbbr": "COLO",
+            "teamName": "Colorado Buffaloes",
+            "teamLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png",
+            "categories": {
+              "defensive": {
+                "displayName": "Defense",
+                "stats": {
+                  "TOT": "12",
+                  "SOLO": "4",
+                  "AST": "8",
+                  "PD": "0",
+                  "SACK": "0",
+                  "FF": "0",
+                  "INT": "0",
+                  "YDS": "0",
+                  "TD": "0"
+                }
+              }
+            }
+          },
+          {
+            "year": 2024,
+            "teamAbbr": "COLO",
+            "teamName": "Colorado Buffaloes",
+            "teamLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png",
+            "categories": {
+              "defensive": {
+                "displayName": "Defense",
+                "stats": {
+                  "TOT": "18",
+                  "SOLO": "13",
+                  "AST": "5",
+                  "PD": "1",
+                  "SACK": "1",
+                  "FF": "0",
+                  "INT": "0",
+                  "YDS": "0",
+                  "TD": "0"
+                }
+              }
+            }
+          },
+          {
+            "year": 2023,
+            "teamAbbr": "LOU",
+            "teamName": "Louisville Cardinals",
+            "teamLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+            "categories": {
+              "defensive": {
+                "displayName": "Defense",
+                "stats": {
+                  "TOT": "4",
+                  "SOLO": "3",
+                  "AST": "1",
+                  "PD": "0",
+                  "SACK": "0",
+                  "FF": "0",
+                  "INT": "0",
+                  "YDS": "0",
+                  "TD": "0"
+                }
+              }
+            }
+          },
+          {
+            "year": 2022,
+            "teamAbbr": "LOU",
+            "teamName": "Louisville Cardinals",
+            "teamLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+            "categories": {
+              "defensive": {
+                "displayName": "Defense",
+                "stats": {
+                  "TOT": "8",
+                  "SOLO": "2",
+                  "AST": "6",
+                  "PD": "0",
+                  "SACK": "0",
+                  "FF": "0",
+                  "INT": "0",
+                  "YDS": "0",
+                  "TD": "0"
+                }
+              }
+            }
+          }
+        ],
+        "headlines": [
+          {
+            "label": "TOT",
+            "value": "49"
+          },
+          {
+            "label": "SOLO",
+            "value": "25"
+          },
+          {
+            "label": "AST",
+            "value": "24"
+          },
+          {
+            "label": "PD",
+            "value": "1"
+          }
+        ],
+        "primaryCategory": "defensive"
+      },
+      "eligibility": {
+        "class": "Senior",
+        "classAbbr": "SR",
+        "experienceYears": 4,
+        "seasonsPlayed": 5,
+        "seasons": [
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "seasonsLabel": "2022–26",
+        "yearsLeft": 1,
+        "yearsLeftLabel": "1 year left*",
+        "extraYearLikely": true,
+        "basis": "seasons",
+        "note": "Extra year likely (COVID, medical, or redshirt) — ESPN lists Senior with 4+ seasons already used."
+      },
+      "note": null,
+      "tags": [
+        "Transfer"
+      ]
     },
     {
       "id": "4862220",
@@ -14583,7 +15110,7 @@
       "positionName": "Long Snapper",
       "height": "6' 2\"",
       "weight": 205,
-      "year": "Sophomore",
+      "year": "Junior",
       "hometown": "Phoenix, AZ",
       "unit": "special",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5219575.png",
@@ -14703,9 +15230,9 @@
         "primaryCategory": "defensive"
       },
       "eligibility": {
-        "class": "Sophomore",
-        "classAbbr": "SO",
-        "experienceYears": 2,
+        "class": "Junior",
+        "classAbbr": "JR",
+        "experienceYears": 3,
         "seasonsPlayed": 1,
         "seasons": [
           2025
@@ -14734,7 +15261,7 @@
       "positionName": "Place Kicker",
       "height": "5' 9\"",
       "weight": 180,
-      "year": "Freshman",
+      "year": "Sophomore",
       "hometown": "Dallas, GA",
       "unit": "special",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5296224.png",
@@ -14742,14 +15269,14 @@
       "previousTeams": [],
       "career": null,
       "eligibility": {
-        "class": "Freshman",
-        "classAbbr": "FR",
-        "experienceYears": 1,
+        "class": "Sophomore",
+        "classAbbr": "SO",
+        "experienceYears": 2,
         "seasonsPlayed": 0,
         "seasons": [],
         "seasonsLabel": null,
-        "yearsLeft": 4,
-        "yearsLeftLabel": "4 years left",
+        "yearsLeft": 3,
+        "yearsLeftLabel": "3 years left",
         "extraYearLikely": false,
         "basis": "class",
         "note": "No college seasons with ESPN stats on record. Years left estimated from listed class."
@@ -14768,7 +15295,7 @@
       "positionName": "Punter",
       "height": "6' 3\"",
       "weight": 225,
-      "year": "Junior",
+      "year": "Senior",
       "hometown": "Sharpsburg, GA",
       "unit": "special",
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5159879.png",
@@ -14855,9 +15382,9 @@
         "primaryCategory": "punting"
       },
       "eligibility": {
-        "class": "Junior",
-        "classAbbr": "JR",
-        "experienceYears": 3,
+        "class": "Senior",
+        "classAbbr": "SR",
+        "experienceYears": 4,
         "seasonsPlayed": 1,
         "seasons": [
           2023
@@ -14915,7 +15442,7 @@
           },
           {
             "id": "5103639",
-            "number": 2,
+            "number": 1,
             "name": "Trelain Maddox",
             "position": "RB"
           }
@@ -14972,13 +15499,13 @@
         "slots": [
           {
             "id": "5085830",
-            "number": 7,
+            "number": 3,
             "name": "Rahkeem Smith",
             "position": "WR"
           },
           {
             "id": "5199859",
-            "number": 14,
+            "number": 7,
             "name": "Dalen Penson",
             "position": "WR"
           },
@@ -15007,7 +15534,7 @@
           },
           {
             "id": "5155033",
-            "number": 44,
+            "number": 42,
             "name": "Spencer Mermans",
             "position": "TE"
           }
@@ -15185,7 +15712,7 @@
           },
           {
             "id": "4685429",
-            "number": 45,
+            "number": 0,
             "name": "Melvin Jordan IV",
             "position": "LB"
           }
@@ -15230,7 +15757,7 @@
         "slots": [
           {
             "id": "4923251",
-            "number": 29,
+            "number": 14,
             "name": "Jonas Duclona",
             "position": "CB"
           },
@@ -15247,7 +15774,7 @@
         "slots": [
           {
             "id": "5155744",
-            "number": 16,
+            "number": 6,
             "name": "Kelvin Hill",
             "position": "CB"
           },
@@ -15276,7 +15803,7 @@
           },
           {
             "id": "5276991",
-            "number": 17,
+            "number": 18,
             "name": "Kealan Jones",
             "position": "S"
           }
@@ -15364,10 +15891,10 @@
       "conference": false,
       "venue": "Bobby Dodd Stadium",
       "city": "Atlanta, GA",
-      "status": "upcoming",
-      "gtScore": null,
-      "oppScore": null,
-      "result": null,
+      "status": "final",
+      "gtScore": "13",
+      "oppScore": "14",
+      "result": "L",
       "note": "Buffaloes first visit to The Flats",
       "source": "ESPN / Georgia Tech Athletics"
     },
@@ -15648,7 +16175,7 @@
       "name": "Stanford",
       "abbr": "STAN",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
-      "record": "1-0",
+      "record": "1-1",
       "conference": "ACC",
       "season": 2026,
       "games": [
@@ -15675,10 +16202,10 @@
           "opponentAbbr": "MIA",
           "opponentId": "2390",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
-          "score": null,
-          "result": null,
+          "score": "6-45",
+          "result": "L",
           "venue": "Stanford Stadium",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401858231",
@@ -15840,10 +16367,10 @@
           "opponentAbbr": "GT",
           "opponentId": "59",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
-          "score": null,
-          "result": null,
+          "score": "14-13",
+          "result": "W",
           "venue": "Bobby Dodd Stadium",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401856785",
@@ -16722,7 +17249,7 @@
       "name": "Wake Forest",
       "abbr": "WAKE",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
-      "record": "0-0",
+      "record": "1-0",
       "conference": "ACC",
       "season": 2026,
       "games": [
@@ -16735,10 +17262,10 @@
           "opponentAbbr": "AKR",
           "opponentId": "2006",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png",
-          "score": null,
-          "result": null,
+          "score": "38-16",
+          "result": "W",
           "venue": "Allegacy Federal Credit Union Stadium",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401858224",
@@ -16917,7 +17444,7 @@
           "score": null,
           "result": null,
           "venue": "Acrisure Stadium",
-          "status": "upcoming"
+          "status": "live"
         },
         {
           "id": "401856790",
@@ -17800,6 +18327,15 @@
       "label": "2026 ACC",
       "entries": [
         {
+          "id": "2390",
+          "name": "Miami Hurricanes",
+          "shortName": "Miami",
+          "abbr": "MIA",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+          "overall": "1-0",
+          "conference": "1-0"
+        },
+        {
           "id": "258",
           "name": "Virginia Cavaliers",
           "shortName": "Virginia",
@@ -17827,13 +18363,22 @@
           "conference": "0-0"
         },
         {
+          "id": "154",
+          "name": "Wake Forest Demon Deacons",
+          "shortName": "Wake Forest",
+          "abbr": "WAKE",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
+          "overall": "1-0",
+          "conference": "0-0"
+        },
+        {
           "id": "24",
           "name": "Stanford Cardinal",
           "shortName": "Stanford",
           "abbr": "STAN",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
-          "overall": "1-0",
-          "conference": "0-0"
+          "overall": "1-1",
+          "conference": "0-1"
         },
         {
           "id": "25",
@@ -17841,15 +18386,6 @@
           "shortName": "California",
           "abbr": "CAL",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
-          "overall": "0-0",
-          "conference": "0-0"
-        },
-        {
-          "id": "59",
-          "name": "Georgia Tech Yellow Jackets",
-          "shortName": "Georgia Tech",
-          "abbr": "GT",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
           "overall": "0-0",
           "conference": "0-0"
         },
@@ -17877,15 +18413,6 @@
           "shortName": "Duke",
           "abbr": "DUKE",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-          "overall": "0-0",
-          "conference": "0-0"
-        },
-        {
-          "id": "154",
-          "name": "Wake Forest Demon Deacons",
-          "shortName": "Wake Forest",
-          "abbr": "WAKE",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
           "overall": "0-0",
           "conference": "0-0"
         },
@@ -17926,21 +18453,21 @@
           "conference": "0-0"
         },
         {
-          "id": "2390",
-          "name": "Miami Hurricanes",
-          "shortName": "Miami",
-          "abbr": "MIA",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
-          "overall": "0-0",
-          "conference": "0-0"
-        },
-        {
           "id": "2567",
           "name": "SMU Mustangs",
           "shortName": "SMU",
           "abbr": "SMU",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
           "overall": "0-0",
+          "conference": "0-0"
+        },
+        {
+          "id": "59",
+          "name": "Georgia Tech Yellow Jackets",
+          "shortName": "Georgia Tech",
+          "abbr": "GT",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+          "overall": "0-1",
           "conference": "0-0"
         },
         {
@@ -19427,13 +19954,33 @@
   ],
   "news": [
     {
-      "id": "ramblinwreck-com-news-2026-09-2-the-last-word-before-gm-1-26",
-      "headline": "The Last Word Before Game 1 vs Colorado",
-      "description": "The Jackets host Colorado in a sold-out whiteout Thursday night season opener (TV: ESPN)",
-      "url": "https://ramblinwreck.com/news/2026/09/2/the-last-word-before-gm-1-26",
+      "id": "www-espn-com-college-football-story-id-49821621-colorado-rallies-blocks-georgia-",
+      "headline": "Colorado rallies, blocks Georgia Tech's walk-off field goal try",
+      "description": "",
+      "url": "https://www.espn.com/college-football/story/_/id/49821621/colorado-rallies-blocks-georgia-tech-walk-field-goal-try",
+      "source": "ESPN",
+      "published": "2026-09-04T12:48:49.000Z",
+      "image": "https://a.espncdn.com/photo/2026/0904/r1711211_600x400_3-2.jpg",
+      "tag": "ESPN"
+    },
+    {
+      "id": "www-espn-com-ncf-recap-gameid-401856776",
+      "headline": "Colorado QB Julian Lewis leads touchdown drive with 42 seconds left in 14-13 win over Georgia Tech",
+      "description": "",
+      "url": "http://www.espn.com/ncf/recap?gameId=401856776",
+      "source": "ESPN",
+      "published": "2026-09-04T05:27:29.000Z",
+      "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401856776.png?templateId=espn.applewatch.awayhome.1",
+      "tag": "ESPN"
+    },
+    {
+      "id": "ramblinwreck-com-news-2026-09-4-fb-recap-colo-26",
+      "headline": "Jackets Dealt Tough Loss in Season Opener",
+      "description": "Georgia Tech's game-winning FG attempt blocked as time expires in 14-13 defeat",
+      "url": "https://ramblinwreck.com/news/2026/09/4/fb-recap-colo-26",
       "source": "Georgia Tech Athletics",
-      "published": "2026-09-02T22:00:00.000Z",
-      "image": "https://ramblinwreck.com/imgproxy/11_S2JoOmXwhjNdyr0dlwiG0k-niZsaW7EqjVbGLR20/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzA5LzAyL01OU3VXVHllS1BZNktHM1hwaXRGVTZrM0QxQUd1cmFUUGNSTk0xSlcuanBn.jpg",
+      "published": "2026-09-04T03:45:00.000Z",
+      "image": "https://ramblinwreck.com/imgproxy/MV4oq2-PaR7MaTvfSXzMbKEzuH0nu4W4fATXvN1CFfw/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzA5LzA0L29iMlJBeDVCdmVOWGgwaVdRUFNXMVJPdmFFV2JyTGpjYmphejNpbjMuanBn.jpg",
       "tag": "Opener"
     },
     {
@@ -19455,6 +20002,16 @@
       "published": "2026-09-02T15:40:29.000Z",
       "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401856776.png?templateId=espn.applewatch.awayhome.1",
       "tag": "Preview"
+    },
+    {
+      "id": "ramblinwreck-com-news-2026-09-2-the-last-word-before-gm-1-26",
+      "headline": "The Last Word Before Game 1 vs Colorado",
+      "description": "The Jackets host Colorado in a sold-out whiteout Thursday night season opener (TV: ESPN)",
+      "url": "https://ramblinwreck.com/news/2026/09/2/the-last-word-before-gm-1-26",
+      "source": "Georgia Tech Athletics",
+      "published": "2026-09-02T04:00:00.000Z",
+      "image": "https://ramblinwreck.com/imgproxy/11_S2JoOmXwhjNdyr0dlwiG0k-niZsaW7EqjVbGLR20/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzA5LzAyL01OU3VXVHllS1BZNktHM1hwaXRGVTZrM0QxQUd1cmFUUGNSTk0xSlcuanBn.jpg",
+      "tag": "Opener"
     },
     {
       "id": "ramblinwreck-com-news-2026-09-1-inside-the-chart-message-received",
@@ -19495,39 +20052,9 @@
       "published": "2026-08-20T16:00:13.000Z",
       "image": "https://ramblinwreck.com/imgproxy/dPSk3eySv2Xpcrj8E5XtmN4hDCVkEDQ_GNMsGW414uU/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzA4L1BpdHRfMTEyMjI1X0RLLTEyNjAuanBn.jpg",
       "tag": "Program"
-    },
-    {
-      "id": "ramblinwreck-com-news-2026-08-20-haynes-named-to-2026-comeback-player-of-the-yea",
-      "headline": "Haynes Named to 2026 Comeback Player of the Year Award Watch List",
-      "description": "Haynes ran for 857 yards and 10 touchdowns in seven games before suffering an injury last season",
-      "url": "https://ramblinwreck.com/news/2026/08/20/haynes-named-to-2026-comeback-player-of-the-year-award-watch-list",
-      "source": "Georgia Tech Athletics",
-      "published": "2026-08-20T15:00:41.000Z",
-      "image": "https://ramblinwreck.com/imgproxy/nukVcZ7tHPmZP9D5aV3_imS13zft-UTUHafLmX356VY/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzA4L3FwRGpHTk1DSWZOaHo5QnYzOUd3M0haczBOME9YSlJGR09CZHI1blQuanBn.jpg",
-      "tag": "Program"
-    },
-    {
-      "id": "ramblinwreck-com-news-2026-08-20-haynes-lightsey-among-senior-bowl-top-300",
-      "headline": "Haynes, Lightsey Among Senior Bowl Top 300",
-      "description": "Haynes & Lightsey listed as top prospects for 2027 NFL Draft",
-      "url": "https://ramblinwreck.com/news/2026/08/20/haynes-lightsey-among-senior-bowl-top-300",
-      "source": "Georgia Tech Athletics",
-      "published": "2026-08-20T12:41:08.000Z",
-      "image": "https://ramblinwreck.com/imgproxy/q9AmGIaFdSB0hG5p2l7aQDF4Ns7SvpEMOhsryp-cnJc/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzA4L0xpZ2h0c2V5RV9fVlRfMTAxMTI1X0RLLTI0My5qcGc.jpg",
-      "tag": "Program"
-    },
-    {
-      "id": "ramblinwreck-com-news-2026-08-19-georgia-techs-jones-receives-247sports-30-under",
-      "headline": "Georgia Tech’s Jones Receives 247Sports’ 30 Under 30 Recognition",
-      "description": "Yellow Jackets’ cornerbacks coach recognized as a rising star in college football coaching",
-      "url": "https://ramblinwreck.com/news/2026/08/19/georgia-techs-jones-receives-247sports-30-under-30-recognition",
-      "source": "Georgia Tech Athletics",
-      "published": "2026-08-19T18:11:50.000Z",
-      "image": "https://ramblinwreck.com/imgproxy/RY3Bgg9DM_vP__qdfHWoh8Ox5vvT_Aiq_h3_e_jcklM/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzA4L0dUQTAxNTkxLU5pa29sZXR0ZS1Tb2Rlbi0xLmpwZw.jpg",
-      "tag": "Program"
     }
   ],
-  "dataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-09-03",
+  "dataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-09-05",
   "sources": [
     {
       "name": "ESPN College Football API",
