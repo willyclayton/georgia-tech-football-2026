@@ -16546,10 +16546,10 @@
           "opponentAbbr": "TNST",
           "opponentId": "2634",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2634.png",
-          "score": null,
-          "result": null,
+          "score": "63-3",
+          "result": "W",
           "venue": "Sanford Stadium",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401856673",
@@ -16891,7 +16891,7 @@
       "name": "Boston College",
       "abbr": "BC",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
-      "record": "0-0",
+      "record": "0-1",
       "conference": "ACC",
       "season": 2026,
       "games": [
@@ -16904,10 +16904,10 @@
           "opponentAbbr": "CIN",
           "opponentId": "2132",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
-          "score": null,
-          "result": null,
+          "score": "15-34",
+          "result": "L",
           "venue": "Nippert Stadium",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401858214",
@@ -17070,7 +17070,7 @@
       "name": "Duke",
       "abbr": "DUKE",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-      "record": "0-0",
+      "record": "1-0",
       "conference": "ACC",
       "season": 2026,
       "games": [
@@ -17083,10 +17083,10 @@
           "opponentAbbr": "TULN",
           "opponentId": "2655",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
-          "score": null,
-          "result": null,
+          "score": "17-3",
+          "result": "W",
           "venue": "Wallace Wade Stadium",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401858217",
@@ -17428,7 +17428,7 @@
       "name": "Pittsburgh",
       "abbr": "PITT",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
-      "record": "0-0",
+      "record": "1-0",
       "conference": "ACC",
       "season": 2026,
       "games": [
@@ -17441,10 +17441,10 @@
           "opponentAbbr": "M-OH",
           "opponentId": "193",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
-          "score": null,
-          "result": null,
+          "score": "59-14",
+          "result": "W",
           "venue": "Acrisure Stadium",
-          "status": "live"
+          "status": "final"
         },
         {
           "id": "401856790",
@@ -17607,7 +17607,7 @@
       "name": "Clemson",
       "abbr": "CLEM",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
-      "record": "0-0",
+      "record": "0-1",
       "conference": "ACC",
       "season": 2026,
       "games": [
@@ -17620,10 +17620,10 @@
           "opponentAbbr": "LSU",
           "opponentId": "99",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
-          "score": null,
-          "result": null,
+          "score": "10-51",
+          "result": "L",
           "venue": "Tiger Stadium (LA)",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401858219",
@@ -17786,7 +17786,7 @@
       "name": "Virginia Tech",
       "abbr": "VT",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
-      "record": "0-0",
+      "record": "1-0",
       "conference": "ACC",
       "season": 2026,
       "games": [
@@ -17799,10 +17799,10 @@
           "opponentAbbr": "VMI",
           "opponentId": "2678",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2678.png",
-          "score": null,
-          "result": null,
+          "score": "73-3",
+          "result": "W",
           "venue": "Lane Stadium",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401858221",
@@ -17992,10 +17992,10 @@
           "opponentAbbr": "PRES",
           "opponentId": "2506",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2506.png",
-          "score": null,
-          "result": null,
+          "score": "62-3",
+          "result": "W",
           "venue": "Five Star Stadium",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401868374",
@@ -18157,10 +18157,10 @@
           "opponentAbbr": "FUR",
           "opponentId": "231",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/231.png",
-          "score": null,
-          "result": null,
+          "score": "56-9",
+          "result": "W",
           "venue": "Neyland Stadium",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401856681",
@@ -18345,6 +18345,15 @@
           "conference": "1-0"
         },
         {
+          "id": "150",
+          "name": "Duke Blue Devils",
+          "shortName": "Duke",
+          "abbr": "DUKE",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+          "overall": "1-0",
+          "conference": "0-0"
+        },
+        {
           "id": "52",
           "name": "Florida State Seminoles",
           "shortName": "Florida St",
@@ -18359,6 +18368,33 @@
           "shortName": "North Carolina",
           "abbr": "UNC",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
+          "overall": "1-0",
+          "conference": "0-0"
+        },
+        {
+          "id": "221",
+          "name": "Pittsburgh Panthers",
+          "shortName": "Pitt",
+          "abbr": "PITT",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
+          "overall": "1-0",
+          "conference": "0-0"
+        },
+        {
+          "id": "183",
+          "name": "Syracuse Orange",
+          "shortName": "Syracuse",
+          "abbr": "SYR",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
+          "overall": "1-0",
+          "conference": "0-0"
+        },
+        {
+          "id": "259",
+          "name": "Virginia Tech Hokies",
+          "shortName": "Virginia Tech",
+          "abbr": "VT",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
           "overall": "1-0",
           "conference": "0-0"
         },
@@ -18381,74 +18417,11 @@
           "conference": "0-1"
         },
         {
-          "id": "25",
-          "name": "California Golden Bears",
-          "shortName": "California",
-          "abbr": "CAL",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
-          "overall": "0-0",
-          "conference": "0-0"
-        },
-        {
           "id": "97",
           "name": "Louisville Cardinals",
           "shortName": "Louisville",
           "abbr": "LOU",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
-          "overall": "0-0",
-          "conference": "0-0"
-        },
-        {
-          "id": "103",
-          "name": "Boston College Eagles",
-          "shortName": "Boston College",
-          "abbr": "BC",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
-          "overall": "0-0",
-          "conference": "0-0"
-        },
-        {
-          "id": "150",
-          "name": "Duke Blue Devils",
-          "shortName": "Duke",
-          "abbr": "DUKE",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-          "overall": "0-0",
-          "conference": "0-0"
-        },
-        {
-          "id": "183",
-          "name": "Syracuse Orange",
-          "shortName": "Syracuse",
-          "abbr": "SYR",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
-          "overall": "0-0",
-          "conference": "0-0"
-        },
-        {
-          "id": "221",
-          "name": "Pittsburgh Panthers",
-          "shortName": "Pitt",
-          "abbr": "PITT",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
-          "overall": "0-0",
-          "conference": "0-0"
-        },
-        {
-          "id": "228",
-          "name": "Clemson Tigers",
-          "shortName": "Clemson",
-          "abbr": "CLEM",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
-          "overall": "0-0",
-          "conference": "0-0"
-        },
-        {
-          "id": "259",
-          "name": "Virginia Tech Hokies",
-          "shortName": "Virginia Tech",
-          "abbr": "VT",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
           "overall": "0-0",
           "conference": "0-0"
         },
@@ -18459,6 +18432,33 @@
           "abbr": "SMU",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
           "overall": "0-0",
+          "conference": "0-0"
+        },
+        {
+          "id": "103",
+          "name": "Boston College Eagles",
+          "shortName": "Boston College",
+          "abbr": "BC",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+          "overall": "0-1",
+          "conference": "0-0"
+        },
+        {
+          "id": "25",
+          "name": "California Golden Bears",
+          "shortName": "California",
+          "abbr": "CAL",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
+          "overall": "0-1",
+          "conference": "0-0"
+        },
+        {
+          "id": "228",
+          "name": "Clemson Tigers",
+          "shortName": "Clemson",
+          "abbr": "CLEM",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
+          "overall": "0-1",
           "conference": "0-0"
         },
         {
@@ -20054,7 +20054,7 @@
       "tag": "Program"
     }
   ],
-  "dataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-09-05",
+  "dataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-09-06",
   "sources": [
     {
       "name": "ESPN College Football API",
