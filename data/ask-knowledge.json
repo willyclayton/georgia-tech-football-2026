@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "builtAt": "2026-09-06T14:42:02.197Z",
-  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-09-06",
+  "builtAt": "2026-09-12T18:15:54.618Z",
+  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-09-12",
   "entryCount": 722,
   "entries": [
     {
@@ -3279,7 +3279,7 @@
         "rank",
         "how are we doing"
       ],
-      "answer": "2026 record so far: 0-1.\nIn the 2026 ACC snapshot, Georgia Tech is listed 0-1 overall (0-0 conference) — #16 in the table.\nLast season final AP: #24. Ranked as high as No. 7 in 2025\nOpen Standings and flip 2025 if you want last year's ACC finish.\nOpen the Standings tab for the ACC table and AP / Coaches polls.",
+      "answer": "2026 record so far: 0-1.\nIn the 2026 ACC snapshot, Georgia Tech is listed 0-1 overall (0-0 conference) — #17 in the table.\nLast season final AP: #24. Ranked as high as No. 7 in 2025\nOpen Standings and flip 2025 if you want last year's ACC finish.\nOpen the Standings tab for the ACC table and AP / Coaches polls.",
       "links": [
         {
           "label": "Open standings",
@@ -3315,19 +3315,19 @@
         "feeling",
         "hype"
       ],
-      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Colorado rallies, blocks Georgia Tech's walk-off field goal try\n• Colorado QB Julian Lewis leads touchdown drive with 42 seconds left in 14-13 win over Georgia Tech\n• Jackets Dealt Tough Loss in Season Opener — Georgia Tech's game-winning FG attempt blocked as time expires in 14-13 defeat\n• Georgia Tech-Colorado is Sold Out — Yellow Jackets to play in front of third-straight capacity crowd for first time since before BDS expansion\n• Deion Sanders returns to Atlanta as Georgia Tech hosts Colorado in season-opener\nOpen Home for the full news list.",
+      "answer": "Latest 2026 notes (Athletics / ESPN):\n• The Last Word Before Game 2 vs Tennessee — Tech hosts Tennessee in front of a sold-out crowd on Saturday Night (TV: ESPN)\n• Georgia Tech Football Unveils Game 2 — Gold, Gold, White in front of a sold-out crowd on Saturday Night\n• Inside The Chart: Double Vision — Saturday's Georgia Tech-Tennessee game features a rare matchup-within-a-matchup\n• Efford Lands on Witten Collegiate Man of the Year Watch List — Two-time team captain honored for leadership\n• Bobby Dodd is Sold Out Again for Georgia Tech-Tennessee — Four-straight sellouts for the Yellow Jackets for the first time since 1999\nOpen Home for the full news list.",
       "links": [
         {
-          "label": "Colorado rallies, blocks Georgia Tech's walk-off field goal try",
-          "href": "https://www.espn.com/college-football/story/_/id/49821621/colorado-rallies-blocks-georgia-tech-walk-field-goal-try"
+          "label": "The Last Word Before Game 2 vs Tennessee",
+          "href": "https://ramblinwreck.com/news/2026/09/11/the-last-word-before-gm-262"
         },
         {
-          "label": "Colorado QB Julian Lewis leads touchdown drive with 42 seconds left in 14-13 win over Georgia Tech",
-          "href": "http://www.espn.com/ncf/recap?gameId=401856776"
+          "label": "Georgia Tech Football Unveils Game 2",
+          "href": "https://ramblinwreck.com/news/2026/09/10/fb-game-2-uniforms-26"
         },
         {
-          "label": "Jackets Dealt Tough Loss in Season Opener",
-          "href": "https://ramblinwreck.com/news/2026/09/4/fb-recap-colo-26"
+          "label": "Inside The Chart: Double Vision",
+          "href": "https://ramblinwreck.com/news/2026/09/10/inside-the-chart-double-vision"
         }
       ],
       "followUps": [
