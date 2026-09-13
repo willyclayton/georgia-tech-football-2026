@@ -13,7 +13,7 @@
     "offense": "Spread Pro Style",
     "defense": "4-2-5",
     "season": 2026,
-    "record": "0-1",
+    "record": "0-2",
     "color": "#B39051",
     "navy": "#051E39",
     "espnColor": "#b3a369",
@@ -28,7 +28,7 @@
     "pulse": [
       {
         "label": "2026",
-        "value": "0-1",
+        "value": "0-2",
         "detail": "This season"
       },
       {
@@ -38,8 +38,8 @@
       },
       {
         "label": "NEXT",
-        "value": "TENN",
-        "detail": "Sat, Sep 12 · ESPN"
+        "value": "MER",
+        "detail": "Sat, Sep 19 · ACC Network"
       },
       {
         "label": "AP",
@@ -13924,19 +13924,185 @@
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5276054.png",
       "previous": null,
       "previousTeams": [],
-      "career": null,
+      "career": {
+        "categories": [
+          {
+            "name": "defensive",
+            "displayName": "Defense",
+            "labels": [
+              "TOT",
+              "SOLO",
+              "AST",
+              "PD",
+              "SACK",
+              "FF",
+              "INT",
+              "YDS",
+              "TD"
+            ],
+            "rows": [
+              {
+                "year": 2026,
+                "teamId": "59",
+                "teamSlug": "georgia-tech-yellow-jackets",
+                "teamAbbr": "GT",
+                "teamName": "Georgia Tech Yellow Jackets",
+                "teamLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+                "stats": {
+                  "totalTackles": "2",
+                  "soloTackles": "2",
+                  "assistTackles": "0",
+                  "passesDefended": "0",
+                  "sacks": "0",
+                  "fumblesForced": "0",
+                  "interceptions": "0",
+                  "interceptionYards": "0",
+                  "interceptionTouchdowns": "0"
+                },
+                "display": {
+                  "TOT": "2",
+                  "SOLO": "2",
+                  "AST": "0",
+                  "PD": "0",
+                  "SACK": "0",
+                  "FF": "0",
+                  "INT": "0",
+                  "YDS": "0",
+                  "TD": "0"
+                }
+              }
+            ],
+            "totals": {
+              "TOT": "2",
+              "SOLO": "2",
+              "AST": "0",
+              "PD": "0",
+              "SACK": "0",
+              "FF": "0",
+              "INT": "0",
+              "YDS": "0",
+              "TD": "0"
+            }
+          },
+          {
+            "name": "returning",
+            "displayName": "Returning",
+            "labels": [
+              "ATT",
+              "YDS",
+              "TD",
+              "FC",
+              "LNG",
+              "ATT",
+              "YDS",
+              "TD",
+              "LNG"
+            ],
+            "rows": [
+              {
+                "year": 2026,
+                "teamId": "59",
+                "teamSlug": "georgia-tech-yellow-jackets",
+                "teamAbbr": "GT",
+                "teamName": "Georgia Tech Yellow Jackets",
+                "teamLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+                "stats": {
+                  "puntReturns": "1",
+                  "puntReturnYards": "0",
+                  "puntReturnTouchdowns": "0",
+                  "puntReturnFairCatches": "0",
+                  "longPuntReturn": "24",
+                  "kickReturns": "0",
+                  "kickReturnYards": "0",
+                  "kickReturnTouchdowns": "0",
+                  "longKickReturn": "0"
+                },
+                "display": {
+                  "ATT": "0",
+                  "YDS": "0",
+                  "TD": "0",
+                  "FC": "0",
+                  "LNG": "0"
+                }
+              }
+            ],
+            "totals": {
+              "ATT": "0",
+              "YDS": "0",
+              "TD": "0",
+              "FC": "0",
+              "LNG": "0"
+            }
+          }
+        ],
+        "seasons": [
+          {
+            "year": 2026,
+            "teamAbbr": "GT",
+            "teamName": "Georgia Tech Yellow Jackets",
+            "teamLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+            "categories": {
+              "defensive": {
+                "displayName": "Defense",
+                "stats": {
+                  "TOT": "2",
+                  "SOLO": "2",
+                  "AST": "0",
+                  "PD": "0",
+                  "SACK": "0",
+                  "FF": "0",
+                  "INT": "0",
+                  "YDS": "0",
+                  "TD": "0"
+                }
+              },
+              "returning": {
+                "displayName": "Returning",
+                "stats": {
+                  "ATT": "0",
+                  "YDS": "0",
+                  "TD": "0",
+                  "FC": "0",
+                  "LNG": "0"
+                }
+              }
+            }
+          }
+        ],
+        "headlines": [
+          {
+            "label": "TOT",
+            "value": "2"
+          },
+          {
+            "label": "SOLO",
+            "value": "2"
+          },
+          {
+            "label": "AST",
+            "value": "0"
+          },
+          {
+            "label": "PD",
+            "value": "0"
+          }
+        ],
+        "primaryCategory": "defensive"
+      },
       "eligibility": {
         "class": "Freshman",
         "classAbbr": "FR",
         "experienceYears": 1,
-        "seasonsPlayed": 0,
-        "seasons": [],
-        "seasonsLabel": null,
-        "yearsLeft": 4,
-        "yearsLeftLabel": "4 years left",
+        "seasonsPlayed": 1,
+        "seasons": [
+          2026
+        ],
+        "seasonsLabel": "2026",
+        "yearsLeft": 3,
+        "yearsLeftLabel": "3 years left",
         "extraYearLikely": false,
-        "basis": "class",
-        "note": "No college seasons with ESPN stats on record. Years left estimated from listed class."
+        "basis": "seasons",
+        "note": "Years left estimated from seasons with college stats under the standard 4-season rule. Redshirts and COVID years can add eligibility."
       },
       "note": null,
       "tags": []
@@ -15913,10 +16079,10 @@
       "conference": false,
       "venue": "Bobby Dodd Stadium",
       "city": "Atlanta, GA",
-      "status": "upcoming",
-      "gtScore": null,
-      "oppScore": null,
-      "result": null,
+      "status": "final",
+      "gtScore": "24",
+      "oppScore": "45",
+      "result": "L",
       "note": "First home meeting since 1986",
       "source": "ESPN / Georgia Tech Athletics"
     },
@@ -16381,10 +16547,10 @@
           "opponentAbbr": "WEB",
           "opponentId": "2692",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2692.png",
-          "score": null,
-          "result": null,
+          "score": "52-21",
+          "result": "W",
           "venue": "Folsom Field",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401856796",
@@ -16560,10 +16726,10 @@
           "opponentAbbr": "WKU",
           "opponentId": "98",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/98.png",
-          "score": null,
-          "result": null,
+          "score": "70-20",
+          "result": "W",
           "venue": "Sanford Stadium",
-          "status": "live"
+          "status": "final"
         },
         {
           "id": "401856686",
@@ -17070,7 +17236,7 @@
       "name": "Duke",
       "abbr": "DUKE",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-      "record": "1-0",
+      "record": "2-0",
       "conference": "ACC",
       "season": 2026,
       "games": [
@@ -17097,10 +17263,10 @@
           "opponentAbbr": "ILL",
           "opponentId": "356",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
-          "score": null,
-          "result": null,
+          "score": "31-27",
+          "result": "W",
           "venue": "Gies Memorial Stadium",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401858231",
@@ -17249,7 +17415,7 @@
       "name": "Wake Forest",
       "abbr": "WAKE",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
-      "record": "1-0",
+      "record": "2-0",
       "conference": "ACC",
       "season": 2026,
       "games": [
@@ -17276,10 +17442,10 @@
           "opponentAbbr": "PUR",
           "opponentId": "2509",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
-          "score": null,
-          "result": null,
+          "score": "38-36",
+          "result": "W",
           "venue": "Ross-Ade Stadium",
-          "status": "live"
+          "status": "final"
         },
         {
           "id": "401858226",
@@ -17428,7 +17594,7 @@
       "name": "Pittsburgh",
       "abbr": "PITT",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
-      "record": "1-0",
+      "record": "2-0",
       "conference": "ACC",
       "season": 2026,
       "games": [
@@ -17455,10 +17621,10 @@
           "opponentAbbr": "UCF",
           "opponentId": "2116",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
-          "score": null,
-          "result": null,
+          "score": "12-7",
+          "result": "W",
           "venue": "Acrisure Stadium",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401858225",
@@ -17607,7 +17773,7 @@
       "name": "Clemson",
       "abbr": "CLEM",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
-      "record": "0-1",
+      "record": "1-1",
       "conference": "ACC",
       "season": 2026,
       "games": [
@@ -17634,10 +17800,10 @@
           "opponentAbbr": "GASO",
           "opponentId": "290",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
-          "score": null,
-          "result": null,
+          "score": "22-7",
+          "result": "W",
           "venue": "Memorial Stadium (Clemson, SC)",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401858229",
@@ -17786,7 +17952,7 @@
       "name": "Virginia Tech",
       "abbr": "VT",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
-      "record": "1-0",
+      "record": "2-0",
       "conference": "ACC",
       "season": 2026,
       "games": [
@@ -17813,10 +17979,10 @@
           "opponentAbbr": "ODU",
           "opponentId": "295",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
-          "score": null,
-          "result": null,
+          "score": "44-21",
+          "result": "W",
           "venue": "Lane Stadium",
-          "status": "live"
+          "status": "final"
         },
         {
           "id": "401858232",
@@ -18006,10 +18172,10 @@
           "opponentAbbr": "FUR",
           "opponentId": "231",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/231.png",
-          "score": null,
-          "result": null,
+          "score": "13-20",
+          "result": "L",
           "venue": "Five Star Stadium",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401858228",
@@ -18171,10 +18337,10 @@
           "opponentAbbr": "GT",
           "opponentId": "59",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
-          "score": null,
-          "result": null,
+          "score": "45-24",
+          "result": "W",
           "venue": "Bobby Dodd Stadium",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401856692",
@@ -18336,6 +18502,15 @@
           "conference": "1-0"
         },
         {
+          "id": "2567",
+          "name": "SMU Mustangs",
+          "shortName": "SMU",
+          "abbr": "SMU",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
+          "overall": "2-0",
+          "conference": "1-0"
+        },
+        {
           "id": "258",
           "name": "Virginia Cavaliers",
           "shortName": "Virginia",
@@ -18345,21 +18520,12 @@
           "conference": "1-0"
         },
         {
-          "id": "2567",
-          "name": "SMU Mustangs",
-          "shortName": "SMU",
-          "abbr": "SMU",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
-          "overall": "1-0",
-          "conference": "1-0"
-        },
-        {
           "id": "150",
           "name": "Duke Blue Devils",
           "shortName": "Duke",
           "abbr": "DUKE",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-          "overall": "1-0",
+          "overall": "2-0",
           "conference": "0-0"
         },
         {
@@ -18368,7 +18534,7 @@
           "shortName": "North Carolina",
           "abbr": "UNC",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
-          "overall": "1-0",
+          "overall": "2-0",
           "conference": "0-0"
         },
         {
@@ -18377,16 +18543,7 @@
           "shortName": "Pitt",
           "abbr": "PITT",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
-          "overall": "1-0",
-          "conference": "0-0"
-        },
-        {
-          "id": "183",
-          "name": "Syracuse Orange",
-          "shortName": "Syracuse",
-          "abbr": "SYR",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
-          "overall": "1-0",
+          "overall": "2-0",
           "conference": "0-0"
         },
         {
@@ -18395,7 +18552,7 @@
           "shortName": "Virginia Tech",
           "abbr": "VT",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
-          "overall": "1-0",
+          "overall": "2-0",
           "conference": "0-0"
         },
         {
@@ -18404,8 +18561,17 @@
           "shortName": "Wake Forest",
           "abbr": "WAKE",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
-          "overall": "1-0",
+          "overall": "2-0",
           "conference": "0-0"
+        },
+        {
+          "id": "25",
+          "name": "California Golden Bears",
+          "shortName": "California",
+          "abbr": "CAL",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
+          "overall": "1-1",
+          "conference": "1-0"
         },
         {
           "id": "103",
@@ -18413,6 +18579,15 @@
           "shortName": "Boston College",
           "abbr": "BC",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+          "overall": "1-1",
+          "conference": "0-0"
+        },
+        {
+          "id": "228",
+          "name": "Clemson Tigers",
+          "shortName": "Clemson",
+          "abbr": "CLEM",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
           "overall": "1-1",
           "conference": "0-0"
         },
@@ -18453,22 +18628,13 @@
           "conference": "0-1"
         },
         {
-          "id": "25",
-          "name": "California Golden Bears",
-          "shortName": "California",
-          "abbr": "CAL",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
-          "overall": "0-1",
-          "conference": "0-0"
-        },
-        {
-          "id": "228",
-          "name": "Clemson Tigers",
-          "shortName": "Clemson",
-          "abbr": "CLEM",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
-          "overall": "0-1",
-          "conference": "0-0"
+          "id": "183",
+          "name": "Syracuse Orange",
+          "shortName": "Syracuse",
+          "abbr": "SYR",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
+          "overall": "1-1",
+          "conference": "0-1"
         },
         {
           "id": "59",
@@ -18476,7 +18642,7 @@
           "shortName": "Georgia Tech",
           "abbr": "GT",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
-          "overall": "0-1",
+          "overall": "0-2",
           "conference": "0-0"
         }
       ]
@@ -19974,6 +20140,56 @@
   ],
   "news": [
     {
+      "id": "www-espn-com-video-clip-id-49924275-no-18-tennessee-dominates-georgia-tech-299-r",
+      "headline": "Highlight: No. 18 Tennessee dominates Georgia Tech with 299 rushing yards",
+      "description": "DeSean Bishop runs for 147 yards on 20 attempts with two touchdowns as the Volunteers open a two-possession lead in the second quarter and never look back in the 45-24 win.",
+      "url": "https://www.espn.com/video/clip/_/id/49924275/no-18-tennessee-dominates-georgia-tech-299-rushing-yards",
+      "source": "ESPN",
+      "published": "2026-09-13T05:05:06.000Z",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0913/dm_260913_SEC_NCF_Highlight_Tenn_GT_260912/dm_260913_SEC_NCF_Highlight_Tenn_GT_260912.jpg",
+      "tag": "ESPN"
+    },
+    {
+      "id": "www-espn-com-college-football-story-id-49922104-georgia-tech-cb-jaylen-mbakwe-st",
+      "headline": "Georgia Tech CB Jaylen Mbakwe stretchered off after collision",
+      "description": "",
+      "url": "https://www.espn.com/college-football/story/_/id/49922104/georgia-tech-cb-jaylen-mbakwe-stretchered-collision",
+      "source": "ESPN",
+      "published": "2026-09-13T04:49:14.000Z",
+      "image": "https://a.espncdn.com/photo/2026/0913/r1715691_600x400_3-2.jpg",
+      "tag": "ESPN"
+    },
+    {
+      "id": "www-espn-com-ncf-recap-gameid-401856681",
+      "headline": "DeSean Bishop rushes for 2 TDs as No. 18 Tennessee handles Georgia Tech 45-24",
+      "description": "",
+      "url": "http://www.espn.com/ncf/recap?gameId=401856681",
+      "source": "ESPN",
+      "published": "2026-09-13T04:02:35.000Z",
+      "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401856681.png?templateId=espn.applewatch.awayhome.1",
+      "tag": "ESPN"
+    },
+    {
+      "id": "ramblinwreck-com-news-2026-09-12-football-gameday-live",
+      "headline": "Football Gameday Live",
+      "description": "Follow along during the game with links to live audio, stats, and more",
+      "url": "https://ramblinwreck.com/news/2026/09/12/football-gameday-live",
+      "source": "Georgia Tech Athletics",
+      "published": "2026-09-12T21:00:00.000Z",
+      "image": "https://ramblinwreck.com/imgproxy/ReW08wbUvhwr8cIlFkdQSwx-HQGwmIAaQ1FKT7yZy1E/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzA5LzA4L2xuTHZTYmd6SGtxazBQenptNFN2ODlDNThLdjlmRXRVeFRtNm55UTMuanBn.jpg",
+      "tag": "Program"
+    },
+    {
+      "id": "ramblinwreck-com-news-2026-09-12-update-fireworks-fb-tenn-26",
+      "headline": "Update Regarding Saturday's Enhanced Fireworks Show",
+      "description": "Enhanced halftime fireworks show postponed, all other gameday elements expected to proceed",
+      "url": "https://ramblinwreck.com/news/2026/09/12/update-fireworks-fb-tenn-26",
+      "source": "Georgia Tech Athletics",
+      "published": "2026-09-12T17:14:30.000Z",
+      "image": "https://ramblinwreck.com/imgproxy/b_cOfIq756hbd8IKqD7onbKBecunjuN8jjJnT8CP9qk/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzA5LzEyLzcwNGJxWGZtZ05hak9OMDJMcjcyY1V4NEc3T2pBZFRVdDExbXpRTmcuanBn.jpg",
+      "tag": "Program"
+    },
+    {
       "id": "ramblinwreck-com-news-2026-09-11-the-last-word-before-gm-262",
       "headline": "The Last Word Before Game 2 vs Tennessee",
       "description": "Tech hosts Tennessee in front of a sold-out crowd on Saturday Night (TV: ESPN)",
@@ -20022,59 +20238,9 @@
       "published": "2026-09-09T23:02:00.000Z",
       "image": "https://ramblinwreck.com/imgproxy/1omqQORPl-u-P06wqfVLsHsyImdAA6Q2vVNa8xeZ5kg/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzA5LzA5L2F3UkF6dTNJUkZDTTVrMHp4d2NPSWxVcWhDcTFNMUxIOTdLSE1hNHouanBn.jpg",
       "tag": "Program"
-    },
-    {
-      "id": "ramblinwreck-com-news-2026-09-8-fb-preview-2-26",
-      "headline": "The Jackets Prepare to Host Tennessee on Saturday Night",
-      "description": "Tech hosts Tennessee in marquee matchup on Saturday Night (7 pm on ESPN)",
-      "url": "https://ramblinwreck.com/news/2026/09/8/fb-preview-2-26",
-      "source": "Georgia Tech Athletics",
-      "published": "2026-09-08T21:10:00.000Z",
-      "image": "https://ramblinwreck.com/imgproxy/u84imIefT83UIufOz-7OaGqNMOxvODircuypUOBz3DQ/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzA5LzA4L2FqUmNwcGs4M3M0SWhUd0RmRm5GYjFldmxDZE50ZEpMcHA2bVZiOGkuanBn.jpg",
-      "tag": "Program"
-    },
-    {
-      "id": "www-espn-com-ncf-preview-gameid-401856681",
-      "headline": "No. 18 Tennessee hits the road to meet Georgia Tech",
-      "description": "",
-      "url": "http://www.espn.com/ncf/preview?gameId=401856681",
-      "source": "ESPN",
-      "published": "2026-09-08T20:04:36.000Z",
-      "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401856681.png?templateId=espn.applewatch.awayhome.1",
-      "tag": "ESPN"
-    },
-    {
-      "id": "ramblinwreck-com-news-2026-09-8-fireworks-show-brings-the-boom-to-georgia-tech-t",
-      "headline": "Fireworks Show Brings the Boom to Georgia Tech-Tennessee",
-      "description": "Special fireworks display, powered by Georgia Power, highlights Saturday’s halftime extravaganza",
-      "url": "https://ramblinwreck.com/news/2026/09/8/fireworks-show-brings-the-boom-to-georgia-tech-tennessee",
-      "source": "Georgia Tech Athletics",
-      "published": "2026-09-08T19:00:00.000Z",
-      "image": "https://ramblinwreck.com/imgproxy/RR31XGZbO8L2gq3ugKQ5go9eXNyRIctZbyOW08ITkNc/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzA5LzA4L01IVTV3MlNjcXcwNUl6ZFBDRmNkaXVQemhZWUNTWUxhanpJMzZBSXYucG5n.png",
-      "tag": "Program"
-    },
-    {
-      "id": "ramblinwreck-com-news-2026-09-8-smith-acc-specialist-of-the-week-gm1-26",
-      "headline": "Georgia Tech’s Smith Named ACC Specialist of the Week",
-      "description": "In his first touch as a Yellow Jacket, Smith became fifth player in GT history with a 100-yard kickoff return",
-      "url": "https://ramblinwreck.com/news/2026/09/8/smith-acc-specialist-of-the-week-gm1-26",
-      "source": "Georgia Tech Athletics",
-      "published": "2026-09-08T18:00:00.000Z",
-      "image": "https://ramblinwreck.com/imgproxy/JvthJqzRBS4ry6W-AeCdzKAVDwlqCXZfnNQPs5jOpLU/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzA5LzA4LzF4SkF4eGdhY0JtUXNIYUFTaUhodzVyU1U3a2JQcWlsVEVhVktwZlYuanBn.jpg",
-      "tag": "Program"
-    },
-    {
-      "id": "www-espn-com-college-football-story-id-49821621-colorado-rallies-blocks-georgia-",
-      "headline": "Colorado rallies, blocks Georgia Tech's walk-off field goal try",
-      "description": "",
-      "url": "https://www.espn.com/college-football/story/_/id/49821621/colorado-rallies-blocks-georgia-tech-walk-field-goal-try",
-      "source": "ESPN",
-      "published": "2026-09-04T12:48:49.000Z",
-      "image": "https://a.espncdn.com/photo/2026/0904/r1711211_600x400_3-2.jpg",
-      "tag": "ESPN"
     }
   ],
-  "dataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-09-12",
+  "dataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-09-13",
   "sources": [
     {
       "name": "ESPN College Football API",

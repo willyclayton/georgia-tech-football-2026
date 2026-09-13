@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "builtAt": "2026-09-12T18:15:54.618Z",
-  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-09-12",
-  "entryCount": 722,
+  "builtAt": "2026-09-13T15:22:51.388Z",
+  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-09-13",
+  "entryCount": 723,
   "entries": [
     {
       "id": "faq-clean-old-fashioned",
@@ -3141,7 +3141,7 @@
         "4-2-5",
         "Brent Key"
       ],
-      "answer": "Georgia Tech Yellow Jackets — ACC, 2026 season (record 0-1).\nHead coach: Brent Key. Offense: Spread Pro Style. Defense: 4-2-5.\nHome: Bobby Dodd Stadium at Hyundai Field, Atlanta, GA.\nLast season (2025): 9-4 (6-2 ACC), final AP #24. Ranked as high as No. 7 in 2025",
+      "answer": "Georgia Tech Yellow Jackets — ACC, 2026 season (record 0-2).\nHead coach: Brent Key. Offense: Spread Pro Style. Defense: 4-2-5.\nHome: Bobby Dodd Stadium at Hyundai Field, Atlanta, GA.\nLast season (2025): 9-4 (6-2 ACC), final AP #24. Ranked as high as No. 7 in 2025",
       "links": [
         {
           "label": "Open roster",
@@ -3279,7 +3279,7 @@
         "rank",
         "how are we doing"
       ],
-      "answer": "2026 record so far: 0-1.\nIn the 2026 ACC snapshot, Georgia Tech is listed 0-1 overall (0-0 conference) — #17 in the table.\nLast season final AP: #24. Ranked as high as No. 7 in 2025\nOpen Standings and flip 2025 if you want last year's ACC finish.\nOpen the Standings tab for the ACC table and AP / Coaches polls.",
+      "answer": "2026 record so far: 0-2.\nIn the 2026 ACC snapshot, Georgia Tech is listed 0-2 overall (0-0 conference) — #17 in the table.\nLast season final AP: #24. Ranked as high as No. 7 in 2025\nOpen Standings and flip 2025 if you want last year's ACC finish.\nOpen the Standings tab for the ACC table and AP / Coaches polls.",
       "links": [
         {
           "label": "Open standings",
@@ -3315,19 +3315,19 @@
         "feeling",
         "hype"
       ],
-      "answer": "Latest 2026 notes (Athletics / ESPN):\n• The Last Word Before Game 2 vs Tennessee — Tech hosts Tennessee in front of a sold-out crowd on Saturday Night (TV: ESPN)\n• Georgia Tech Football Unveils Game 2 — Gold, Gold, White in front of a sold-out crowd on Saturday Night\n• Inside The Chart: Double Vision — Saturday's Georgia Tech-Tennessee game features a rare matchup-within-a-matchup\n• Efford Lands on Witten Collegiate Man of the Year Watch List — Two-time team captain honored for leadership\n• Bobby Dodd is Sold Out Again for Georgia Tech-Tennessee — Four-straight sellouts for the Yellow Jackets for the first time since 1999\nOpen Home for the full news list.",
+      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Highlight: No. 18 Tennessee dominates Georgia Tech with 299 rushing yards — DeSean Bishop runs for 147 yards on 20 attempts with two touchdowns as the Volunteers open a two-possession lead in the second quarter and never look back in the 45-24 win.\n• Georgia Tech CB Jaylen Mbakwe stretchered off after collision\n• DeSean Bishop rushes for 2 TDs as No. 18 Tennessee handles Georgia Tech 45-24\n• Football Gameday Live — Follow along during the game with links to live audio, stats, and more\n• Update Regarding Saturday's Enhanced Fireworks Show — Enhanced halftime fireworks show postponed, all other gameday elements expected to proceed\nOpen Home for the full news list.",
       "links": [
         {
-          "label": "The Last Word Before Game 2 vs Tennessee",
-          "href": "https://ramblinwreck.com/news/2026/09/11/the-last-word-before-gm-262"
+          "label": "Highlight: No. 18 Tennessee dominates Georgia Tech with 299 rushing yards",
+          "href": "https://www.espn.com/video/clip/_/id/49924275/no-18-tennessee-dominates-georgia-tech-299-rushing-yards"
         },
         {
-          "label": "Georgia Tech Football Unveils Game 2",
-          "href": "https://ramblinwreck.com/news/2026/09/10/fb-game-2-uniforms-26"
+          "label": "Georgia Tech CB Jaylen Mbakwe stretchered off after collision",
+          "href": "https://www.espn.com/college-football/story/_/id/49922104/georgia-tech-cb-jaylen-mbakwe-stretchered-collision"
         },
         {
-          "label": "Inside The Chart: Double Vision",
-          "href": "https://ramblinwreck.com/news/2026/09/10/inside-the-chart-double-vision"
+          "label": "DeSean Bishop rushes for 2 TDs as No. 18 Tennessee handles Georgia Tech 45-24",
+          "href": "http://www.espn.com/ncf/recap?gameId=401856681"
         }
       ],
       "followUps": [
@@ -3351,7 +3351,7 @@
         "Upcoming game",
         "What's our next game?",
         "Next game?",
-        "When do we play Tennessee?",
+        "When do we play Mercer?",
         "What channel is the next game?",
         "What time is kickoff?"
       ],
@@ -3360,21 +3360,21 @@
         "upcoming",
         "when do we play",
         "kickoff",
-        "Tennessee",
-        "TENN"
+        "Mercer",
+        "MER"
       ],
-      "answer": "Next up: vs Tennessee on Sat, Sep 12 at 7 PM (ESPN).\nBobby Dodd Stadium · Atlanta, GA\nFirst home meeting since 1986",
+      "answer": "Next up: vs Mercer on Sat, Sep 19 at 12 PM (ACC Network).\nBobby Dodd Stadium · Atlanta, GA\nIn-state non-conference",
       "links": [
         {
-          "label": "Tennessee slate",
-          "href": "/opponent/2633"
+          "label": "Mercer slate",
+          "href": "/opponent/2382"
         }
       ],
       "followUps": [
         "Show the full schedule",
         "Where do we stand in the ACC?"
       ],
-      "searchText": "when is the next game? who do we play next? when do we play? upcoming game what's our next game? next game? when do we play tennessee? what channel is the next game? what time is kickoff? next game upcoming when do we play kickoff tennessee tenn"
+      "searchText": "when is the next game? who do we play next? when do we play? upcoming game what's our next game? next game? when do we play mercer? what channel is the next game? what time is kickoff? next game upcoming when do we play kickoff mercer mer"
     },
     {
       "id": "schedule-game-1",
@@ -7391,7 +7391,7 @@
         "eligibility",
         "years left"
       ],
-      "answer": "Eligibility for GT DBs:\n• #3 Jaylen Mbakwe — Junior, 2 years left\n• #6 Kelvin Hill — Junior, 2 years left\n• #12 Jon Mitchell — Junior, 2 years left\n• #13 Savion Riley — Senior, 1 year left\n• #14 Jonas Duclona — Senior, 1 year left\n• #18 Kealan Jones — Freshman, 4 years left\n• #21 Jaedyn Terry — Freshman, 4 years left\n• #23 Trae Stevenson Jr. — Freshman, 4 years left\n• #25 L.J. Crumity — Freshman, 4 years left\n• #26 Chris Hewitt Jr. — Freshman, 3 years left\n• #27 Tae Harris — Sophomore, 3 years left\n• #28 Elgin Sessions — Sophomore, 3 years left\n• #31 Fenix Felton — Sophomore, 3 years left\n• #36 Kymani Morales — Freshman, 4 years left\n• #37 Alex Hunt — Freshman, 4 years left\n• #38 Isaac Obrokta — Freshman, 4 years left\n• #39 Will Kiker — Senior, 2 years left",
+      "answer": "Eligibility for GT DBs:\n• #3 Jaylen Mbakwe — Junior, 2 years left\n• #6 Kelvin Hill — Junior, 2 years left\n• #12 Jon Mitchell — Junior, 2 years left\n• #13 Savion Riley — Senior, 1 year left\n• #14 Jonas Duclona — Senior, 1 year left\n• #18 Kealan Jones — Freshman, 4 years left\n• #21 Jaedyn Terry — Freshman, 4 years left\n• #23 Trae Stevenson Jr. — Freshman, 3 years left\n• #25 L.J. Crumity — Freshman, 4 years left\n• #26 Chris Hewitt Jr. — Freshman, 3 years left\n• #27 Tae Harris — Sophomore, 3 years left\n• #28 Elgin Sessions — Sophomore, 3 years left\n• #31 Fenix Felton — Sophomore, 3 years left\n• #36 Kymani Morales — Freshman, 4 years left\n• #37 Alex Hunt — Freshman, 4 years left\n• #38 Isaac Obrokta — Freshman, 4 years left\n• #39 Will Kiker — Senior, 2 years left",
       "links": [
         {
           "label": "#3 Jaylen Mbakwe",
@@ -13339,7 +13339,7 @@
         "number 23",
         "jersey 23"
       ],
-      "answer": "#23 Trae Stevenson Jr. — Cornerback, Freshman.\n6' 1\", 195 lbs · from Quitman, GA.\nEligibility: 4 years left · no college seasons with stats yet.\nPrevious teams: no prior college teams listed.",
+      "answer": "#23 Trae Stevenson Jr. — Cornerback, Freshman.\n6' 1\", 195 lbs · from Quitman, GA.\nEligibility: 3 years left · 1 season played (2026).\nPrevious teams: no prior college teams listed.",
       "links": [
         {
           "label": "#23 Trae Stevenson Jr.",
@@ -29498,7 +29498,7 @@
         "CB",
         "Quitman, GA"
       ],
-      "answer": "#23 Trae Stevenson Jr. — Cornerback, Freshman.\n6' 1\", 195 lbs · from Quitman, GA.\nEligibility: 4 years left · no college seasons with stats yet.\nPrevious teams: no prior college teams listed.",
+      "answer": "#23 Trae Stevenson Jr. — Cornerback, Freshman.\n6' 1\", 195 lbs · from Quitman, GA.\nEligibility: 3 years left · 1 season played (2026).\nPrevious teams: no prior college teams listed.",
       "links": [
         {
           "label": "#23 Trae Stevenson Jr.",
@@ -29600,7 +29600,7 @@
         "Freshman",
         "FR"
       ],
-      "answer": "#23 Trae Stevenson Jr. — Cornerback, Freshman.\n6' 1\", 195 lbs · from Quitman, GA.\nEligibility: 4 years left · no college seasons with stats yet.\nPrevious teams: no prior college teams listed.",
+      "answer": "#23 Trae Stevenson Jr. — Cornerback, Freshman.\n6' 1\", 195 lbs · from Quitman, GA.\nEligibility: 3 years left · 1 season played (2026).\nPrevious teams: no prior college teams listed.",
       "links": [
         {
           "label": "#23 Trae Stevenson Jr.",
@@ -29612,6 +29612,50 @@
         "When is the next game?"
       ],
       "searchText": "how much eligibility does trae stevenson jr. have? how much eligibility does stevenson have? how much elig left #23 how many years does #23 have left? stevenson eligibility stevenson years left is stevenson a senior? what class is trae stevenson jr.? years left for trae stevenson jr. trae stevenson jr. trae stevenson #23 stevenson freshman fr"
+    },
+    {
+      "id": "player-5276054-stats",
+      "category": "player",
+      "scope": "player",
+      "intent": "stats",
+      "playerIds": [
+        "5276054"
+      ],
+      "jersey": 23,
+      "names": [
+        "Trae Stevenson Jr.",
+        "Trae",
+        "Stevenson"
+      ],
+      "questions": [
+        "What are Trae Stevenson Jr. career stats?",
+        "Trae Stevenson Jr. stats",
+        "Stevenson career numbers",
+        "How many yards does Stevenson have?",
+        "Trae Stevenson Jr. touchdowns"
+      ],
+      "keywords": [
+        "Trae Stevenson Jr.",
+        "Trae Stevenson",
+        "#23",
+        "Stevenson",
+        "stats",
+        "career",
+        "yards",
+        "touchdowns"
+      ],
+      "answer": "#23 Trae Stevenson Jr. career (college totals in app): TOT 2 · SOLO 2 · AST 0 · PD 0.",
+      "links": [
+        {
+          "label": "#23 Trae Stevenson Jr.",
+          "href": "/player/5276054"
+        }
+      ],
+      "followUps": [
+        "Where did Stevenson transfer from?",
+        "How much eligibility does Stevenson have?"
+      ],
+      "searchText": "what are trae stevenson jr. career stats? trae stevenson jr. stats stevenson career numbers how many yards does stevenson have? trae stevenson jr. touchdowns trae stevenson jr. trae stevenson #23 stevenson stats career yards touchdowns"
     },
     {
       "id": "player-5266701",
