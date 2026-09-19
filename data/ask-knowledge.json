@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "builtAt": "2026-09-13T15:22:51.388Z",
-  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-09-13",
+  "builtAt": "2026-09-19T18:32:03.858Z",
+  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-09-19",
   "entryCount": 723,
   "entries": [
     {
@@ -3315,19 +3315,19 @@
         "feeling",
         "hype"
       ],
-      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Highlight: No. 18 Tennessee dominates Georgia Tech with 299 rushing yards — DeSean Bishop runs for 147 yards on 20 attempts with two touchdowns as the Volunteers open a two-possession lead in the second quarter and never look back in the 45-24 win.\n• Georgia Tech CB Jaylen Mbakwe stretchered off after collision\n• DeSean Bishop rushes for 2 TDs as No. 18 Tennessee handles Georgia Tech 45-24\n• Football Gameday Live — Follow along during the game with links to live audio, stats, and more\n• Update Regarding Saturday's Enhanced Fireworks Show — Enhanced halftime fireworks show postponed, all other gameday elements expected to proceed\nOpen Home for the full news list.",
+      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Football Gameday Live — Follow along during the game with links to live audio, stats, and more\n• The Last Word Before Game 3 vs Mercer — The Jackets face Mercer on Family Weekend (Saturday at 12 pm | TV: ACC Network)\n• Georgia Tech Football Unveils Game 3 Uniforms — Gold, Gold, Grey on Family Weekend on The Flats\n• Inside The Chart: Reaching New Heights — Even at a towering 6-foot-9, tight end Kevin Roche, Jr. flew under the radar as a recruit but his play is now drawing plenty of attention\n• Haynes Named a Comeback Player of the Week — Georgia Tech RB honored for 117-yard, two-touchdown performance against nationally ranked Tennessee\nOpen Home for the full news list.",
       "links": [
         {
-          "label": "Highlight: No. 18 Tennessee dominates Georgia Tech with 299 rushing yards",
-          "href": "https://www.espn.com/video/clip/_/id/49924275/no-18-tennessee-dominates-georgia-tech-299-rushing-yards"
+          "label": "Football Gameday Live",
+          "href": "https://ramblinwreck.com/news/2026/09/19/football-gameday-live"
         },
         {
-          "label": "Georgia Tech CB Jaylen Mbakwe stretchered off after collision",
-          "href": "https://www.espn.com/college-football/story/_/id/49922104/georgia-tech-cb-jaylen-mbakwe-stretchered-collision"
+          "label": "The Last Word Before Game 3 vs Mercer",
+          "href": "https://ramblinwreck.com/news/2026/09/18/the-last-word-before-gm-326"
         },
         {
-          "label": "DeSean Bishop rushes for 2 TDs as No. 18 Tennessee handles Georgia Tech 45-24",
-          "href": "http://www.espn.com/ncf/recap?gameId=401856681"
+          "label": "Georgia Tech Football Unveils Game 3 Uniforms",
+          "href": "https://ramblinwreck.com/news/2026/09/17/fb-game-3-uniforms-26"
         }
       ],
       "followUps": [
