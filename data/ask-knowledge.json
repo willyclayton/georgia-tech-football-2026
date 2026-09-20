@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "builtAt": "2026-09-19T18:32:03.858Z",
-  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-09-19",
-  "entryCount": 723,
+  "builtAt": "2026-09-20T15:10:11.377Z",
+  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-09-20",
+  "entryCount": 727,
   "entries": [
     {
       "id": "faq-clean-old-fashioned",
@@ -3141,7 +3141,7 @@
         "4-2-5",
         "Brent Key"
       ],
-      "answer": "Georgia Tech Yellow Jackets — ACC, 2026 season (record 0-2).\nHead coach: Brent Key. Offense: Spread Pro Style. Defense: 4-2-5.\nHome: Bobby Dodd Stadium at Hyundai Field, Atlanta, GA.\nLast season (2025): 9-4 (6-2 ACC), final AP #24. Ranked as high as No. 7 in 2025",
+      "answer": "Georgia Tech Yellow Jackets — ACC, 2026 season (record 1-2).\nHead coach: Brent Key. Offense: Spread Pro Style. Defense: 4-2-5.\nHome: Bobby Dodd Stadium at Hyundai Field, Atlanta, GA.\nLast season (2025): 9-4 (6-2 ACC), final AP #24. Ranked as high as No. 7 in 2025",
       "links": [
         {
           "label": "Open roster",
@@ -3279,7 +3279,7 @@
         "rank",
         "how are we doing"
       ],
-      "answer": "2026 record so far: 0-2.\nIn the 2026 ACC snapshot, Georgia Tech is listed 0-2 overall (0-0 conference) — #17 in the table.\nLast season final AP: #24. Ranked as high as No. 7 in 2025\nOpen Standings and flip 2025 if you want last year's ACC finish.\nOpen the Standings tab for the ACC table and AP / Coaches polls.",
+      "answer": "2026 record so far: 1-2.\nIn the 2026 ACC snapshot, Georgia Tech is listed 1-2 overall (0-0 conference) — #13 in the table.\nLast season final AP: #24. Ranked as high as No. 7 in 2025\nOpen Standings and flip 2025 if you want last year's ACC finish.\nOpen the Standings tab for the ACC table and AP / Coaches polls.",
       "links": [
         {
           "label": "Open standings",
@@ -3315,19 +3315,19 @@
         "feeling",
         "hype"
       ],
-      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Football Gameday Live — Follow along during the game with links to live audio, stats, and more\n• The Last Word Before Game 3 vs Mercer — The Jackets face Mercer on Family Weekend (Saturday at 12 pm | TV: ACC Network)\n• Georgia Tech Football Unveils Game 3 Uniforms — Gold, Gold, Grey on Family Weekend on The Flats\n• Inside The Chart: Reaching New Heights — Even at a towering 6-foot-9, tight end Kevin Roche, Jr. flew under the radar as a recruit but his play is now drawing plenty of attention\n• Haynes Named a Comeback Player of the Week — Georgia Tech RB honored for 117-yard, two-touchdown performance against nationally ranked Tennessee\nOpen Home for the full news list.",
+      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Justice Haynes scores 3 TDs in 44-11 Georgia Tech win over Mercer\n• Haynes, Mendoza and Defense Shine in 44-11 Triumph — Haynes goes for 167 yards and three scores, Mendoza throws for 3 TD and Tech's defense doesn't allow a TD in home rout\n• PHOTOS: Football vs. Mercer\n• The Last Word Before Game 3 vs Mercer — The Jackets face Mercer on Family Weekend (Saturday at 12 pm | TV: ACC Network)\n• Georgia Tech Football Unveils Game 3 Uniforms — Gold, Gold, Grey on Family Weekend on The Flats\nOpen Home for the full news list.",
       "links": [
         {
-          "label": "Football Gameday Live",
-          "href": "https://ramblinwreck.com/news/2026/09/19/football-gameday-live"
+          "label": "Justice Haynes scores 3 TDs in 44-11 Georgia Tech win over Mercer",
+          "href": "http://www.espn.com/ncf/recap?gameId=401858228"
         },
         {
-          "label": "The Last Word Before Game 3 vs Mercer",
-          "href": "https://ramblinwreck.com/news/2026/09/18/the-last-word-before-gm-326"
+          "label": "Haynes, Mendoza and Defense Shine in 44-11 Triumph",
+          "href": "https://ramblinwreck.com/news/2026/09/19/fb-recap-mercer-26"
         },
         {
-          "label": "Georgia Tech Football Unveils Game 3 Uniforms",
-          "href": "https://ramblinwreck.com/news/2026/09/17/fb-game-3-uniforms-26"
+          "label": "PHOTOS: Football vs. Mercer",
+          "href": "https://ramblinwreck.com/news/2026/09/19/photos-fb-mercer-26"
         }
       ],
       "followUps": [
@@ -3351,7 +3351,7 @@
         "Upcoming game",
         "What's our next game?",
         "Next game?",
-        "When do we play Mercer?",
+        "When do we play Stanford?",
         "What channel is the next game?",
         "What time is kickoff?"
       ],
@@ -3360,21 +3360,21 @@
         "upcoming",
         "when do we play",
         "kickoff",
-        "Mercer",
-        "MER"
+        "Stanford",
+        "STAN"
       ],
-      "answer": "Next up: vs Mercer on Sat, Sep 19 at 12 PM (ACC Network).\nBobby Dodd Stadium · Atlanta, GA\nIn-state non-conference",
+      "answer": "Next up: @ Stanford on Sat, Sep 26 at 10:30 PM (ESPN).\nStanford Stadium · Stanford, CA\nFirst-ever trip to Stanford",
       "links": [
         {
-          "label": "Mercer slate",
-          "href": "/opponent/2382"
+          "label": "Stanford slate",
+          "href": "/opponent/24"
         }
       ],
       "followUps": [
         "Show the full schedule",
         "Where do we stand in the ACC?"
       ],
-      "searchText": "when is the next game? who do we play next? when do we play? upcoming game what's our next game? next game? when do we play mercer? what channel is the next game? what time is kickoff? next game upcoming when do we play kickoff mercer mer"
+      "searchText": "when is the next game? who do we play next? when do we play? upcoming game what's our next game? next game? when do we play stanford? what channel is the next game? what time is kickoff? next game upcoming when do we play kickoff stanford stan"
     },
     {
       "id": "schedule-game-1",
@@ -7121,7 +7121,7 @@
         "eligibility",
         "years left"
       ],
-      "answer": "Eligibility for GT DLs:\n• #8 Jordan Boyd — Junior, 2 years left\n• #9 Amontrae Bradford — Junior, 2 years left\n• #11 Brayden Manley — Senior, 2 years left\n• #24 Noah Carter — Junior, 2 years left\n• #41 Taje McCoy — Senior, 1 year left\n• #55 Christian Garrett — Sophomore, 3 years left\n• #56 Tim Griffin — Sophomore, 3 years left\n• #88 A.J. Hoffler — Senior, 1 year left\n• #91 Andre Fuller Jr. — Sophomore, 3 years left\n• #92 Christian Speakman — Freshman, 3 years left\n• #93 Drew Cohen — Junior, 2 years left\n• #94 Derry Norris Jr. — Sophomore, 3 years left\n• #95 Tawfiq Thomas — Senior, 1 year left*\n• #96 Shymeik Jones — Senior, 3 years left\n• #97 Landen Marshall — Junior, 3 years left\n• #98 Amier Clarke — Freshman, 4 years left\n• #99 Vincent Carroll-Jackson — Senior, 2 years left",
+      "answer": "Eligibility for GT DLs:\n• #8 Jordan Boyd — Junior, 2 years left\n• #9 Amontrae Bradford — Junior, 2 years left\n• #11 Brayden Manley — Senior, 2 years left\n• #24 Noah Carter — Junior, 2 years left\n• #41 Taje McCoy — Senior, 1 year left\n• #55 Christian Garrett — Sophomore, 3 years left\n• #56 Tim Griffin — Sophomore, 3 years left\n• #88 A.J. Hoffler — Senior, 1 year left\n• #91 Andre Fuller Jr. — Sophomore, 3 years left\n• #92 Christian Speakman — Freshman, 3 years left\n• #93 Drew Cohen — Junior, 2 years left\n• #94 Derry Norris Jr. — Sophomore, 3 years left\n• #95 Tawfiq Thomas — Senior, 1 year left*\n• #96 Shymeik Jones — Senior, 3 years left\n• #97 Landen Marshall — Junior, 3 years left\n• #98 Amier Clarke — Freshman, 3 years left\n• #99 Vincent Carroll-Jackson — Senior, 2 years left",
       "links": [
         {
           "label": "#8 Jordan Boyd",
@@ -7993,7 +7993,7 @@
         "eligibility",
         "years left"
       ],
-      "answer": "Eligibility for GT WRs:\n• #3 Rahkeem Smith — Senior, 1 year left\n• #4 Jordan Allen — Sophomore, 3 years left\n• #6 Debron Gatling — Junior, 2 years left\n• #7 Dalen Penson — Sophomore, 3 years left\n• #13 Isaiah Fuhrmann — Junior, 2 years left\n• #16 Jaiven Plummer — Senior, 2 years left\n• #21 Darnell Collins — Freshman, 4 years left\n• #37 Joseph Moseley — Junior, 3 years left\n• #38 Wills Campbell — Freshman, 4 years left\n• #81 Cal Faulkner — Sophomore, 3 years left\n• #82 Kentrell Davis — Freshman, 4 years left\n• #84 Evan Haynes — Sophomore, 3 years left\n• #87 Coi Jean-Noel — Freshman, 4 years left\n• #89 Chris Elko — Senior, 2 years left",
+      "answer": "Eligibility for GT WRs:\n• #3 Rahkeem Smith — Senior, 1 year left\n• #4 Jordan Allen — Sophomore, 3 years left\n• #6 Debron Gatling — Junior, 3 years left\n• #7 Dalen Penson — Sophomore, 3 years left\n• #13 Isaiah Fuhrmann — Junior, 2 years left\n• #16 Jaiven Plummer — Senior, 2 years left\n• #21 Darnell Collins — Freshman, 4 years left\n• #37 Joseph Moseley — Junior, 3 years left\n• #38 Wills Campbell — Freshman, 4 years left\n• #81 Cal Faulkner — Sophomore, 3 years left\n• #82 Kentrell Davis — Freshman, 4 years left\n• #84 Evan Haynes — Sophomore, 3 years left\n• #87 Coi Jean-Noel — Freshman, 4 years left\n• #89 Chris Elko — Senior, 2 years left",
       "links": [
         {
           "label": "#3 Rahkeem Smith",
@@ -8393,7 +8393,7 @@
         "eligibility",
         "years left"
       ],
-      "answer": "Eligibility for GT LBs:\n• #0 Melvin Jordan IV — Senior, 1 year left\n• #1 Cayman Spaulding — Senior, 2 years left\n• #2 E.J. Lightsey — Senior, 1 year left\n• #30 Lawson Pritchett — Junior, 2 years left\n• #34 C.J. Gamble — Freshman, 4 years left\n• #35 Braylon Outlaw — Freshman, 3 years left\n• #44 Kyle Efford — Senior, 1 year left*",
+      "answer": "Eligibility for GT LBs:\n• #0 Melvin Jordan IV — Senior, 1 year left\n• #1 Cayman Spaulding — Senior, 2 years left\n• #2 E.J. Lightsey — Senior, 1 year left\n• #30 Lawson Pritchett — Junior, 2 years left\n• #34 C.J. Gamble — Freshman, 3 years left\n• #35 Braylon Outlaw — Freshman, 3 years left\n• #44 Kyle Efford — Senior, 1 year left*",
       "links": [
         {
           "label": "#0 Melvin Jordan IV",
@@ -8881,7 +8881,7 @@
         "offense",
         "QB"
       ],
-      "answer": "#9 Grady Adamson — Quarterback, Sophomore.\n6' 2\", 230 lbs · from Edmond, OK.\nEligibility: 3 years left · no college seasons with stats yet.\nPrevious teams: no prior college teams listed.",
+      "answer": "#9 Grady Adamson — Quarterback, Sophomore.\n6' 2\", 230 lbs · from Edmond, OK.\nEligibility: 3 years left · 1 season played (2026).\nPrevious teams: no prior college teams listed.",
       "links": [
         {
           "label": "#9 Grady Adamson",
@@ -10351,7 +10351,7 @@
         "number 6",
         "jersey 6"
       ],
-      "answer": "2 players wear #6:\n\n• #6 Debron Gatling (WR, JR) — 2 years left\n• #6 Kelvin Hill (CB, JR) — 2 years left",
+      "answer": "2 players wear #6:\n\n• #6 Debron Gatling (WR, JR) — 3 years left\n• #6 Kelvin Hill (CB, JR) — 2 years left",
       "links": [
         {
           "label": "#6 Debron Gatling",
@@ -10392,7 +10392,7 @@
         "offense",
         "WR"
       ],
-      "answer": "#6 Debron Gatling — Wide Receiver, Junior.\n5' 11\", 195 lbs · from Alpharetta, GA.\nEligibility: 2 years left · no college seasons with stats yet.\nPrevious teams: no prior college teams listed.",
+      "answer": "#6 Debron Gatling — Wide Receiver, Junior.\n5' 11\", 195 lbs · from Alpharetta, GA.\nEligibility: 3 years left · 1 season played (2026).\nPrevious teams: no prior college teams listed.",
       "links": [
         {
           "label": "#6 Debron Gatling",
@@ -12500,7 +12500,7 @@
         "number 98",
         "jersey 98"
       ],
-      "answer": "#98 Amier Clarke — Defensive Tackle, Freshman.\n6' 2\", 325 lbs · from Kissimmee, FL.\nEligibility: 4 years left · no college seasons with stats yet.\nPrevious teams: no prior college teams listed.",
+      "answer": "#98 Amier Clarke — Defensive Tackle, Freshman.\n6' 2\", 325 lbs · from Kissimmee, FL.\nEligibility: 3 years left · 1 season played (2026).\nPrevious teams: no prior college teams listed.",
       "links": [
         {
           "label": "#98 Amier Clarke",
@@ -12740,7 +12740,7 @@
         "number 34",
         "jersey 34"
       ],
-      "answer": "#34 C.J. Gamble — Linebacker, Freshman.\n6' 1\", 230 lbs · from Carrollton, GA.\nEligibility: 4 years left · no college seasons with stats yet.\nPrevious teams: no prior college teams listed.",
+      "answer": "#34 C.J. Gamble — Linebacker, Freshman.\n6' 1\", 230 lbs · from Carrollton, GA.\nEligibility: 3 years left · 1 season played (2026).\nPrevious teams: no prior college teams listed.",
       "links": [
         {
           "label": "#34 C.J. Gamble",
@@ -13629,7 +13629,7 @@
         "QB",
         "Edmond, OK"
       ],
-      "answer": "#9 Grady Adamson — Quarterback, Sophomore.\n6' 2\", 230 lbs · from Edmond, OK.\nEligibility: 3 years left · no college seasons with stats yet.\nPrevious teams: no prior college teams listed.",
+      "answer": "#9 Grady Adamson — Quarterback, Sophomore.\n6' 2\", 230 lbs · from Edmond, OK.\nEligibility: 3 years left · 1 season played (2026).\nPrevious teams: no prior college teams listed.",
       "links": [
         {
           "label": "#9 Grady Adamson",
@@ -13729,7 +13729,7 @@
         "Sophomore",
         "SO"
       ],
-      "answer": "#9 Grady Adamson — Quarterback, Sophomore.\n6' 2\", 230 lbs · from Edmond, OK.\nEligibility: 3 years left · no college seasons with stats yet.\nPrevious teams: no prior college teams listed.",
+      "answer": "#9 Grady Adamson — Quarterback, Sophomore.\n6' 2\", 230 lbs · from Edmond, OK.\nEligibility: 3 years left · 1 season played (2026).\nPrevious teams: no prior college teams listed.",
       "links": [
         {
           "label": "#9 Grady Adamson",
@@ -13741,6 +13741,49 @@
         "When is the next game?"
       ],
       "searchText": "how much eligibility does grady adamson have? how much eligibility does adamson have? how much elig left #9 how many years does #9 have left? adamson eligibility adamson years left is adamson a senior? what class is grady adamson? years left for grady adamson grady adamson #9 adamson sophomore so"
+    },
+    {
+      "id": "player-5207610-stats",
+      "category": "player",
+      "scope": "player",
+      "intent": "stats",
+      "playerIds": [
+        "5207610"
+      ],
+      "jersey": 9,
+      "names": [
+        "Grady Adamson",
+        "Grady",
+        "Adamson"
+      ],
+      "questions": [
+        "What are Grady Adamson career stats?",
+        "Grady Adamson stats",
+        "Adamson career numbers",
+        "How many yards does Adamson have?",
+        "Grady Adamson touchdowns"
+      ],
+      "keywords": [
+        "Grady Adamson",
+        "#9",
+        "Adamson",
+        "stats",
+        "career",
+        "yards",
+        "touchdowns"
+      ],
+      "answer": "#9 Grady Adamson career (college totals in app): CMP 0 · ATT 1 · CMP% 0.0 · YDS 0.",
+      "links": [
+        {
+          "label": "#9 Grady Adamson",
+          "href": "/player/5207610"
+        }
+      ],
+      "followUps": [
+        "Where did Adamson transfer from?",
+        "How much eligibility does Adamson have?"
+      ],
+      "searchText": "what are grady adamson career stats? grady adamson stats adamson career numbers how many yards does adamson have? grady adamson touchdowns grady adamson #9 adamson stats career yards touchdowns"
     },
     {
       "id": "player-5266885",
@@ -16901,7 +16944,7 @@
         "WR",
         "Alpharetta, GA"
       ],
-      "answer": "#6 Debron Gatling — Wide Receiver, Junior.\n5' 11\", 195 lbs · from Alpharetta, GA.\nEligibility: 2 years left · no college seasons with stats yet.\nPrevious teams: no prior college teams listed.",
+      "answer": "#6 Debron Gatling — Wide Receiver, Junior.\n5' 11\", 195 lbs · from Alpharetta, GA.\nEligibility: 3 years left · 1 season played (2026).\nPrevious teams: no prior college teams listed.",
       "links": [
         {
           "label": "#6 Debron Gatling",
@@ -17001,7 +17044,7 @@
         "Junior",
         "JR"
       ],
-      "answer": "#6 Debron Gatling — Wide Receiver, Junior.\n5' 11\", 195 lbs · from Alpharetta, GA.\nEligibility: 2 years left · no college seasons with stats yet.\nPrevious teams: no prior college teams listed.",
+      "answer": "#6 Debron Gatling — Wide Receiver, Junior.\n5' 11\", 195 lbs · from Alpharetta, GA.\nEligibility: 3 years left · 1 season played (2026).\nPrevious teams: no prior college teams listed.",
       "links": [
         {
           "label": "#6 Debron Gatling",
@@ -17013,6 +17056,49 @@
         "When is the next game?"
       ],
       "searchText": "how much eligibility does debron gatling have? how much eligibility does gatling have? how much elig left #6 how many years does #6 have left? gatling eligibility gatling years left is gatling a senior? what class is debron gatling? years left for debron gatling debron gatling #6 gatling junior jr"
+    },
+    {
+      "id": "player-5079441-stats",
+      "category": "player",
+      "scope": "player",
+      "intent": "stats",
+      "playerIds": [
+        "5079441"
+      ],
+      "jersey": 6,
+      "names": [
+        "Debron Gatling",
+        "Debron",
+        "Gatling"
+      ],
+      "questions": [
+        "What are Debron Gatling career stats?",
+        "Debron Gatling stats",
+        "Gatling career numbers",
+        "How many yards does Gatling have?",
+        "Debron Gatling touchdowns"
+      ],
+      "keywords": [
+        "Debron Gatling",
+        "#6",
+        "Gatling",
+        "stats",
+        "career",
+        "yards",
+        "touchdowns"
+      ],
+      "answer": "#6 Debron Gatling career (college totals in app): REC 1 · YDS 33 · AVG 33.0 · TD 1.",
+      "links": [
+        {
+          "label": "#6 Debron Gatling",
+          "href": "/player/5079441"
+        }
+      ],
+      "followUps": [
+        "Where did Gatling transfer from?",
+        "How much eligibility does Gatling have?"
+      ],
+      "searchText": "what are debron gatling career stats? debron gatling stats gatling career numbers how many yards does gatling have? debron gatling touchdowns debron gatling #6 gatling stats career yards touchdowns"
     },
     {
       "id": "player-5159873",
@@ -23272,7 +23358,7 @@
         "DT",
         "Kissimmee, FL"
       ],
-      "answer": "#98 Amier Clarke — Defensive Tackle, Freshman.\n6' 2\", 325 lbs · from Kissimmee, FL.\nEligibility: 4 years left · no college seasons with stats yet.\nPrevious teams: no prior college teams listed.",
+      "answer": "#98 Amier Clarke — Defensive Tackle, Freshman.\n6' 2\", 325 lbs · from Kissimmee, FL.\nEligibility: 3 years left · 1 season played (2026).\nPrevious teams: no prior college teams listed.",
       "links": [
         {
           "label": "#98 Amier Clarke",
@@ -23372,7 +23458,7 @@
         "Freshman",
         "FR"
       ],
-      "answer": "#98 Amier Clarke — Defensive Tackle, Freshman.\n6' 2\", 325 lbs · from Kissimmee, FL.\nEligibility: 4 years left · no college seasons with stats yet.\nPrevious teams: no prior college teams listed.",
+      "answer": "#98 Amier Clarke — Defensive Tackle, Freshman.\n6' 2\", 325 lbs · from Kissimmee, FL.\nEligibility: 3 years left · 1 season played (2026).\nPrevious teams: no prior college teams listed.",
       "links": [
         {
           "label": "#98 Amier Clarke",
@@ -23384,6 +23470,49 @@
         "When is the next game?"
       ],
       "searchText": "how much eligibility does amier clarke have? how much eligibility does clarke have? how much elig left #98 how many years does #98 have left? clarke eligibility clarke years left is clarke a senior? what class is amier clarke? years left for amier clarke amier clarke #98 clarke freshman fr"
+    },
+    {
+      "id": "player-5271139-stats",
+      "category": "player",
+      "scope": "player",
+      "intent": "stats",
+      "playerIds": [
+        "5271139"
+      ],
+      "jersey": 98,
+      "names": [
+        "Amier Clarke",
+        "Amier",
+        "Clarke"
+      ],
+      "questions": [
+        "What are Amier Clarke career stats?",
+        "Amier Clarke stats",
+        "Clarke career numbers",
+        "How many yards does Clarke have?",
+        "Amier Clarke touchdowns"
+      ],
+      "keywords": [
+        "Amier Clarke",
+        "#98",
+        "Clarke",
+        "stats",
+        "career",
+        "yards",
+        "touchdowns"
+      ],
+      "answer": "#98 Amier Clarke career (college totals in app): TOT 1 · SOLO 0 · AST 1 · PD 0.",
+      "links": [
+        {
+          "label": "#98 Amier Clarke",
+          "href": "/player/5271139"
+        }
+      ],
+      "followUps": [
+        "Where did Clarke transfer from?",
+        "How much eligibility does Clarke have?"
+      ],
+      "searchText": "what are amier clarke career stats? amier clarke stats clarke career numbers how many yards does clarke have? amier clarke touchdowns amier clarke #98 clarke stats career yards touchdowns"
     },
     {
       "id": "player-5218905",
@@ -24511,7 +24640,7 @@
         "LB",
         "Carrollton, GA"
       ],
-      "answer": "#34 C.J. Gamble — Linebacker, Freshman.\n6' 1\", 230 lbs · from Carrollton, GA.\nEligibility: 4 years left · no college seasons with stats yet.\nPrevious teams: no prior college teams listed.",
+      "answer": "#34 C.J. Gamble — Linebacker, Freshman.\n6' 1\", 230 lbs · from Carrollton, GA.\nEligibility: 3 years left · 1 season played (2026).\nPrevious teams: no prior college teams listed.",
       "links": [
         {
           "label": "#34 C.J. Gamble",
@@ -24611,7 +24740,7 @@
         "Freshman",
         "FR"
       ],
-      "answer": "#34 C.J. Gamble — Linebacker, Freshman.\n6' 1\", 230 lbs · from Carrollton, GA.\nEligibility: 4 years left · no college seasons with stats yet.\nPrevious teams: no prior college teams listed.",
+      "answer": "#34 C.J. Gamble — Linebacker, Freshman.\n6' 1\", 230 lbs · from Carrollton, GA.\nEligibility: 3 years left · 1 season played (2026).\nPrevious teams: no prior college teams listed.",
       "links": [
         {
           "label": "#34 C.J. Gamble",
@@ -24623,6 +24752,49 @@
         "When is the next game?"
       ],
       "searchText": "how much eligibility does c.j. gamble have? how much eligibility does gamble have? how much elig left #34 how many years does #34 have left? gamble eligibility gamble years left is gamble a senior? what class is c.j. gamble? years left for c.j. gamble c.j. gamble #34 gamble freshman fr"
+    },
+    {
+      "id": "player-5222695-stats",
+      "category": "player",
+      "scope": "player",
+      "intent": "stats",
+      "playerIds": [
+        "5222695"
+      ],
+      "jersey": 34,
+      "names": [
+        "C.J. Gamble",
+        "C.J.",
+        "Gamble"
+      ],
+      "questions": [
+        "What are C.J. Gamble career stats?",
+        "C.J. Gamble stats",
+        "Gamble career numbers",
+        "How many yards does Gamble have?",
+        "C.J. Gamble touchdowns"
+      ],
+      "keywords": [
+        "C.J. Gamble",
+        "#34",
+        "Gamble",
+        "stats",
+        "career",
+        "yards",
+        "touchdowns"
+      ],
+      "answer": "#34 C.J. Gamble career (college totals in app): TOT 1 · SOLO 0 · AST 1 · PD 0.",
+      "links": [
+        {
+          "label": "#34 C.J. Gamble",
+          "href": "/player/5222695"
+        }
+      ],
+      "followUps": [
+        "Where did Gamble transfer from?",
+        "How much eligibility does Gamble have?"
+      ],
+      "searchText": "what are c.j. gamble career stats? c.j. gamble stats gamble career numbers how many yards does gamble have? c.j. gamble touchdowns c.j. gamble #34 gamble stats career yards touchdowns"
     },
     {
       "id": "player-5147846",
