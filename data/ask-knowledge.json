@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "builtAt": "2026-09-20T15:10:11.377Z",
-  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-09-20",
+  "builtAt": "2026-09-26T19:09:07.885Z",
+  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-09-26",
   "entryCount": 727,
   "entries": [
     {
@@ -3315,19 +3315,19 @@
         "feeling",
         "hype"
       ],
-      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Justice Haynes scores 3 TDs in 44-11 Georgia Tech win over Mercer\n• Haynes, Mendoza and Defense Shine in 44-11 Triumph — Haynes goes for 167 yards and three scores, Mendoza throws for 3 TD and Tech's defense doesn't allow a TD in home rout\n• PHOTOS: Football vs. Mercer\n• The Last Word Before Game 3 vs Mercer — The Jackets face Mercer on Family Weekend (Saturday at 12 pm | TV: ACC Network)\n• Georgia Tech Football Unveils Game 3 Uniforms — Gold, Gold, Grey on Family Weekend on The Flats\nOpen Home for the full news list.",
+      "answer": "Latest 2026 notes (Athletics / ESPN):\n• The Last Word Before Game 4 at Stanford — The Jackets travel to California for first-ever game at Stanford (10:30 pm ET on ESPN)\n• Georgia Tech Football Unveils Game 4 Uniforms — White, White, Gold for Georgia Tech's first football game at Stanford\n• Inside The Chart: Record Birr-eaking — Georgia Tech kicker and native Texan Aidan Birr is on the brink of history\n• Tech’s Haynes Named Semifinalist for Campbell Trophy — Yellow Jackets RB in the running for college football’s “Academic Heisman” award\n• Reck Day Set for Oct. 10 — Georgia Tech to celebrate 65th anniversary of iconic mechanical mascot when Jackets host Duke\nOpen Home for the full news list.",
       "links": [
         {
-          "label": "Justice Haynes scores 3 TDs in 44-11 Georgia Tech win over Mercer",
-          "href": "http://www.espn.com/ncf/recap?gameId=401858228"
+          "label": "The Last Word Before Game 4 at Stanford",
+          "href": "https://ramblinwreck.com/news/2026/09/25/the-last-word-before-gm-426"
         },
         {
-          "label": "Haynes, Mendoza and Defense Shine in 44-11 Triumph",
-          "href": "https://ramblinwreck.com/news/2026/09/19/fb-recap-mercer-26"
+          "label": "Georgia Tech Football Unveils Game 4 Uniforms",
+          "href": "https://ramblinwreck.com/news/2026/09/24/fb-game-4-uniforms-26"
         },
         {
-          "label": "PHOTOS: Football vs. Mercer",
-          "href": "https://ramblinwreck.com/news/2026/09/19/photos-fb-mercer-26"
+          "label": "Inside The Chart: Record Birr-eaking",
+          "href": "https://ramblinwreck.com/news/2026/09/24/inside-the-chart-record-birr-eaking"
         }
       ],
       "followUps": [
