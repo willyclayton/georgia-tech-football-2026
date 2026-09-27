@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "builtAt": "2026-09-26T19:09:07.885Z",
-  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-09-26",
-  "entryCount": 727,
+  "builtAt": "2026-09-27T16:06:34.413Z",
+  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-09-27",
+  "entryCount": 728,
   "entries": [
     {
       "id": "faq-clean-old-fashioned",
@@ -3141,7 +3141,7 @@
         "4-2-5",
         "Brent Key"
       ],
-      "answer": "Georgia Tech Yellow Jackets — ACC, 2026 season (record 1-2).\nHead coach: Brent Key. Offense: Spread Pro Style. Defense: 4-2-5.\nHome: Bobby Dodd Stadium at Hyundai Field, Atlanta, GA.\nLast season (2025): 9-4 (6-2 ACC), final AP #24. Ranked as high as No. 7 in 2025",
+      "answer": "Georgia Tech Yellow Jackets — ACC, 2026 season (record 1-3).\nHead coach: Brent Key. Offense: Spread Pro Style. Defense: 4-2-5.\nHome: Bobby Dodd Stadium at Hyundai Field, Atlanta, GA.\nLast season (2025): 9-4 (6-2 ACC), final AP #24. Ranked as high as No. 7 in 2025",
       "links": [
         {
           "label": "Open roster",
@@ -3279,7 +3279,7 @@
         "rank",
         "how are we doing"
       ],
-      "answer": "2026 record so far: 1-2.\nIn the 2026 ACC snapshot, Georgia Tech is listed 1-2 overall (0-0 conference) — #13 in the table.\nLast season final AP: #24. Ranked as high as No. 7 in 2025\nOpen Standings and flip 2025 if you want last year's ACC finish.\nOpen the Standings tab for the ACC table and AP / Coaches polls.",
+      "answer": "2026 record so far: 1-3.\nIn the 2026 ACC snapshot, Georgia Tech is listed 1-3 overall (0-1 conference) — #17 in the table.\nLast season final AP: #24. Ranked as high as No. 7 in 2025\nOpen Standings and flip 2025 if you want last year's ACC finish.\nOpen the Standings tab for the ACC table and AP / Coaches polls.",
       "links": [
         {
           "label": "Open standings",
@@ -3315,19 +3315,19 @@
         "feeling",
         "hype"
       ],
-      "answer": "Latest 2026 notes (Athletics / ESPN):\n• The Last Word Before Game 4 at Stanford — The Jackets travel to California for first-ever game at Stanford (10:30 pm ET on ESPN)\n• Georgia Tech Football Unveils Game 4 Uniforms — White, White, Gold for Georgia Tech's first football game at Stanford\n• Inside The Chart: Record Birr-eaking — Georgia Tech kicker and native Texan Aidan Birr is on the brink of history\n• Tech’s Haynes Named Semifinalist for Campbell Trophy — Yellow Jackets RB in the running for college football’s “Academic Heisman” award\n• Reck Day Set for Oct. 10 — Georgia Tech to celebrate 65th anniversary of iconic mechanical mascot when Jackets host Duke\nOpen Home for the full news list.",
+      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Davis Warren sets career high in Stanford's comeback win over Georgia Tech, 34-27\n• Georgia Tech Yellow Jackets vs. Stanford Cardinal: Full Highlights — Georgia Tech Yellow Jackets vs. Stanford Cardinal: Full Highlights\n• Jackets Drop Late Night Battle at Stanford — Injury-depleted Yellow Jackets can't hold on to 10-point halftime lead in 34-27 defeat\n• Photos: Football at Stanford — Georgia Tech at Stanford (Stanford Stadium - Stanford, Calif.) - Nathan Bolster photos\n• The Last Word Before Game 4 at Stanford — The Jackets travel to California for first-ever game at Stanford (10:30 pm ET on ESPN)\nOpen Home for the full news list.",
       "links": [
         {
-          "label": "The Last Word Before Game 4 at Stanford",
-          "href": "https://ramblinwreck.com/news/2026/09/25/the-last-word-before-gm-426"
+          "label": "Davis Warren sets career high in Stanford's comeback win over Georgia Tech, 34-27",
+          "href": "http://www.espn.com/ncf/recap?gameId=401858240"
         },
         {
-          "label": "Georgia Tech Football Unveils Game 4 Uniforms",
-          "href": "https://ramblinwreck.com/news/2026/09/24/fb-game-4-uniforms-26"
+          "label": "Georgia Tech Yellow Jackets vs. Stanford Cardinal: Full Highlights",
+          "href": "https://www.espn.com/video/clip/_/id/50040334/full-highlights"
         },
         {
-          "label": "Inside The Chart: Record Birr-eaking",
-          "href": "https://ramblinwreck.com/news/2026/09/24/inside-the-chart-record-birr-eaking"
+          "label": "Jackets Drop Late Night Battle at Stanford",
+          "href": "https://ramblinwreck.com/news/2026/09/27/fb-recap-stanford-26"
         }
       ],
       "followUps": [
@@ -3351,7 +3351,7 @@
         "Upcoming game",
         "What's our next game?",
         "Next game?",
-        "When do we play Stanford?",
+        "When do we play Duke?",
         "What channel is the next game?",
         "What time is kickoff?"
       ],
@@ -3360,21 +3360,21 @@
         "upcoming",
         "when do we play",
         "kickoff",
-        "Stanford",
-        "STAN"
+        "Duke",
+        "DUKE"
       ],
-      "answer": "Next up: @ Stanford on Sat, Sep 26 at 10:30 PM (ESPN).\nStanford Stadium · Stanford, CA\nFirst-ever trip to Stanford",
+      "answer": "Next up: vs Duke on Sat, Oct 10 at TBA (TBA).\nBobby Dodd Stadium · Atlanta, GA\nDefending ACC champions",
       "links": [
         {
-          "label": "Stanford slate",
-          "href": "/opponent/24"
+          "label": "Duke slate",
+          "href": "/opponent/150"
         }
       ],
       "followUps": [
         "Show the full schedule",
         "Where do we stand in the ACC?"
       ],
-      "searchText": "when is the next game? who do we play next? when do we play? upcoming game what's our next game? next game? when do we play stanford? what channel is the next game? what time is kickoff? next game upcoming when do we play kickoff stanford stan"
+      "searchText": "when is the next game? who do we play next? when do we play? upcoming game what's our next game? next game? when do we play duke? what channel is the next game? what time is kickoff? next game upcoming when do we play kickoff duke duke"
     },
     {
       "id": "schedule-game-1",
@@ -7391,7 +7391,7 @@
         "eligibility",
         "years left"
       ],
-      "answer": "Eligibility for GT DBs:\n• #3 Jaylen Mbakwe — Junior, 2 years left\n• #6 Kelvin Hill — Junior, 2 years left\n• #12 Jon Mitchell — Junior, 2 years left\n• #13 Savion Riley — Senior, 1 year left\n• #14 Jonas Duclona — Senior, 1 year left\n• #18 Kealan Jones — Freshman, 4 years left\n• #21 Jaedyn Terry — Freshman, 4 years left\n• #23 Trae Stevenson Jr. — Freshman, 3 years left\n• #25 L.J. Crumity — Freshman, 4 years left\n• #26 Chris Hewitt Jr. — Freshman, 3 years left\n• #27 Tae Harris — Sophomore, 3 years left\n• #28 Elgin Sessions — Sophomore, 3 years left\n• #31 Fenix Felton — Sophomore, 3 years left\n• #36 Kymani Morales — Freshman, 4 years left\n• #37 Alex Hunt — Freshman, 4 years left\n• #38 Isaac Obrokta — Freshman, 4 years left\n• #39 Will Kiker — Senior, 2 years left",
+      "answer": "Eligibility for GT DBs:\n• #3 Jaylen Mbakwe — Junior, 2 years left\n• #6 Kelvin Hill — Junior, 2 years left\n• #12 Jon Mitchell — Junior, 2 years left\n• #13 Savion Riley — Senior, 1 year left\n• #14 Jonas Duclona — Senior, 1 year left\n• #18 Kealan Jones — Freshman, 4 years left\n• #21 Jaedyn Terry — Freshman, 3 years left\n• #23 Trae Stevenson Jr. — Freshman, 3 years left\n• #25 L.J. Crumity — Freshman, 4 years left\n• #26 Chris Hewitt Jr. — Freshman, 3 years left\n• #27 Tae Harris — Sophomore, 3 years left\n• #28 Elgin Sessions — Sophomore, 3 years left\n• #31 Fenix Felton — Sophomore, 3 years left\n• #36 Kymani Morales — Freshman, 4 years left\n• #37 Alex Hunt — Freshman, 4 years left\n• #38 Isaac Obrokta — Freshman, 4 years left\n• #39 Will Kiker — Senior, 2 years left",
       "links": [
         {
           "label": "#3 Jaylen Mbakwe",
@@ -9873,7 +9873,7 @@
         "number 21",
         "jersey 21"
       ],
-      "answer": "2 players wear #21:\n\n• #21 Darnell Collins (WR, FR) — 4 years left\n• #21 Jaedyn Terry (CB, FR) — 4 years left",
+      "answer": "2 players wear #21:\n\n• #21 Darnell Collins (WR, FR) — 4 years left\n• #21 Jaedyn Terry (CB, FR) — 3 years left",
       "links": [
         {
           "label": "#21 Darnell Collins",
@@ -9951,7 +9951,7 @@
         "defense",
         "CB"
       ],
-      "answer": "#21 Jaedyn Terry — Cornerback, Freshman.\n6' 2\", 180 lbs · from Warm Springs, GA.\nEligibility: 4 years left · no college seasons with stats yet.\nPrevious teams: no prior college teams listed.",
+      "answer": "#21 Jaedyn Terry — Cornerback, Freshman.\n6' 2\", 180 lbs · from Warm Springs, GA.\nEligibility: 3 years left · 1 season played (2026).\nPrevious teams: no prior college teams listed.",
       "links": [
         {
           "label": "#21 Jaedyn Terry",
@@ -29866,7 +29866,7 @@
         "CB",
         "Warm Springs, GA"
       ],
-      "answer": "#21 Jaedyn Terry — Cornerback, Freshman.\n6' 2\", 180 lbs · from Warm Springs, GA.\nEligibility: 4 years left · no college seasons with stats yet.\nPrevious teams: no prior college teams listed.",
+      "answer": "#21 Jaedyn Terry — Cornerback, Freshman.\n6' 2\", 180 lbs · from Warm Springs, GA.\nEligibility: 3 years left · 1 season played (2026).\nPrevious teams: no prior college teams listed.",
       "links": [
         {
           "label": "#21 Jaedyn Terry",
@@ -29966,7 +29966,7 @@
         "Freshman",
         "FR"
       ],
-      "answer": "#21 Jaedyn Terry — Cornerback, Freshman.\n6' 2\", 180 lbs · from Warm Springs, GA.\nEligibility: 4 years left · no college seasons with stats yet.\nPrevious teams: no prior college teams listed.",
+      "answer": "#21 Jaedyn Terry — Cornerback, Freshman.\n6' 2\", 180 lbs · from Warm Springs, GA.\nEligibility: 3 years left · 1 season played (2026).\nPrevious teams: no prior college teams listed.",
       "links": [
         {
           "label": "#21 Jaedyn Terry",
@@ -29978,6 +29978,49 @@
         "When is the next game?"
       ],
       "searchText": "how much eligibility does jaedyn terry have? how much eligibility does terry have? how much elig left #21 how many years does #21 have left? terry eligibility terry years left is terry a senior? what class is jaedyn terry? years left for jaedyn terry jaedyn terry #21 terry freshman fr"
+    },
+    {
+      "id": "player-5266701-stats",
+      "category": "player",
+      "scope": "player",
+      "intent": "stats",
+      "playerIds": [
+        "5266701"
+      ],
+      "jersey": 21,
+      "names": [
+        "Jaedyn Terry",
+        "Jaedyn",
+        "Terry"
+      ],
+      "questions": [
+        "What are Jaedyn Terry career stats?",
+        "Jaedyn Terry stats",
+        "Terry career numbers",
+        "How many yards does Terry have?",
+        "Jaedyn Terry touchdowns"
+      ],
+      "keywords": [
+        "Jaedyn Terry",
+        "#21",
+        "Terry",
+        "stats",
+        "career",
+        "yards",
+        "touchdowns"
+      ],
+      "answer": "#21 Jaedyn Terry career (college totals in app): TOT 1 · SOLO 1 · AST 0 · PD 0.",
+      "links": [
+        {
+          "label": "#21 Jaedyn Terry",
+          "href": "/player/5266701"
+        }
+      ],
+      "followUps": [
+        "Where did Terry transfer from?",
+        "How much eligibility does Terry have?"
+      ],
+      "searchText": "what are jaedyn terry career stats? jaedyn terry stats terry career numbers how many yards does terry have? jaedyn terry touchdowns jaedyn terry #21 terry stats career yards touchdowns"
     },
     {
       "id": "player-4812383",
