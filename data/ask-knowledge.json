@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "builtAt": "2026-09-27T16:06:34.413Z",
-  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-09-27",
+  "builtAt": "2026-10-03T19:07:55.649Z",
+  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-10-03",
   "entryCount": 728,
   "entries": [
     {
@@ -3315,19 +3315,19 @@
         "feeling",
         "hype"
       ],
-      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Davis Warren sets career high in Stanford's comeback win over Georgia Tech, 34-27\n• Georgia Tech Yellow Jackets vs. Stanford Cardinal: Full Highlights — Georgia Tech Yellow Jackets vs. Stanford Cardinal: Full Highlights\n• Jackets Drop Late Night Battle at Stanford — Injury-depleted Yellow Jackets can't hold on to 10-point halftime lead in 34-27 defeat\n• Photos: Football at Stanford — Georgia Tech at Stanford (Stanford Stadium - Stanford, Calif.) - Nathan Bolster photos\n• The Last Word Before Game 4 at Stanford — The Jackets travel to California for first-ever game at Stanford (10:30 pm ET on ESPN)\nOpen Home for the full news list.",
+      "answer": "Latest 2026 notes (Athletics / ESPN):\n• 2027 college football recruiting class rankings: Top 50 schools — Where the top 50 classes stand as the latest cycle hits the home stretch.\n• Georgia Tech-Tennessee Moved to New Week 1 in 2027 — Yellow Jackets to square off with Vols in Knoxville on Aug. 28, 2027\n• Georgia Tech-Duke Set for 3:30 p.m. on Oct. 10 — Reck Day, Hall of Fame Weekend game to be televised nationally on ESPN2 or ACCN\n• Davis Warren sets career high in Stanford's comeback win over Georgia Tech, 34-27\n• Jackets Drop Late Night Battle at Stanford — Injury-depleted Yellow Jackets can't hold on to 10-point halftime lead in 34-27 defeat\nOpen Home for the full news list.",
       "links": [
         {
-          "label": "Davis Warren sets career high in Stanford's comeback win over Georgia Tech, 34-27",
-          "href": "http://www.espn.com/ncf/recap?gameId=401858240"
+          "label": "2027 college football recruiting class rankings: Top 50 schools",
+          "href": "https://www.espn.com/college-football/recruiting/story/_/id/48503376/2027-college-football-recruiting-class-rankings-top-teams-schools"
         },
         {
-          "label": "Georgia Tech Yellow Jackets vs. Stanford Cardinal: Full Highlights",
-          "href": "https://www.espn.com/video/clip/_/id/50040334/full-highlights"
+          "label": "Georgia Tech-Tennessee Moved to New Week 1 in 2027",
+          "href": "https://ramblinwreck.com/news/2026/09/30/georgia-tech-tennessee-moved-to-new-week-1-in-2027"
         },
         {
-          "label": "Jackets Drop Late Night Battle at Stanford",
-          "href": "https://ramblinwreck.com/news/2026/09/27/fb-recap-stanford-26"
+          "label": "Georgia Tech-Duke Set for 3:30 p.m. on Oct. 10",
+          "href": "https://ramblinwreck.com/news/2026/09/28/georgia-tech-duke-set-for-330-pm-on-oct-10"
         }
       ],
       "followUps": [
@@ -3363,7 +3363,7 @@
         "Duke",
         "DUKE"
       ],
-      "answer": "Next up: vs Duke on Sat, Oct 10 at TBA (TBA).\nBobby Dodd Stadium · Atlanta, GA\nDefending ACC champions",
+      "answer": "Next up: vs Duke on Sat, Oct 10 at 3:30 PM (TBA).\nBobby Dodd Stadium · Atlanta, GA\nDefending ACC champions",
       "links": [
         {
           "label": "Duke slate",
@@ -3658,7 +3658,7 @@
         "duke",
         "blue devils"
       ],
-      "answer": "Duke (5th game): vs Duke on Sat, Oct 10 at TBA (TBA).\nBobby Dodd Stadium · Atlanta, GA\nDefending ACC champions",
+      "answer": "Duke (5th game): vs Duke on Sat, Oct 10 at 3:30 PM (TBA).\nBobby Dodd Stadium · Atlanta, GA\nDefending ACC champions",
       "links": [
         {
           "label": "Duke slate",
@@ -4166,7 +4166,7 @@
         "full schedule",
         "slate"
       ],
-      "answer": "2026 schedule (12 games):\n• Thu, Sep 3: vs Colorado (8 PM, ESPN)\n• Sat, Sep 12: vs Tennessee (7 PM, ESPN)\n• Sat, Sep 19: vs Mercer (12 PM, ACC Network)\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 10: vs Duke (TBA, TBA)\n• Sat, Oct 17: @ Virginia Tech (TBA, TBA)\n• Sat, Oct 24: vs Boston College (TBA, TBA)\n• Sat, Oct 31: @ Pittsburgh (TBA, TBA)\n• Sat, Nov 7: vs Louisville (TBA, TBA)\n• Sat, Nov 14: @ Clemson (TBA, TBA)",
+      "answer": "2026 schedule (12 games):\n• Thu, Sep 3: vs Colorado (8 PM, ESPN)\n• Sat, Sep 12: vs Tennessee (7 PM, ESPN)\n• Sat, Sep 19: vs Mercer (12 PM, ACC Network)\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 10: vs Duke (3:30 PM, TBA)\n• Sat, Oct 17: @ Virginia Tech (TBA, TBA)\n• Sat, Oct 24: vs Boston College (TBA, TBA)\n• Sat, Oct 31: @ Pittsburgh (TBA, TBA)\n• Sat, Nov 7: vs Louisville (TBA, TBA)\n• Sat, Nov 14: @ Clemson (TBA, TBA)",
       "links": [
         {
           "label": "Full schedule",
@@ -4198,7 +4198,7 @@
         "home schedule",
         "the flats"
       ],
-      "answer": "2026 home schedule (7 games):\n• Thu, Sep 3: vs Colorado (8 PM, ESPN)\n• Sat, Sep 12: vs Tennessee (7 PM, ESPN)\n• Sat, Sep 19: vs Mercer (12 PM, ACC Network)\n• Sat, Oct 10: vs Duke (TBA, TBA)\n• Sat, Oct 24: vs Boston College (TBA, TBA)\n• Sat, Nov 7: vs Louisville (TBA, TBA)\n• Sat, Nov 21: vs Wake Forest (TBA, TBA)",
+      "answer": "2026 home schedule (7 games):\n• Thu, Sep 3: vs Colorado (8 PM, ESPN)\n• Sat, Sep 12: vs Tennessee (7 PM, ESPN)\n• Sat, Sep 19: vs Mercer (12 PM, ACC Network)\n• Sat, Oct 10: vs Duke (3:30 PM, TBA)\n• Sat, Oct 24: vs Boston College (TBA, TBA)\n• Sat, Nov 7: vs Louisville (TBA, TBA)\n• Sat, Nov 21: vs Wake Forest (TBA, TBA)",
       "links": [
         {
           "label": "Full schedule",
@@ -4259,7 +4259,7 @@
         "acc schedule",
         "conference games"
       ],
-      "answer": "2026 ACC schedule (8 games):\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 10: vs Duke (TBA, TBA)\n• Sat, Oct 17: @ Virginia Tech (TBA, TBA)\n• Sat, Oct 24: vs Boston College (TBA, TBA)\n• Sat, Oct 31: @ Pittsburgh (TBA, TBA)\n• Sat, Nov 7: vs Louisville (TBA, TBA)\n• Sat, Nov 14: @ Clemson (TBA, TBA)\n• Sat, Nov 21: vs Wake Forest (TBA, TBA)",
+      "answer": "2026 ACC schedule (8 games):\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 10: vs Duke (3:30 PM, TBA)\n• Sat, Oct 17: @ Virginia Tech (TBA, TBA)\n• Sat, Oct 24: vs Boston College (TBA, TBA)\n• Sat, Oct 31: @ Pittsburgh (TBA, TBA)\n• Sat, Nov 7: vs Louisville (TBA, TBA)\n• Sat, Nov 14: @ Clemson (TBA, TBA)\n• Sat, Nov 21: vs Wake Forest (TBA, TBA)",
       "links": [
         {
           "label": "Full schedule",
