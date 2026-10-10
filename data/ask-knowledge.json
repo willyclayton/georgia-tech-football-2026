@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "builtAt": "2026-10-04T16:13:43.142Z",
-  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-10-04",
+  "builtAt": "2026-10-10T19:56:08.570Z",
+  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-10-10",
   "entryCount": 728,
   "entries": [
     {
@@ -3315,19 +3315,19 @@
         "feeling",
         "hype"
       ],
-      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Week 5 reality check: Alabama looks like, well, Alabama; Jeremiah Smith is undeniable — Alabama and Ohio State restore order in CFB as Florida, Mississippi State and Iowa get a tough dose of reality.\n• Georgia Tech-Tennessee Moved to New Week 1 in 2027 — Yellow Jackets to square off with Vols in Knoxville on Aug. 28, 2027\n• Georgia Tech-Duke Set for 3:30 p.m. on Oct. 10 — Reck Day, Hall of Fame Weekend game to be televised nationally on ESPN2 or ACCN\n• Davis Warren sets career high in Stanford's comeback win over Georgia Tech, 34-27\n• Jackets Drop Late Night Battle at Stanford — Injury-depleted Yellow Jackets can't hold on to 10-point halftime lead in 34-27 defeat\nOpen Home for the full news list.",
+      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Football Gameday Live — Follow along during the game with links to live audio, stats, and more\n• GALLERY: 2026 Hall of Fame Induction Ceremony — Georgia Tech athletics inducts its nine newest members into the Hall of Fame Friday night\n• The Last Word Before Game 5 vs No. 23 Duke — Tech hosts No. 23 Duke on Hall of Fame Weekend (3:30 pm on ESPN2)\n• Weather Updates for Saturday’s Georgia Tech-Duke Football Game — 3:30 p.m. kickoff for Yellow Jackets vs. Blue Devils at Bobby Dodd Stadium at Hyundai Field\n• Inside The Chart: Rebuilt — Time and again, Trelain Maddox had to undergo the painstaking task of rebuilding himself\nOpen Home for the full news list.",
       "links": [
         {
-          "label": "Week 5 reality check: Alabama looks like, well, Alabama; Jeremiah Smith is undeniable",
-          "href": "https://www.espn.com/college-football/story/_/page/gamedayfinal100326/2026-college-football-week-5-highlights-top-plays-games-takeaways"
+          "label": "Football Gameday Live",
+          "href": "https://ramblinwreck.com/news/2026/10/10/football-gameday-live"
         },
         {
-          "label": "Georgia Tech-Tennessee Moved to New Week 1 in 2027",
-          "href": "https://ramblinwreck.com/news/2026/09/30/georgia-tech-tennessee-moved-to-new-week-1-in-2027"
+          "label": "GALLERY: 2026 Hall of Fame Induction Ceremony",
+          "href": "https://ramblinwreck.com/news/2026/10/10/gallery-2026-hall-of-fame-induction-ceremony"
         },
         {
-          "label": "Georgia Tech-Duke Set for 3:30 p.m. on Oct. 10",
-          "href": "https://ramblinwreck.com/news/2026/09/28/georgia-tech-duke-set-for-330-pm-on-oct-10"
+          "label": "The Last Word Before Game 5 vs No. 23 Duke",
+          "href": "https://ramblinwreck.com/news/2026/10/9/the-last-word-before-gm-526"
         }
       ],
       "followUps": [
@@ -3722,7 +3722,7 @@
         "vt",
         "hokies"
       ],
-      "answer": "Virginia Tech (6th game): @ Virginia Tech on Sat, Oct 17 at TBA (TBA).\nLane Stadium · Blacksburg, VA\nACC rivalry road trip",
+      "answer": "Virginia Tech (6th game): @ Virginia Tech on Sat, Oct 17 at 3:30 PM (ACC Network).\nLane Stadium · Blacksburg, VA\nACC rivalry road trip",
       "links": [
         {
           "label": "Virginia Tech slate",
@@ -4166,7 +4166,7 @@
         "full schedule",
         "slate"
       ],
-      "answer": "2026 schedule (12 games):\n• Thu, Sep 3: vs Colorado (8 PM, ESPN)\n• Sat, Sep 12: vs Tennessee (7 PM, ESPN)\n• Sat, Sep 19: vs Mercer (12 PM, ACC Network)\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 10: vs Duke (3:30 PM, ESPN2)\n• Sat, Oct 17: @ Virginia Tech (TBA, TBA)\n• Sat, Oct 24: vs Boston College (TBA, TBA)\n• Sat, Oct 31: @ Pittsburgh (TBA, TBA)\n• Sat, Nov 7: vs Louisville (TBA, TBA)\n• Sat, Nov 14: @ Clemson (TBA, TBA)",
+      "answer": "2026 schedule (12 games):\n• Thu, Sep 3: vs Colorado (8 PM, ESPN)\n• Sat, Sep 12: vs Tennessee (7 PM, ESPN)\n• Sat, Sep 19: vs Mercer (12 PM, ACC Network)\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 10: vs Duke (3:30 PM, ESPN2)\n• Sat, Oct 17: @ Virginia Tech (3:30 PM, ACC Network)\n• Sat, Oct 24: vs Boston College (TBA, TBA)\n• Sat, Oct 31: @ Pittsburgh (TBA, TBA)\n• Sat, Nov 7: vs Louisville (TBA, TBA)\n• Sat, Nov 14: @ Clemson (TBA, TBA)",
       "links": [
         {
           "label": "Full schedule",
@@ -4229,7 +4229,7 @@
         "road schedule",
         "road games"
       ],
-      "answer": "2026 away schedule (5 games):\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 17: @ Virginia Tech (TBA, TBA)\n• Sat, Oct 31: @ Pittsburgh (TBA, TBA)\n• Sat, Nov 14: @ Clemson (TBA, TBA)\n• Sat, Nov 28: @ Georgia (TBA, TBA)",
+      "answer": "2026 away schedule (5 games):\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 17: @ Virginia Tech (3:30 PM, ACC Network)\n• Sat, Oct 31: @ Pittsburgh (TBA, TBA)\n• Sat, Nov 14: @ Clemson (TBA, TBA)\n• Sat, Nov 28: @ Georgia (TBA, TBA)",
       "links": [
         {
           "label": "Full schedule",
@@ -4259,7 +4259,7 @@
         "acc schedule",
         "conference games"
       ],
-      "answer": "2026 ACC schedule (8 games):\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 10: vs Duke (3:30 PM, ESPN2)\n• Sat, Oct 17: @ Virginia Tech (TBA, TBA)\n• Sat, Oct 24: vs Boston College (TBA, TBA)\n• Sat, Oct 31: @ Pittsburgh (TBA, TBA)\n• Sat, Nov 7: vs Louisville (TBA, TBA)\n• Sat, Nov 14: @ Clemson (TBA, TBA)\n• Sat, Nov 21: vs Wake Forest (TBA, TBA)",
+      "answer": "2026 ACC schedule (8 games):\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 10: vs Duke (3:30 PM, ESPN2)\n• Sat, Oct 17: @ Virginia Tech (3:30 PM, ACC Network)\n• Sat, Oct 24: vs Boston College (TBA, TBA)\n• Sat, Oct 31: @ Pittsburgh (TBA, TBA)\n• Sat, Nov 7: vs Louisville (TBA, TBA)\n• Sat, Nov 14: @ Clemson (TBA, TBA)\n• Sat, Nov 21: vs Wake Forest (TBA, TBA)",
       "links": [
         {
           "label": "Full schedule",
