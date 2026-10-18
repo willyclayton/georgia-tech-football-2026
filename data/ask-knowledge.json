@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "builtAt": "2026-10-17T18:20:00.585Z",
-  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-10-17",
-  "entryCount": 728,
+  "builtAt": "2026-10-18T15:09:10.240Z",
+  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-10-18",
+  "entryCount": 729,
   "entries": [
     {
       "id": "faq-clean-old-fashioned",
@@ -3141,7 +3141,7 @@
         "4-2-5",
         "Brent Key"
       ],
-      "answer": "Georgia Tech Yellow Jackets — ACC, 2026 season (record 2-3).\nHead coach: Brent Key. Offense: Spread Pro Style. Defense: 4-2-5.\nHome: Bobby Dodd Stadium at Hyundai Field, Atlanta, GA.\nLast season (2025): 9-4 (6-2 ACC), final AP #24. Ranked as high as No. 7 in 2025",
+      "answer": "Georgia Tech Yellow Jackets — ACC, 2026 season (record 2-4).\nHead coach: Brent Key. Offense: Spread Pro Style. Defense: 4-2-5.\nHome: Bobby Dodd Stadium at Hyundai Field, Atlanta, GA.\nLast season (2025): 9-4 (6-2 ACC), final AP #24. Ranked as high as No. 7 in 2025",
       "links": [
         {
           "label": "Open roster",
@@ -3279,7 +3279,7 @@
         "rank",
         "how are we doing"
       ],
-      "answer": "2026 record so far: 2-3.\nIn the 2026 ACC snapshot, Georgia Tech is listed 2-3 overall (1-1 conference) — #14 in the table.\nLast season final AP: #24. Ranked as high as No. 7 in 2025\nOpen Standings and flip 2025 if you want last year's ACC finish.\nOpen the Standings tab for the ACC table and AP / Coaches polls.",
+      "answer": "2026 record so far: 2-4.\nIn the 2026 ACC snapshot, Georgia Tech is listed 2-4 overall (1-2 conference) — #16 in the table.\nLast season final AP: #24. Ranked as high as No. 7 in 2025\nOpen Standings and flip 2025 if you want last year's ACC finish.\nOpen the Standings tab for the ACC table and AP / Coaches polls.",
       "links": [
         {
           "label": "Open standings",
@@ -3315,8 +3315,12 @@
         "feeling",
         "hype"
       ],
-      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Football Gameday Live — Follow along during the game with links to live audio, stats, and more\n• The Last Word Before Game 6 at Virginia Tech — The Jackets renew ACC rivalry with Virginia Tech (Saturday - 3:30 pm on ACCN)\n• Georgia Tech Football Reveals Week 7 Uniforms — Georgia Tech is going Gold, White, White at Virginia Tech this Saturday\n• Inside The Chart: Breaking Through — DT Tawfiq Thomas has found a home at Georgia Tech, and keeps finding them in opposing backfields\n• Georgia Tech’s Smith Named to Jet Award Midseason Watch List — Yellow Jacket recognized among the nation’s top return specialists\nOpen Home for the full news list.",
+      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Grunkemeyer's 3 touchdown passes lead Virginia Tech over Georgia Tech 34-24\n• Football Gameday Live — Follow along during the game with links to live audio, stats, and more\n• The Last Word Before Game 6 at Virginia Tech — The Jackets renew ACC rivalry with Virginia Tech (Saturday - 3:30 pm on ACCN)\n• Georgia Tech Football Reveals Week 7 Uniforms — Georgia Tech is going Gold, White, White at Virginia Tech this Saturday\n• Inside The Chart: Breaking Through — DT Tawfiq Thomas has found a home at Georgia Tech, and keeps finding them in opposing backfields\nOpen Home for the full news list.",
       "links": [
+        {
+          "label": "Grunkemeyer's 3 touchdown passes lead Virginia Tech over Georgia Tech 34-24",
+          "href": "http://www.espn.com/ncf/recap?gameId=401858264"
+        },
         {
           "label": "Football Gameday Live",
           "href": "https://ramblinwreck.com/news/2026/10/17/football-gameday-live"
@@ -3324,10 +3328,6 @@
         {
           "label": "The Last Word Before Game 6 at Virginia Tech",
           "href": "https://ramblinwreck.com/news/2026/10/16/the-last-word-before-gm-626"
-        },
-        {
-          "label": "Georgia Tech Football Reveals Week 7 Uniforms",
-          "href": "https://ramblinwreck.com/news/2026/10/15/fb-game-6-uniforms-26"
         }
       ],
       "followUps": [
@@ -3351,7 +3351,7 @@
         "Upcoming game",
         "What's our next game?",
         "Next game?",
-        "When do we play Virginia Tech?",
+        "When do we play Boston College?",
         "What channel is the next game?",
         "What time is kickoff?"
       ],
@@ -3360,21 +3360,21 @@
         "upcoming",
         "when do we play",
         "kickoff",
-        "Virginia Tech",
-        "VT"
+        "Boston College",
+        "BC"
       ],
-      "answer": "Next up: @ Virginia Tech on Sat, Oct 17 at 3:30 PM (ACC Network).\nLane Stadium · Blacksburg, VA\nACC rivalry road trip",
+      "answer": "Next up: vs Boston College on Sat, Oct 24 at 3:30 PM (ACC Network).\nBobby Dodd Stadium · Atlanta, GA\nHomecoming",
       "links": [
         {
-          "label": "Virginia Tech slate",
-          "href": "/opponent/259"
+          "label": "Boston College slate",
+          "href": "/opponent/103"
         }
       ],
       "followUps": [
         "Show the full schedule",
         "Where do we stand in the ACC?"
       ],
-      "searchText": "when is the next game? who do we play next? when do we play? upcoming game what's our next game? next game? when do we play virginia tech? what channel is the next game? what time is kickoff? next game upcoming when do we play kickoff virginia tech vt"
+      "searchText": "when is the next game? who do we play next? when do we play? upcoming game what's our next game? next game? when do we play boston college? what channel is the next game? what time is kickoff? next game upcoming when do we play kickoff boston college bc"
     },
     {
       "id": "schedule-game-1",
@@ -9236,7 +9236,7 @@
         "number 32",
         "jersey 32"
       ],
-      "answer": "#32 Jayden Barr — Running Back, Sophomore.\n5' 11\", 200 lbs · from Covington, GA.\nEligibility: 3 years left · no college seasons with stats yet.\nPrevious teams: no prior college teams listed.",
+      "answer": "#32 Jayden Barr — Running Back, Sophomore.\n5' 11\", 200 lbs · from Covington, GA.\nEligibility: 3 years left · 1 season played (2026).\nPrevious teams: no prior college teams listed.",
       "links": [
         {
           "label": "#32 Jayden Barr",
@@ -14359,7 +14359,7 @@
         "RB",
         "Covington, GA"
       ],
-      "answer": "#32 Jayden Barr — Running Back, Sophomore.\n5' 11\", 200 lbs · from Covington, GA.\nEligibility: 3 years left · no college seasons with stats yet.\nPrevious teams: no prior college teams listed.",
+      "answer": "#32 Jayden Barr — Running Back, Sophomore.\n5' 11\", 200 lbs · from Covington, GA.\nEligibility: 3 years left · 1 season played (2026).\nPrevious teams: no prior college teams listed.",
       "links": [
         {
           "label": "#32 Jayden Barr",
@@ -14459,7 +14459,7 @@
         "Sophomore",
         "SO"
       ],
-      "answer": "#32 Jayden Barr — Running Back, Sophomore.\n5' 11\", 200 lbs · from Covington, GA.\nEligibility: 3 years left · no college seasons with stats yet.\nPrevious teams: no prior college teams listed.",
+      "answer": "#32 Jayden Barr — Running Back, Sophomore.\n5' 11\", 200 lbs · from Covington, GA.\nEligibility: 3 years left · 1 season played (2026).\nPrevious teams: no prior college teams listed.",
       "links": [
         {
           "label": "#32 Jayden Barr",
@@ -14471,6 +14471,49 @@
         "When is the next game?"
       ],
       "searchText": "how much eligibility does jayden barr have? how much eligibility does barr have? how much elig left #32 how many years does #32 have left? barr eligibility barr years left is barr a senior? what class is jayden barr? years left for jayden barr jayden barr #32 barr sophomore so"
+    },
+    {
+      "id": "player-5215624-stats",
+      "category": "player",
+      "scope": "player",
+      "intent": "stats",
+      "playerIds": [
+        "5215624"
+      ],
+      "jersey": 32,
+      "names": [
+        "Jayden Barr",
+        "Jayden",
+        "Barr"
+      ],
+      "questions": [
+        "What are Jayden Barr career stats?",
+        "Jayden Barr stats",
+        "Barr career numbers",
+        "How many yards does Barr have?",
+        "Jayden Barr touchdowns"
+      ],
+      "keywords": [
+        "Jayden Barr",
+        "#32",
+        "Barr",
+        "stats",
+        "career",
+        "yards",
+        "touchdowns"
+      ],
+      "answer": "#32 Jayden Barr career (college totals in app): CAR - · YDS - · AVG - · TD -.",
+      "links": [
+        {
+          "label": "#32 Jayden Barr",
+          "href": "/player/5215624"
+        }
+      ],
+      "followUps": [
+        "Where did Barr transfer from?",
+        "How much eligibility does Barr have?"
+      ],
+      "searchText": "what are jayden barr career stats? jayden barr stats barr career numbers how many yards does barr have? jayden barr touchdowns jayden barr #32 barr stats career yards touchdowns"
     },
     {
       "id": "player-5211899",
