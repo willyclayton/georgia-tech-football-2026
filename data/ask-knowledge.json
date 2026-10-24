@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "builtAt": "2026-10-18T15:09:10.240Z",
-  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-10-18",
+  "builtAt": "2026-10-24T18:41:33.425Z",
+  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-10-24",
   "entryCount": 729,
   "entries": [
     {
@@ -3315,19 +3315,19 @@
         "feeling",
         "hype"
       ],
-      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Grunkemeyer's 3 touchdown passes lead Virginia Tech over Georgia Tech 34-24\n• Football Gameday Live — Follow along during the game with links to live audio, stats, and more\n• The Last Word Before Game 6 at Virginia Tech — The Jackets renew ACC rivalry with Virginia Tech (Saturday - 3:30 pm on ACCN)\n• Georgia Tech Football Reveals Week 7 Uniforms — Georgia Tech is going Gold, White, White at Virginia Tech this Saturday\n• Inside The Chart: Breaking Through — DT Tawfiq Thomas has found a home at Georgia Tech, and keeps finding them in opposing backfields\nOpen Home for the full news list.",
+      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Football Gameday Live — Follow along during the game with links to live audio, stats, and more\n• The Last Word Before Game 7 vs. Boston College — Tech Hosts Boston College for 77th Homecoming Game (Saturday - 3:30 pm on ACCN)\n• Georgia Tech Football Unveils Homecoming Uniforms — Tech Football delivers classic Gold, White, Gold uniform with a Power T helmet\n• Inside The Chart: Major Achievement — Georgia Tech center Jameson Riggs aspires for a career as an aerospace engineer.\n• Campus Road Closures for Homecoming Traditions — Traffic and parking will be affected for this weekend's athletics events\nOpen Home for the full news list.",
       "links": [
         {
-          "label": "Grunkemeyer's 3 touchdown passes lead Virginia Tech over Georgia Tech 34-24",
-          "href": "http://www.espn.com/ncf/recap?gameId=401858264"
-        },
-        {
           "label": "Football Gameday Live",
-          "href": "https://ramblinwreck.com/news/2026/10/17/football-gameday-live"
+          "href": "https://ramblinwreck.com/news/2026/10/24/football-gameday-live"
         },
         {
-          "label": "The Last Word Before Game 6 at Virginia Tech",
-          "href": "https://ramblinwreck.com/news/2026/10/16/the-last-word-before-gm-626"
+          "label": "The Last Word Before Game 7 vs. Boston College",
+          "href": "https://ramblinwreck.com/news/2026/10/23/the-last-word-before-gm-726"
+        },
+        {
+          "label": "Georgia Tech Football Unveils Homecoming Uniforms",
+          "href": "https://ramblinwreck.com/news/2026/10/22/fb-game-uniforms-267"
         }
       ],
       "followUps": [
@@ -3850,7 +3850,7 @@
         "pitt",
         "panthers"
       ],
-      "answer": "Pittsburgh (8th game): @ Pittsburgh on Sat, Oct 31 at TBA (TBA).\nAcrisure Stadium · Pittsburgh, PA\nHalloween in Pittsburgh",
+      "answer": "Pittsburgh (8th game): @ Pittsburgh on Sat, Oct 31 at 7:30 PM (ESPN2).\nAcrisure Stadium · Pittsburgh, PA\nHalloween in Pittsburgh",
       "links": [
         {
           "label": "Pittsburgh slate",
@@ -4166,7 +4166,7 @@
         "full schedule",
         "slate"
       ],
-      "answer": "2026 schedule (12 games):\n• Thu, Sep 3: vs Colorado (8 PM, ESPN)\n• Sat, Sep 12: vs Tennessee (7 PM, ESPN)\n• Sat, Sep 19: vs Mercer (12 PM, ACC Network)\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 10: vs Duke (3:30 PM, ESPN2)\n• Sat, Oct 17: @ Virginia Tech (3:30 PM, ACC Network)\n• Sat, Oct 24: vs Boston College (3:30 PM, ACC Network)\n• Sat, Oct 31: @ Pittsburgh (TBA, TBA)\n• Sat, Nov 7: vs Louisville (TBA, TBA)\n• Sat, Nov 14: @ Clemson (TBA, TBA)",
+      "answer": "2026 schedule (12 games):\n• Thu, Sep 3: vs Colorado (8 PM, ESPN)\n• Sat, Sep 12: vs Tennessee (7 PM, ESPN)\n• Sat, Sep 19: vs Mercer (12 PM, ACC Network)\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 10: vs Duke (3:30 PM, ESPN2)\n• Sat, Oct 17: @ Virginia Tech (3:30 PM, ACC Network)\n• Sat, Oct 24: vs Boston College (3:30 PM, ACC Network)\n• Sat, Oct 31: @ Pittsburgh (7:30 PM, ESPN2)\n• Sat, Nov 7: vs Louisville (TBA, TBA)\n• Sat, Nov 14: @ Clemson (TBA, TBA)",
       "links": [
         {
           "label": "Full schedule",
@@ -4229,7 +4229,7 @@
         "road schedule",
         "road games"
       ],
-      "answer": "2026 away schedule (5 games):\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 17: @ Virginia Tech (3:30 PM, ACC Network)\n• Sat, Oct 31: @ Pittsburgh (TBA, TBA)\n• Sat, Nov 14: @ Clemson (TBA, TBA)\n• Sat, Nov 28: @ Georgia (TBA, TBA)",
+      "answer": "2026 away schedule (5 games):\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 17: @ Virginia Tech (3:30 PM, ACC Network)\n• Sat, Oct 31: @ Pittsburgh (7:30 PM, ESPN2)\n• Sat, Nov 14: @ Clemson (TBA, TBA)\n• Sat, Nov 28: @ Georgia (TBA, TBA)",
       "links": [
         {
           "label": "Full schedule",
@@ -4259,7 +4259,7 @@
         "acc schedule",
         "conference games"
       ],
-      "answer": "2026 ACC schedule (8 games):\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 10: vs Duke (3:30 PM, ESPN2)\n• Sat, Oct 17: @ Virginia Tech (3:30 PM, ACC Network)\n• Sat, Oct 24: vs Boston College (3:30 PM, ACC Network)\n• Sat, Oct 31: @ Pittsburgh (TBA, TBA)\n• Sat, Nov 7: vs Louisville (TBA, TBA)\n• Sat, Nov 14: @ Clemson (TBA, TBA)\n• Sat, Nov 21: vs Wake Forest (TBA, TBA)",
+      "answer": "2026 ACC schedule (8 games):\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 10: vs Duke (3:30 PM, ESPN2)\n• Sat, Oct 17: @ Virginia Tech (3:30 PM, ACC Network)\n• Sat, Oct 24: vs Boston College (3:30 PM, ACC Network)\n• Sat, Oct 31: @ Pittsburgh (7:30 PM, ESPN2)\n• Sat, Nov 7: vs Louisville (TBA, TBA)\n• Sat, Nov 14: @ Clemson (TBA, TBA)\n• Sat, Nov 21: vs Wake Forest (TBA, TBA)",
       "links": [
         {
           "label": "Full schedule",
