@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "builtAt": "2026-10-24T18:41:33.425Z",
-  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-10-24",
+  "builtAt": "2026-10-25T15:19:52.602Z",
+  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-10-25",
   "entryCount": 729,
   "entries": [
     {
@@ -3141,7 +3141,7 @@
         "4-2-5",
         "Brent Key"
       ],
-      "answer": "Georgia Tech Yellow Jackets — ACC, 2026 season (record 2-4).\nHead coach: Brent Key. Offense: Spread Pro Style. Defense: 4-2-5.\nHome: Bobby Dodd Stadium at Hyundai Field, Atlanta, GA.\nLast season (2025): 9-4 (6-2 ACC), final AP #24. Ranked as high as No. 7 in 2025",
+      "answer": "Georgia Tech Yellow Jackets — ACC, 2026 season (record 2-5).\nHead coach: Brent Key. Offense: Spread Pro Style. Defense: 4-2-5.\nHome: Bobby Dodd Stadium at Hyundai Field, Atlanta, GA.\nLast season (2025): 9-4 (6-2 ACC), final AP #24. Ranked as high as No. 7 in 2025",
       "links": [
         {
           "label": "Open roster",
@@ -3279,7 +3279,7 @@
         "rank",
         "how are we doing"
       ],
-      "answer": "2026 record so far: 2-4.\nIn the 2026 ACC snapshot, Georgia Tech is listed 2-4 overall (1-2 conference) — #16 in the table.\nLast season final AP: #24. Ranked as high as No. 7 in 2025\nOpen Standings and flip 2025 if you want last year's ACC finish.\nOpen the Standings tab for the ACC table and AP / Coaches polls.",
+      "answer": "2026 record so far: 2-5.\nIn the 2026 ACC snapshot, Georgia Tech is listed 2-5 overall (1-3 conference) — #17 in the table.\nLast season final AP: #24. Ranked as high as No. 7 in 2025\nOpen Standings and flip 2025 if you want last year's ACC finish.\nOpen the Standings tab for the ACC table and AP / Coaches polls.",
       "links": [
         {
           "label": "Open standings",
@@ -3315,19 +3315,19 @@
         "feeling",
         "hype"
       ],
-      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Football Gameday Live — Follow along during the game with links to live audio, stats, and more\n• The Last Word Before Game 7 vs. Boston College — Tech Hosts Boston College for 77th Homecoming Game (Saturday - 3:30 pm on ACCN)\n• Georgia Tech Football Unveils Homecoming Uniforms — Tech Football delivers classic Gold, White, Gold uniform with a Power T helmet\n• Inside The Chart: Major Achievement — Georgia Tech center Jameson Riggs aspires for a career as an aerospace engineer.\n• Campus Road Closures for Homecoming Traditions — Traffic and parking will be affected for this weekend's athletics events\nOpen Home for the full news list.",
+      "answer": "Latest 2026 notes (Athletics / ESPN):\n• McKenzie, MacCormack lead dynamic Boston College rushing attack in 48-27 win over Georgia Tech\n• Boston College Tops Tech — Georgia Tech's injury-depleted defense overwhelmed by Boston College in 49-27 defeat\n• Photos: Football vs. Boston College — Georgia Tech vs. Boston College (Bobby Dodd Stadium at Hyundai Field - Atlanta, Ga.) - Danny Karnik photos\n• The Last Word Before Game 7 vs. Boston College — Tech Hosts Boston College for 77th Homecoming Game (Saturday - 3:30 pm on ACCN)\n• Georgia Tech Football Unveils Homecoming Uniforms — Tech Football delivers classic Gold, White, Gold uniform with a Power T helmet\nOpen Home for the full news list.",
       "links": [
         {
-          "label": "Football Gameday Live",
-          "href": "https://ramblinwreck.com/news/2026/10/24/football-gameday-live"
+          "label": "McKenzie, MacCormack lead dynamic Boston College rushing attack in 48-27 win over Georgia Tech",
+          "href": "http://www.espn.com/ncf/recap?gameId=401858273"
         },
         {
-          "label": "The Last Word Before Game 7 vs. Boston College",
-          "href": "https://ramblinwreck.com/news/2026/10/23/the-last-word-before-gm-726"
+          "label": "Boston College Tops Tech",
+          "href": "https://ramblinwreck.com/news/2026/10/24/fb-recap-bc-26"
         },
         {
-          "label": "Georgia Tech Football Unveils Homecoming Uniforms",
-          "href": "https://ramblinwreck.com/news/2026/10/22/fb-game-uniforms-267"
+          "label": "Photos: Football vs. Boston College",
+          "href": "https://ramblinwreck.com/news/2026/10/24/photos-fb-bc-26"
         }
       ],
       "followUps": [
@@ -3351,7 +3351,7 @@
         "Upcoming game",
         "What's our next game?",
         "Next game?",
-        "When do we play Boston College?",
+        "When do we play Pittsburgh?",
         "What channel is the next game?",
         "What time is kickoff?"
       ],
@@ -3360,21 +3360,21 @@
         "upcoming",
         "when do we play",
         "kickoff",
-        "Boston College",
-        "BC"
+        "Pittsburgh",
+        "PITT"
       ],
-      "answer": "Next up: vs Boston College on Sat, Oct 24 at 3:30 PM (ACC Network).\nBobby Dodd Stadium · Atlanta, GA\nHomecoming",
+      "answer": "Next up: @ Pittsburgh on Sat, Oct 31 at 7:30 PM (ESPN2).\nAcrisure Stadium · Pittsburgh, PA\nHalloween in Pittsburgh",
       "links": [
         {
-          "label": "Boston College slate",
-          "href": "/opponent/103"
+          "label": "Pittsburgh slate",
+          "href": "/opponent/221"
         }
       ],
       "followUps": [
         "Show the full schedule",
         "Where do we stand in the ACC?"
       ],
-      "searchText": "when is the next game? who do we play next? when do we play? upcoming game what's our next game? next game? when do we play boston college? what channel is the next game? what time is kickoff? next game upcoming when do we play kickoff boston college bc"
+      "searchText": "when is the next game? who do we play next? when do we play? upcoming game what's our next game? next game? when do we play pittsburgh? what channel is the next game? what time is kickoff? next game upcoming when do we play kickoff pittsburgh pitt"
     },
     {
       "id": "schedule-game-1",
