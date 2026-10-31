@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "builtAt": "2026-10-25T15:19:52.602Z",
-  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-10-25",
+  "builtAt": "2026-10-31T19:50:31.038Z",
+  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-10-31",
   "entryCount": 729,
   "entries": [
     {
@@ -3315,19 +3315,19 @@
         "feeling",
         "hype"
       ],
-      "answer": "Latest 2026 notes (Athletics / ESPN):\n• McKenzie, MacCormack lead dynamic Boston College rushing attack in 48-27 win over Georgia Tech\n• Boston College Tops Tech — Georgia Tech's injury-depleted defense overwhelmed by Boston College in 49-27 defeat\n• Photos: Football vs. Boston College — Georgia Tech vs. Boston College (Bobby Dodd Stadium at Hyundai Field - Atlanta, Ga.) - Danny Karnik photos\n• The Last Word Before Game 7 vs. Boston College — Tech Hosts Boston College for 77th Homecoming Game (Saturday - 3:30 pm on ACCN)\n• Georgia Tech Football Unveils Homecoming Uniforms — Tech Football delivers classic Gold, White, Gold uniform with a Power T helmet\nOpen Home for the full news list.",
+      "answer": "Latest 2026 notes (Athletics / ESPN):\n• The Last Word Before Game 8 at Pitt — The Jackets Travel to Pitt for Halloween Night Clash (Saturday - 7:30 pm on ESPN2)\n• Georgia Tech Football Unveils Week 9 Uniforms — Tech Football will be wearing White, White & Grey in the Steel City\n• Inside The Chart: Hall of Frame — The untold story of the All-American posters that became an indelible, artistic part of Georgia Tech history\n• Dodd After Dark Promotions Set for Tech-Louisville — Halftime fireworks, 50% off tickets and $5 beer specials on tap when Jackets host Cardinals on Nov. 7\n• Jackets Head to Pittsburgh on Halloween Night — Tech takes on the Pitt Panthers on Saturday, Oct. 31 (7:30 PM on ESPN2)\nOpen Home for the full news list.",
       "links": [
         {
-          "label": "McKenzie, MacCormack lead dynamic Boston College rushing attack in 48-27 win over Georgia Tech",
-          "href": "http://www.espn.com/ncf/recap?gameId=401858273"
+          "label": "The Last Word Before Game 8 at Pitt",
+          "href": "https://ramblinwreck.com/news/2026/10/31/the-last-word-before-gm-826"
         },
         {
-          "label": "Boston College Tops Tech",
-          "href": "https://ramblinwreck.com/news/2026/10/24/fb-recap-bc-26"
+          "label": "Georgia Tech Football Unveils Week 9 Uniforms",
+          "href": "https://ramblinwreck.com/news/2026/10/29/georgia-tech-football-unveils-week-9-uniforms"
         },
         {
-          "label": "Photos: Football vs. Boston College",
-          "href": "https://ramblinwreck.com/news/2026/10/24/photos-fb-bc-26"
+          "label": "Inside The Chart: Hall of Frame",
+          "href": "https://ramblinwreck.com/news/2026/10/29/inside-the-chart-hall-of-frame"
         }
       ],
       "followUps": [
@@ -3921,7 +3921,7 @@
         "cards",
         "cardinals"
       ],
-      "answer": "Louisville (9th game): vs Louisville on Sat, Nov 7 at TBA (TBA).\nBobby Dodd Stadium · Atlanta, GA\n2025 bowl winner",
+      "answer": "Louisville (9th game): vs Louisville on Sat, Nov 7 at 7:30 PM (ACC Network).\nBobby Dodd Stadium · Atlanta, GA\n2025 bowl winner",
       "links": [
         {
           "label": "Louisville slate",
@@ -4166,7 +4166,7 @@
         "full schedule",
         "slate"
       ],
-      "answer": "2026 schedule (12 games):\n• Thu, Sep 3: vs Colorado (8 PM, ESPN)\n• Sat, Sep 12: vs Tennessee (7 PM, ESPN)\n• Sat, Sep 19: vs Mercer (12 PM, ACC Network)\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 10: vs Duke (3:30 PM, ESPN2)\n• Sat, Oct 17: @ Virginia Tech (3:30 PM, ACC Network)\n• Sat, Oct 24: vs Boston College (3:30 PM, ACC Network)\n• Sat, Oct 31: @ Pittsburgh (7:30 PM, ESPN2)\n• Sat, Nov 7: vs Louisville (TBA, TBA)\n• Sat, Nov 14: @ Clemson (TBA, TBA)",
+      "answer": "2026 schedule (12 games):\n• Thu, Sep 3: vs Colorado (8 PM, ESPN)\n• Sat, Sep 12: vs Tennessee (7 PM, ESPN)\n• Sat, Sep 19: vs Mercer (12 PM, ACC Network)\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 10: vs Duke (3:30 PM, ESPN2)\n• Sat, Oct 17: @ Virginia Tech (3:30 PM, ACC Network)\n• Sat, Oct 24: vs Boston College (3:30 PM, ACC Network)\n• Sat, Oct 31: @ Pittsburgh (7:30 PM, ESPN2)\n• Sat, Nov 7: vs Louisville (7:30 PM, ACC Network)\n• Sat, Nov 14: @ Clemson (TBA, TBA)",
       "links": [
         {
           "label": "Full schedule",
@@ -4198,7 +4198,7 @@
         "home schedule",
         "the flats"
       ],
-      "answer": "2026 home schedule (7 games):\n• Thu, Sep 3: vs Colorado (8 PM, ESPN)\n• Sat, Sep 12: vs Tennessee (7 PM, ESPN)\n• Sat, Sep 19: vs Mercer (12 PM, ACC Network)\n• Sat, Oct 10: vs Duke (3:30 PM, ESPN2)\n• Sat, Oct 24: vs Boston College (3:30 PM, ACC Network)\n• Sat, Nov 7: vs Louisville (TBA, TBA)\n• Sat, Nov 21: vs Wake Forest (TBA, TBA)",
+      "answer": "2026 home schedule (7 games):\n• Thu, Sep 3: vs Colorado (8 PM, ESPN)\n• Sat, Sep 12: vs Tennessee (7 PM, ESPN)\n• Sat, Sep 19: vs Mercer (12 PM, ACC Network)\n• Sat, Oct 10: vs Duke (3:30 PM, ESPN2)\n• Sat, Oct 24: vs Boston College (3:30 PM, ACC Network)\n• Sat, Nov 7: vs Louisville (7:30 PM, ACC Network)\n• Sat, Nov 21: vs Wake Forest (TBA, TBA)",
       "links": [
         {
           "label": "Full schedule",
@@ -4259,7 +4259,7 @@
         "acc schedule",
         "conference games"
       ],
-      "answer": "2026 ACC schedule (8 games):\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 10: vs Duke (3:30 PM, ESPN2)\n• Sat, Oct 17: @ Virginia Tech (3:30 PM, ACC Network)\n• Sat, Oct 24: vs Boston College (3:30 PM, ACC Network)\n• Sat, Oct 31: @ Pittsburgh (7:30 PM, ESPN2)\n• Sat, Nov 7: vs Louisville (TBA, TBA)\n• Sat, Nov 14: @ Clemson (TBA, TBA)\n• Sat, Nov 21: vs Wake Forest (TBA, TBA)",
+      "answer": "2026 ACC schedule (8 games):\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 10: vs Duke (3:30 PM, ESPN2)\n• Sat, Oct 17: @ Virginia Tech (3:30 PM, ACC Network)\n• Sat, Oct 24: vs Boston College (3:30 PM, ACC Network)\n• Sat, Oct 31: @ Pittsburgh (7:30 PM, ESPN2)\n• Sat, Nov 7: vs Louisville (7:30 PM, ACC Network)\n• Sat, Nov 14: @ Clemson (TBA, TBA)\n• Sat, Nov 21: vs Wake Forest (TBA, TBA)",
       "links": [
         {
           "label": "Full schedule",
