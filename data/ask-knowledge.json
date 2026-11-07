@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "builtAt": "2026-11-01T17:27:14.398Z",
-  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-11-01",
+  "builtAt": "2026-11-07T20:04:16.024Z",
+  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-11-07",
   "entryCount": 730,
   "entries": [
     {
@@ -3315,19 +3315,19 @@
         "feeling",
         "hype"
       ],
-      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Georgia Tech hosts Hofstra to start season\n• Damon Ferguson Jr. runs for a season-high 185 yards and 2 TDs as Pitt drills Georgia Tech 34-11\n• Georgia Tech Yellow Jackets vs. Pittsburgh Panthers: Full Highlights — Georgia Tech Yellow Jackets vs. Pittsburgh Panthers: Full Highlights\n• Tech Digs Early Hole in Loss at Pitt — Yellow Jackets drop third-straight\n• Photos: Football at Pitt — Georgia Tech at Pitt (Acrisure Stadium - Pittsburgh, Pa.) - Josh Lavallee Photos\nOpen Home for the full news list.",
+      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Whitlock scores 29 points to send Georgia Tech past Georgia Southern, 95-83\n• The Last Word Before Game 9 vs Louisville — Tech Hosts the Cardinals for Dodd After Dark (Saturday - 7:30 pm on ACC Network)\n• Tech Announces Early Black Friday Ticket Deals — Jackets kickoff the holiday season with ticket deals across The Flats\n• Smith leads Georgia Southern against Georgia Tech after 24-point performance\n• Georgia Tech Football Unveils Week 10 Uniforms — Tech Football will be wearing Gold, Gold & White for Military Appreciation Day\nOpen Home for the full news list.",
       "links": [
         {
-          "label": "Georgia Tech hosts Hofstra to start season",
-          "href": "http://www.espn.com/ncw/preview?gameId=401913714"
+          "label": "Whitlock scores 29 points to send Georgia Tech past Georgia Southern, 95-83",
+          "href": "http://www.espn.com/ncb/recap?gameId=401920305"
         },
         {
-          "label": "Damon Ferguson Jr. runs for a season-high 185 yards and 2 TDs as Pitt drills Georgia Tech 34-11",
-          "href": "http://www.espn.com/ncf/recap?gameId=401858281"
+          "label": "The Last Word Before Game 9 vs Louisville",
+          "href": "https://ramblinwreck.com/news/2026/11/6/the-last-word-before-gm-926"
         },
         {
-          "label": "Georgia Tech Yellow Jackets vs. Pittsburgh Panthers: Full Highlights",
-          "href": "https://www.espn.com/video/clip/_/id/50344063/full-highlights"
+          "label": "Tech Announces Early Black Friday Ticket Deals",
+          "href": "https://ramblinwreck.com/news/2026/11/6/tech-announces-early-black-friday-ticket-deals"
         }
       ],
       "followUps": [
@@ -3985,7 +3985,7 @@
         "clem",
         "tigers"
       ],
-      "answer": "Clemson (10th game): @ Clemson on Sat, Nov 14 at TBA (TBA).\nMemorial Stadium (Clemson, SC) · Clemson, SC\nDeath Valley",
+      "answer": "Clemson (10th game): @ Clemson on Sat, Nov 14 at 12:30 PM (CW).\nMemorial Stadium (Clemson, SC) · Clemson, SC\nDeath Valley",
       "links": [
         {
           "label": "Clemson slate",
@@ -4166,7 +4166,7 @@
         "full schedule",
         "slate"
       ],
-      "answer": "2026 schedule (12 games):\n• Thu, Sep 3: vs Colorado (8 PM, ESPN)\n• Sat, Sep 12: vs Tennessee (7 PM, ESPN)\n• Sat, Sep 19: vs Mercer (12 PM, ACC Network)\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 10: vs Duke (3:30 PM, ESPN2)\n• Sat, Oct 17: @ Virginia Tech (3:30 PM, ACC Network)\n• Sat, Oct 24: vs Boston College (3:30 PM, ACC Network)\n• Sat, Oct 31: @ Pittsburgh (7:30 PM, ESPN2)\n• Sat, Nov 7: vs Louisville (7:30 PM, ACC Network)\n• Sat, Nov 14: @ Clemson (TBA, TBA)",
+      "answer": "2026 schedule (12 games):\n• Thu, Sep 3: vs Colorado (8 PM, ESPN)\n• Sat, Sep 12: vs Tennessee (7 PM, ESPN)\n• Sat, Sep 19: vs Mercer (12 PM, ACC Network)\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 10: vs Duke (3:30 PM, ESPN2)\n• Sat, Oct 17: @ Virginia Tech (3:30 PM, ACC Network)\n• Sat, Oct 24: vs Boston College (3:30 PM, ACC Network)\n• Sat, Oct 31: @ Pittsburgh (7:30 PM, ESPN2)\n• Sat, Nov 7: vs Louisville (7:30 PM, ACC Network)\n• Sat, Nov 14: @ Clemson (12:30 PM, CW)",
       "links": [
         {
           "label": "Full schedule",
@@ -4229,7 +4229,7 @@
         "road schedule",
         "road games"
       ],
-      "answer": "2026 away schedule (5 games):\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 17: @ Virginia Tech (3:30 PM, ACC Network)\n• Sat, Oct 31: @ Pittsburgh (7:30 PM, ESPN2)\n• Sat, Nov 14: @ Clemson (TBA, TBA)\n• Sat, Nov 28: @ Georgia (TBA, TBA)",
+      "answer": "2026 away schedule (5 games):\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 17: @ Virginia Tech (3:30 PM, ACC Network)\n• Sat, Oct 31: @ Pittsburgh (7:30 PM, ESPN2)\n• Sat, Nov 14: @ Clemson (12:30 PM, CW)\n• Sat, Nov 28: @ Georgia (TBA, TBA)",
       "links": [
         {
           "label": "Full schedule",
@@ -4259,7 +4259,7 @@
         "acc schedule",
         "conference games"
       ],
-      "answer": "2026 ACC schedule (8 games):\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 10: vs Duke (3:30 PM, ESPN2)\n• Sat, Oct 17: @ Virginia Tech (3:30 PM, ACC Network)\n• Sat, Oct 24: vs Boston College (3:30 PM, ACC Network)\n• Sat, Oct 31: @ Pittsburgh (7:30 PM, ESPN2)\n• Sat, Nov 7: vs Louisville (7:30 PM, ACC Network)\n• Sat, Nov 14: @ Clemson (TBA, TBA)\n• Sat, Nov 21: vs Wake Forest (TBA, TBA)",
+      "answer": "2026 ACC schedule (8 games):\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 10: vs Duke (3:30 PM, ESPN2)\n• Sat, Oct 17: @ Virginia Tech (3:30 PM, ACC Network)\n• Sat, Oct 24: vs Boston College (3:30 PM, ACC Network)\n• Sat, Oct 31: @ Pittsburgh (7:30 PM, ESPN2)\n• Sat, Nov 7: vs Louisville (7:30 PM, ACC Network)\n• Sat, Nov 14: @ Clemson (12:30 PM, CW)\n• Sat, Nov 21: vs Wake Forest (TBA, TBA)",
       "links": [
         {
           "label": "Full schedule",
