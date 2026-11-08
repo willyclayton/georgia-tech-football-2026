@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "builtAt": "2026-11-07T20:04:16.024Z",
-  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-11-07",
-  "entryCount": 730,
+  "builtAt": "2026-11-08T17:26:15.478Z",
+  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-11-08",
+  "entryCount": 731,
   "entries": [
     {
       "id": "faq-clean-old-fashioned",
@@ -3141,7 +3141,7 @@
         "4-2-5",
         "Brent Key"
       ],
-      "answer": "Georgia Tech Yellow Jackets — ACC, 2026 season (record 2-6).\nHead coach: Brent Key. Offense: Spread Pro Style. Defense: 4-2-5.\nHome: Bobby Dodd Stadium at Hyundai Field, Atlanta, GA.\nLast season (2025): 9-4 (6-2 ACC), final AP #24. Ranked as high as No. 7 in 2025",
+      "answer": "Georgia Tech Yellow Jackets — ACC, 2026 season (record 2-7).\nHead coach: Brent Key. Offense: Spread Pro Style. Defense: 4-2-5.\nHome: Bobby Dodd Stadium at Hyundai Field, Atlanta, GA.\nLast season (2025): 9-4 (6-2 ACC), final AP #24. Ranked as high as No. 7 in 2025",
       "links": [
         {
           "label": "Open roster",
@@ -3279,7 +3279,7 @@
         "rank",
         "how are we doing"
       ],
-      "answer": "2026 record so far: 2-6.\nIn the 2026 ACC snapshot, Georgia Tech is listed 2-6 overall (1-4 conference) — #17 in the table.\nLast season final AP: #24. Ranked as high as No. 7 in 2025\nOpen Standings and flip 2025 if you want last year's ACC finish.\nOpen the Standings tab for the ACC table and AP / Coaches polls.",
+      "answer": "2026 record so far: 2-7.\nIn the 2026 ACC snapshot, Georgia Tech is listed 2-7 overall (1-5 conference) — #17 in the table.\nLast season final AP: #24. Ranked as high as No. 7 in 2025\nOpen Standings and flip 2025 if you want last year's ACC finish.\nOpen the Standings tab for the ACC table and AP / Coaches polls.",
       "links": [
         {
           "label": "Open standings",
@@ -3315,19 +3315,19 @@
         "feeling",
         "hype"
       ],
-      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Whitlock scores 29 points to send Georgia Tech past Georgia Southern, 95-83\n• The Last Word Before Game 9 vs Louisville — Tech Hosts the Cardinals for Dodd After Dark (Saturday - 7:30 pm on ACC Network)\n• Tech Announces Early Black Friday Ticket Deals — Jackets kickoff the holiday season with ticket deals across The Flats\n• Smith leads Georgia Southern against Georgia Tech after 24-point performance\n• Georgia Tech Football Unveils Week 10 Uniforms — Tech Football will be wearing Gold, Gold & White for Military Appreciation Day\nOpen Home for the full news list.",
+      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Louisville clinches bowl eligibility with 44-17 rout at Georgia Tech\n• Louisville Cardinals vs. Georgia Tech Yellow Jackets: Full Highlights — Louisville Cardinals vs. Georgia Tech Yellow Jackets: Full Highlights\n• Slow Start Dooms Jackets Again in Loss to Louisville — Once again, Jackets' rally comes too late in defeat to Cardinals\n• Photos: Football vs. Louisville — Georgia Tech vs. Louisville (Bobby Dodd Stadium at Hyundai Field - Atlanta, Ga.) - Danny Karnik & Michael Nance photos\n• Football Gameday Live — Follow along during the game with links to live audio, stats, and more\nOpen Home for the full news list.",
       "links": [
         {
-          "label": "Whitlock scores 29 points to send Georgia Tech past Georgia Southern, 95-83",
-          "href": "http://www.espn.com/ncb/recap?gameId=401920305"
+          "label": "Louisville clinches bowl eligibility with 44-17 rout at Georgia Tech",
+          "href": "http://www.espn.com/ncf/recap?gameId=401858287"
         },
         {
-          "label": "The Last Word Before Game 9 vs Louisville",
-          "href": "https://ramblinwreck.com/news/2026/11/6/the-last-word-before-gm-926"
+          "label": "Louisville Cardinals vs. Georgia Tech Yellow Jackets: Full Highlights",
+          "href": "https://www.espn.com/video/clip/_/id/50416566/full-highlights"
         },
         {
-          "label": "Tech Announces Early Black Friday Ticket Deals",
-          "href": "https://ramblinwreck.com/news/2026/11/6/tech-announces-early-black-friday-ticket-deals"
+          "label": "Slow Start Dooms Jackets Again in Loss to Louisville",
+          "href": "https://ramblinwreck.com/news/2026/11/8/fb-recap-ul-26"
         }
       ],
       "followUps": [
@@ -3351,7 +3351,7 @@
         "Upcoming game",
         "What's our next game?",
         "Next game?",
-        "When do we play Louisville?",
+        "When do we play Clemson?",
         "What channel is the next game?",
         "What time is kickoff?"
       ],
@@ -3360,21 +3360,21 @@
         "upcoming",
         "when do we play",
         "kickoff",
-        "Louisville",
-        "LOU"
+        "Clemson",
+        "CLEM"
       ],
-      "answer": "Next up: vs Louisville on Sat, Nov 7 at 7:30 PM (ACC Network).\nBobby Dodd Stadium · Atlanta, GA\n2025 bowl winner",
+      "answer": "Next up: @ Clemson on Sat, Nov 14 at 12:30 PM (CW).\nMemorial Stadium (Clemson, SC) · Clemson, SC\nDeath Valley",
       "links": [
         {
-          "label": "Louisville slate",
-          "href": "/opponent/97"
+          "label": "Clemson slate",
+          "href": "/opponent/228"
         }
       ],
       "followUps": [
         "Show the full schedule",
         "Where do we stand in the ACC?"
       ],
-      "searchText": "when is the next game? who do we play next? when do we play? upcoming game what's our next game? next game? when do we play louisville? what channel is the next game? what time is kickoff? next game upcoming when do we play kickoff louisville lou"
+      "searchText": "when is the next game? who do we play next? when do we play? upcoming game what's our next game? next game? when do we play clemson? what channel is the next game? what time is kickoff? next game upcoming when do we play kickoff clemson clem"
     },
     {
       "id": "schedule-game-1",
@@ -7391,7 +7391,7 @@
         "eligibility",
         "years left"
       ],
-      "answer": "Eligibility for GT DBs:\n• #3 Jaylen Mbakwe — Junior, 2 years left\n• #6 Kelvin Hill — Junior, 2 years left\n• #12 Jon Mitchell — Junior, 2 years left\n• #13 Savion Riley — Senior, 1 year left\n• #14 Jonas Duclona — Senior, 1 year left\n• #18 Kealan Jones — Freshman, 4 years left\n• #21 Jaedyn Terry — Freshman, 3 years left\n• #23 Trae Stevenson Jr. — Freshman, 3 years left\n• #25 L.J. Crumity — Freshman, 4 years left\n• #26 Chris Hewitt Jr. — Freshman, 3 years left\n• #27 Tae Harris — Sophomore, 3 years left\n• #28 Elgin Sessions — Sophomore, 3 years left\n• #31 Fenix Felton — Sophomore, 3 years left\n• #36 Kymani Morales — Freshman, 4 years left\n• #37 Alex Hunt — Freshman, 4 years left\n• #38 Isaac Obrokta — Freshman, 4 years left\n• #39 Will Kiker — Senior, 2 years left",
+      "answer": "Eligibility for GT DBs:\n• #3 Jaylen Mbakwe — Junior, 2 years left\n• #6 Kelvin Hill — Junior, 2 years left\n• #12 Jon Mitchell — Junior, 2 years left\n• #13 Savion Riley — Senior, 1 year left\n• #14 Jonas Duclona — Senior, 1 year left\n• #18 Kealan Jones — Freshman, 3 years left\n• #21 Jaedyn Terry — Freshman, 3 years left\n• #23 Trae Stevenson Jr. — Freshman, 3 years left\n• #25 L.J. Crumity — Freshman, 4 years left\n• #26 Chris Hewitt Jr. — Freshman, 3 years left\n• #27 Tae Harris — Sophomore, 3 years left\n• #28 Elgin Sessions — Sophomore, 3 years left\n• #31 Fenix Felton — Sophomore, 3 years left\n• #36 Kymani Morales — Freshman, 4 years left\n• #37 Alex Hunt — Freshman, 4 years left\n• #38 Isaac Obrokta — Freshman, 4 years left\n• #39 Will Kiker — Senior, 2 years left",
       "links": [
         {
           "label": "#3 Jaylen Mbakwe",
@@ -10470,7 +10470,7 @@
         "number 18",
         "jersey 18"
       ],
-      "answer": "2 players wear #18:\n\n• #18 Ben Guthrie (QB, SR) — 1 year left\n• #18 Kealan Jones (S, FR) — 4 years left",
+      "answer": "2 players wear #18:\n\n• #18 Ben Guthrie (QB, SR) — 1 year left\n• #18 Kealan Jones (S, FR) — 3 years left",
       "links": [
         {
           "label": "#18 Ben Guthrie",
@@ -10548,7 +10548,7 @@
         "defense",
         "S"
       ],
-      "answer": "#18 Kealan Jones — Safety, Freshman.\n6' 0\", 195 lbs · from Marietta, GA.\nEligibility: 4 years left · no college seasons with stats yet.\nPrevious teams: no prior college teams listed.",
+      "answer": "#18 Kealan Jones — Safety, Freshman.\n6' 0\", 195 lbs · from Marietta, GA.\nEligibility: 3 years left · 1 season played (2026).\nPrevious teams: no prior college teams listed.",
       "links": [
         {
           "label": "#18 Kealan Jones",
@@ -26247,7 +26247,7 @@
         "S",
         "Marietta, GA"
       ],
-      "answer": "#18 Kealan Jones — Safety, Freshman.\n6' 0\", 195 lbs · from Marietta, GA.\nEligibility: 4 years left · no college seasons with stats yet.\nPrevious teams: no prior college teams listed.",
+      "answer": "#18 Kealan Jones — Safety, Freshman.\n6' 0\", 195 lbs · from Marietta, GA.\nEligibility: 3 years left · 1 season played (2026).\nPrevious teams: no prior college teams listed.",
       "links": [
         {
           "label": "#18 Kealan Jones",
@@ -26334,7 +26334,7 @@
         "Freshman",
         "FR"
       ],
-      "answer": "#18 Kealan Jones — Safety, Freshman.\n6' 0\", 195 lbs · from Marietta, GA.\nEligibility: 4 years left · no college seasons with stats yet.\nPrevious teams: no prior college teams listed.",
+      "answer": "#18 Kealan Jones — Safety, Freshman.\n6' 0\", 195 lbs · from Marietta, GA.\nEligibility: 3 years left · 1 season played (2026).\nPrevious teams: no prior college teams listed.",
       "links": [
         {
           "label": "#18 Kealan Jones",
@@ -26346,6 +26346,48 @@
         "When is the next game?"
       ],
       "searchText": "how much eligibility does kealan jones have? how much eligibility does jones have? how much elig left #18 how many years does #18 have left? jones eligibility jones years left is jones a senior? what class is kealan jones? years left for kealan jones kealan jones #18 freshman fr"
+    },
+    {
+      "id": "player-5276991-stats",
+      "category": "player",
+      "scope": "player",
+      "intent": "stats",
+      "playerIds": [
+        "5276991"
+      ],
+      "jersey": 18,
+      "names": [
+        "Kealan Jones",
+        "Kealan",
+        "Jones"
+      ],
+      "questions": [
+        "What are Kealan Jones career stats?",
+        "Kealan Jones stats",
+        "Jones career numbers",
+        "How many yards does Jones have?",
+        "Kealan Jones touchdowns"
+      ],
+      "keywords": [
+        "Kealan Jones",
+        "#18",
+        "stats",
+        "career",
+        "yards",
+        "touchdowns"
+      ],
+      "answer": "#18 Kealan Jones career (college totals in app): TOT 6 · SOLO 4 · AST 2 · PD 0.",
+      "links": [
+        {
+          "label": "#18 Kealan Jones",
+          "href": "/player/5276991"
+        }
+      ],
+      "followUps": [
+        "Where did Jones transfer from?",
+        "How much eligibility does Jones have?"
+      ],
+      "searchText": "what are kealan jones career stats? kealan jones stats jones career numbers how many yards does jones have? kealan jones touchdowns kealan jones #18 stats career yards touchdowns"
     },
     {
       "id": "player-5075806",
