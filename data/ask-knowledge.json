@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "builtAt": "2026-11-08T17:26:15.478Z",
-  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-11-08",
+  "builtAt": "2026-11-14T20:31:48.961Z",
+  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-11-14",
   "entryCount": 731,
   "entries": [
     {
@@ -3315,19 +3315,19 @@
         "feeling",
         "hype"
       ],
-      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Louisville clinches bowl eligibility with 44-17 rout at Georgia Tech\n• Louisville Cardinals vs. Georgia Tech Yellow Jackets: Full Highlights — Louisville Cardinals vs. Georgia Tech Yellow Jackets: Full Highlights\n• Slow Start Dooms Jackets Again in Loss to Louisville — Once again, Jackets' rally comes too late in defeat to Cardinals\n• Photos: Football vs. Louisville — Georgia Tech vs. Louisville (Bobby Dodd Stadium at Hyundai Field - Atlanta, Ga.) - Danny Karnik & Michael Nance photos\n• Football Gameday Live — Follow along during the game with links to live audio, stats, and more\nOpen Home for the full news list.",
+      "answer": "Latest 2026 notes (Athletics / ESPN):\n• PHOTOS: Football at Clemson — Danny Karnik, Glenn Ingram and Nathan Bolster photos\n• Football Gameday Live — Follow along during the game with links to live audio, stats, and more\n• Jordan leads Georgia Tech against UNC Asheville after 27-point outing\n• The Last Word Before Game 10 at Clemson — The Jackets Renew Rivalry with Clemson (Saturday - 12:30 pm on The CW)\n• Georgia Tech Football Unveils Week 11 Uniforms — The Jackets are rocking White, White & Gold this weekend, at Clemson\nOpen Home for the full news list.",
       "links": [
         {
-          "label": "Louisville clinches bowl eligibility with 44-17 rout at Georgia Tech",
-          "href": "http://www.espn.com/ncf/recap?gameId=401858287"
+          "label": "PHOTOS: Football at Clemson",
+          "href": "https://ramblinwreck.com/news/2026/11/14/photos-fb-clemson-26"
         },
         {
-          "label": "Louisville Cardinals vs. Georgia Tech Yellow Jackets: Full Highlights",
-          "href": "https://www.espn.com/video/clip/_/id/50416566/full-highlights"
+          "label": "Football Gameday Live",
+          "href": "https://ramblinwreck.com/news/2026/11/14/football-gameday-live"
         },
         {
-          "label": "Slow Start Dooms Jackets Again in Loss to Louisville",
-          "href": "https://ramblinwreck.com/news/2026/11/8/fb-recap-ul-26"
+          "label": "Jordan leads Georgia Tech against UNC Asheville after 27-point outing",
+          "href": "http://www.espn.com/ncb/preview?gameId=401920307"
         }
       ],
       "followUps": [
