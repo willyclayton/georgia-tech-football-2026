@@ -13,7 +13,7 @@
     "offense": "Spread Pro Style",
     "defense": "4-2-5",
     "season": 2026,
-    "record": "2-7",
+    "record": "3-7",
     "color": "#B39051",
     "navy": "#051E39",
     "espnColor": "#b3a369",
@@ -28,18 +28,18 @@
     "pulse": [
       {
         "label": "2026",
-        "value": "2-7",
+        "value": "3-7",
         "detail": "This season"
       },
       {
         "label": "ACC",
-        "value": "1-5",
+        "value": "2-5",
         "detail": "#17 in table"
       },
       {
         "label": "NEXT",
-        "value": "CLEM",
-        "detail": "Sat, Nov 14 · CW"
+        "value": "WAKE",
+        "detail": "Sat, Nov 21 · TBA"
       },
       {
         "label": "AP",
@@ -17230,10 +17230,10 @@
       "conference": true,
       "venue": "Memorial Stadium (Clemson, SC)",
       "city": "Clemson, SC",
-      "status": "live",
-      "gtScore": null,
-      "oppScore": null,
-      "result": null,
+      "status": "final",
+      "gtScore": "20",
+      "oppScore": "6",
+      "result": "W",
       "note": "Death Valley",
       "source": "ESPN / Georgia Tech Athletics"
     },
@@ -17316,7 +17316,7 @@
       "name": "Stanford",
       "abbr": "STAN",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
-      "record": "4-5",
+      "record": "5-5",
       "conference": "ACC",
       "season": 2026,
       "games": [
@@ -17455,10 +17455,10 @@
           "opponentAbbr": "VT",
           "opponentId": "259",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
-          "score": null,
-          "result": null,
+          "score": "40-22",
+          "result": "W",
           "venue": "Lane Stadium",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401858308",
@@ -17813,10 +17813,10 @@
           "opponentAbbr": "MIZ",
           "opponentId": "142",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
-          "score": null,
-          "result": null,
+          "score": "48-21",
+          "result": "W",
           "venue": "Sanford Stadium",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401856753",
@@ -17853,7 +17853,7 @@
       "name": "Louisville",
       "abbr": "LOU",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
-      "record": "6-3",
+      "record": "7-3",
       "conference": "ACC",
       "season": 2026,
       "games": [
@@ -17992,10 +17992,10 @@
           "opponentAbbr": "UNC",
           "opponentId": "153",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
-          "score": null,
-          "result": null,
+          "score": "16-14",
+          "result": "W",
           "venue": "Kenan Stadium",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401858306",
@@ -18032,7 +18032,7 @@
       "name": "Boston College",
       "abbr": "BC",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
-      "record": "4-5",
+      "record": "4-6",
       "conference": "ACC",
       "season": 2026,
       "games": [
@@ -18171,10 +18171,10 @@
           "opponentAbbr": "ND",
           "opponentId": "87",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
-          "score": null,
-          "result": null,
+          "score": "7-41",
+          "result": "L",
           "venue": "Notre Dame Stadium",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401858309",
@@ -18211,7 +18211,7 @@
       "name": "Duke",
       "abbr": "DUKE",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-      "record": "7-2",
+      "record": "7-3",
       "conference": "ACC",
       "season": 2026,
       "games": [
@@ -18350,10 +18350,10 @@
           "opponentAbbr": "MIA",
           "opponentId": "2390",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
-          "score": null,
-          "result": null,
+          "score": "25-36",
+          "result": "L",
           "venue": "Hard Rock Stadium",
-          "status": "live"
+          "status": "final"
         },
         {
           "id": "401858303",
@@ -18390,7 +18390,7 @@
       "name": "Wake Forest",
       "abbr": "WAKE",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
-      "record": "8-1",
+      "record": "9-1",
       "conference": "ACC",
       "season": 2026,
       "games": [
@@ -18748,7 +18748,7 @@
       "name": "Clemson",
       "abbr": "CLEM",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
-      "record": "6-3",
+      "record": "6-4",
       "conference": "ACC",
       "season": 2026,
       "games": [
@@ -18887,10 +18887,10 @@
           "opponentAbbr": "GT",
           "opponentId": "59",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
-          "score": null,
-          "result": null,
+          "score": "6-20",
+          "result": "L",
           "venue": "Memorial Stadium (Clemson, SC)",
-          "status": "live"
+          "status": "final"
         },
         {
           "id": "401858303",
@@ -18927,7 +18927,7 @@
       "name": "Virginia Tech",
       "abbr": "VT",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
-      "record": "6-3",
+      "record": "6-4",
       "conference": "ACC",
       "season": 2026,
       "games": [
@@ -19066,10 +19066,10 @@
           "opponentAbbr": "STAN",
           "opponentId": "24",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
-          "score": null,
-          "result": null,
+          "score": "22-40",
+          "result": "L",
           "venue": "Lane Stadium",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401858302",
@@ -19259,10 +19259,10 @@
           "opponentAbbr": "TNTC",
           "opponentId": "2635",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2635.png",
-          "score": null,
-          "result": null,
+          "score": "38-31",
+          "result": "W",
           "venue": "Tucker Stadium",
-          "status": "live"
+          "status": "final"
         },
         {
           "id": "401868352",
@@ -19424,10 +19424,10 @@
           "opponentAbbr": "TA&M",
           "opponentId": "245",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
-          "score": null,
-          "result": null,
+          "score": "22-7",
+          "result": "W",
           "venue": "Kyle Field",
-          "status": "live"
+          "status": "final"
         },
         {
           "id": "401856754",
@@ -19473,8 +19473,8 @@
           "shortName": "Miami",
           "abbr": "MIA",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
-          "overall": "8-1",
-          "conference": "6-0"
+          "overall": "9-1",
+          "conference": "7-0"
         },
         {
           "id": "154",
@@ -19482,26 +19482,8 @@
           "shortName": "Wake Forest",
           "abbr": "WAKE",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
-          "overall": "8-1",
-          "conference": "5-1"
-        },
-        {
-          "id": "2567",
-          "name": "SMU Mustangs",
-          "shortName": "SMU",
-          "abbr": "SMU",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
-          "overall": "7-2",
-          "conference": "5-2"
-        },
-        {
-          "id": "150",
-          "name": "Duke Blue Devils",
-          "shortName": "Duke",
-          "abbr": "DUKE",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-          "overall": "7-2",
-          "conference": "4-2"
+          "overall": "9-1",
+          "conference": "6-1"
         },
         {
           "id": "97",
@@ -19509,8 +19491,26 @@
           "shortName": "Louisville",
           "abbr": "LOU",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
-          "overall": "6-3",
-          "conference": "5-2"
+          "overall": "7-3",
+          "conference": "6-2"
+        },
+        {
+          "id": "2567",
+          "name": "SMU Mustangs",
+          "shortName": "SMU",
+          "abbr": "SMU",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
+          "overall": "7-3",
+          "conference": "5-3"
+        },
+        {
+          "id": "150",
+          "name": "Duke Blue Devils",
+          "shortName": "Duke",
+          "abbr": "DUKE",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+          "overall": "7-3",
+          "conference": "4-3"
         },
         {
           "id": "228",
@@ -19518,17 +19518,8 @@
           "shortName": "Clemson",
           "abbr": "CLEM",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
-          "overall": "6-3",
-          "conference": "4-2"
-        },
-        {
-          "id": "259",
-          "name": "Virginia Tech Hokies",
-          "shortName": "Virginia Tech",
-          "abbr": "VT",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
-          "overall": "6-3",
-          "conference": "3-3"
+          "overall": "6-4",
+          "conference": "4-3"
         },
         {
           "id": "221",
@@ -19540,13 +19531,13 @@
           "conference": "3-4"
         },
         {
-          "id": "153",
-          "name": "North Carolina Tar Heels",
-          "shortName": "North Carolina",
-          "abbr": "UNC",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
-          "overall": "5-4",
-          "conference": "2-3"
+          "id": "259",
+          "name": "Virginia Tech Hokies",
+          "shortName": "Virginia Tech",
+          "abbr": "VT",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
+          "overall": "6-4",
+          "conference": "3-4"
         },
         {
           "id": "52",
@@ -19563,8 +19554,8 @@
           "shortName": "Stanford",
           "abbr": "STAN",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
-          "overall": "4-5",
-          "conference": "2-4"
+          "overall": "5-5",
+          "conference": "3-4"
         },
         {
           "id": "258",
@@ -19572,16 +19563,25 @@
           "shortName": "Virginia",
           "abbr": "UVA",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
-          "overall": "4-5",
-          "conference": "2-4"
+          "overall": "5-5",
+          "conference": "3-4"
         },
         {
-          "id": "152",
-          "name": "NC State Wolfpack",
-          "shortName": "NC State",
-          "abbr": "NCSU",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
-          "overall": "4-5",
+          "id": "183",
+          "name": "Syracuse Orange",
+          "shortName": "Syracuse",
+          "abbr": "SYR",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
+          "overall": "5-5",
+          "conference": "3-5"
+        },
+        {
+          "id": "153",
+          "name": "North Carolina Tar Heels",
+          "shortName": "North Carolina",
+          "abbr": "UNC",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
+          "overall": "5-5",
           "conference": "2-4"
         },
         {
@@ -19590,16 +19590,16 @@
           "shortName": "Boston College",
           "abbr": "BC",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
-          "overall": "4-5",
+          "overall": "4-6",
           "conference": "2-4"
         },
         {
-          "id": "183",
-          "name": "Syracuse Orange",
-          "shortName": "Syracuse",
-          "abbr": "SYR",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
-          "overall": "4-5",
+          "id": "152",
+          "name": "NC State Wolfpack",
+          "shortName": "NC State",
+          "abbr": "NCSU",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
+          "overall": "4-6",
           "conference": "2-5"
         },
         {
@@ -19608,8 +19608,8 @@
           "shortName": "California",
           "abbr": "CAL",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
-          "overall": "3-6",
-          "conference": "2-4"
+          "overall": "3-7",
+          "conference": "2-5"
         },
         {
           "id": "59",
@@ -19617,8 +19617,8 @@
           "shortName": "Georgia Tech",
           "abbr": "GT",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
-          "overall": "2-7",
-          "conference": "1-5"
+          "overall": "3-7",
+          "conference": "2-5"
         }
       ]
     },
@@ -21095,6 +21095,36 @@
   ],
   "news": [
     {
+      "id": "www-espn-com-ncb-recap-gameid-401920307",
+      "headline": "Valdes scores winning free throw as Georgia Tech survives UNC Asheville 75-74",
+      "description": "",
+      "url": "http://www.espn.com/ncb/recap?gameId=401920307",
+      "source": "ESPN",
+      "published": "2026-11-14T23:26:35.000Z",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401920307.png?templateId=espn.applewatch.awayhome.1",
+      "tag": "ESPN"
+    },
+    {
+      "id": "www-espn-com-ncf-recap-gameid-401858297",
+      "headline": "Haynes, Georgia Tech run for first win at Clemson since 2008 on Saturday 20-6",
+      "description": "",
+      "url": "http://www.espn.com/ncf/recap?gameId=401858297",
+      "source": "ESPN",
+      "published": "2026-11-14T22:29:35.000Z",
+      "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401858297.png?templateId=espn.applewatch.awayhome.1",
+      "tag": "ESPN"
+    },
+    {
+      "id": "ramblinwreck-com-news-2026-11-14-fb-recap-clemson-26",
+      "headline": "Jackets Dominate in Death Valley",
+      "description": "Georgia Tech stifles Clemson in 20-6 triumph",
+      "url": "https://ramblinwreck.com/news/2026/11/14/fb-recap-clemson-26",
+      "source": "Georgia Tech Athletics",
+      "published": "2026-11-14T22:00:00.000Z",
+      "image": "https://ramblinwreck.com/imgproxy/V0qegwj-SVNbUoqY2_ZceW8I1W6LwN6ruQ4ptUZPMhw/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzExLzE0L2tNUTVhTGJzaW95NEtBdkRTeUtZTlZmZlNRU0JSR0NZVk4wTEE4YWkuanBn.jpg",
+      "tag": "Program"
+    },
+    {
       "id": "ramblinwreck-com-news-2026-11-14-photos-fb-clemson-26",
       "headline": "PHOTOS: Football at Clemson",
       "description": "Danny Karnik, Glenn Ingram and Nathan Bolster photos",
@@ -21102,16 +21132,6 @@
       "source": "Georgia Tech Athletics",
       "published": "2026-11-14T17:29:00.000Z",
       "image": "https://ramblinwreck.com/imgproxy/cZ_1HnrMJbFjkLfb_mULXqjZSRs6qM0xpd0ltjOZCY0/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzExLzE0L3IyOG8xQlhwRTdtbnp1YjlHM2dleW5GOVRlYXhONUJHU1Fia2ViV1cuanBn.jpg",
-      "tag": "Program"
-    },
-    {
-      "id": "ramblinwreck-com-news-2026-11-14-football-gameday-live",
-      "headline": "Football Gameday Live",
-      "description": "Follow along during the game with links to live audio, stats, and more",
-      "url": "https://ramblinwreck.com/news/2026/11/14/football-gameday-live",
-      "source": "Georgia Tech Athletics",
-      "published": "2026-11-14T15:30:00.000Z",
-      "image": "https://ramblinwreck.com/imgproxy/1FMXkyedDzf2haBtUSqQn0re5ZA4N3-As506lyXDwks/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzAxL0hlbG1ldF9DbGVtc29uXzA5MTMyNV9ESy03MTcuanBn.jpg",
       "tag": "Program"
     },
     {
@@ -21173,29 +21193,9 @@
       "published": "2026-11-10T21:45:00.000Z",
       "image": "https://ramblinwreck.com/imgproxy/44pl0ktWD8E72j8oa2jj-CX1gPfHL8PaHCHSF_Sdh2k/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzExLzEwL3lRd1g4a1psN2NxMVFiY04yNVdJS0lQcEY1U3lVcWtjaU4xazN0TXkuanBn.jpg",
       "tag": "Program"
-    },
-    {
-      "id": "www-espn-com-ncb-preview-gameid-401920306",
-      "headline": "Whitlock leads Georgia Tech against Eastern Kentucky after 29-point showing",
-      "description": "",
-      "url": "http://www.espn.com/ncb/preview?gameId=401920306",
-      "source": "ESPN",
-      "published": "2026-11-10T09:48:47.000Z",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401920306.png?templateId=espn.applewatch.awayhome.1",
-      "tag": "ESPN"
-    },
-    {
-      "id": "www-espn-com-college-football-story-id-50435511-georgia-tech-fires-dc-jason-semo",
-      "headline": "Key shakes up Georgia Tech staff, fires DC Semore, 3 other assistants",
-      "description": "",
-      "url": "https://www.espn.com/college-football/story/_/id/50435511/georgia-tech-fires-dc-jason-semore-three-other-assistants",
-      "source": "ESPN",
-      "published": "2026-11-09T21:56:02.000Z",
-      "image": "https://a.espncdn.com/photo/2026/1109/r1743715_600x400_3-2.jpg",
-      "tag": "ESPN"
     }
   ],
-  "dataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-11-14",
+  "dataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-11-15",
   "sources": [
     {
       "name": "ESPN College Football API",
