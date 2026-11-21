@@ -13,7 +13,7 @@
     "offense": "Spread Pro Style",
     "defense": "4-2-5",
     "season": 2026,
-    "record": "3-7",
+    "record": "3-8",
     "color": "#B39051",
     "navy": "#051E39",
     "espnColor": "#b3a369",
@@ -28,18 +28,18 @@
     "pulse": [
       {
         "label": "2026",
-        "value": "3-7",
+        "value": "3-8",
         "detail": "This season"
       },
       {
         "label": "ACC",
-        "value": "2-5",
+        "value": "2-6",
         "detail": "#17 in table"
       },
       {
         "label": "NEXT",
-        "value": "WAKE",
-        "detail": "Sat, Nov 21 · TBA"
+        "value": "UGA",
+        "detail": "Sat, Nov 28 · TBA"
       },
       {
         "label": "AP",
@@ -17242,8 +17242,8 @@
       "week": 12,
       "date": "2026-11-21",
       "dateLabel": "Sat, Nov 21",
-      "time": "TBA",
-      "tv": "TBA",
+      "time": "12 PM",
+      "tv": "ESPN",
       "opponent": "Wake Forest",
       "opponentAbbr": "WAKE",
       "opponentId": "154",
@@ -17252,10 +17252,10 @@
       "conference": true,
       "venue": "Bobby Dodd Stadium",
       "city": "Atlanta, GA",
-      "status": "upcoming",
-      "gtScore": null,
-      "oppScore": null,
-      "result": null,
+      "status": "final",
+      "gtScore": "29",
+      "oppScore": "50",
+      "result": "L",
       "note": "Senior Day stretch",
       "source": "ESPN / Georgia Tech Athletics"
     },
@@ -17648,10 +17648,10 @@
           "opponentAbbr": "CIN",
           "opponentId": "2132",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
-          "score": null,
-          "result": null,
+          "score": "28-35",
+          "result": "L",
           "venue": "Nippert Stadium",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401856875",
@@ -18032,7 +18032,7 @@
       "name": "Boston College",
       "abbr": "BC",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
-      "record": "4-6",
+      "record": "5-6",
       "conference": "ACC",
       "season": 2026,
       "games": [
@@ -18185,10 +18185,10 @@
           "opponentAbbr": "SYR",
           "opponentId": "183",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
-          "score": null,
-          "result": null,
+          "score": "27-15",
+          "result": "W",
           "venue": "Alumni Stadium (Chestnut Hill, MA)",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401858311",
@@ -18211,7 +18211,7 @@
       "name": "Duke",
       "abbr": "DUKE",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-      "record": "7-3",
+      "record": "7-4",
       "conference": "ACC",
       "season": 2026,
       "games": [
@@ -18364,10 +18364,10 @@
           "opponentAbbr": "CLEM",
           "opponentId": "228",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
-          "score": null,
-          "result": null,
+          "score": "10-20",
+          "result": "L",
           "venue": "Wallace Wade Stadium",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401858312",
@@ -18390,7 +18390,7 @@
       "name": "Wake Forest",
       "abbr": "WAKE",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
-      "record": "9-1",
+      "record": "10-1",
       "conference": "ACC",
       "season": 2026,
       "games": [
@@ -18543,10 +18543,10 @@
           "opponentAbbr": "GT",
           "opponentId": "59",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
-          "score": null,
-          "result": null,
+          "score": "50-29",
+          "result": "W",
           "venue": "Bobby Dodd Stadium",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401858312",
@@ -18748,7 +18748,7 @@
       "name": "Clemson",
       "abbr": "CLEM",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
-      "record": "6-4",
+      "record": "7-4",
       "conference": "ACC",
       "season": 2026,
       "games": [
@@ -18901,10 +18901,10 @@
           "opponentAbbr": "DUKE",
           "opponentId": "150",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-          "score": null,
-          "result": null,
+          "score": "20-10",
+          "result": "W",
           "venue": "Wallace Wade Stadium",
-          "status": "upcoming"
+          "status": "final"
         },
         {
           "id": "401856764",
@@ -19276,7 +19276,7 @@
           "score": null,
           "result": null,
           "venue": "Five Star Stadium",
-          "status": "upcoming"
+          "status": "live"
         }
       ]
     },
@@ -19441,7 +19441,7 @@
           "score": null,
           "result": null,
           "venue": "Neyland Stadium",
-          "status": "upcoming"
+          "status": "live"
         },
         {
           "id": "401856765",
@@ -19468,6 +19468,15 @@
       "label": "2026 ACC",
       "entries": [
         {
+          "id": "154",
+          "name": "Wake Forest Demon Deacons",
+          "shortName": "Wake Forest",
+          "abbr": "WAKE",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
+          "overall": "10-1",
+          "conference": "7-1"
+        },
+        {
           "id": "2390",
           "name": "Miami Hurricanes",
           "shortName": "Miami",
@@ -19475,15 +19484,6 @@
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
           "overall": "9-1",
           "conference": "7-0"
-        },
-        {
-          "id": "154",
-          "name": "Wake Forest Demon Deacons",
-          "shortName": "Wake Forest",
-          "abbr": "WAKE",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
-          "overall": "9-1",
-          "conference": "6-1"
         },
         {
           "id": "97",
@@ -19504,22 +19504,22 @@
           "conference": "5-3"
         },
         {
-          "id": "150",
-          "name": "Duke Blue Devils",
-          "shortName": "Duke",
-          "abbr": "DUKE",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-          "overall": "7-3",
-          "conference": "4-3"
-        },
-        {
           "id": "228",
           "name": "Clemson Tigers",
           "shortName": "Clemson",
           "abbr": "CLEM",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
-          "overall": "6-4",
-          "conference": "4-3"
+          "overall": "7-4",
+          "conference": "5-3"
+        },
+        {
+          "id": "150",
+          "name": "Duke Blue Devils",
+          "shortName": "Duke",
+          "abbr": "DUKE",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+          "overall": "7-4",
+          "conference": "4-4"
         },
         {
           "id": "221",
@@ -19540,6 +19540,15 @@
           "conference": "3-4"
         },
         {
+          "id": "258",
+          "name": "Virginia Cavaliers",
+          "shortName": "Virginia",
+          "abbr": "UVA",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
+          "overall": "6-5",
+          "conference": "4-4"
+        },
+        {
           "id": "52",
           "name": "Florida State Seminoles",
           "shortName": "Florida St",
@@ -19558,12 +19567,12 @@
           "conference": "3-4"
         },
         {
-          "id": "258",
-          "name": "Virginia Cavaliers",
-          "shortName": "Virginia",
-          "abbr": "UVA",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
-          "overall": "5-5",
+          "id": "103",
+          "name": "Boston College Eagles",
+          "shortName": "Boston College",
+          "abbr": "BC",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+          "overall": "5-6",
           "conference": "3-4"
         },
         {
@@ -19572,8 +19581,8 @@
           "shortName": "Syracuse",
           "abbr": "SYR",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
-          "overall": "5-5",
-          "conference": "3-5"
+          "overall": "5-6",
+          "conference": "3-6"
         },
         {
           "id": "153",
@@ -19581,17 +19590,8 @@
           "shortName": "North Carolina",
           "abbr": "UNC",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
-          "overall": "5-5",
-          "conference": "2-4"
-        },
-        {
-          "id": "103",
-          "name": "Boston College Eagles",
-          "shortName": "Boston College",
-          "abbr": "BC",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
-          "overall": "4-6",
-          "conference": "2-4"
+          "overall": "5-6",
+          "conference": "2-5"
         },
         {
           "id": "152",
@@ -19617,8 +19617,8 @@
           "shortName": "Georgia Tech",
           "abbr": "GT",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
-          "overall": "3-7",
-          "conference": "2-5"
+          "overall": "3-8",
+          "conference": "2-6"
         }
       ]
     },
@@ -19626,58 +19626,58 @@
       "id": "1",
       "poll": "AP Top 25",
       "shortName": "AP Poll",
-      "label": "2026 NCAA Football Rankings - AP Poll Week 11",
+      "label": "2026 NCAA Football Rankings - AP Poll Week 12",
       "note": "2026 polls · records reset with the new season",
       "entries": [
         {
           "rank": 1,
-          "previous": 2,
+          "previous": 1,
           "id": "61",
           "name": "Bulldogs",
           "abbr": "UGA",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
-          "record": "8-1",
-          "points": 1729
+          "record": "9-1",
+          "points": 1734
         },
         {
           "rank": 2,
-          "previous": 3,
+          "previous": 2,
           "id": "254",
           "name": "Utes",
           "abbr": "UTAH",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
-          "record": "9-0",
-          "points": 1675
+          "record": "10-0",
+          "points": 1677
         },
         {
           "rank": 3,
-          "previous": 4,
+          "previous": 3,
           "id": "87",
           "name": "Fighting Irish",
           "abbr": "ND",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
-          "record": "8-1",
-          "points": 1597
+          "record": "9-1",
+          "points": 1584
         },
         {
           "rank": 4,
-          "previous": 5,
+          "previous": 4,
           "id": "26",
           "name": "Bruins",
           "abbr": "UCLA",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
-          "record": "9-0",
-          "points": 1542
+          "record": "10-0",
+          "points": 1552
         },
         {
           "rank": 5,
-          "previous": 1,
+          "previous": 5,
           "id": "2390",
           "name": "Hurricanes",
           "abbr": "MIA",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
-          "record": "8-1",
-          "points": 1430
+          "record": "9-1",
+          "points": 1426
         },
         {
           "rank": 6,
@@ -19686,198 +19686,198 @@
           "name": "Hoosiers",
           "abbr": "IU",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
-          "record": "8-1",
-          "points": 1376
+          "record": "9-1",
+          "points": 1384
         },
         {
           "rank": 7,
-          "previous": 9,
+          "previous": 7,
           "id": "333",
           "name": "Crimson Tide",
           "abbr": "ALA",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
-          "record": "7-2",
-          "points": 1334
+          "record": "8-2",
+          "points": 1297
         },
         {
           "rank": 8,
-          "previous": 10,
+          "previous": 8,
           "id": "251",
           "name": "Longhorns",
           "abbr": "TEX",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-          "record": "7-2",
-          "points": 1253
+          "record": "8-2",
+          "points": 1290
         },
         {
           "rank": 9,
-          "previous": 16,
+          "previous": 9,
           "id": "2633",
           "name": "Volunteers",
           "abbr": "TENN",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
-          "record": "7-2",
-          "points": 1177
+          "record": "8-2",
+          "points": 1179
         },
         {
           "rank": 10,
-          "previous": 13,
-          "id": "2641",
-          "name": "Red Raiders",
-          "abbr": "TTU",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
-          "record": "8-1",
-          "points": 1082
-        },
-        {
-          "rank": 11,
-          "previous": 14,
+          "previous": 11,
           "id": "154",
           "name": "Demon Deacons",
           "abbr": "WAKE",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
-          "record": "8-1",
-          "points": 1067
+          "record": "9-1",
+          "points": 1134
+        },
+        {
+          "rank": 11,
+          "previous": 10,
+          "id": "2641",
+          "name": "Red Raiders",
+          "abbr": "TTU",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+          "record": "9-1",
+          "points": 1081
         },
         {
           "rank": 12,
-          "previous": 7,
+          "previous": 12,
           "id": "252",
           "name": "Cougars",
           "abbr": "BYU",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
-          "record": "7-2",
-          "points": 1041
+          "record": "8-2",
+          "points": 1038
         },
         {
           "rank": 13,
-          "previous": 8,
-          "id": "96",
-          "name": "Wildcats",
-          "abbr": "UK",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
-          "record": "7-2",
-          "points": 897
-        },
-        {
-          "rank": 14,
-          "previous": 17,
-          "id": "248",
-          "name": "Cougars",
-          "abbr": "HOU",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
-          "record": "7-2",
-          "points": 803
-        },
-        {
-          "rank": 15,
-          "previous": 18,
-          "id": "30",
-          "name": "Trojans",
-          "abbr": "USC",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
-          "record": "7-2",
-          "points": 679
-        },
-        {
-          "rank": 16,
-          "previous": 21,
+          "previous": 16,
           "id": "2294",
           "name": "Hawkeyes",
           "abbr": "IOWA",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
-          "record": "7-2",
-          "points": 659
+          "record": "8-2",
+          "points": 861
         },
         {
-          "rank": 17,
-          "previous": 20,
-          "id": "68",
-          "name": "Broncos",
-          "abbr": "BOIS",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
-          "record": "8-1",
-          "points": 563
-        },
-        {
-          "rank": 18,
-          "previous": 0,
+          "rank": 14,
+          "previous": 18,
           "id": "2483",
           "name": "Ducks",
           "abbr": "ORE",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
-          "record": "6-3",
-          "points": 517
+          "record": "7-3",
+          "points": 820
         },
         {
-          "rank": 19,
-          "previous": 12,
-          "id": "145",
-          "name": "Rebels",
-          "abbr": "MISS",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
-          "record": "6-3",
-          "points": 415
+          "rank": 15,
+          "previous": 17,
+          "id": "68",
+          "name": "Broncos",
+          "abbr": "BOIS",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+          "record": "9-1",
+          "points": 767
         },
         {
-          "rank": 20,
-          "previous": 23,
-          "id": "2579",
-          "name": "Gamecocks",
-          "abbr": "SC",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
-          "record": "6-3",
-          "points": 399
-        },
-        {
-          "rank": 21,
-          "previous": 11,
+          "rank": 16,
+          "previous": 21,
           "id": "194",
           "name": "Buckeyes",
           "abbr": "OSU",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
-          "record": "6-3",
-          "points": 349
+          "record": "7-3",
+          "points": 661
         },
         {
-          "rank": 22,
-          "previous": 24,
+          "rank": 17,
+          "previous": 13,
+          "id": "96",
+          "name": "Wildcats",
+          "abbr": "UK",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+          "record": "7-3",
+          "points": 599
+        },
+        {
+          "rank": 18,
+          "previous": 15,
+          "id": "30",
+          "name": "Trojans",
+          "abbr": "USC",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
+          "record": "7-3",
+          "points": 546
+        },
+        {
+          "rank": 19,
+          "previous": 22,
           "id": "12",
           "name": "Wildcats",
           "abbr": "ARIZ",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
-          "record": "7-2",
-          "points": 324
+          "record": "7-3",
+          "points": 404
+        },
+        {
+          "rank": 20,
+          "previous": 14,
+          "id": "248",
+          "name": "Cougars",
+          "abbr": "HOU",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+          "record": "7-3",
+          "points": 365
+        },
+        {
+          "rank": 21,
+          "previous": 0,
+          "id": "97",
+          "name": "Cardinals",
+          "abbr": "LOU",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+          "record": "7-3",
+          "points": 357
+        },
+        {
+          "rank": 22,
+          "previous": 0,
+          "id": "2335",
+          "name": "Flames",
+          "abbr": "LIB",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+          "record": "9-1",
+          "points": 183
         },
         {
           "rank": 23,
-          "previous": 22,
-          "id": "167",
-          "name": "Lobos",
-          "abbr": "UNM",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
-          "record": "8-1",
-          "points": 301
+          "previous": 0,
+          "id": "57",
+          "name": "Gators",
+          "abbr": "FLA",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+          "record": "6-4",
+          "points": 173
         },
         {
           "rank": 24,
-          "previous": 15,
-          "id": "99",
+          "previous": 0,
+          "id": "235",
           "name": "Tigers",
-          "abbr": "LSU",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
-          "record": "6-3",
-          "points": 277
+          "abbr": "MEM",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+          "record": "8-2",
+          "points": 138
         },
         {
           "rank": 25,
-          "previous": 0,
-          "id": "2567",
-          "name": "Mustangs",
-          "abbr": "SMU",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
-          "record": "7-2",
-          "points": 118
+          "previous": 19,
+          "id": "145",
+          "name": "Rebels",
+          "abbr": "MISS",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
+          "record": "6-4",
+          "points": 103
         }
       ]
     },
@@ -19886,58 +19886,58 @@
         "id": "1",
         "poll": "AP Top 25",
         "shortName": "AP Poll",
-        "label": "2026 NCAA Football Rankings - AP Poll Week 11",
+        "label": "2026 NCAA Football Rankings - AP Poll Week 12",
         "note": "2026 polls · records reset with the new season",
         "entries": [
           {
             "rank": 1,
-            "previous": 2,
+            "previous": 1,
             "id": "61",
             "name": "Bulldogs",
             "abbr": "UGA",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
-            "record": "8-1",
-            "points": 1729
+            "record": "9-1",
+            "points": 1734
           },
           {
             "rank": 2,
-            "previous": 3,
+            "previous": 2,
             "id": "254",
             "name": "Utes",
             "abbr": "UTAH",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
-            "record": "9-0",
-            "points": 1675
+            "record": "10-0",
+            "points": 1677
           },
           {
             "rank": 3,
-            "previous": 4,
+            "previous": 3,
             "id": "87",
             "name": "Fighting Irish",
             "abbr": "ND",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
-            "record": "8-1",
-            "points": 1597
+            "record": "9-1",
+            "points": 1584
           },
           {
             "rank": 4,
-            "previous": 5,
+            "previous": 4,
             "id": "26",
             "name": "Bruins",
             "abbr": "UCLA",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
-            "record": "9-0",
-            "points": 1542
+            "record": "10-0",
+            "points": 1552
           },
           {
             "rank": 5,
-            "previous": 1,
+            "previous": 5,
             "id": "2390",
             "name": "Hurricanes",
             "abbr": "MIA",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
-            "record": "8-1",
-            "points": 1430
+            "record": "9-1",
+            "points": 1426
           },
           {
             "rank": 6,
@@ -19946,198 +19946,198 @@
             "name": "Hoosiers",
             "abbr": "IU",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
-            "record": "8-1",
-            "points": 1376
+            "record": "9-1",
+            "points": 1384
           },
           {
             "rank": 7,
-            "previous": 9,
+            "previous": 7,
             "id": "333",
             "name": "Crimson Tide",
             "abbr": "ALA",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
-            "record": "7-2",
-            "points": 1334
+            "record": "8-2",
+            "points": 1297
           },
           {
             "rank": 8,
-            "previous": 10,
+            "previous": 8,
             "id": "251",
             "name": "Longhorns",
             "abbr": "TEX",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-            "record": "7-2",
-            "points": 1253
+            "record": "8-2",
+            "points": 1290
           },
           {
             "rank": 9,
-            "previous": 16,
+            "previous": 9,
             "id": "2633",
             "name": "Volunteers",
             "abbr": "TENN",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
-            "record": "7-2",
-            "points": 1177
+            "record": "8-2",
+            "points": 1179
           },
           {
             "rank": 10,
-            "previous": 13,
-            "id": "2641",
-            "name": "Red Raiders",
-            "abbr": "TTU",
-            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
-            "record": "8-1",
-            "points": 1082
-          },
-          {
-            "rank": 11,
-            "previous": 14,
+            "previous": 11,
             "id": "154",
             "name": "Demon Deacons",
             "abbr": "WAKE",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
-            "record": "8-1",
-            "points": 1067
+            "record": "9-1",
+            "points": 1134
+          },
+          {
+            "rank": 11,
+            "previous": 10,
+            "id": "2641",
+            "name": "Red Raiders",
+            "abbr": "TTU",
+            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+            "record": "9-1",
+            "points": 1081
           },
           {
             "rank": 12,
-            "previous": 7,
+            "previous": 12,
             "id": "252",
             "name": "Cougars",
             "abbr": "BYU",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
-            "record": "7-2",
-            "points": 1041
+            "record": "8-2",
+            "points": 1038
           },
           {
             "rank": 13,
-            "previous": 8,
-            "id": "96",
-            "name": "Wildcats",
-            "abbr": "UK",
-            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
-            "record": "7-2",
-            "points": 897
-          },
-          {
-            "rank": 14,
-            "previous": 17,
-            "id": "248",
-            "name": "Cougars",
-            "abbr": "HOU",
-            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
-            "record": "7-2",
-            "points": 803
-          },
-          {
-            "rank": 15,
-            "previous": 18,
-            "id": "30",
-            "name": "Trojans",
-            "abbr": "USC",
-            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
-            "record": "7-2",
-            "points": 679
-          },
-          {
-            "rank": 16,
-            "previous": 21,
+            "previous": 16,
             "id": "2294",
             "name": "Hawkeyes",
             "abbr": "IOWA",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
-            "record": "7-2",
-            "points": 659
+            "record": "8-2",
+            "points": 861
           },
           {
-            "rank": 17,
-            "previous": 20,
-            "id": "68",
-            "name": "Broncos",
-            "abbr": "BOIS",
-            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
-            "record": "8-1",
-            "points": 563
-          },
-          {
-            "rank": 18,
-            "previous": 0,
+            "rank": 14,
+            "previous": 18,
             "id": "2483",
             "name": "Ducks",
             "abbr": "ORE",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
-            "record": "6-3",
-            "points": 517
+            "record": "7-3",
+            "points": 820
           },
           {
-            "rank": 19,
-            "previous": 12,
-            "id": "145",
-            "name": "Rebels",
-            "abbr": "MISS",
-            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
-            "record": "6-3",
-            "points": 415
+            "rank": 15,
+            "previous": 17,
+            "id": "68",
+            "name": "Broncos",
+            "abbr": "BOIS",
+            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+            "record": "9-1",
+            "points": 767
           },
           {
-            "rank": 20,
-            "previous": 23,
-            "id": "2579",
-            "name": "Gamecocks",
-            "abbr": "SC",
-            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
-            "record": "6-3",
-            "points": 399
-          },
-          {
-            "rank": 21,
-            "previous": 11,
+            "rank": 16,
+            "previous": 21,
             "id": "194",
             "name": "Buckeyes",
             "abbr": "OSU",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
-            "record": "6-3",
-            "points": 349
+            "record": "7-3",
+            "points": 661
           },
           {
-            "rank": 22,
-            "previous": 24,
+            "rank": 17,
+            "previous": 13,
+            "id": "96",
+            "name": "Wildcats",
+            "abbr": "UK",
+            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+            "record": "7-3",
+            "points": 599
+          },
+          {
+            "rank": 18,
+            "previous": 15,
+            "id": "30",
+            "name": "Trojans",
+            "abbr": "USC",
+            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
+            "record": "7-3",
+            "points": 546
+          },
+          {
+            "rank": 19,
+            "previous": 22,
             "id": "12",
             "name": "Wildcats",
             "abbr": "ARIZ",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
-            "record": "7-2",
-            "points": 324
+            "record": "7-3",
+            "points": 404
+          },
+          {
+            "rank": 20,
+            "previous": 14,
+            "id": "248",
+            "name": "Cougars",
+            "abbr": "HOU",
+            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+            "record": "7-3",
+            "points": 365
+          },
+          {
+            "rank": 21,
+            "previous": 0,
+            "id": "97",
+            "name": "Cardinals",
+            "abbr": "LOU",
+            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+            "record": "7-3",
+            "points": 357
+          },
+          {
+            "rank": 22,
+            "previous": 0,
+            "id": "2335",
+            "name": "Flames",
+            "abbr": "LIB",
+            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+            "record": "9-1",
+            "points": 183
           },
           {
             "rank": 23,
-            "previous": 22,
-            "id": "167",
-            "name": "Lobos",
-            "abbr": "UNM",
-            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
-            "record": "8-1",
-            "points": 301
+            "previous": 0,
+            "id": "57",
+            "name": "Gators",
+            "abbr": "FLA",
+            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+            "record": "6-4",
+            "points": 173
           },
           {
             "rank": 24,
-            "previous": 15,
-            "id": "99",
+            "previous": 0,
+            "id": "235",
             "name": "Tigers",
-            "abbr": "LSU",
-            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
-            "record": "6-3",
-            "points": 277
+            "abbr": "MEM",
+            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+            "record": "8-2",
+            "points": 138
           },
           {
             "rank": 25,
-            "previous": 0,
-            "id": "2567",
-            "name": "Mustangs",
-            "abbr": "SMU",
-            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
-            "record": "7-2",
-            "points": 118
+            "previous": 19,
+            "id": "145",
+            "name": "Rebels",
+            "abbr": "MISS",
+            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
+            "record": "6-4",
+            "points": 103
           }
         ]
       },
@@ -20145,258 +20145,258 @@
         "id": "2",
         "poll": "AFCA Coaches Poll",
         "shortName": "AFCA Coaches Poll",
-        "label": "2026 NCAA Football Rankings - AFCA Coaches Poll Week 11",
+        "label": "2026 NCAA Football Rankings - AFCA Coaches Poll Week 12",
         "note": "2026 polls · records reset with the new season",
         "entries": [
           {
             "rank": 1,
-            "previous": 2,
+            "previous": 1,
             "id": "61",
             "name": "Bulldogs",
             "abbr": "UGA",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
-            "record": "8-1",
-            "points": 1796
+            "record": "9-1",
+            "points": 1802
           },
           {
             "rank": 2,
-            "previous": 4,
+            "previous": 2,
             "id": "254",
             "name": "Utes",
             "abbr": "UTAH",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
-            "record": "9-0",
-            "points": 1724
+            "record": "10-0",
+            "points": 1729
           },
           {
             "rank": 3,
-            "previous": 6,
+            "previous": 3,
             "id": "87",
             "name": "Fighting Irish",
             "abbr": "ND",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
-            "record": "8-1",
-            "points": 1613
+            "record": "9-1",
+            "points": 1630
           },
           {
             "rank": 4,
-            "previous": 5,
+            "previous": 4,
             "id": "26",
             "name": "Bruins",
             "abbr": "UCLA",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
-            "record": "9-0",
-            "points": 1584
+            "record": "10-0",
+            "points": 1594
           },
           {
             "rank": 5,
-            "previous": 3,
+            "previous": 5,
             "id": "84",
             "name": "Hoosiers",
             "abbr": "IU",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
-            "record": "8-1",
-            "points": 1557
+            "record": "9-1",
+            "points": 1540
           },
           {
             "rank": 6,
-            "previous": 1,
+            "previous": 6,
             "id": "2390",
             "name": "Hurricanes",
             "abbr": "MIA",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
-            "record": "8-1",
-            "points": 1482
+            "record": "9-1",
+            "points": 1483
           },
           {
             "rank": 7,
-            "previous": 9,
+            "previous": 7,
             "id": "333",
             "name": "Crimson Tide",
             "abbr": "ALA",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
-            "record": "7-2",
-            "points": 1389
+            "record": "8-2",
+            "points": 1364
           },
           {
             "rank": 8,
-            "previous": 11,
+            "previous": 8,
             "id": "251",
             "name": "Longhorns",
             "abbr": "TEX",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-            "record": "7-2",
-            "points": 1287
+            "record": "8-2",
+            "points": 1303
           },
           {
             "rank": 9,
-            "previous": 16,
+            "previous": 9,
             "id": "2633",
             "name": "Volunteers",
             "abbr": "TENN",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
-            "record": "7-2",
-            "points": 1196
+            "record": "8-2",
+            "points": 1209
           },
           {
             "rank": 10,
-            "previous": 13,
-            "id": "2641",
-            "name": "Red Raiders",
-            "abbr": "TTU",
-            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
-            "record": "8-1",
-            "points": 1116
-          },
-          {
-            "rank": 11,
-            "previous": 14,
+            "previous": 11,
             "id": "154",
             "name": "Demon Deacons",
             "abbr": "WAKE",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
-            "record": "8-1",
-            "points": 1093
+            "record": "9-1",
+            "points": 1172
+          },
+          {
+            "rank": 11,
+            "previous": 10,
+            "id": "2641",
+            "name": "Red Raiders",
+            "abbr": "TTU",
+            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+            "record": "9-1",
+            "points": 1157
           },
           {
             "rank": 12,
-            "previous": 8,
+            "previous": 12,
             "id": "252",
             "name": "Cougars",
             "abbr": "BYU",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
-            "record": "7-2",
-            "points": 1008
+            "record": "8-2",
+            "points": 1057
           },
           {
             "rank": 13,
-            "previous": 7,
-            "id": "96",
-            "name": "Wildcats",
-            "abbr": "UK",
-            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
-            "record": "7-2",
-            "points": 913
-          },
-          {
-            "rank": 14,
-            "previous": 17,
-            "id": "30",
-            "name": "Trojans",
-            "abbr": "USC",
-            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
-            "record": "7-2",
-            "points": 765
-          },
-          {
-            "rank": 15,
-            "previous": 20,
+            "previous": 15,
             "id": "2294",
             "name": "Hawkeyes",
             "abbr": "IOWA",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
-            "record": "7-2",
-            "points": 738
+            "record": "8-2",
+            "points": 927
+          },
+          {
+            "rank": 14,
+            "previous": 19,
+            "id": "2483",
+            "name": "Ducks",
+            "abbr": "ORE",
+            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+            "record": "7-3",
+            "points": 783
+          },
+          {
+            "rank": 15,
+            "previous": 18,
+            "id": "68",
+            "name": "Broncos",
+            "abbr": "BOIS",
+            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+            "record": "9-1",
+            "points": 714
           },
           {
             "rank": 16,
-            "previous": 18,
-            "id": "248",
-            "name": "Cougars",
-            "abbr": "HOU",
-            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
-            "record": "7-2",
-            "points": 732
-          },
-          {
-            "rank": 17,
-            "previous": 12,
+            "previous": 17,
             "id": "145",
             "name": "Rebels",
             "abbr": "MISS",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
             "record": "6-3",
-            "points": 529
+            "points": 705
           },
           {
-            "rank": 18,
-            "previous": 21,
-            "id": "68",
-            "name": "Broncos",
-            "abbr": "BOIS",
-            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
-            "record": "8-1",
-            "points": 474
-          },
-          {
-            "rank": 19,
-            "previous": 0,
-            "id": "2483",
-            "name": "Ducks",
-            "abbr": "ORE",
-            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
-            "record": "6-3",
-            "points": 438
-          },
-          {
-            "rank": 20,
-            "previous": 10,
+            "rank": 17,
+            "previous": 20,
             "id": "194",
             "name": "Buckeyes",
             "abbr": "OSU",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
-            "record": "6-3",
-            "points": 398
+            "record": "7-3",
+            "points": 644
           },
           {
-            "rank": 21,
-            "previous": 22,
+            "rank": 18,
+            "previous": 13,
+            "id": "96",
+            "name": "Wildcats",
+            "abbr": "UK",
+            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+            "record": "7-3",
+            "points": 592
+          },
+          {
+            "rank": 19,
+            "previous": 14,
+            "id": "30",
+            "name": "Trojans",
+            "abbr": "USC",
+            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
+            "record": "7-3",
+            "points": 534
+          },
+          {
+            "rank": 20,
+            "previous": 21,
             "id": "12",
             "name": "Wildcats",
             "abbr": "ARIZ",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
-            "record": "7-2",
-            "points": 377
+            "record": "7-3",
+            "points": 399
+          },
+          {
+            "rank": 21,
+            "previous": 16,
+            "id": "248",
+            "name": "Cougars",
+            "abbr": "HOU",
+            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+            "record": "7-3",
+            "points": 312
           },
           {
             "rank": 22,
-            "previous": 15,
+            "previous": 0,
+            "id": "97",
+            "name": "Cardinals",
+            "abbr": "LOU",
+            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+            "record": "7-3",
+            "points": 235
+          },
+          {
+            "rank": 23,
+            "previous": 22,
             "id": "99",
             "name": "Tigers",
             "abbr": "LSU",
             "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
-            "record": "6-3",
-            "points": 368
-          },
-          {
-            "rank": 23,
-            "previous": 24,
-            "id": "2567",
-            "name": "Mustangs",
-            "abbr": "SMU",
-            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
-            "record": "7-2",
-            "points": 285
+            "record": "6-4",
+            "points": 160
           },
           {
             "rank": 24,
             "previous": 0,
-            "id": "2579",
-            "name": "Gamecocks",
-            "abbr": "SC",
-            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
-            "record": "6-3",
-            "points": 267
+            "id": "150",
+            "name": "Blue Devils",
+            "abbr": "DUKE",
+            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+            "record": "7-3",
+            "points": 123
           },
           {
             "rank": 25,
-            "previous": 25,
-            "id": "167",
-            "name": "Lobos",
-            "abbr": "UNM",
-            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
-            "record": "8-1",
-            "points": 191
+            "previous": 0,
+            "id": "57",
+            "name": "Gators",
+            "abbr": "FLA",
+            "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+            "record": "6-4",
+            "points": 95
           }
         ]
       }
@@ -20578,58 +20578,58 @@
       "id": "1",
       "poll": "AP Top 25",
       "shortName": "AP Poll",
-      "label": "2026 NCAA Football Rankings - AP Poll Week 11",
+      "label": "2026 NCAA Football Rankings - AP Poll Week 12",
       "note": "2026 polls · records reset with the new season",
       "entries": [
         {
           "rank": 1,
-          "previous": 2,
+          "previous": 1,
           "id": "61",
           "name": "Bulldogs",
           "abbr": "UGA",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
-          "record": "8-1",
-          "points": 1729
+          "record": "9-1",
+          "points": 1734
         },
         {
           "rank": 2,
-          "previous": 3,
+          "previous": 2,
           "id": "254",
           "name": "Utes",
           "abbr": "UTAH",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
-          "record": "9-0",
-          "points": 1675
+          "record": "10-0",
+          "points": 1677
         },
         {
           "rank": 3,
-          "previous": 4,
+          "previous": 3,
           "id": "87",
           "name": "Fighting Irish",
           "abbr": "ND",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
-          "record": "8-1",
-          "points": 1597
+          "record": "9-1",
+          "points": 1584
         },
         {
           "rank": 4,
-          "previous": 5,
+          "previous": 4,
           "id": "26",
           "name": "Bruins",
           "abbr": "UCLA",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
-          "record": "9-0",
-          "points": 1542
+          "record": "10-0",
+          "points": 1552
         },
         {
           "rank": 5,
-          "previous": 1,
+          "previous": 5,
           "id": "2390",
           "name": "Hurricanes",
           "abbr": "MIA",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
-          "record": "8-1",
-          "points": 1430
+          "record": "9-1",
+          "points": 1426
         },
         {
           "rank": 6,
@@ -20638,198 +20638,198 @@
           "name": "Hoosiers",
           "abbr": "IU",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
-          "record": "8-1",
-          "points": 1376
+          "record": "9-1",
+          "points": 1384
         },
         {
           "rank": 7,
-          "previous": 9,
+          "previous": 7,
           "id": "333",
           "name": "Crimson Tide",
           "abbr": "ALA",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
-          "record": "7-2",
-          "points": 1334
+          "record": "8-2",
+          "points": 1297
         },
         {
           "rank": 8,
-          "previous": 10,
+          "previous": 8,
           "id": "251",
           "name": "Longhorns",
           "abbr": "TEX",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-          "record": "7-2",
-          "points": 1253
+          "record": "8-2",
+          "points": 1290
         },
         {
           "rank": 9,
-          "previous": 16,
+          "previous": 9,
           "id": "2633",
           "name": "Volunteers",
           "abbr": "TENN",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
-          "record": "7-2",
-          "points": 1177
+          "record": "8-2",
+          "points": 1179
         },
         {
           "rank": 10,
-          "previous": 13,
-          "id": "2641",
-          "name": "Red Raiders",
-          "abbr": "TTU",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
-          "record": "8-1",
-          "points": 1082
-        },
-        {
-          "rank": 11,
-          "previous": 14,
+          "previous": 11,
           "id": "154",
           "name": "Demon Deacons",
           "abbr": "WAKE",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
-          "record": "8-1",
-          "points": 1067
+          "record": "9-1",
+          "points": 1134
+        },
+        {
+          "rank": 11,
+          "previous": 10,
+          "id": "2641",
+          "name": "Red Raiders",
+          "abbr": "TTU",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+          "record": "9-1",
+          "points": 1081
         },
         {
           "rank": 12,
-          "previous": 7,
+          "previous": 12,
           "id": "252",
           "name": "Cougars",
           "abbr": "BYU",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
-          "record": "7-2",
-          "points": 1041
+          "record": "8-2",
+          "points": 1038
         },
         {
           "rank": 13,
-          "previous": 8,
-          "id": "96",
-          "name": "Wildcats",
-          "abbr": "UK",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
-          "record": "7-2",
-          "points": 897
-        },
-        {
-          "rank": 14,
-          "previous": 17,
-          "id": "248",
-          "name": "Cougars",
-          "abbr": "HOU",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
-          "record": "7-2",
-          "points": 803
-        },
-        {
-          "rank": 15,
-          "previous": 18,
-          "id": "30",
-          "name": "Trojans",
-          "abbr": "USC",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
-          "record": "7-2",
-          "points": 679
-        },
-        {
-          "rank": 16,
-          "previous": 21,
+          "previous": 16,
           "id": "2294",
           "name": "Hawkeyes",
           "abbr": "IOWA",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
-          "record": "7-2",
-          "points": 659
+          "record": "8-2",
+          "points": 861
         },
         {
-          "rank": 17,
-          "previous": 20,
-          "id": "68",
-          "name": "Broncos",
-          "abbr": "BOIS",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
-          "record": "8-1",
-          "points": 563
-        },
-        {
-          "rank": 18,
-          "previous": 0,
+          "rank": 14,
+          "previous": 18,
           "id": "2483",
           "name": "Ducks",
           "abbr": "ORE",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
-          "record": "6-3",
-          "points": 517
+          "record": "7-3",
+          "points": 820
         },
         {
-          "rank": 19,
-          "previous": 12,
-          "id": "145",
-          "name": "Rebels",
-          "abbr": "MISS",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
-          "record": "6-3",
-          "points": 415
+          "rank": 15,
+          "previous": 17,
+          "id": "68",
+          "name": "Broncos",
+          "abbr": "BOIS",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+          "record": "9-1",
+          "points": 767
         },
         {
-          "rank": 20,
-          "previous": 23,
-          "id": "2579",
-          "name": "Gamecocks",
-          "abbr": "SC",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
-          "record": "6-3",
-          "points": 399
-        },
-        {
-          "rank": 21,
-          "previous": 11,
+          "rank": 16,
+          "previous": 21,
           "id": "194",
           "name": "Buckeyes",
           "abbr": "OSU",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
-          "record": "6-3",
-          "points": 349
+          "record": "7-3",
+          "points": 661
         },
         {
-          "rank": 22,
-          "previous": 24,
+          "rank": 17,
+          "previous": 13,
+          "id": "96",
+          "name": "Wildcats",
+          "abbr": "UK",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+          "record": "7-3",
+          "points": 599
+        },
+        {
+          "rank": 18,
+          "previous": 15,
+          "id": "30",
+          "name": "Trojans",
+          "abbr": "USC",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
+          "record": "7-3",
+          "points": 546
+        },
+        {
+          "rank": 19,
+          "previous": 22,
           "id": "12",
           "name": "Wildcats",
           "abbr": "ARIZ",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
-          "record": "7-2",
-          "points": 324
+          "record": "7-3",
+          "points": 404
+        },
+        {
+          "rank": 20,
+          "previous": 14,
+          "id": "248",
+          "name": "Cougars",
+          "abbr": "HOU",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+          "record": "7-3",
+          "points": 365
+        },
+        {
+          "rank": 21,
+          "previous": 0,
+          "id": "97",
+          "name": "Cardinals",
+          "abbr": "LOU",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+          "record": "7-3",
+          "points": 357
+        },
+        {
+          "rank": 22,
+          "previous": 0,
+          "id": "2335",
+          "name": "Flames",
+          "abbr": "LIB",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+          "record": "9-1",
+          "points": 183
         },
         {
           "rank": 23,
-          "previous": 22,
-          "id": "167",
-          "name": "Lobos",
-          "abbr": "UNM",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
-          "record": "8-1",
-          "points": 301
+          "previous": 0,
+          "id": "57",
+          "name": "Gators",
+          "abbr": "FLA",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+          "record": "6-4",
+          "points": 173
         },
         {
           "rank": 24,
-          "previous": 15,
-          "id": "99",
+          "previous": 0,
+          "id": "235",
           "name": "Tigers",
-          "abbr": "LSU",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
-          "record": "6-3",
-          "points": 277
+          "abbr": "MEM",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+          "record": "8-2",
+          "points": 138
         },
         {
           "rank": 25,
-          "previous": 0,
-          "id": "2567",
-          "name": "Mustangs",
-          "abbr": "SMU",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
-          "record": "7-2",
-          "points": 118
+          "previous": 19,
+          "id": "145",
+          "name": "Rebels",
+          "abbr": "MISS",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
+          "record": "6-4",
+          "points": 103
         }
       ]
     },
@@ -20837,365 +20837,365 @@
       "id": "2",
       "poll": "AFCA Coaches Poll",
       "shortName": "AFCA Coaches Poll",
-      "label": "2026 NCAA Football Rankings - AFCA Coaches Poll Week 11",
+      "label": "2026 NCAA Football Rankings - AFCA Coaches Poll Week 12",
       "note": "2026 polls · records reset with the new season",
       "entries": [
         {
           "rank": 1,
-          "previous": 2,
+          "previous": 1,
           "id": "61",
           "name": "Bulldogs",
           "abbr": "UGA",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
-          "record": "8-1",
-          "points": 1796
+          "record": "9-1",
+          "points": 1802
         },
         {
           "rank": 2,
-          "previous": 4,
+          "previous": 2,
           "id": "254",
           "name": "Utes",
           "abbr": "UTAH",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
-          "record": "9-0",
-          "points": 1724
+          "record": "10-0",
+          "points": 1729
         },
         {
           "rank": 3,
-          "previous": 6,
+          "previous": 3,
           "id": "87",
           "name": "Fighting Irish",
           "abbr": "ND",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
-          "record": "8-1",
-          "points": 1613
+          "record": "9-1",
+          "points": 1630
         },
         {
           "rank": 4,
-          "previous": 5,
+          "previous": 4,
           "id": "26",
           "name": "Bruins",
           "abbr": "UCLA",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
-          "record": "9-0",
-          "points": 1584
+          "record": "10-0",
+          "points": 1594
         },
         {
           "rank": 5,
-          "previous": 3,
+          "previous": 5,
           "id": "84",
           "name": "Hoosiers",
           "abbr": "IU",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
-          "record": "8-1",
-          "points": 1557
+          "record": "9-1",
+          "points": 1540
         },
         {
           "rank": 6,
-          "previous": 1,
+          "previous": 6,
           "id": "2390",
           "name": "Hurricanes",
           "abbr": "MIA",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
-          "record": "8-1",
-          "points": 1482
+          "record": "9-1",
+          "points": 1483
         },
         {
           "rank": 7,
-          "previous": 9,
+          "previous": 7,
           "id": "333",
           "name": "Crimson Tide",
           "abbr": "ALA",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
-          "record": "7-2",
-          "points": 1389
+          "record": "8-2",
+          "points": 1364
         },
         {
           "rank": 8,
-          "previous": 11,
+          "previous": 8,
           "id": "251",
           "name": "Longhorns",
           "abbr": "TEX",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-          "record": "7-2",
-          "points": 1287
+          "record": "8-2",
+          "points": 1303
         },
         {
           "rank": 9,
-          "previous": 16,
+          "previous": 9,
           "id": "2633",
           "name": "Volunteers",
           "abbr": "TENN",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
-          "record": "7-2",
-          "points": 1196
+          "record": "8-2",
+          "points": 1209
         },
         {
           "rank": 10,
-          "previous": 13,
-          "id": "2641",
-          "name": "Red Raiders",
-          "abbr": "TTU",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
-          "record": "8-1",
-          "points": 1116
-        },
-        {
-          "rank": 11,
-          "previous": 14,
+          "previous": 11,
           "id": "154",
           "name": "Demon Deacons",
           "abbr": "WAKE",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
-          "record": "8-1",
-          "points": 1093
+          "record": "9-1",
+          "points": 1172
+        },
+        {
+          "rank": 11,
+          "previous": 10,
+          "id": "2641",
+          "name": "Red Raiders",
+          "abbr": "TTU",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+          "record": "9-1",
+          "points": 1157
         },
         {
           "rank": 12,
-          "previous": 8,
+          "previous": 12,
           "id": "252",
           "name": "Cougars",
           "abbr": "BYU",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
-          "record": "7-2",
-          "points": 1008
+          "record": "8-2",
+          "points": 1057
         },
         {
           "rank": 13,
-          "previous": 7,
-          "id": "96",
-          "name": "Wildcats",
-          "abbr": "UK",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
-          "record": "7-2",
-          "points": 913
-        },
-        {
-          "rank": 14,
-          "previous": 17,
-          "id": "30",
-          "name": "Trojans",
-          "abbr": "USC",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
-          "record": "7-2",
-          "points": 765
-        },
-        {
-          "rank": 15,
-          "previous": 20,
+          "previous": 15,
           "id": "2294",
           "name": "Hawkeyes",
           "abbr": "IOWA",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
-          "record": "7-2",
-          "points": 738
+          "record": "8-2",
+          "points": 927
+        },
+        {
+          "rank": 14,
+          "previous": 19,
+          "id": "2483",
+          "name": "Ducks",
+          "abbr": "ORE",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+          "record": "7-3",
+          "points": 783
+        },
+        {
+          "rank": 15,
+          "previous": 18,
+          "id": "68",
+          "name": "Broncos",
+          "abbr": "BOIS",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+          "record": "9-1",
+          "points": 714
         },
         {
           "rank": 16,
-          "previous": 18,
-          "id": "248",
-          "name": "Cougars",
-          "abbr": "HOU",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
-          "record": "7-2",
-          "points": 732
-        },
-        {
-          "rank": 17,
-          "previous": 12,
+          "previous": 17,
           "id": "145",
           "name": "Rebels",
           "abbr": "MISS",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
           "record": "6-3",
-          "points": 529
+          "points": 705
         },
         {
-          "rank": 18,
-          "previous": 21,
-          "id": "68",
-          "name": "Broncos",
-          "abbr": "BOIS",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
-          "record": "8-1",
-          "points": 474
-        },
-        {
-          "rank": 19,
-          "previous": 0,
-          "id": "2483",
-          "name": "Ducks",
-          "abbr": "ORE",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
-          "record": "6-3",
-          "points": 438
-        },
-        {
-          "rank": 20,
-          "previous": 10,
+          "rank": 17,
+          "previous": 20,
           "id": "194",
           "name": "Buckeyes",
           "abbr": "OSU",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
-          "record": "6-3",
-          "points": 398
+          "record": "7-3",
+          "points": 644
         },
         {
-          "rank": 21,
-          "previous": 22,
+          "rank": 18,
+          "previous": 13,
+          "id": "96",
+          "name": "Wildcats",
+          "abbr": "UK",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+          "record": "7-3",
+          "points": 592
+        },
+        {
+          "rank": 19,
+          "previous": 14,
+          "id": "30",
+          "name": "Trojans",
+          "abbr": "USC",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
+          "record": "7-3",
+          "points": 534
+        },
+        {
+          "rank": 20,
+          "previous": 21,
           "id": "12",
           "name": "Wildcats",
           "abbr": "ARIZ",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
-          "record": "7-2",
-          "points": 377
+          "record": "7-3",
+          "points": 399
+        },
+        {
+          "rank": 21,
+          "previous": 16,
+          "id": "248",
+          "name": "Cougars",
+          "abbr": "HOU",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+          "record": "7-3",
+          "points": 312
         },
         {
           "rank": 22,
-          "previous": 15,
+          "previous": 0,
+          "id": "97",
+          "name": "Cardinals",
+          "abbr": "LOU",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+          "record": "7-3",
+          "points": 235
+        },
+        {
+          "rank": 23,
+          "previous": 22,
           "id": "99",
           "name": "Tigers",
           "abbr": "LSU",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
-          "record": "6-3",
-          "points": 368
-        },
-        {
-          "rank": 23,
-          "previous": 24,
-          "id": "2567",
-          "name": "Mustangs",
-          "abbr": "SMU",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
-          "record": "7-2",
-          "points": 285
+          "record": "6-4",
+          "points": 160
         },
         {
           "rank": 24,
           "previous": 0,
-          "id": "2579",
-          "name": "Gamecocks",
-          "abbr": "SC",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
-          "record": "6-3",
-          "points": 267
+          "id": "150",
+          "name": "Blue Devils",
+          "abbr": "DUKE",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+          "record": "7-3",
+          "points": 123
         },
         {
           "rank": 25,
-          "previous": 25,
-          "id": "167",
-          "name": "Lobos",
-          "abbr": "UNM",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
-          "record": "8-1",
-          "points": 191
+          "previous": 0,
+          "id": "57",
+          "name": "Gators",
+          "abbr": "FLA",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+          "record": "6-4",
+          "points": 95
         }
       ]
     }
   ],
   "news": [
     {
-      "id": "www-espn-com-ncb-recap-gameid-401920307",
-      "headline": "Valdes scores winning free throw as Georgia Tech survives UNC Asheville 75-74",
+      "id": "www-espn-com-ncf-recap-gameid-401858310",
+      "headline": "Gio Lopez rushes for two scores and throws two more as Wake Forest beats Georgia Tech 50-29",
       "description": "",
-      "url": "http://www.espn.com/ncb/recap?gameId=401920307",
+      "url": "http://www.espn.com/ncf/recap?gameId=401858310",
       "source": "ESPN",
-      "published": "2026-11-14T23:26:35.000Z",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401920307.png?templateId=espn.applewatch.awayhome.1",
+      "published": "2026-11-21T20:53:41.000Z",
+      "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401858310.png?templateId=espn.applewatch.awayhome.1",
       "tag": "ESPN"
     },
     {
-      "id": "www-espn-com-ncf-recap-gameid-401858297",
-      "headline": "Haynes, Georgia Tech run for first win at Clemson since 2008 on Saturday 20-6",
-      "description": "",
-      "url": "http://www.espn.com/ncf/recap?gameId=401858297",
+      "id": "www-espn-com-video-clip-id-50553345-full-highlights",
+      "headline": "Wake Forest Demon Deacons vs. Georgia Tech Yellow Jackets: Full Highlights",
+      "description": "Wake Forest Demon Deacons vs. Georgia Tech Yellow Jackets: Full Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50553345/full-highlights",
       "source": "ESPN",
-      "published": "2026-11-14T22:29:35.000Z",
-      "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401858297.png?templateId=espn.applewatch.awayhome.1",
+      "published": "2026-11-21T20:44:21.000Z",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1121/61866c10-c072-426c-ad66-c98e8a8b8523/61866c10-c072-426c-ad66-c98e8a8b8523.jpg",
       "tag": "ESPN"
     },
     {
-      "id": "ramblinwreck-com-news-2026-11-14-fb-recap-clemson-26",
-      "headline": "Jackets Dominate in Death Valley",
-      "description": "Georgia Tech stifles Clemson in 20-6 triumph",
-      "url": "https://ramblinwreck.com/news/2026/11/14/fb-recap-clemson-26",
+      "id": "ramblinwreck-com-news-2026-11-21-football-gameday-live",
+      "headline": "Football Gameday Live",
+      "description": "Follow along during the game with links to live audio, stats, and more",
+      "url": "https://ramblinwreck.com/news/2026/11/21/football-gameday-live",
       "source": "Georgia Tech Athletics",
-      "published": "2026-11-14T22:00:00.000Z",
-      "image": "https://ramblinwreck.com/imgproxy/V0qegwj-SVNbUoqY2_ZceW8I1W6LwN6ruQ4ptUZPMhw/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzExLzE0L2tNUTVhTGJzaW95NEtBdkRTeUtZTlZmZlNRU0JSR0NZVk4wTEE4YWkuanBn.jpg",
+      "published": "2026-11-21T15:00:00.000Z",
+      "image": "https://ramblinwreck.com/imgproxy/1FMXkyedDzf2haBtUSqQn0re5ZA4N3-As506lyXDwks/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzAxL0hlbG1ldF9DbGVtc29uXzA5MTMyNV9ESy03MTcuanBn.jpg",
       "tag": "Program"
     },
     {
-      "id": "ramblinwreck-com-news-2026-11-14-photos-fb-clemson-26",
-      "headline": "PHOTOS: Football at Clemson",
-      "description": "Danny Karnik, Glenn Ingram and Nathan Bolster photos",
-      "url": "https://ramblinwreck.com/news/2026/11/14/photos-fb-clemson-26",
-      "source": "Georgia Tech Athletics",
-      "published": "2026-11-14T17:29:00.000Z",
-      "image": "https://ramblinwreck.com/imgproxy/cZ_1HnrMJbFjkLfb_mULXqjZSRs6qM0xpd0ltjOZCY0/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzExLzE0L3IyOG8xQlhwRTdtbnp1YjlHM2dleW5GOVRlYXhONUJHU1Fia2ViV1cuanBn.jpg",
-      "tag": "Program"
-    },
-    {
-      "id": "www-espn-com-ncb-preview-gameid-401920307",
-      "headline": "Jordan leads Georgia Tech against UNC Asheville after 27-point outing",
+      "id": "www-espn-com-ncb-recap-gameid-401906784",
+      "headline": "Catchings scores 19, Stagg adds 17; Georgia beats Georgia Tech for 4th straight time, 88-82",
       "description": "",
-      "url": "http://www.espn.com/ncb/preview?gameId=401920307",
+      "url": "http://www.espn.com/ncb/recap?gameId=401906784",
       "source": "ESPN",
-      "published": "2026-11-14T09:48:38.000Z",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401920307.png?templateId=espn.applewatch.awayhome.1",
+      "published": "2026-11-21T05:06:32.000Z",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401906784.png?templateId=espn.applewatch.awayhome.1",
       "tag": "ESPN"
     },
     {
-      "id": "ramblinwreck-com-news-2026-11-13-the-last-word-before-gm-1026",
-      "headline": "The Last Word Before Game 10 at Clemson",
-      "description": "The Jackets Renew Rivalry with Clemson (Saturday - 12:30 pm on The CW)",
-      "url": "https://ramblinwreck.com/news/2026/11/13/the-last-word-before-gm-1026",
+      "id": "ramblinwreck-com-news-2026-11-20-the-last-word-before-gm-1126",
+      "headline": "The Last Word Before Game 11 vs. No. 10 Wake Forest",
+      "description": "Tech hosts No. 10 Wake Forest on Senior Day (Saturday - Noon on ESPN)",
+      "url": "https://ramblinwreck.com/news/2026/11/20/the-last-word-before-gm-1126",
       "source": "Georgia Tech Athletics",
-      "published": "2026-11-13T17:30:00.000Z",
-      "image": "https://ramblinwreck.com/imgproxy/b8YaGGlD6HNJbyuYxiBjGCAVzp7cI9-COuXzdkZOhzk/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzExLzEzL3FBZzVzb0Zmb1cxM25LWmVBcFdjcG1xZnZIRTlxWFVRcXY3YXZhWXIuanBn.jpg",
+      "published": "2026-11-21T03:50:00.000Z",
+      "image": "https://ramblinwreck.com/imgproxy/sqEqb2vHkEwZE7ipVyab9qEYTeVNhMOk2EKFtxY3sXw/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzExLzIwL28wNW1kdDMyeWRHb2ppamc2MjVjTXlSUWc0VTg5Q1A5SFg0UG9OQUEuanBn.jpg",
       "tag": "Opener"
     },
     {
-      "id": "ramblinwreck-com-news-2026-11-12-georgia-tech-football-unveils-week-11-uniforms",
-      "headline": "Georgia Tech Football Unveils Week 11 Uniforms",
-      "description": "The Jackets are rocking White, White & Gold this weekend, at Clemson",
-      "url": "https://ramblinwreck.com/news/2026/11/12/georgia-tech-football-unveils-week-11-uniforms",
+      "id": "ramblinwreck-com-news-2026-11-20-sting-em-snacks-launches-on-the-flats-pre-order",
+      "headline": "Sting 'Em Snacks Launches on The Flats, Pre-Orders Available",
+      "description": "New line of Sting ‘Em Snacks now available at concession areas across Tech athletics facilities",
+      "url": "https://ramblinwreck.com/news/2026/11/20/sting-em-snacks-launches-on-the-flats-pre-orders-available",
       "source": "Georgia Tech Athletics",
-      "published": "2026-11-12T22:00:00.000Z",
-      "image": "https://ramblinwreck.com/imgproxy/81RFKNzy5qyBmkjc7hmldRYjmT-apUoc0tXCgKoTK0Q/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzExLzEyL1FGcHg1ZmczZVIycjB5aU1uOTdNQzBQMWZZVksxRjFUREhLbThqY0kuanBn.jpg",
+      "published": "2026-11-20T20:00:00.000Z",
+      "image": "https://ramblinwreck.com/imgproxy/bAAo1nIH7vPa5pAXRWSzO61fk3sEu-7YVjgc3ihwQWs/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzExLzIwLzJ0Q0ZiQldIQ1U3SXRWbDVmdjlURmFseTd1WFNZakw2RmhneDlMQVEuanBn.jpg",
       "tag": "Program"
     },
     {
-      "id": "ramblinwreck-com-news-2026-11-12-inside-the-chart-making-a-connection",
-      "headline": "Inside The Chart: Making A Connection",
-      "description": "Chris Corbo made some unexpected connections along the way to The Flats",
-      "url": "https://ramblinwreck.com/news/2026/11/12/inside-the-chart-making-a-connection",
+      "id": "ramblinwreck-com-news-2026-11-19-georgia-tech-football-unveils-week-12-uniforms",
+      "headline": "Georgia Tech Football Unveils Week 12 Uniforms",
+      "description": "The Jackets are going all white for Senior Day against No. 10 Wake Forest",
+      "url": "https://ramblinwreck.com/news/2026/11/19/georgia-tech-football-unveils-week-12-uniforms",
       "source": "Georgia Tech Athletics",
-      "published": "2026-11-12T20:53:05.000Z",
-      "image": "https://ramblinwreck.com/imgproxy/VIR8VY7t4VMa3-EHjEfTxrFEwlJxACpmCdP_iWu6rXY/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzExLzEyLzB6bDlORGRBY0ROdTNDWDF6d0c5bDg5QnhHaXJsUGQzU3JHWXhJcmMuanBn.jpg",
+      "published": "2026-11-19T22:00:00.000Z",
+      "image": "https://ramblinwreck.com/imgproxy/vv-iwuMrWXz6kdWnzBYsS98HdedloTCc0ZSwma5xMCw/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzExLzE5L2k5TmloQWN5enpWZ1d2cUtpSWxPbUwwR2E2MkkyZXd1S1g1c1hwU3MuanBn.jpg",
       "tag": "Program"
     },
     {
-      "id": "www-espn-com-ncb-recap-gameid-401920306",
-      "headline": "Jordan's 27 send Georgia Tech over Eastern Kentucky 85-71",
+      "id": "ramblinwreck-com-news-2026-11-19-inside-the-chart-signing-off",
+      "headline": "Inside The Chart: Signing Off",
+      "description": "Saturday marks the home farewell for Kyle Efford, Georgia Tech’s legendarily tough linebacker",
+      "url": "https://ramblinwreck.com/news/2026/11/19/inside-the-chart-signing-off",
+      "source": "Georgia Tech Athletics",
+      "published": "2026-11-19T21:54:36.000Z",
+      "image": "https://ramblinwreck.com/imgproxy/1cTYqL5duF7g8uEhSIoJx9zHM8h6aOm5DQf2qOR37pI/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzExLzE5L2J0RzY2VjRLNkxJM0prYmhLZEVlSDdXNUQ4WXlEVklSZ2pYQjN3UGcuanBn.jpg",
+      "tag": "Program"
+    },
+    {
+      "id": "www-espn-com-ncf-preview-gameid-401858310",
+      "headline": "No. 10 Wake Forest visits Georgia Tech, looking to take step toward ACC championsip game",
       "description": "",
-      "url": "http://www.espn.com/ncb/recap?gameId=401920306",
+      "url": "http://www.espn.com/ncf/preview?gameId=401858310",
       "source": "ESPN",
-      "published": "2026-11-11T02:25:35.000Z",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401920306.png?templateId=espn.applewatch.awayhome.1",
+      "published": "2026-11-19T14:05:36.000Z",
+      "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401858310.png?templateId=espn.applewatch.awayhome.1",
       "tag": "ESPN"
     },
     {
-      "id": "ramblinwreck-com-news-2026-11-10-fb-preview-10-26",
-      "headline": "Jackets Renew Rivalry at Clemson",
-      "description": "Tech travels to Clemson for the 91st meeting in series history (12:30 PM on The CW)",
-      "url": "https://ramblinwreck.com/news/2026/11/10/fb-preview-10-26",
-      "source": "Georgia Tech Athletics",
-      "published": "2026-11-10T21:45:00.000Z",
-      "image": "https://ramblinwreck.com/imgproxy/44pl0ktWD8E72j8oa2jj-CX1gPfHL8PaHCHSF_Sdh2k/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3JhbWJsaW53cmVjay1jb20tcHJvZC8yMDI2LzExLzEwL3lRd1g4a1psN2NxMVFiY04yNVdJS0lQcEY1U3lVcWtjaU4xazN0TXkuanBn.jpg",
-      "tag": "Program"
+      "id": "www-espn-com-ncb-preview-gameid-401906784",
+      "headline": "Stagg leads Georgia against Georgia Tech after 21-point performance",
+      "description": "",
+      "url": "http://www.espn.com/ncb/preview?gameId=401906784",
+      "source": "ESPN",
+      "published": "2026-11-19T09:45:54.000Z",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401906784.png?templateId=espn.applewatch.awayhome.1",
+      "tag": "ESPN"
     }
   ],
-  "dataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-11-15",
+  "dataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-11-21",
   "sources": [
     {
       "name": "ESPN College Football API",

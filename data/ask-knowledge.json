@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "builtAt": "2026-11-15T18:18:27.576Z",
-  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-11-15",
+  "builtAt": "2026-11-21T21:32:41.438Z",
+  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-11-21",
   "entryCount": 731,
   "entries": [
     {
@@ -3141,7 +3141,7 @@
         "4-2-5",
         "Brent Key"
       ],
-      "answer": "Georgia Tech Yellow Jackets — ACC, 2026 season (record 3-7).\nHead coach: Brent Key. Offense: Spread Pro Style. Defense: 4-2-5.\nHome: Bobby Dodd Stadium at Hyundai Field, Atlanta, GA.\nLast season (2025): 9-4 (6-2 ACC), final AP #24. Ranked as high as No. 7 in 2025",
+      "answer": "Georgia Tech Yellow Jackets — ACC, 2026 season (record 3-8).\nHead coach: Brent Key. Offense: Spread Pro Style. Defense: 4-2-5.\nHome: Bobby Dodd Stadium at Hyundai Field, Atlanta, GA.\nLast season (2025): 9-4 (6-2 ACC), final AP #24. Ranked as high as No. 7 in 2025",
       "links": [
         {
           "label": "Open roster",
@@ -3279,7 +3279,7 @@
         "rank",
         "how are we doing"
       ],
-      "answer": "2026 record so far: 3-7.\nIn the 2026 ACC snapshot, Georgia Tech is listed 3-7 overall (2-5 conference) — #17 in the table.\nLast season final AP: #24. Ranked as high as No. 7 in 2025\nOpen Standings and flip 2025 if you want last year's ACC finish.\nOpen the Standings tab for the ACC table and AP / Coaches polls.",
+      "answer": "2026 record so far: 3-8.\nIn the 2026 ACC snapshot, Georgia Tech is listed 3-8 overall (2-6 conference) — #17 in the table.\nLast season final AP: #24. Ranked as high as No. 7 in 2025\nOpen Standings and flip 2025 if you want last year's ACC finish.\nOpen the Standings tab for the ACC table and AP / Coaches polls.",
       "links": [
         {
           "label": "Open standings",
@@ -3315,19 +3315,19 @@
         "feeling",
         "hype"
       ],
-      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Valdes scores winning free throw as Georgia Tech survives UNC Asheville 75-74\n• Haynes, Georgia Tech run for first win at Clemson since 2008 on Saturday 20-6\n• Jackets Dominate in Death Valley — Georgia Tech stifles Clemson in 20-6 triumph\n• PHOTOS: Football at Clemson — Danny Karnik, Glenn Ingram and Nathan Bolster photos\n• Jordan leads Georgia Tech against UNC Asheville after 27-point outing\nOpen Home for the full news list.",
+      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Gio Lopez rushes for two scores and throws two more as Wake Forest beats Georgia Tech 50-29\n• Wake Forest Demon Deacons vs. Georgia Tech Yellow Jackets: Full Highlights — Wake Forest Demon Deacons vs. Georgia Tech Yellow Jackets: Full Highlights\n• Football Gameday Live — Follow along during the game with links to live audio, stats, and more\n• Catchings scores 19, Stagg adds 17; Georgia beats Georgia Tech for 4th straight time, 88-82\n• The Last Word Before Game 11 vs. No. 10 Wake Forest — Tech hosts No. 10 Wake Forest on Senior Day (Saturday - Noon on ESPN)\nOpen Home for the full news list.",
       "links": [
         {
-          "label": "Valdes scores winning free throw as Georgia Tech survives UNC Asheville 75-74",
-          "href": "http://www.espn.com/ncb/recap?gameId=401920307"
+          "label": "Gio Lopez rushes for two scores and throws two more as Wake Forest beats Georgia Tech 50-29",
+          "href": "http://www.espn.com/ncf/recap?gameId=401858310"
         },
         {
-          "label": "Haynes, Georgia Tech run for first win at Clemson since 2008 on Saturday 20-6",
-          "href": "http://www.espn.com/ncf/recap?gameId=401858297"
+          "label": "Wake Forest Demon Deacons vs. Georgia Tech Yellow Jackets: Full Highlights",
+          "href": "https://www.espn.com/video/clip/_/id/50553345/full-highlights"
         },
         {
-          "label": "Jackets Dominate in Death Valley",
-          "href": "https://ramblinwreck.com/news/2026/11/14/fb-recap-clemson-26"
+          "label": "Football Gameday Live",
+          "href": "https://ramblinwreck.com/news/2026/11/21/football-gameday-live"
         }
       ],
       "followUps": [
@@ -3351,7 +3351,7 @@
         "Upcoming game",
         "What's our next game?",
         "Next game?",
-        "When do we play Wake Forest?",
+        "When do we play Georgia?",
         "What channel is the next game?",
         "What time is kickoff?"
       ],
@@ -3360,21 +3360,21 @@
         "upcoming",
         "when do we play",
         "kickoff",
-        "Wake Forest",
-        "WAKE"
+        "Georgia",
+        "UGA"
       ],
-      "answer": "Next up: vs Wake Forest on Sat, Nov 21 at TBA (TBA).\nBobby Dodd Stadium · Atlanta, GA\nSenior Day stretch",
+      "answer": "Next up: @ Georgia on Sat, Nov 28 at TBA (TBA).\nSanford Stadium · Athens, GA\nClean, Old-Fashioned Hate",
       "links": [
         {
-          "label": "Wake Forest slate",
-          "href": "/opponent/154"
+          "label": "Georgia slate",
+          "href": "/opponent/61"
         }
       ],
       "followUps": [
         "Show the full schedule",
         "Where do we stand in the ACC?"
       ],
-      "searchText": "when is the next game? who do we play next? when do we play? upcoming game what's our next game? next game? when do we play wake forest? what channel is the next game? what time is kickoff? next game upcoming when do we play kickoff wake forest wake"
+      "searchText": "when is the next game? who do we play next? when do we play? upcoming game what's our next game? next game? when do we play georgia? what channel is the next game? what time is kickoff? next game upcoming when do we play kickoff georgia uga"
     },
     {
       "id": "schedule-game-1",
@@ -4049,7 +4049,7 @@
         "wake",
         "demon deacons"
       ],
-      "answer": "Wake Forest (11th game): vs Wake Forest on Sat, Nov 21 at TBA (TBA).\nBobby Dodd Stadium · Atlanta, GA\nSenior Day stretch",
+      "answer": "Wake Forest (11th game): vs Wake Forest on Sat, Nov 21 at 12 PM (ESPN).\nBobby Dodd Stadium · Atlanta, GA\nSenior Day stretch",
       "links": [
         {
           "label": "Wake Forest slate",
@@ -4198,7 +4198,7 @@
         "home schedule",
         "the flats"
       ],
-      "answer": "2026 home schedule (7 games):\n• Thu, Sep 3: vs Colorado (8 PM, ESPN)\n• Sat, Sep 12: vs Tennessee (7 PM, ESPN)\n• Sat, Sep 19: vs Mercer (12 PM, ACC Network)\n• Sat, Oct 10: vs Duke (3:30 PM, ESPN2)\n• Sat, Oct 24: vs Boston College (3:30 PM, ACC Network)\n• Sat, Nov 7: vs Louisville (7:30 PM, ACC Network)\n• Sat, Nov 21: vs Wake Forest (TBA, TBA)",
+      "answer": "2026 home schedule (7 games):\n• Thu, Sep 3: vs Colorado (8 PM, ESPN)\n• Sat, Sep 12: vs Tennessee (7 PM, ESPN)\n• Sat, Sep 19: vs Mercer (12 PM, ACC Network)\n• Sat, Oct 10: vs Duke (3:30 PM, ESPN2)\n• Sat, Oct 24: vs Boston College (3:30 PM, ACC Network)\n• Sat, Nov 7: vs Louisville (7:30 PM, ACC Network)\n• Sat, Nov 21: vs Wake Forest (12 PM, ESPN)",
       "links": [
         {
           "label": "Full schedule",
@@ -4259,7 +4259,7 @@
         "acc schedule",
         "conference games"
       ],
-      "answer": "2026 ACC schedule (8 games):\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 10: vs Duke (3:30 PM, ESPN2)\n• Sat, Oct 17: @ Virginia Tech (3:30 PM, ACC Network)\n• Sat, Oct 24: vs Boston College (3:30 PM, ACC Network)\n• Sat, Oct 31: @ Pittsburgh (7:30 PM, ESPN2)\n• Sat, Nov 7: vs Louisville (7:30 PM, ACC Network)\n• Sat, Nov 14: @ Clemson (12:30 PM, CW)\n• Sat, Nov 21: vs Wake Forest (TBA, TBA)",
+      "answer": "2026 ACC schedule (8 games):\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 10: vs Duke (3:30 PM, ESPN2)\n• Sat, Oct 17: @ Virginia Tech (3:30 PM, ACC Network)\n• Sat, Oct 24: vs Boston College (3:30 PM, ACC Network)\n• Sat, Oct 31: @ Pittsburgh (7:30 PM, ESPN2)\n• Sat, Nov 7: vs Louisville (7:30 PM, ACC Network)\n• Sat, Nov 14: @ Clemson (12:30 PM, CW)\n• Sat, Nov 21: vs Wake Forest (12 PM, ESPN)",
       "links": [
         {
           "label": "Full schedule",
