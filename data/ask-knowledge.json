@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "builtAt": "2026-11-21T21:32:41.438Z",
-  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-11-21",
+  "builtAt": "2026-11-22T18:52:55.658Z",
+  "sourceDataAsOf": "ESPN 2026 roster, slate, polls & news · synced 2026-11-22",
   "entryCount": 731,
   "entries": [
     {
@@ -3315,19 +3315,19 @@
         "feeling",
         "hype"
       ],
-      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Gio Lopez rushes for two scores and throws two more as Wake Forest beats Georgia Tech 50-29\n• Wake Forest Demon Deacons vs. Georgia Tech Yellow Jackets: Full Highlights — Wake Forest Demon Deacons vs. Georgia Tech Yellow Jackets: Full Highlights\n• Football Gameday Live — Follow along during the game with links to live audio, stats, and more\n• Catchings scores 19, Stagg adds 17; Georgia beats Georgia Tech for 4th straight time, 88-82\n• The Last Word Before Game 11 vs. No. 10 Wake Forest — Tech hosts No. 10 Wake Forest on Senior Day (Saturday - Noon on ESPN)\nOpen Home for the full news list.",
+      "answer": "Latest 2026 notes (Athletics / ESPN):\n• Clean, Old-Fashioned Hate Set for 3:30 p.m. — Jackets, Bulldogs to square off on ABC\n• Chaos takes over the Big Ten: UCLA, Indiana and Ohio State all lose in Week 12 — UCLA, Indiana and Ohio State all lost to unranked teams in a year where parity is the ever-present theme.\n• Gio Lopez rushes for two scores and throws two more as Wake Forest beats Georgia Tech 50-29\n• Miscues Too Much to Overcome in Loss to No. 10 Wake Forest — Despite 289 rushing yards, turnovers and explosive plays doom Jackets in defeat\n• PHOTOS: Football vs. No. 10 Wake Forest — Danny Karnik photos\nOpen Home for the full news list.",
       "links": [
+        {
+          "label": "Clean, Old-Fashioned Hate Set for 3:30 p.m.",
+          "href": "https://ramblinwreck.com/news/2026/11/22/clean-old-fashioned-hate-set-for-330-pm"
+        },
+        {
+          "label": "Chaos takes over the Big Ten: UCLA, Indiana and Ohio State all lose in Week 12",
+          "href": "https://www.espn.com/college-football/story/_/page/gamedayfinal112126/week-12-top-games-highlights-takeaways"
+        },
         {
           "label": "Gio Lopez rushes for two scores and throws two more as Wake Forest beats Georgia Tech 50-29",
           "href": "http://www.espn.com/ncf/recap?gameId=401858310"
-        },
-        {
-          "label": "Wake Forest Demon Deacons vs. Georgia Tech Yellow Jackets: Full Highlights",
-          "href": "https://www.espn.com/video/clip/_/id/50553345/full-highlights"
-        },
-        {
-          "label": "Football Gameday Live",
-          "href": "https://ramblinwreck.com/news/2026/11/21/football-gameday-live"
         }
       ],
       "followUps": [
@@ -3363,7 +3363,7 @@
         "Georgia",
         "UGA"
       ],
-      "answer": "Next up: @ Georgia on Sat, Nov 28 at TBA (TBA).\nSanford Stadium · Athens, GA\nClean, Old-Fashioned Hate",
+      "answer": "Next up: @ Georgia on Sat, Nov 28 at 3:30 PM (ABC).\nSanford Stadium · Athens, GA\nClean, Old-Fashioned Hate",
       "links": [
         {
           "label": "Georgia slate",
@@ -4127,7 +4127,7 @@
         "bulldogs",
         "go dawgs"
       ],
-      "answer": "Georgia (12th game): @ Georgia on Sat, Nov 28 at TBA (TBA).\nSanford Stadium · Athens, GA\nClean, Old-Fashioned Hate",
+      "answer": "Georgia (12th game): @ Georgia on Sat, Nov 28 at 3:30 PM (ABC).\nSanford Stadium · Athens, GA\nClean, Old-Fashioned Hate",
       "links": [
         {
           "label": "Georgia slate",
@@ -4229,7 +4229,7 @@
         "road schedule",
         "road games"
       ],
-      "answer": "2026 away schedule (5 games):\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 17: @ Virginia Tech (3:30 PM, ACC Network)\n• Sat, Oct 31: @ Pittsburgh (7:30 PM, ESPN2)\n• Sat, Nov 14: @ Clemson (12:30 PM, CW)\n• Sat, Nov 28: @ Georgia (TBA, TBA)",
+      "answer": "2026 away schedule (5 games):\n• Sat, Sep 26: @ Stanford (10:30 PM, ESPN)\n• Sat, Oct 17: @ Virginia Tech (3:30 PM, ACC Network)\n• Sat, Oct 31: @ Pittsburgh (7:30 PM, ESPN2)\n• Sat, Nov 14: @ Clemson (12:30 PM, CW)\n• Sat, Nov 28: @ Georgia (3:30 PM, ABC)",
       "links": [
         {
           "label": "Full schedule",
@@ -32277,7 +32277,7 @@
         "uga site",
         "georgia site"
       ],
-      "answer": "@ Georgia on Sat, Nov 28 at TBA (TBA).\nVenue: Sanford Stadium, Athens, GA — road / Athens side of the rivalry this year on our slate.",
+      "answer": "@ Georgia on Sat, Nov 28 at 3:30 PM (ABC).\nVenue: Sanford Stadium, Athens, GA — road / Athens side of the rivalry this year on our slate.",
       "links": [
         {
           "label": "Georgia results",
